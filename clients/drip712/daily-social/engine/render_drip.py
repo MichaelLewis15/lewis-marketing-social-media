@@ -41,7 +41,7 @@ CSS = f"""
 @font-face{{font-family:DM;src:url({F}/dm-sans-latin-500-normal.woff2);font-weight:500}}
 @font-face{{font-family:DM;src:url({F}/dm-sans-latin-700-normal.woff2);font-weight:700}}
 *{{box-sizing:border-box;margin:0;padding:0}}
-:root{{--n:#143a4f;--a:#2fa3b2;--al:#bfe6ea;--m:#dff1f2;--c:#fbf8f4;--s:#f1e6da;--b:#f2d9cf;--g:#c3955a;--ink:#1d2b33;--mut:#55656e}}
+:root{{--n:#15191e;--a:#2a8be0;--al:#a9d0f5;--m:#e2eefa;--c:#fbf8f4;--s:#f1e6da;--b:#f2d9cf;--g:#c3955a;--ink:#1d2b33;--mut:#55656e}}
 .c{{position:relative;overflow:hidden;background:var(--c);color:var(--ink);font-family:DM,sans-serif}}
 .portrait{{width:1080px;height:1350px}} .land{{width:1200px;height:900px}}
 .blob{{position:absolute;border-radius:50%}}
@@ -57,7 +57,7 @@ h1 b{{font-weight:600}}
 .sub{{font:400 32px/1.4 DM;color:var(--mut);margin-top:22px}}
 .land .sub{{font-size:26px;margin-top:16px}}
 .list{{margin-top:30px;display:flex;flex-direction:column}}
-.li{{display:flex;align-items:center;gap:22px;padding:17px 0;border-bottom:2px solid #143a4f14;font:500 34px/1.22 DM;color:var(--ink)}}
+.li{{display:flex;align-items:center;gap:22px;padding:17px 0;border-bottom:2px solid #15191e14;font:500 34px/1.22 DM;color:var(--ink)}}
 .li:last-child{{border-bottom:0}}
 .li small{{display:block;font:400 23px/1.3 DM;color:var(--mut);margin-top:3px}}
 .land .li{{font-size:25px;padding:10px 0;gap:18px}} .land .li small{{font-size:19px}}
@@ -68,7 +68,7 @@ h1 b{{font-weight:600}}
 .slab{{font:500 30px/1.32 DM;color:var(--n);max-width:440px}}
 .land .slab{{font-size:24px;max-width:300px}}
 .pairs{{margin-top:30px;display:flex;flex-direction:column;gap:18px}}
-.pair{{background:#fff;border-radius:22px;padding:22px 28px;box-shadow:0 8px 30px #143a4f12}}
+.pair{{background:#fff;border-radius:22px;padding:22px 28px;box-shadow:0 8px 30px #15191e12}}
 .pair .my{{font:500 25px/1.3 DM;color:var(--mut);text-decoration:line-through;text-decoration-color:#c3955a99;text-decoration-thickness:3px}}
 .pair .my::before,.pair .fa::before{{display:inline-block;font:700 16px/1 DM;letter-spacing:.18em;padding:6px 10px;border-radius:999px;margin-right:14px;vertical-align:3px;text-decoration:none}}
 .pair .my::before{{content:"MYTH";background:var(--s);color:#8a6438}}
@@ -87,18 +87,20 @@ h1 b{{font-weight:600}}
 .mark{{display:flex;align-items:center;gap:16px}}
 .drop{{width:40px;height:52px;background:var(--a);clip-path:path('M20 0 C12 16 0 26 0 33 a20 20 0 0 0 40 0 C40 26 28 16 20 0z')}}
 .land .drop{{width:34px;height:44px;clip-path:path('M17 0 C10 14 0 22 0 28 a17 17 0 0 0 34 0 C34 22 24 14 17 0z')}}
+.logo{{height:124px;margin-top:-26px;filter:drop-shadow(0 0 1px #ffffff55)}} .land .logo{{height:104px;margin-top:-20px}}
+.tag{{font:700 15px/1.35 DM;letter-spacing:.28em;text-transform:uppercase;color:#a9d0f5;border-left:2px solid #ffffff2a;padding-left:18px}}
 .word{{font:500 54px/1 Fraunces;letter-spacing:-.02em;color:#fff}}
 .word span{{color:var(--al)}}
 .land .word{{font-size:46px}}
 .word small{{display:block;font:500 15px/1 DM;letter-spacing:.3em;text-transform:uppercase;color:var(--al);margin-top:9px}}
-.addr{{text-align:right;font:400 22px/1.5 DM;color:#d5e6ea}}
+.addr{{text-align:right;font:400 22px/1.5 DM;color:#d0dceb}}
 .land .addr{{font-size:19px}}
 .addr b{{color:#fff;font-weight:700}}
-.navy{{background:var(--n)!important}} .navy h1,.navy .slab,.navy .li{{color:#fff}} .navy .sub,.navy .src,.navy .li small{{color:#c9dde2}}
+.navy{{background:var(--n)!important}} .navy h1,.navy .slab,.navy .li{{color:#fff}} .navy .sub,.navy .src,.navy .li small{{color:#c4d3e2}}
 .navy .li{{border-color:#ffffff22}} .navy .n{{background:var(--a)}}
 .center .txt{{text-align:center}} .center .eyebrow{{justify-content:center}}
 """
-BG = {"cream": "", "mist": "background:linear-gradient(180deg,#e3f3f4 0%,#fbf8f4 70%)",
+BG = {"cream": "", "mist": "background:linear-gradient(180deg,#e2eefa 0%,#fbf8f4 70%)",
       "blush": "background:linear-gradient(180deg,#f6e3db 0%,#fbf8f4 70%)", "navy": ""}
 
 
@@ -113,9 +115,11 @@ def rich(s):
     return t
 
 
+LOGO = "file://" + os.path.join(HERE, "logo.png")
+
+
 def foot():
-    return ('<div class="foot"><div class="mark"><div class="drop"></div><div class="word">drip <span>712</span>'
-            '<small>Wellness from within</small></div></div>'
+    return (f'<div class="foot"><div class="mark"><img class="logo" src="{LOGO}" alt=""><div class="tag">Wellness<br>from within</div></div>'
             '<div class="addr">101 Runger Ave N, Suite G<br><b>Sheldon, Iowa</b> · drip712.com</div></div>')
 
 
@@ -137,10 +141,10 @@ def build(spec, kind):
         tw = 590 if (a and lay in ("list",)) else 912
     blobs = ""
     if bgk != "navy":
-        blobs = (f'<div class="blob" style="left:{W-380}px;top:-170px;width:560px;height:560px;background:#dff1f2;opacity:.75"></div>'
+        blobs = (f'<div class="blob" style="left:{W-380}px;top:-170px;width:560px;height:560px;background:#e2eefa;opacity:.75"></div>'
                  f'<div class="blob" style="left:-220px;top:{H-640}px;width:440px;height:440px;background:#f2d9cf;opacity:.55"></div>')
     else:
-        blobs = (f'<div class="blob" style="left:{W-380}px;top:-170px;width:560px;height:560px;background:#2fa3b2;opacity:.18"></div>')
+        blobs = (f'<div class="blob" style="left:{W-380}px;top:-170px;width:560px;height:560px;background:#2a8be0;opacity:.18"></div>')
     t = f'<div class="txt" id="txt" style="--tw:{tw}px">'
     t += f'<div class="eyebrow">{esc(spec.get("eyebrow", ""))}</div>'
     if lay == "stat":

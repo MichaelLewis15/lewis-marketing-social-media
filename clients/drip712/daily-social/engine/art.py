@@ -1,7 +1,7 @@
 """Line-art illustrations for Drip712 graphics. Each function returns an <svg> sized to width w.
-Palette: navy #143a4f, aqua #2fa3b2, mist #dff1f2, sand #f1e6da, blush #f2d9cf, gold #c3955a."""
+Palette: navy #15191e, aqua #2a8be0, mist #e2eefa, sand #f1e6da, blush #f2d9cf, gold #c3955a."""
 
-N, A, M, S, B, G = "#143a4f", "#2fa3b2", "#dff1f2", "#f1e6da", "#f2d9cf", "#c3955a"
+N, A, M, S, B, G = "#15191e", "#2a8be0", "#e2eefa", "#f1e6da", "#f2d9cf", "#c3955a"
 
 
 def _svg(w, vb, body):

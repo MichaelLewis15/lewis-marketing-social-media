@@ -18,23 +18,23 @@ from render_drip import CSS, rich, esc  # noqa
 
 RCSS = CSS + """
 .reel{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fbf8f4;font-family:DM}
-.reel.navy{background:#143a4f}
+.reel.navy{background:#15191e}
 .rb{position:absolute;border-radius:50%}
 .mid{position:absolute;left:96px;right:96px;top:0;bottom:300px;display:flex;flex-direction:column;justify-content:center}
 .reel .eyebrow{font-size:30px}
 .reel h1{font-size:118px;line-height:1.04}
 .reel.navy h1{color:#fff}
 .reel .sub{font-size:44px;line-height:1.35;margin-top:34px}
-.reel.navy .sub{color:#c9dde2}
-.num{width:150px;height:150px;border-radius:50%;background:#2fa3b2;color:#fff;display:grid;place-items:center;font:500 84px Fraunces;margin-bottom:46px}
-.stxt{font:500 92px/1.1 Fraunces;color:#143a4f;letter-spacing:-.015em}
+.reel.navy .sub{color:#c4d3e2}
+.num{width:150px;height:150px;border-radius:50%;background:#2a8be0;color:#fff;display:grid;place-items:center;font:500 84px Fraunces;margin-bottom:46px}
+.stxt{font:500 92px/1.1 Fraunces;color:#15191e;letter-spacing:-.015em}
 .sdet{font:400 46px/1.35 DM;color:#55656e;margin-top:30px}
 .rart{position:absolute;left:0;right:0;bottom:330px;display:flex;justify-content:center}
-.rfoot{position:absolute;left:0;right:0;bottom:0;height:250px;background:#143a4f;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
-.rfoot::before{content:"";position:absolute;left:0;right:0;top:-36px;height:38px;background:#143a4f;clip-path:path('M0 38 C 260 0 760 0 1080 30 V38Z')}
+.rfoot{position:absolute;left:0;right:0;bottom:0;height:280px;background:#15191e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+.rfoot::before{content:"";position:absolute;left:0;right:0;top:-36px;height:38px;background:#15191e;clip-path:path('M0 38 C 260 0 760 0 1080 30 V38Z')}
 .rfoot .word{font-size:72px}.rfoot .word small{font-size:20px;text-align:center}
-.reel.navy .rfoot::before{background:#0f2f40}.reel.navy .rfoot{background:#0f2f40}
-.dots{position:absolute;top:120px;left:96px;display:flex;gap:12px}.dots i{width:46px;height:8px;border-radius:4px;background:#143a4f22}.dots i.on{background:#2fa3b2}
+.reel.navy .rfoot::before{background:#0c0f12}.reel.navy .rfoot{background:#0c0f12}
+.dots{position:absolute;top:120px;left:96px;display:flex;gap:12px}.dots i{width:46px;height:8px;border-radius:4px;background:#15191e22}.dots i.on{background:#2a8be0}
 """
 
 
@@ -43,7 +43,7 @@ def scene_html(sc, idx, total):
     navy = sc.get("navy") or k == "end"
     blobs = ('<div class="rb" style="left:640px;top:-220px;width:700px;height:700px;background:%s;opacity:%s"></div>'
              '<div class="rb" style="left:-260px;top:1080px;width:560px;height:560px;background:%s;opacity:%s"></div>') % (
-        ("#2fa3b2", ".18", "#2fa3b2", ".10") if navy else ("#dff1f2", ".85", "#f2d9cf", ".6"))
+        ("#2a8be0", ".18", "#2a8be0", ".10") if navy else ("#e2eefa", ".85", "#f2d9cf", ".6"))
     dots = "" if k in ("hook", "end") else '<div class="dots">' + "".join(f'<i class="{"on" if i <= idx else ""}"></i>' for i in range(1, total - 1)) + '</div>'
     a = art.ARTS.get(sc.get("art") or "")
     arth = f'<div class="rart">{a(470)}</div>' if a else ""
@@ -53,8 +53,8 @@ def scene_html(sc, idx, total):
     else:
         mid = (f'<div class="mid" style="bottom:{760 if a else 300}px">' + (f'<div class="eyebrow">{esc(sc["eyebrow"])}</div>' if sc.get("eyebrow") else "")
                + f'<h1>{rich(sc.get("headline", ""))}</h1>' + (f'<p class="sub">{rich(sc["sub"])}</p>' if sc.get("sub") else "") + '</div>')
-    foot = ('<div class="rfoot"><div class="mark"><div class="drop"></div><div class="word">drip <span>712</span>'
-            '<small>Wellness from within</small></div></div></div>')
+    foot = ('<div class="rfoot"><img src="file://' + os.path.join(HERE, "logo.png") + '" style="height:190px;margin-top:-40px;filter:drop-shadow(0 0 1px #ffffff55)" alt="">'
+            '<div class="tag" style="border:0;padding:0;text-align:center;font-size:18px">Wellness from within</div></div>')
     return (f"<!doctype html><html><head><meta charset=utf-8><style>{RCSS}</style></head><body>"
             f"<div class='reel{' navy' if navy else ''}'>{blobs}{dots}{mid}{arth}{foot}</div></body></html>")
 
