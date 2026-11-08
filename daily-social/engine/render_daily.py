@@ -115,7 +115,7 @@ def main(spec_path, root):
     out = os.path.join(root, "daily"); os.makedirs(os.path.join(out, "gbp"), exist_ok=True)
     g.OUT = out
     cfg = dict(eyebrow=s.get("eyebrow", "DAILY TIP"), head=[(t, COL.get(c, INK)) for t, c in s["head"]],
-               sub=s["sub"], rows=[tuple(r) for r in s["rows"]], bottom=s["bottom"], visual=visual_for(s.get("visual") or {}),
+               sub=s["sub"], rows=[tuple(r) for r in s["rows"]], bottom=s.get("bottom", ""), visual=visual_for(s.get("visual") or {}),
                note=s.get("note"), wave=s.get("wave", "STRATEGY FIRST.\nRESULTS THAT MATTER."), colw=s.get("colw", 560), howie=s.get("howie"))
     lay = s.get("layout", "classic")
     if lay != "classic":
