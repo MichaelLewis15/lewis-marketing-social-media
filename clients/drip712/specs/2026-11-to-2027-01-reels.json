@@ -1,0 +1,34 @@
+[
+{"name":"03-first-visit","key":"D","scenes":[
+ {"kind":"hook","eyebrow":"First time?","headline":"Nervous about your <em>first IV?</em>","sub":"Here's exactly what happens.","art":"drip_bag","sec":3.4},
+ {"kind":"step","n":"1","text":"Book online, or call or text.","detail":"Not sure which drip? Just say so."},
+ {"kind":"step","n":"2","text":"We talk <em>first.</em>","detail":"Nothing is prepared until we've gone over your goals."},
+ {"kind":"step","n":"3","text":"Settle in.","detail":"Massage chair, warm blanket, eye-mask massager.","art":"chair"},
+ {"kind":"step","n":"4","text":"Most visits: <em>30 to 40 minutes.</em>","detail":"Plan for about an hour."},
+ {"kind":"end","headline":"Book at <em>drip712.com</em>","sub":"Or call or text 712-403-2036<br>101 Runger Ave N, Suite G, Sheldon","sec":3.6}]},
+{"name":"09-party-season","key":"F","scenes":[
+ {"kind":"hook","eyebrow":"Party season","headline":"Feel good <em>the next day.</em>","sub":"4 things to do before the party.","art":"party","sec":3.4},
+ {"kind":"step","n":"1","text":"Eat a real meal <em>first.</em>"},
+ {"kind":"step","n":"2","text":"One water for <em>every drink.</em>"},
+ {"kind":"step","n":"3","text":"Plan your ride home <em>before you go.</em>"},
+ {"kind":"step","n":"4","text":"Protect your <em>sleep.</em>"},
+ {"kind":"end","headline":"Rough morning <em>anyway?</em>","sub":"Our Hangover Infusion is here.<br>Call or text 712-403-2036","sec":3.6}]},
+{"name":"15-new-year","key":"G","scenes":[
+ {"kind":"hook","navy":true,"eyebrow":"Happy New Year","headline":"New year.","art":"sparkle","sec":2.6},
+ {"kind":"hook","navy":true,"headline":"Same you.","sec":2.4},
+ {"kind":"hook","navy":true,"headline":"<em>A little more hydrated.</em>","art":"droplet","sec":3.2},
+ {"kind":"end","headline":"Thank you for <em>2026.</em>","sub":"See you in the new year.<br>drip712.com","sec":3.6}]},
+{"name":"20-iv-prep","key":"C","scenes":[
+ {"kind":"hook","eyebrow":"Before your visit","headline":"Want your IV to start on the <em>first try?</em>","art":"droplet","sec":3.4},
+ {"kind":"step","n":"1","text":"Drink <em>plenty of water</em> beforehand.","detail":"Hydrated veins are easier to find."},
+ {"kind":"step","n":"2","text":"Skip <em>caffeine.</em>","detail":"It can tighten your veins."},
+ {"kind":"step","n":"3","text":"Skip <em>smoking.</em>","detail":"Same reason."},
+ {"kind":"step","n":"4","text":"Plan for about <em>an hour.</em>","detail":"Most visits run 30 to 40 minutes."},
+ {"kind":"end","headline":"Tricky veins? <em>Tell us.</em>","sub":"We have tips for difficult IV starts.<br>drip712.com","sec":3.6}]},
+{"name":"23-three-questions","key":"E","scenes":[
+ {"kind":"hook","eyebrow":"Before any IV","headline":"3 questions to ask <em>any IV clinic.</em>","art":"question","sec":3.4},
+ {"kind":"step","n":"1","text":"Who is <em>supervising?</em>","detail":"Ask who the medical director is and who places your IV."},
+ {"kind":"step","n":"2","text":"What's <em>in the bag?</em>","detail":"You should be able to see every ingredient."},
+ {"kind":"step","n":"3","text":"Do you ask about <em>my health first?</em>","detail":"A good clinic talks with you before anything is prepared."},
+ {"kind":"end","headline":"At Drip 712, <em>we talk first.</em>","sub":"Every ingredient is on our menu.<br>drip712.com","sec":3.8}]}
+]
