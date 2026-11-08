@@ -7,7 +7,7 @@ b = lambda t, c=GRAY, s=48, w=600: ("b", w, s, c, t)
 def step(n, t, sub):
     return dict(beats=9, lines=[("pill", n, 60, BLUE), ("gap", 20), h(t, WHITE, 104), ("gap", 6), b(sub, GRAY, 50)])
 scenes = [
-    dict(beats=6, lines=[("pill", "AI SEARCH NEWS", 54, BLUE), ("gap", 20), h("ChatGPT is testing", WHITE, 104), h("business profiles.", BLUE, 112)]),
+    dict(beats=6, lines=[("pill", "BREAKING NEWS", 68, (220, 38, 38)), ("gap", 20), h("ChatGPT is testing", WHITE, 104), h("business profiles.", BLUE, 112)]),
     dict(beats=8, lines=[h("Like a Google", WHITE, 110), h("Business Profile,", WHITE, 104), h("inside ChatGPT.", BLUE, 110), ("gap", 12), b("Spotted in testing. Not launched yet.", GRAY, 48)]),
     dict(beats=8, lines=[b("Early reports: owners could", WHITE, 52), ("gap", 10), h("Claim it.", WHITE, 112), h("Update it.", WHITE, 112), h("Track clicks.", BLUE, 112)]),
     dict(beats=6, lines=[h("Get ready now.", WHITE, 116), ("gap", 10), b("4 things that already help in AI search", GRAY, 48)]),
