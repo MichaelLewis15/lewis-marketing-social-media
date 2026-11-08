@@ -42,6 +42,9 @@ One educational post per day for **Lewis Marketing only** (never a client accoun
 9. **Log** to `dslog`: what was created or scheduled and for which day, what was skipped and why, and flags. Append the new topics with dates to `recentTopics`.
 10. **Notify** Michael with a short summary (SendUserMessage, or the push notification when unattended): days filled, topics, anything skipped or needing him.
 
+## Carousels (known HighLevel limit)
+HighLevel's API keeps only the FIRST image on scheduled multi-image posts (tested Nov 7, 2026; drafts keep all images, scheduled/edited posts are trimmed to one, on every platform and with HighLevel-hosted images too). So never schedule a carousel as a multi-image post through the connector. Instead render it as a swipe-style reel with `python3 daily-social/howie-tools/swipe.py out.mp4 <music 0-3> slide1.png ... slideN.png` (9:16, music, animated Howie), post that video to Facebook/Instagram as a reel and to Threads, Bluesky and both TikTok accounts, and for LinkedIn build a PDF of the slides and flag Michael to attach it to the LinkedIn post in the Social Planner (document posts can't be attached by the API either).
+
 ## Guardrails
 - Social posts only. Never DM, text or email contacts. If messaging is ever added: never contact anyone unsubscribed, on Do Not Disturb or without consent, and keep daily sending low to protect the domain.
 - If data is missing or a step fails (connector down, render error, push refused, unclear location), skip that item, log it and flag it. Do not guess.
