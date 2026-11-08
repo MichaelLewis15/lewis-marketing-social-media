@@ -18,6 +18,7 @@ spec.json:
 }
 "howie": {"pose": "pointL", "x": 985, "feet": 1110, "h": 215}   # optional: Howie, the Lewis Marketing robot
                                                  # poses: idle | pointL | pointR | wave | cheer. Use him on some posts, not all.
+"layout": "classic" | navy | split | number | note | myth | quote   (see layouts.py; rotate so no two days in a row share a layout)
 visual.kind: checklist | steps | profile | chat | bars | scan | phone
 """
 import json, os, sys
@@ -114,9 +115,15 @@ def main(spec_path, root):
     out = os.path.join(root, "daily"); os.makedirs(os.path.join(out, "gbp"), exist_ok=True)
     g.OUT = out
     cfg = dict(eyebrow=s.get("eyebrow", "DAILY TIP"), head=[(t, COL.get(c, INK)) for t, c in s["head"]],
-               sub=s["sub"], rows=[tuple(r) for r in s["rows"]], bottom=s["bottom"], visual=visual_for(s.get("visual")),
+               sub=s["sub"], rows=[tuple(r) for r in s["rows"]], bottom=s["bottom"], visual=visual_for(s.get("visual") or {}),
                note=s.get("note"), wave=s.get("wave", "STRATEGY FIRST.\nRESULTS THAT MATTER."), colw=s.get("colw", 560), howie=s.get("howie"))
-    p = g.render(date, cfg)
+    lay = s.get("layout", "classic")
+    if lay != "classic":
+        import layouts
+        if not s.get("howie"): s["howie"] = {}
+        p = layouts.render(lay, s, os.path.join(out, date + ".png"))
+    else:
+        p = g.render(date, cfg)
     src = Image.open(p).convert("RGB")
     bg = src.resize((1200, 1500)).crop((0, 300, 1200, 1200)).filter(ImageFilter.GaussianBlur(40))
     bg = Image.blend(bg, Image.new("RGB", bg.size, (12, 26, 44)), .35)
