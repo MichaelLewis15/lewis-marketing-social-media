@@ -18,7 +18,7 @@ spec.json:
 }
 "howie": {"pose": "pointL", "x": 985, "feet": 1110, "h": 215}   # optional: Howie, the Lewis Marketing robot
                                                  # poses: idle | pointL | pointR | wave | cheer. Use him on some posts, not all.
-"layout": "classic" | navy | split | number | note | myth | quote   (see layouts.py; rotate so no two days in a row share a layout)
+"layout": "classic" | navy | split | number | note | myth | quote | checklist | versus | stat | phone | steps | poll | bold | browser | question | calendar   (see layouts.py / layouts2.py; never the same layout twice in a row)
 visual.kind: checklist | steps | profile | chat | bars | scan | phone
 """
 import json, os, sys
@@ -119,7 +119,7 @@ def main(spec_path, root):
                note=s.get("note"), wave=s.get("wave", "STRATEGY FIRST.\nRESULTS THAT MATTER."), colw=s.get("colw", 560), howie=s.get("howie"))
     lay = s.get("layout", "classic")
     if lay != "classic":
-        import layouts
+        import layouts, layouts2
         if not s.get("howie"): s["howie"] = {}
         p = layouts.render(lay, s, os.path.join(out, date + ".png"))
     else:
