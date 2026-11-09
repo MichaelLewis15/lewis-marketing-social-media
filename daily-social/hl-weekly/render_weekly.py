@@ -50,14 +50,23 @@ def background(W, H):
     g = np.clip(1 - r * 1.6, 0, 1)[..., None]
     img = np.array(NAVY2, float) * (1 - g) + np.array(NAVY, float) * g
     im = Image.fromarray(img.astype(np.uint8)).convert("RGBA")
-    d = ImageDraw.Draw(im)
-    step = 44 if W > H else 48
-    for yy in range(step // 2, H, step):
-        for xx in range(step // 2, W, step):
-            d.ellipse((xx - 1.5, yy - 1.5, xx + 1.5, yy + 1.5), fill=(255, 255, 255, 18))
+    # clean, text-friendly backdrop: soft corner glow, a few thin concentric arcs tucked in the
+    # top-right corner (away from the copy), and a slim brand accent bar on the left edge
     glow = Image.new("RGBA", (W, H)); gd = ImageDraw.Draw(glow)
-    gd.ellipse((W * 0.55, -H * 0.15, W * 1.1, H * 0.45), fill=(41, 162, 222, 70))
+    gd.ellipse((W * 0.55, -H * 0.15, W * 1.1, H * 0.45), fill=(41, 162, 222, 60))
     im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(W // 8)))
+    arcs = Image.new("RGBA", (W, H)); ad = ImageDraw.Draw(arcs)
+    cx, cy = W * 1.02, -H * 0.04; base = min(W, H) * 0.22
+    for k in range(5):
+        r = base + k * min(W, H) * 0.075
+        ad.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(41, 162, 222, 34 - k * 5), width=2)
+    im.alpha_composite(arcs)
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, 10 if W > H else 12, H), fill=SKY + (255,))
+    # gentle vignette at the bottom so the footer reads cleanly
+    vig = np.zeros((H, W, 4), np.uint8); ramp = np.clip((np.arange(H) - H * 0.7) / (H * 0.3), 0, 1) * 70
+    vig[..., 3] = ramp[:, None].astype(np.uint8); vig[..., :3] = NAVY2
+    im.alpha_composite(Image.fromarray(vig, "RGBA"))
     return im
 
 
