@@ -1,0 +1,36 @@
+{
+"name": "tt-emoji-monday",
+"requests": [
+{
+"key": "tt-2026-11-08",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+],
+"summary": "Guess the brand: five famous brands, told only in emojis.\n\nComment your answers, numbered 1 to 5. Answers drop Monday night. No Googling.\n\n#GuessTheBrand #Branding #MarketingFun #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/25-mission-emoji-monday.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-11-09T03:34:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+}
+}
+}
+]
+}
