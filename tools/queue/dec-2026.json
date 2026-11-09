@@ -1,0 +1,3512 @@
+{
+"name": "dec-2026",
+"requests": [
+{
+"key": "109",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Is your nonprofit leaving up to $10,000 a month in free Google ads on the table? For #GivingTuesday, here's our gift to the nonprofits doing good across Siouxland: marketing tools that cost little or nothing. Swipe.\n\n\u2022 Google Ad Grants: eligible nonprofits can get up to $10,000 a month in Google Search ads\n\u2022 Canva for Nonprofits: free Canva Pro for eligible organizations, for teams of up to 50\n\u2022 A simple email list: your most loyal supporters, no algorithm required\n\u2022 A clear, mobile-friendly donate page: make giving take two taps, not ten\n\nTag a nonprofit that should see this.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c2-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T14:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Nonprofit friends: which of these are you already using? Tag a nonprofit that should see this.",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "109",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Is your nonprofit leaving up to $10K a month in free Google ads on the table? #GivingTuesday\n\nFree and low-cost marketing tools every nonprofit should know about.\n\nTag a nonprofit that needs this.\n\n#GivingTuesday #Nonprofit #NonprofitMarketing #Siouxland #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c2-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Nonprofit friends: which of these are you already using? Tag a nonprofit that should see this.",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "109",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Giving Tuesday PSA for nonprofits:\n\nGoogle Ad Grants can give eligible nonprofits up to $10,000/month in Search ads.\nCanva for Nonprofits gives eligible orgs Canva Pro free.\n\nA lot of small nonprofits don't know either exists. Share this with one.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c2-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Nonprofit friends: which of these are you already using? Tag a nonprofit that should see this."
+}
+},
+{
+"key": "109",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Is your nonprofit leaving free marketing on the table? For #GivingTuesday, a resource list for nonprofit leaders. These marketing tools cost little or nothing, and many small organizations don't know they exist:\n\n\u2022 Google Ad Grants: up to $10,000 per month in in-kind Google Search advertising for eligible nonprofits\n\u2022 Canva for Nonprofits: Canva Pro features free for eligible organizations, for a team of up to 50\n\u2022 An email list: the most reliable way to reach your most loyal supporters\n\u2022 A fast, mobile-friendly donate page: every extra step costs you gifts\n\nEligibility rules apply, so check each program's requirements.\n\nIf you serve on a nonprofit board, pass this along.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c2-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Nonprofit friends: which of these are you already using? Tag a nonprofit that should see this."
+}
+},
+{
+"key": "109",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Giving Tuesday PSA for nonprofits:\n\nGoogle Ad Grants can give eligible nonprofits up to $10,000/month in Search ads.\nCanva for Nonprofits: free Canva Pro for eligible orgs.\n\nLots of small nonprofits don't know these exist. Share with one.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c2-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Nonprofit friends: which of these are you already using? Tag a nonprofit that should see this."
+}
+},
+{
+"key": "109",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Is your nonprofit using free Google ads? Eligible organizations can get up to $10,000/month in Google Search ads through Google Ad Grants, plus free Canva Pro through Canva for Nonprofits. Lewis Marketing helps nonprofits across Siouxland grow their reach.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/109.png",
+"type": "image/png",
+"altText": "Six-slide Giving Tuesday carousel: free and low-cost marketing tools for nonprofits, including Google Ad Grants, Canva for Nonprofits, an email list, and a donate page."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "109",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Is your nonprofit leaving up to $10K a month in free Google ads on the table? #GivingTuesday\n\nFree and low-cost marketing tools every nonprofit should know about.\n\nTag a nonprofit that needs this.\n\n#GivingTuesday #Nonprofit #NonprofitMarketing #Siouxland #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c2-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-01T18:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Giving Tuesday tools for nonprofits",
+"type": "short"
+}
+}
+},
+{
+"key": "133",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "STAT SNACK\n\nBusinesses that responded to a web lead within an hour were nearly 7x as likely to qualify it as those that waited even an hour longer.\n\nThe same study found 23% of companies never responded at all.\n\nSpeed isn't a nice-to-have. It's the whole game.\n\nSource: Harvard Business Review, \u201cThe Short Life of Online Sales Leads\u201d (2011)",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/133-stat-speed.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T01:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How fast does your business usually respond to a new lead? Be honest.",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "133",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Stat Snack\n\nAnswer a lead within the hour and you're ~7x as likely to qualify it.\n\nHow fast do you respond?\n\nSource: Harvard Business Review, \u201cThe Short Life of Online Sales Leads\u201d (2011)\n\n#StatSnack #SpeedToLead #LeadGeneration #CRM #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/133-stat-speed.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T01:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How fast does your business usually respond to a new lead? Be honest.",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "133",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Respond to a web lead within an hour and you're nearly 7x as likely to qualify it (Harvard Business Review).\n\nThe same study: 23% of companies never responded at all.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/133-stat-speed.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How fast does your business usually respond to a new lead? Be honest."
+}
+},
+{
+"key": "133",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Respond to a web lead within an hour and you're nearly 7x as likely to qualify it (Harvard Business Review).\n\nThe same study: 23% of companies never responded at all.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/133-stat-speed.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How fast does your business usually respond to a new lead? Be honest."
+}
+},
+{
+"key": "133",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Stat Snack\n\nAnswer a lead within the hour and you're ~7x as likely to qualify it.\n\nHow fast do you respond?\n\nSource: Harvard Business Review, \u201cThe Short Life of Online Sales Leads\u201d (2011)\n\n#StatSnack #SpeedToLead #LeadGeneration #CRM #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/133-stat-speed.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Stat Snack: Answer Within the Hour",
+"type": "short"
+}
+}
+},
+{
+"key": "110",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Marketing THIS or THAT. Business owner edition!\n\nWatch the video and comment your 5 picks as letters (like \"A B B A B\").\n\nWe'll share our answers, and why, tomorrow.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/110-this-or-that.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T14:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Our picks: it depends but we'll share our real answers in the comments tomorrow!",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "110",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Marketing This or That.\n\nComment your 5 picks as letters (like \"A B B A B\")\n\nWe'll reply with our answers + why.\n\n#ThisOrThat #MarketingTips #SmallBusinessOwner #Entrepreneur #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/110-this-or-that.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Our picks: it depends but we'll share our real answers in the comments tomorrow!",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "110",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Marketing this or that. Pick one each:\n\nGoogle Ads or Facebook Ads?\nWebsite or social media?\nEmail or text?\nReviews or referrals?\nVideo or photos?\n\nGo.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/110-this-or-that.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Our picks: it depends but we'll share our real answers in the comments tomorrow!"
+}
+},
+{
+"key": "110",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Quick game for business owners and marketers. Pick one from each pair:\n\nA) Google Ads or B) Facebook Ads\nA) Website or B) Social media\nA) Email or B) Text\nA) Reviews or B) Referrals\nA) Video or B) Photos\n\nComment your five letters. The honest answer to most of these is \"it depends on your goal,\" and I'll share how we decide in the replies.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/110-this-or-that.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Our picks: it depends but we'll share our real answers in the comments tomorrow!"
+}
+},
+{
+"key": "110",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Marketing this or that. Pick one each:\n\nGoogle Ads or Facebook Ads?\nWebsite or social?\nEmail or text?\nReviews or referrals?\nVideo or photos?\n\nGo.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/110-this-or-that.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Our picks: it depends but we'll share our real answers in the comments tomorrow!"
+}
+},
+{
+"key": "110",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Google Ads or Facebook Ads? Website or social? The right answer depends on your goals. Lewis Marketing builds plans around where your best customers actually are.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/110.png",
+"type": "image/png",
+"altText": "Reel: Marketing This or That, with five rapid-fire choices like Google Ads or Facebook Ads, and website or social media."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "110",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Marketing This or That.\n\nComment your 5 picks as letters (like \"A B B A B\")\n\nWe'll reply with our answers + why.\n\n#ThisOrThat #MarketingTips #SmallBusinessOwner #Entrepreneur #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/110-this-or-that.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-03T18:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Marketing This or That",
+"type": "short"
+}
+}
+},
+{
+"key": "111",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "FRIDAY FIX: get more Google reviews by making them ridiculously easy.\n\nMost happy customers would leave a review. They just never get a simple way to do it.\n\n1. Grab your review link from your Google Business Profile\n2. Add it to your invoices and email signature\n3. Text it right after the job's done, while they're happy\n4. Thank every reviewer by name\n\nComment REVIEWS and we'll send you our copy-and-paste review request text.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/111-review-link.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: get more Google reviews by making them easy. Get your review link, add it to invoices and email signatures, and text it after every job."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-04T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment REVIEWS and we'll send you a simple review-request text template you can copy.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "111",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Friday Fix: more Google reviews\n\nMake it ridiculously easy:\n1. Get your review link\n2. Add it to invoices + email signature\n3. Text it right after the job\n4. Thank every reviewer\n\nComment REVIEWS for our review-request text template.\n\n#FridayFix #GoogleReviews #LocalSEO #SmallBusinessTips #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/111-review-link.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: get more Google reviews by making them easy. Get your review link, add it to invoices and email signatures, and text it after every job."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-04T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment REVIEWS and we'll send you a simple review-request text template you can copy.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "111",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Want more Google reviews? Stop asking \"if you get a chance.\"\n\nText your review link right after the job, while they're happy. One tap. Done.\n\nEasy wins every time.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/111-review-link.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: get more Google reviews by making them easy. Get your review link, add it to invoices and email signatures, and text it after every job."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-04T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment REVIEWS and we'll send you a simple review-request text template you can copy."
+}
+},
+{
+"key": "111",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Most satisfied customers are willing to leave a review. The problem is friction.\n\nA simple system that works for almost any local business:\n1. Copy your direct review link from your Google Business Profile\n2. Put it on invoices, receipts, and your email signature\n3. Text it within an hour of finishing the job\n4. Reply to every review, by name\n\nAutomate step 3 with your CRM and it happens every time, not just when someone remembers.\n\nComment REVIEWS and I'll send our review-request text template.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/111-review-link.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: get more Google reviews by making them easy. Get your review link, add it to invoices and email signatures, and text it after every job."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-04T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment REVIEWS and we'll send you a simple review-request text template you can copy."
+}
+},
+{
+"key": "111",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Want more Google reviews? Stop asking \"if you get a chance.\"\n\nText your review link right after the job, while they're happy. One tap.\n\nAutomate it in your CRM and it happens every time.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/111-review-link.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: get more Google reviews by making them easy. Get your review link, add it to invoices and email signatures, and text it after every job."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-04T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment REVIEWS and we'll send you a simple review-request text template you can copy."
+}
+},
+{
+"key": "111",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "More reviews start with an easy ask. Lewis Marketing sets up automated review requests so every happy customer gets a one-tap link right after the job.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/111.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: get more Google reviews by making them easy. Get your review link, add it to invoices and email signatures, and text it after every job."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-04T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com/crm-integration/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "134",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "WEEKEND MISSION: small business marketing BINGO!\n\nHow many squares did you check off this year? Count them up and comment your number.\n\nGot a full row? Shout BINGO!\n\n(Missing a few? That's your 2027 to-do list.)",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/134-mission-bingo.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: small business marketing bingo card with squares like got a 5-star review, posted a video, answered a lead in 5 minutes, and updated Google photos."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-05T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How many squares did you get this year? Bingo = bragging rights.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "134",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Weekend Mission: marketing BINGO\n\nCount your squares and comment your number.\n\nFull row? Shout BINGO!\n\n#WeekendMission #MarketingBingo #SmallBusinessOwner #MarketingFun #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/134-mission-bingo.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: small business marketing bingo card with squares like got a 5-star review, posted a video, answered a lead in 5 minutes, and updated Google photos."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-05T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How many squares did you get this year? Bingo = bragging rights.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "134",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Small business marketing bingo: how many did you check off this year?\n\nGot a 5-star review \u00b7 Posted a video \u00b7 Answered a lead in 5 min \u00b7 Sent an email \u00b7 Updated Google photos\n\nComment your number.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/134-mission-bingo.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: small business marketing bingo card with squares like got a 5-star review, posted a video, answered a lead in 5 minutes, and updated Google photos."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-05T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How many squares did you get this year? Bingo = bragging rights."
+}
+},
+{
+"key": "134",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Small business marketing bingo: how many did you check off this year?\n\n5-star review \u00b7 Posted a video \u00b7 Answered a lead in 5 min \u00b7 Sent an email \u00b7 Updated Google photos.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/134-mission-bingo.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: small business marketing bingo card with squares like got a 5-star review, posted a video, answered a lead in 5 minutes, and updated Google photos."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-05T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "How many squares did you get this year? Bingo = bragging rights."
+}
+},
+{
+"key": "112",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "MYTH MONDAY\n\nMYTH: \"You need a huge budget to compete online.\"\nTRUTH: You need a focused one.\n\nSmall businesses win when they:\n\u2022 Pick one clear goal at a time\n\u2022 Own their local search (website + Google profile)\n\u2022 Follow up on leads fast\n\u2022 Measure every lead back to its source\n\nA focused $500 beats a scattered $5,000.\n\nIf you could only keep ONE marketing channel, which would it be?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/112-myth-budget.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'You don't need a big budget. You need a focused one.' Lists picking one goal, owning your local search, following up fast, and measuring every lead."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-07T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's the one marketing channel you'd keep if you could only keep one?",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "112",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "MYTH MONDAY\n\n\"You need a big budget to compete.\"\n\nYou need a focused one. A focused $500 beats a scattered $5,000.\n\nIf you could keep only ONE channel, which?\n\n#MythMonday #SmallBusinessMarketing #MarketingStrategy #LocalBusiness #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/112-myth-budget.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'You don't need a big budget. You need a focused one.' Lists picking one goal, owning your local search, following up fast, and measuring every lead."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-07T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's the one marketing channel you'd keep if you could only keep one?",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "112",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "A focused $500 marketing budget beats a scattered $5,000 one.\n\nOne goal. Local search locked down. Fast follow-up. Every lead tracked.\n\nThat's how small businesses beat bigger ones.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/112-myth-budget.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'You don't need a big budget. You need a focused one.' Lists picking one goal, owning your local search, following up fast, and measuring every lead."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-07T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's the one marketing channel you'd keep if you could only keep one?"
+}
+},
+{
+"key": "112",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "\"We can't compete. They have a much bigger budget.\"\n\nBigger budgets help, but they also create waste. Small businesses beat bigger competitors by being focused:\n\u2022 One clear goal at a time\n\u2022 A website and Google profile that win local searches\n\u2022 Fast follow-up on every lead\n\u2022 Tracking that shows which dollars actually work\n\nA focused $500 beats a scattered $5,000.\n\nIf you could only keep one marketing channel, which would it be?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/112-myth-budget.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'You don't need a big budget. You need a focused one.' Lists picking one goal, owning your local search, following up fast, and measuring every lead."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-07T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's the one marketing channel you'd keep if you could only keep one?"
+}
+},
+{
+"key": "112",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "A focused $500 marketing budget beats a scattered $5,000 one.\n\nOne goal. Local search locked down. Fast follow-up. Every lead tracked.\n\nThat's how small businesses beat bigger ones.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/112-myth-budget.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'You don't need a big budget. You need a focused one.' Lists picking one goal, owning your local search, following up fast, and measuring every lead."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-07T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's the one marketing channel you'd keep if you could only keep one?"
+}
+},
+{
+"key": "112",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "You don't need a huge budget to compete online, just a focused one. Lewis Marketing builds plans around your goals and budget. Request a free digital quote.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/112.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'You don't need a big budget. You need a focused one.' Lists picking one goal, owning your local search, following up fast, and measuring every lead."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-07T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com/get-quote/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "113",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Your 2027 marketing plan doesn't need to be 40 pages. It needs 5 good answers. Swipe.\n\n1. What's the ONE number we want to grow?\n2. Who are our best customers, and where do they find us?\n3. What actually worked in 2026, and what didn't?\n4. How fast do we follow up on a new lead?\n5. How will we know it's working?\n\nGrab a coffee and answer these before January.\n\n\u2022 Comment 2027 and we'll send you a fill-in worksheet.\n\u2022 Want a second set of eyes? Book a free discovery call: https://lewismarketingoc.com/contact-us/?utm_source=facebook&utm_medium=social&utm_campaign=social-nov-dec-2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c3-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T14:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment 2027 and we'll send you these 5 questions as a fill-in worksheet.",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "113",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Your 2027 marketing plan in 5 questions.\n\nSave this. Answer it before January.\n\nComment 2027 for the fill-in worksheet.\n\n#MarketingPlan #2027Goals #SmallBusinessTips #BusinessPlanning #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c3-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment 2027 and we'll send you these 5 questions as a fill-in worksheet.",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "113",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Your 2027 marketing plan in 5 questions:\n\n1. What ONE number are we growing?\n2. Who are our best customers, and where do they find us?\n3. What worked this year, and what didn't?\n4. How fast do we follow up on leads?\n5. How will we know it's working?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c3-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment 2027 and we'll send you these 5 questions as a fill-in worksheet."
+}
+},
+{
+"key": "113",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Most small business marketing plans fail for one reason: they start with tactics instead of answers.\n\nBefore you pick channels for 2027, answer these five questions (swipe through the document):\n1. What's the one number we want to grow?\n2. Who are our best customers, and where do they find us?\n3. What actually worked in 2026, and what didn't?\n4. How quickly do we follow up on a new lead?\n5. How will we measure whether it's working?\n\nGet these right and the tactics mostly choose themselves.\n\nComment 2027 and I'll send the fill-in worksheet.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c3-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment 2027 and we'll send you these 5 questions as a fill-in worksheet."
+}
+},
+{
+"key": "113",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Your 2027 marketing plan in 5 questions:\n\n1. What ONE number are we growing?\n2. Who are our best customers, and where do they find us?\n3. What worked this year, and what didn't?\n4. How fast do we follow up?\n5. How will we know it's working?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c3-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Comment 2027 and we'll send you these 5 questions as a fill-in worksheet."
+}
+},
+{
+"key": "113",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Plan your 2027 marketing with 5 questions: your one key number, your best customers, what worked in 2026, your lead follow-up speed, and how you'll measure results. Book a free discovery call with Lewis Marketing.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/113.png",
+"type": "image/png",
+"altText": "Seven-slide carousel: plan your 2027 marketing with five questions about goals, best customers, what worked, lead follow-up, and measurement."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "book",
+"url": "https://lewismarketingoc.com/contact-us/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "113",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Your 2027 marketing plan in 5 questions.\n\nSave this. Answer it before January.\n\nComment 2027 for the fill-in worksheet.\n\n#MarketingPlan #2027Goals #SmallBusinessTips #BusinessPlanning #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/reels/c3-swipe.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-08T18:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Your 2027 marketing plan in 5 questions",
+"type": "short"
+}
+}
+},
+{
+"key": "114",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "4 things we'd tell every business owner going into 2027.\n\n1. Fix the foundation before you buy ads\n2. Answer leads in minutes, not days\n3. Own your audience (build that email list!)\n4. Let AI write the first draft, not the final say\n\nWhat would you add as #5?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/114-tips-2027.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T14:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which one would you add as #5?",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "114",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "4 things we'd tell every business owner going into 2027.\n\nWhat's your #5?\n\nSend this to a business owner friend.\n\n#BusinessTips #2027Goals #MarketingTips #SmallBusinessOwner #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/114-tips-2027.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which one would you add as #5?",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "114",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "4 things I'd tell every business owner heading into 2027:\n\n1. Fix the foundation before buying ads\n2. Answer leads in minutes, not days\n3. Own your audience (email list)\n4. AI writes the first draft, not the final say\n\nWhat's #5?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/114-tips-2027.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which one would you add as #5?"
+}
+},
+{
+"key": "114",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "4 things I'd tell every Northwest Iowa business owner before January:\n\n1. Fix the foundation before you buy ads. Traffic to a weak website is money down the drain.\n2. Answer leads in minutes, not days. Speed often matters more than price.\n3. Own your audience. Followers are rented; an email list is yours.\n4. Let AI write the first draft, not the final one. It's a fast assistant, not a replacement for your judgment.\n\nWhat would you add as number five?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/114-tips-2027.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which one would you add as #5?"
+}
+},
+{
+"key": "114",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "4 things I'd tell every business owner heading into 2027:\n\n1. Fix the foundation before buying ads\n2. Answer leads in minutes, not days\n3. Own your audience (email list)\n4. AI writes the first draft, not the final say\n\nWhat's #5?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/114-tips-2027.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which one would you add as #5?"
+}
+},
+{
+"key": "114",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Going into 2027: fix your foundation before buying ads, answer leads fast, build your email list, and use AI wisely. Lewis Marketing helps Siouxland businesses do all four. Request a free digital quote.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/114.png",
+"type": "image/png",
+"altText": "Reel: four pieces of advice for business owners going into 2027: fix the foundation before buying ads, answer leads in minutes, own your audience, and use AI for first drafts."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com/get-quote/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "114",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "4 things we'd tell every business owner going into 2027.\n\nWhat's your #5?\n\nSend this to a business owner friend.\n\n#BusinessTips #2027Goals #MarketingTips #SmallBusinessOwner #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/videos/114-tips-2027.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-10T18:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "4 things we'd tell every business owner for 2027",
+"type": "short"
+}
+}
+},
+{
+"key": "115",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "FRIDAY FIX: set your holiday hours on Google.\n\nNothing hurts more than a customer driving across town to a locked door because Google said you were open.\n\nTakes 2 minutes:\n1. Open your Google Business Profile\n2. Edit profile \u2192 Hours \u2192 Holiday hours\n3. Add Dec 24, Dec 25, Dec 31 and Jan 1\n4. Save, and double-check how it shows in Maps\n\nAlready done? Drop a below!",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/115-holiday-hours.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: set your holiday hours on Google before December 24, 25, 31 and January 1, so customers don't show up to a locked door."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-11T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Done already? Drop a so we know. Need help? We can update it for you.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "115",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Friday Fix: set your holiday hours on Google.\n\nDon't let customers show up to a locked door.\n\nDec 24 \u00b7 Dec 25 \u00b7 Dec 31 \u00b7 Jan 1\n\nDone? Drop a.\n\n#FridayFix #GoogleBusinessProfile #LocalSEO #SmallBusinessTips #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/115-holiday-hours.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: set your holiday hours on Google before December 24, 25, 31 and January 1, so customers don't show up to a locked door."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-11T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Done already? Drop a so we know. Need help? We can update it for you.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "115",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Two-minute task that saves real customer frustration: set your holiday hours on your Google Business Profile.\n\nDec 24, Dec 25, Dec 31, Jan 1. Do it before you forget.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/115-holiday-hours.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: set your holiday hours on Google before December 24, 25, 31 and January 1, so customers don't show up to a locked door."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-11T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Done already? Drop a so we know. Need help? We can update it for you."
+}
+},
+{
+"key": "115",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "A two-minute task for every business owner this week: set your holiday hours on your Google Business Profile.\n\nWhen hours are wrong, customers don't blame Google. They blame you, and some leave a review about it.\n\nAdd Dec 24, Dec 25, Dec 31 and Jan 1 now, then check how it looks in Maps.\n\nFriday Fix: one small improvement before the weekend.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/115-holiday-hours.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: set your holiday hours on Google before December 24, 25, 31 and January 1, so customers don't show up to a locked door."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-11T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Done already? Drop a so we know. Need help? We can update it for you."
+}
+},
+{
+"key": "115",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Two-minute task that saves real customer frustration: set your holiday hours on your Google Business Profile.\n\nDec 24, Dec 25, Dec 31, Jan 1. Do it before you forget.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/115-holiday-hours.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: set your holiday hours on Google before December 24, 25, 31 and January 1, so customers don't show up to a locked door."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-11T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Done already? Drop a so we know. Need help? We can update it for you."
+}
+},
+{
+"key": "115",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Are your Google hours right for the holidays? Set your Google Business Profile hours for Dec 24, Dec 25, Dec 31, and Jan 1. Need a hand managing your profile? Tap Call now to reach Lewis Marketing.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/115.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: set your holiday hours on Google before December 24, 25, 31 and January 1, so customers don't show up to a locked door."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-11T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "call"
+}
+}
+},
+{
+"key": "136",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "WEEKEND MISSION: two truths and a lie, review edition!\n\nA) 47% of consumers won't use a business with fewer than 20 reviews\nB) 74% only care about reviews from the last three months\nC) Most people never read reviews for local businesses\n\nWhich one's the lie? Comment A, B or C. We'll reveal it tomorrow!\n\n(Source for the truths: BrightLocal Local Consumer Review Survey, 2026)",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/136-mission-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-12T15:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Answer goes up tomorrow. Hint: we've shared one of these numbers before.",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "136",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Weekend Mission: two truths and a lie\n\nA) 47% won't use a business with fewer than 20 reviews\nB) 74% only care about reviews from the last 3 months\nC) Most people never read reviews for local businesses\n\nWhich is the lie? A, B or C.\n\n#WeekendMission #TwoTruthsAndALie #GoogleReviews #LocalBusiness #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/136-mission-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-12T15:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Answer goes up tomorrow. Hint: we've shared one of these numbers before.",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "136",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Two truths and a lie (local reviews edition):\n\nA) 47% won't use a business with fewer than 20 reviews\nB) 74% only care about reviews from the last 3 months\nC) Most people never read local reviews\n\nWhich is the lie?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/136-mission-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-12T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Answer goes up tomorrow. Hint: we've shared one of these numbers before."
+}
+},
+{
+"key": "136",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Two truths and a lie (reviews edition):\n\nA) 47% won't use a business with under 20 reviews\nB) 74% only care about reviews from the last 3 months\nC) Most people never read local reviews\n\nWhich is the lie?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/136-mission-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-12T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Answer goes up tomorrow. Hint: we've shared one of these numbers before."
+}
+},
+{
+"key": "136",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Weekend Mission: two truths and a lie\n\nA) 47% won't use a business with fewer than 20 reviews\nB) 74% only care about reviews from the last 3 months\nC) Most people never read reviews for local businesses\n\nWhich is the lie? A, B or C.\n\n#WeekendMission #TwoTruthsAndALie #GoogleReviews #LocalBusiness #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/136-mission-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-12T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Weekend Mission: Two Truths and a Lie",
+"type": "short"
+}
+}
+},
+{
+"key": "140",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "The answer: the lie was C!\n\n\u2022 \"Most people never read reviews for local businesses.\" In reality, 97% of consumers DO.\n\u2022 A: 47% won't use a business with fewer than 20 reviews\n\u2022 B: 74% only care about reviews from the last three months\n\nDid you get it right?\n\nSource: BrightLocal Local Consumer Review Survey, 2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/140-reveal-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T01:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Did you get it right?",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "140",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "The lie was C!\n\n97% of consumers DO read local reviews. A and B? Both true.\n\nDid you get it?\n\nSource: BrightLocal Local Consumer Review Survey, 2026\n\n#WeekendMission #GoogleReviews #LocalBusiness #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/140-reveal-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T01:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Did you get it right?",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "140",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "The lie was C. 97% of consumers DO read reviews for local businesses.\n\nA and B were both true (BrightLocal, 2026). Did you get it?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/140-reveal-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Did you get it right?"
+}
+},
+{
+"key": "140",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "The lie was C. 97% of consumers DO read reviews for local businesses.\n\nA and B were both true (BrightLocal, 2026). Did you get it?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/140-reveal-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Did you get it right?"
+}
+},
+{
+"key": "140",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "The lie was C!\n\n97% of consumers DO read local reviews. A and B? Both true.\n\nDid you get it?\n\nSource: BrightLocal Local Consumer Review Survey, 2026\n\n#WeekendMission #GoogleReviews #LocalBusiness #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/140-reveal-truths.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Two Truths and a Lie: The Answer",
+"type": "short"
+}
+}
+},
+{
+"key": "116",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "MYTH MONDAY\n\nMYTH: \"Our website is done.\"\nTRUTH: Launch day is day one.\n\nA website that works year after year needs:\n\u2022 Fresh content and current info\n\u2022 Updates and security checks\n\u2022 Speed checks\n\u2022 Small improvements based on what visitors actually do\n\nWhen was your website last updated? Be honest.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/116-myth-website.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'A website is never done. Launch day is day one.' Lists updated content, security, speed checks, and conversion improvements."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "When was the last time your website got an update? Be honest.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "116",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "MYTH MONDAY\n\n\"Our website is done.\"\n\nLaunch day is day one. Fresh content, security updates, speed checks, small improvements.\n\nWhen was yours last updated?\n\n#MythMonday #WebDesign #WebsiteMaintenance #SmallBusinessTips #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/116-myth-website.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'A website is never done. Launch day is day one.' Lists updated content, security, speed checks, and conversion improvements."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "When was the last time your website got an update? Be honest.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "116",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "\"Our website is done.\"\n\nLaunch day is day one. A website is closer to a storefront than a brochure: it needs upkeep, fresh info, and small improvements.\n\nWhen did yours last get some love?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/116-myth-website.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'A website is never done. Launch day is day one.' Lists updated content, security, speed checks, and conversion improvements."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "When was the last time your website got an update? Be honest."
+}
+},
+{
+"key": "116",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "\"Our website is done.\"\n\nI understand the feeling. Building a site is a big project. But launch day is really day one.\n\nThe websites that keep producing leads get:\n\u2022 Regular content and information updates\n\u2022 Software and security maintenance\n\u2022 Periodic speed checks\n\u2022 Small, steady improvements based on how visitors actually behave\n\nThink of it as a storefront, not a brochure.\n\nWhen did your website last get attention?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/116-myth-website.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'A website is never done. Launch day is day one.' Lists updated content, security, speed checks, and conversion improvements."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "When was the last time your website got an update? Be honest."
+}
+},
+{
+"key": "116",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "\"Our website is done.\"\n\nLaunch day is day one. A website is closer to a storefront than a brochure: it needs upkeep, fresh info, and small improvements.\n\nWhen did yours last get some love?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/116-myth-website.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'A website is never done. Launch day is day one.' Lists updated content, security, speed checks, and conversion improvements."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "When was the last time your website got an update? Be honest."
+}
+},
+{
+"key": "116",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Is your website still working as hard as the day it launched? A website is never really \"done.\" Lewis Marketing keeps websites updated, secure, fast, and improving, so yours keeps bringing in leads.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/116.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'A website is never done. Launch day is day one.' Lists updated content, security, speed checks, and conversion improvements."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-14T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com/web-design-and-development/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "117",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Start 2027 with a plan, not a guess.\n\nWe're opening up free discovery calls for the rest of December. In one conversation we'll:\n\n\u2022 Talk through your goals for 2027\n\u2022 Spot the quick wins in your website, Google profile, and follow-up\n\u2022 Give you a clear next step, whether or not you work with us\n\nNo pressure, no jargon.\n\nBook your call: https://lewismarketingoc.com/contact-us/?utm_source=facebook&utm_medium=social&utm_campaign=social-nov-dec-2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/117-plan-call.png",
+"type": "image/png",
+"altText": "Lewis Marketing graphic: 'Start 2027 with a plan.' Book a free discovery call to review goals, find quick wins, and get a clear next step."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-15T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Book here: https://lewismarketingoc.com/contact-us/?utm_source=social&utm_medium=comment&utm_campaign=social-nov-dec-2026",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "117",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Start 2027 with a plan, not a guess.\n\nFree discovery calls are open through December:\n\u2022 Your 2027 goals\n\u2022 Quick wins we can spot right away\n\u2022 A clear next step\n\nBook at the link in bio\n\n#2027Goals #MarketingPlan #SmallBusiness #NWIowa #SiouxlandBusiness #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/117-plan-call.png",
+"type": "image/png",
+"altText": "Lewis Marketing graphic: 'Start 2027 with a plan.' Book a free discovery call to review goals, find quick wins, and get a clear next step."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-15T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Book here: https://lewismarketingoc.com/contact-us/?utm_source=social&utm_medium=comment&utm_campaign=social-nov-dec-2026",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "117",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "If 2027 marketing feels like a guess right now, let's fix that.\n\nFree discovery calls through December: your goals, the quick wins, and a clear next step. No pressure.\n\nhttps://lewismarketingoc.com/contact-us/?utm_source=threads&utm_medium=social&utm_campaign=social-nov-dec-2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/117-plan-call.png",
+"type": "image/png",
+"altText": "Lewis Marketing graphic: 'Start 2027 with a plan.' Book a free discovery call to review goals, find quick wins, and get a clear next step."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-15T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Book here: https://lewismarketingoc.com/contact-us/?utm_source=social&utm_medium=comment&utm_campaign=social-nov-dec-2026"
+}
+},
+{
+"key": "117",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "December is the best time to plan, before January gets busy.\n\nFor the rest of the month, I'm opening my calendar for free discovery calls with business owners who want to start 2027 with a plan:\n\u2022 We'll talk through your goals\n\u2022 I'll point out quick wins in your website, Google profile, and lead follow-up\n\u2022 You'll leave with a clear next step, whether or not we work together\n\nBook a time here: https://lewismarketingoc.com/contact-us/?utm_source=linkedin&utm_medium=social&utm_campaign=social-nov-dec-2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/117-plan-call.png",
+"type": "image/png",
+"altText": "Lewis Marketing graphic: 'Start 2027 with a plan.' Book a free discovery call to review goals, find quick wins, and get a clear next step."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-15T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Book here: https://lewismarketingoc.com/contact-us/?utm_source=social&utm_medium=comment&utm_campaign=social-nov-dec-2026"
+}
+},
+{
+"key": "117",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "If 2027 marketing feels like a guess right now, let's fix that.\n\nFree discovery calls through December: your goals, the quick wins, and a clear next step. No pressure.\n\nhttps://lewismarketingoc.com/contact-us/?utm_source=bluesky&utm_medium=social&utm_campaign=social-nov-dec-2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/graphics/117-plan-call.png",
+"type": "image/png",
+"altText": "Lewis Marketing graphic: 'Start 2027 with a plan.' Book a free discovery call to review goals, find quick wins, and get a clear next step."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-15T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Book here: https://lewismarketingoc.com/contact-us/?utm_source=social&utm_medium=comment&utm_campaign=social-nov-dec-2026"
+}
+},
+{
+"key": "117",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Start 2027 with a plan. Book a free discovery call with Lewis Marketing to review your goals, find quick wins, and leave with a clear next step.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/m2/gbp/117.png",
+"type": "image/png",
+"altText": "Lewis Marketing graphic: 'Start 2027 with a plan.' Book a free discovery call to review goals, find quick wins, and get a clear next step."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-15T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "book",
+"url": "https://lewismarketingoc.com/contact-us/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "122",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "5 AI prompts to wrap up your year.\n\n1. \"Write a warm thank-you note to a loyal customer. Under 100 words, no sales pitch.\"\n2. \"Write a short holiday hours announcement for Google, Facebook and email.\"\n3. \"Here are my notes from this year. What worked, what didn't, and what should I do more of?\"\n4. \"Give me 12 social post ideas for my [type of] business for January.\"\n5. \"Here's my big goal for 2027. Break it into monthly steps.\"\n\nSave this for the slow week between holidays.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/videos/122-year-end-prompts.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T14:30:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which prompt are you trying first? Tell us the number.",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "122",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "5 AI prompts to wrap up your year.\n\nSave it, then try one this week.\n\nWhich one first? Comment the number.\n\n#AIforBusiness #YearEnd #ChatGPT #ClaudeAI #SmallBusinessTips #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/videos/122-year-end-prompts.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which prompt are you trying first? Tell us the number.",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "122",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "5 AI prompts for year-end:\n\n1. Write a warm customer thank-you (no pitch)\n2. Draft your holiday hours post\n3. Review my year: what worked?\n4. 12 January post ideas\n5. Break my 2027 goal into monthly steps\n\nSave it for the week between holidays.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/videos/122-year-end-prompts.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which prompt are you trying first? Tell us the number."
+}
+},
+{
+"key": "122",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "The week between the holidays is the best time to get ahead. Five AI prompts I'd use to wrap up the year:\n\n1. \"Write a warm thank-you note to a loyal customer. Under 100 words, no sales pitch.\"\n2. \"Write a short holiday hours announcement for Google, Facebook, and email.\"\n3. \"Here are my notes from this year. What worked, what didn't, and what should I do more of?\"\n4. \"Give me 12 social post ideas for my business for January.\"\n5. \"Here's my big goal for 2027. Break it into monthly steps.\"\n\nUse AI for the first draft, then make it yours.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/videos/122-year-end-prompts.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which prompt are you trying first? Tell us the number."
+}
+},
+{
+"key": "122",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "5 AI prompts for year-end:\n\n1. Write a warm customer thank-you (no pitch)\n2. Draft your holiday hours post\n3. Review my year: what worked?\n4. 12 January post ideas\n5. Break my 2027 goal into monthly steps",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/videos/122-year-end-prompts.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which prompt are you trying first? Tell us the number."
+}
+},
+{
+"key": "122",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "5 AI prompts to wrap up your year: customer thank-you notes, holiday hours announcements, a year review, January content ideas, and turning 2027 goals into monthly steps. Lewis Marketing helps businesses put AI to work.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/gbp/122.png",
+"type": "image/png",
+"altText": "Reel: five AI prompts for year-end: customer thank-you notes, holiday hours posts, a year review, January content ideas, and 2027 goals."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "122",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "5 AI prompts to wrap up your year.\n\nSave it, then try one this week.\n\nWhich one first? Comment the number.\n\n#AIforBusiness #YearEnd #ChatGPT #ClaudeAI #SmallBusinessTips #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/videos/122-year-end-prompts.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-16T18:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "5 AI prompts for year-end",
+"type": "short"
+}
+}
+},
+{
+"key": "137",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "STAT SNACK\n\n89% of consumers expect business owners to respond to their reviews.\n\nAnd half are put off by generic, copy-paste replies. A real, personal \"thank you\" goes a long way.\n\nSource: BrightLocal Local Consumer Review Survey, 2026",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/137-stat-respond.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-17T01:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Do you reply to every review, even the great ones?",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "137",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Stat Snack\n\n89% of consumers expect owners to respond to reviews.\n\nGeneric replies don't count. Make it personal.\n\nSource: BrightLocal Local Consumer Review Survey, 2026\n\n#StatSnack #GoogleReviews #CustomerExperience #SmallBusinessTips #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/137-stat-respond.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-17T01:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Do you reply to every review, even the great ones?",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "137",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "89% of consumers expect business owners to reply to their reviews (BrightLocal, 2026).\n\nHalf are put off by generic, templated replies. Make it personal.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/137-stat-respond.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-17T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Do you reply to every review, even the great ones?"
+}
+},
+{
+"key": "137",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "89% of consumers expect business owners to reply to their reviews (BrightLocal, 2026).\n\nHalf are put off by generic, templated replies. Make it personal.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/137-stat-respond.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-17T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Do you reply to every review, even the great ones?"
+}
+},
+{
+"key": "137",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Stat Snack\n\n89% of consumers expect owners to respond to reviews.\n\nGeneric replies don't count. Make it personal.\n\nSource: BrightLocal Local Consumer Review Survey, 2026\n\n#StatSnack #GoogleReviews #CustomerExperience #SmallBusinessTips #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/reels2/137-stat-respond.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-17T01:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Stat Snack: 89% Expect a Reply",
+"type": "short"
+}
+}
+},
+{
+"key": "123",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "FRIDAY FIX: send your customers a thank-you before Christmas.\n\nIt might be the simplest, most memorable marketing you do all year.\n\n1. Pull your customer list from your CRM\n2. Write a short, personal note. No pitch, no coupon.\n3. Mention one thing you're genuinely grateful for\n4. Send it before Dec 23, while inboxes are still calm\n\nPeople remember how you made them feel, and a thank-you with no ask stands out in a December inbox full of sales.\n\nDrop a if you're sending one this year!",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/123-thank-you-email.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: send your customers a thank-you before Christmas. Pull your list, write a short personal note with no pitch, and send it before December 23."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-18T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Who's sending one this year? Drop a if you're in.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "123",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Friday Fix: send a thank-you before Christmas.\n\n1. Pull your customer list\n2. Write a short, personal note (no pitch!)\n3. Share one thing you're grateful for\n4. Send it before Dec 23\n\nDrop a if you're in.\n\n#FridayFix #EmailMarketing #CustomerAppreciation #SmallBusinessTips #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/123-thank-you-email.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: send your customers a thank-you before Christmas. Pull your list, write a short personal note with no pitch, and send it before December 23."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-18T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Who's sending one this year? Drop a if you're in.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "123",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Simplest marketing move of the year: email your customers a thank-you before Christmas.\n\nNo pitch. No coupon. Just thanks.\n\nIn a December inbox full of sales emails, it stands out.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/123-thank-you-email.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: send your customers a thank-you before Christmas. Pull your list, write a short personal note with no pitch, and send it before December 23."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-18T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Who's sending one this year? Drop a if you're in."
+}
+},
+{
+"key": "123",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "One of the most effective emails a business can send all year has no offer in it.\n\nBefore Christmas, send your customers a short, personal thank-you:\n\u2022 Pull your list from your CRM\n\u2022 Write a few sentences. No pitch, no coupon.\n\u2022 Mention something specific you're grateful for\n\u2022 Send it before Dec 23, while inboxes are still manageable\n\nIn a month full of promotional emails, gratitude stands out, and people remember it.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/123-thank-you-email.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: send your customers a thank-you before Christmas. Pull your list, write a short personal note with no pitch, and send it before December 23."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-18T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Who's sending one this year? Drop a if you're in."
+}
+},
+{
+"key": "123",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Simplest marketing move of the year: email your customers a thank-you before Christmas.\n\nNo pitch. No coupon. Just thanks.\n\nIn a December inbox full of sales emails, it stands out.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/123-thank-you-email.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: send your customers a thank-you before Christmas. Pull your list, write a short personal note with no pitch, and send it before December 23."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-18T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Who's sending one this year? Drop a if you're in."
+}
+},
+{
+"key": "123",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Friday Fix: send your customers a simple thank-you before Christmas, with no pitch and no coupon. It's one of the most memorable emails you'll send all year.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/gbp/123.png",
+"type": "image/png",
+"altText": "Friday Fix graphic: send your customers a thank-you before Christmas. Pull your list, write a short personal note with no pitch, and send it before December 23."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-18T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com/content-marketing/?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "138",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "WEEKEND MISSION: 3 free gifts to give your business before Christmas.\n\nEach one takes 15 minutes or less:\n\n\u2022 Add 3 fresh photos to your Google Business Profile\n\u2022 Put your Google review link in your email signature\n\u2022 Add one new FAQ answer to your website\n\nWhich one are you unwrapping first?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/138-mission-gifts.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: three free gifts to give your business this weekend: fresh Google photos, a review link in your email signature, and one new FAQ on your website."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-19T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which gift are you unwrapping first?",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "138",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Weekend Mission: 3 free gifts for your business\n\n\u2022 Fresh Google photos\n\u2022 Review link in your email signature\n\u2022 One new FAQ on your site\n\nWhich one first?\n\n#WeekendMission #SmallBusinessTips #LocalSEO #HolidaySeason #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/138-mission-gifts.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: three free gifts to give your business this weekend: fresh Google photos, a review link in your email signature, and one new FAQ on your website."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-19T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which gift are you unwrapping first?",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "138",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "3 free gifts for your business this weekend (15 min each):\n\nFresh Google photos.\nReview link in your email signature.\nOne new FAQ on your website.\n\nWhich first?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/138-mission-gifts.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: three free gifts to give your business this weekend: fresh Google photos, a review link in your email signature, and one new FAQ on your website."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-19T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which gift are you unwrapping first?"
+}
+},
+{
+"key": "138",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "3 free gifts for your business this weekend (15 min each):\n\nFresh Google photos.\nReview link in your email signature.\nOne new FAQ on your website.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/138-mission-gifts.png",
+"type": "image/png",
+"altText": "Weekend Mission graphic: three free gifts to give your business this weekend: fresh Google photos, a review link in your email signature, and one new FAQ on your website."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-19T15:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Which gift are you unwrapping first?"
+}
+},
+{
+"key": "124",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "MYTH MONDAY (last one of 2026!)\n\nMYTH: \"December is a dead month for marketing.\"\nTRUTH: It's prep month.\n\nThe businesses that start January strong use these quiet weeks to:\n\u2022 Update their Google holiday hours\n\u2022 Clean up their CRM contact list\n\u2022 Plan January content now\n\u2022 Review what worked in 2026\n\nWhat's one thing you're getting ready before January?",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/124-myth-december.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'December isn't dead time. It's prep time.' Lists updating Google holiday hours, cleaning up your CRM, planning January content, and reviewing what worked."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-21T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one thing you're getting ready before January?",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "124",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "MYTH MONDAY\n\n\"December is dead time.\"\nIt's prep time.\n\nUpdate hours. Clean your list. Plan January. Review 2026.\n\nWhat are you prepping?\n\n#MythMonday #MarketingPlanning #SmallBusinessTips #NewYearPlanning #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/124-myth-december.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'December isn't dead time. It's prep time.' Lists updating Google holiday hours, cleaning up your CRM, planning January content, and reviewing what worked."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-21T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one thing you're getting ready before January?",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "124",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "December isn't dead time for marketing. It's prep time.\n\nClean your contact list, plan January content, and look honestly at what worked this year.\n\nThe businesses that start January strong did the work in December.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/124-myth-december.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'December isn't dead time. It's prep time.' Lists updating Google holiday hours, cleaning up your CRM, planning January content, and reviewing what worked."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-21T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one thing you're getting ready before January?"
+}
+},
+{
+"key": "124",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "\"December is a dead month for marketing.\"\n\nI'd argue it's the most valuable month of the year, just not for selling.\n\nIt's when you can:\n\u2022 Clean up your CRM and contact lists\n\u2022 Review what actually produced customers in 2026\n\u2022 Plan January content before the rush\n\u2022 Make sure your Google profile and website are current\n\nThe businesses that start January strong usually did the work in December.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/124-myth-december.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'December isn't dead time. It's prep time.' Lists updating Google holiday hours, cleaning up your CRM, planning January content, and reviewing what worked."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-21T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one thing you're getting ready before January?"
+}
+},
+{
+"key": "124",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "December isn't dead time for marketing. It's prep time.\n\nClean your contact list, plan January content, and look honestly at what worked this year.\n\nThe businesses that start January strong did the work in December.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/124-myth-december.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'December isn't dead time. It's prep time.' Lists updating Google holiday hours, cleaning up your CRM, planning January content, and reviewing what worked."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-21T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one thing you're getting ready before January?"
+}
+},
+{
+"key": "124",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "December isn't dead time for marketing; it's prep time. Update your holiday hours, clean up your contact list, plan January content, and review what worked in 2026.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/gbp/124.png",
+"type": "image/png",
+"altText": "Myth Monday graphic: 'December isn't dead time. It's prep time.' Lists updating Google holiday hours, cleaning up your CRM, planning January content, and reviewing what worked."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-21T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "125",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Need us over the holidays? Here's when we're open.\n\nOur team is taking time to celebrate with family:\n\u2022 Closed Friday, Dec 25 (Christmas Day)\n\u2022 Closed Friday, Jan 1 (New Year's Day)\n\u2022 Regular hours all other days\n\nMessages that come in while we're out will be answered the next business day.\n\nFrom our family to yours: Merry Christmas and Happy New Year!\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/125-holiday-hours.png",
+"type": "image/png",
+"altText": "Lewis Marketing holiday hours: closed Friday, December 25 and Friday, January 1, with regular hours all other days."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-23T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Merry Christmas, everyone! We'll see you on the other side of the holiday.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "125",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Need us over the holidays?\n\nClosed Fri, Dec 25\nClosed Fri, Jan 1\nRegular hours all other days\n\nMerry Christmas and Happy New Year from our family to yours.\n\n#HolidayHours #MerryChristmas #OrangeCityIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/125-holiday-hours.png",
+"type": "image/png",
+"altText": "Lewis Marketing holiday hours: closed Friday, December 25 and Friday, January 1, with regular hours all other days."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-23T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Merry Christmas, everyone! We'll see you on the other side of the holiday.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "125",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Holiday hours: we're closed Friday, Dec 25 and Friday, Jan 1. Regular hours all other days.\n\nMerry Christmas and Happy New Year from our team.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/125-holiday-hours.png",
+"type": "image/png",
+"altText": "Lewis Marketing holiday hours: closed Friday, December 25 and Friday, January 1, with regular hours all other days."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-23T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Merry Christmas, everyone! We'll see you on the other side of the holiday."
+}
+},
+{
+"key": "125",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Need us over the holidays? Lewis Marketing will be closed Friday, December 25 and Friday, January 1, and open regular hours all other days.\n\nWishing you and your family a Merry Christmas and a Happy New Year.\n\n\u2014 Michael & the team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/125-holiday-hours.png",
+"type": "image/png",
+"altText": "Lewis Marketing holiday hours: closed Friday, December 25 and Friday, January 1, with regular hours all other days."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-23T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Merry Christmas, everyone! We'll see you on the other side of the holiday."
+}
+},
+{
+"key": "125",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Holiday hours: we're closed Friday, Dec 25 and Friday, Jan 1. Regular hours all other days.\n\nMerry Christmas and Happy New Year from our team.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/125-holiday-hours.png",
+"type": "image/png",
+"altText": "Lewis Marketing holiday hours: closed Friday, December 25 and Friday, January 1, with regular hours all other days."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-23T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Merry Christmas, everyone! We'll see you on the other side of the holiday."
+}
+},
+{
+"key": "125",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Need us over the holidays? Lewis Marketing is closed Friday, Dec 25 and Friday, Jan 1, with regular hours all other days. Merry Christmas and Happy New Year from our family to yours!",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/gbp/125.png",
+"type": "image/png",
+"altText": "Lewis Marketing holiday hours: closed Friday, December 25 and Friday, January 1, with regular hours all other days."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-23T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "call"
+}
+}
+},
+{
+"key": "119",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Merry Christmas from our family to yours.\n\nAs this year winds down, we keep thinking about the people behind every project: the owners who took a chance on us, the teams we got to work beside, and the neighbors who cheered us on.\n\nThank you for a year we won't forget.\n\nMay your Christmas be full of peace, joy, and time with the people you love.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/119-christmas.png",
+"type": "image/png",
+"altText": "Christmas graphic from Lewis Marketing with a blue Christmas tree illustration and a heartfelt holiday note signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-25T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "However you're spending today, we hope it's full of peace and the people you love. Merry Christmas!",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "119",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Merry Christmas from our family to yours.\n\nThank you for a year we won't forget. May your day be full of peace, joy, and the people you love.\n\n\u2014 Michael & the Lewis Marketing team\n\n#MerryChristmas #Christmas2026 #Siouxland #NWIowa #OrangeCityIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/119-christmas.png",
+"type": "image/png",
+"altText": "Christmas graphic from Lewis Marketing with a blue Christmas tree illustration and a heartfelt holiday note signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-25T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "However you're spending today, we hope it's full of peace and the people you love. Merry Christmas!",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "119",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Merry Christmas from our family to yours.\n\nThank you for a year we won't forget. We hope today is full of peace, joy, and the people you love.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/119-christmas.png",
+"type": "image/png",
+"altText": "Christmas graphic from Lewis Marketing with a blue Christmas tree illustration and a heartfelt holiday note signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-25T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "However you're spending today, we hope it's full of peace and the people you love. Merry Christmas!"
+}
+},
+{
+"key": "119",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Merry Christmas.\n\nToday I'm thinking about the people behind every project this year: the owners who trusted us with their businesses, the team who poured themselves into the work, and the community that keeps cheering us on.\n\nThank you for a year I won't forget. I hope today is full of peace, joy, and time with the people you love.\n\n\u2014 Michael",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/119-christmas.png",
+"type": "image/png",
+"altText": "Christmas graphic from Lewis Marketing with a blue Christmas tree illustration and a heartfelt holiday note signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-25T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "However you're spending today, we hope it's full of peace and the people you love. Merry Christmas!"
+}
+},
+{
+"key": "119",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Merry Christmas from our family to yours.\n\nThank you for a year we won't forget. We hope today is full of peace, joy, and the people you love.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/119-christmas.png",
+"type": "image/png",
+"altText": "Christmas graphic from Lewis Marketing with a blue Christmas tree illustration and a heartfelt holiday note signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-25T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "However you're spending today, we hope it's full of peace and the people you love. Merry Christmas!"
+}
+},
+{
+"key": "119",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Merry Christmas from Lewis Marketing! Thank you for a wonderful year. We hope your day is full of peace, joy, and the people you love. Our office is closed today, Dec 25. \u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/gbp/119.png",
+"type": "image/png",
+"altText": "Christmas graphic from Lewis Marketing with a blue Christmas tree illustration and a heartfelt holiday note signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-25T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "none"
+}
+}
+},
+{
+"key": "126",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Describe your 2026 in ONE word.\n\nThen tell us your word for 2027.\n\nWe'll go first: grateful. And for 2027? Growth.\n\nYour turn!",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/126-one-word.png",
+"type": "image/png",
+"altText": "Engagement graphic: describe 2026 in one word, then share your word for 2027. Example words include growth, grateful, busy, and learning."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-29T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "We'll go first: GRATEFUL. And our word for 2027? GROWTH. Your turn.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "126",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Describe 2026 in one word.\n\nThen your word for 2027.\n\nWe'll start: grateful \u2192 growth.\n\n#YearInReview #2027Goals #OneWord #SmallBusiness #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/126-one-word.png",
+"type": "image/png",
+"altText": "Engagement graphic: describe 2026 in one word, then share your word for 2027. Example words include growth, grateful, busy, and learning."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-29T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "We'll go first: GRATEFUL. And our word for 2027? GROWTH. Your turn.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "126",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Describe your 2026 in one word.\n\nThen give us your word for 2027.\n\nWe'll start: grateful \u2192 growth.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/126-one-word.png",
+"type": "image/png",
+"altText": "Engagement graphic: describe 2026 in one word, then share your word for 2027. Example words include growth, grateful, busy, and learning."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-29T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "We'll go first: GRATEFUL. And our word for 2027? GROWTH. Your turn."
+}
+},
+{
+"key": "126",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "As the year winds down, a simple reflection: describe your 2026 in one word.\n\nThen share your word for 2027.\n\nMine: grateful. And for 2027, growth.\n\nI'd love to read yours in the comments.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/126-one-word.png",
+"type": "image/png",
+"altText": "Engagement graphic: describe 2026 in one word, then share your word for 2027. Example words include growth, grateful, busy, and learning."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-29T17:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "We'll go first: GRATEFUL. And our word for 2027? GROWTH. Your turn."
+}
+},
+{
+"key": "126",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Describe your 2026 in one word.\n\nThen give us your word for 2027.\n\nWe'll start: grateful \u2192 growth.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/graphics/126-one-word.png",
+"type": "image/png",
+"altText": "Engagement graphic: describe 2026 in one word, then share your word for 2027. Example words include growth, grateful, busy, and learning."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-29T14:30:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "We'll go first: GRATEFUL. And our word for 2027? GROWTH. Your turn."
+}
+},
+{
+"key": "126",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Describe your 2026 in one word! Ours is \"grateful.\" Thank you for an amazing year. Here's to growth in 2027.",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/dec/gbp/126.png",
+"type": "image/png",
+"altText": "Engagement graphic: describe 2026 in one word, then share your word for 2027. Example words include growth, grateful, busy, and learning."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-29T14:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "120",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "Thank you, 2026.\n\nThank you for every project, referral, review, and kind word this year. You made it a year our team will never forget.\n\nWe can't wait to keep growing alongside you in 2027.\n\nHappy New Year!\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/120-new-years-eve.png",
+"type": "image/png",
+"altText": "New Year's Eve graphic from Lewis Marketing with fireworks and a thank-you note for 2026, signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-31T16:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one goal you're chasing in 2027? Drop it below and let's cheer each other on.",
+"facebookPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "120",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Thank you, 2026.\n\nFor every project, referral, review, and kind word: thank you. We can't wait to keep growing alongside you in 2027.\n\nHappy New Year!\n\u2014 Michael & the Lewis Marketing team\n\n#HappyNewYear #NewYearsEve #2027 #Siouxland #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/120-new-years-eve.png",
+"type": "image/png",
+"altText": "New Year's Eve graphic from Lewis Marketing with fireworks and a thank-you note for 2026, signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-31T16:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one goal you're chasing in 2027? Drop it below and let's cheer each other on.",
+"instagramPostDetails": {
+"type": "post"
+}
+}
+},
+{
+"key": "120",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Thank you, 2026.\n\nFor every project, referral, review, and kind word: we're grateful. Here's to growing together in 2027.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/120-new-years-eve.png",
+"type": "image/png",
+"altText": "New Year's Eve graphic from Lewis Marketing with fireworks and a thank-you note for 2026, signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-31T16:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one goal you're chasing in 2027? Drop it below and let's cheer each other on."
+}
+},
+{
+"key": "120",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "As 2026 comes to a close, I want to say thank you.\n\nTo our clients: thank you for every project, referral, and kind word. To our team: thank you for the care you put into everything. To everyone who joined us at the AI Business Summit or listened, shared, or cheered us on: thank you.\n\nI can't wait to keep building alongside you in 2027.\n\nHappy New Year.\n\u2014 Michael",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/120-new-years-eve.png",
+"type": "image/png",
+"altText": "New Year's Eve graphic from Lewis Marketing with fireworks and a thank-you note for 2026, signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-31T16:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one goal you're chasing in 2027? Drop it below and let's cheer each other on."
+}
+},
+{
+"key": "120",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Thank you, 2026.\n\nFor every project, referral, review, and kind word: we're grateful. Here's to growing together in 2027.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/120-new-years-eve.png",
+"type": "image/png",
+"altText": "New Year's Eve graphic from Lewis Marketing with fireworks and a thank-you note for 2026, signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-31T16:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "What's one goal you're chasing in 2027? Drop it below and let's cheer each other on."
+}
+},
+{
+"key": "120",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Thank you for an incredible 2026! We're grateful for every project, referral, and review, and we can't wait to keep growing with you in 2027. Our office is closed Friday, Jan 1. \u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/gbp/120.png",
+"type": "image/png",
+"altText": "New Year's Eve graphic from Lewis Marketing with fireworks and a thank-you note for 2026, signed by Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2026-12-31T16:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "none"
+}
+}
+},
+{
+"key": "121",
+"ch": "facebook",
+"body": {
+"accountIds": [
+"6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+],
+"summary": "5\u2026 4\u2026 3\u2026 2\u2026 1\u2026 HAPPY NEW YEAR!\n\nThank you for an incredible 2026. Here's to growing together in 2027.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/videos/121-new-year.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Happy New Year! What are you most excited about this year?",
+"facebookPostDetails": {
+"type": "reel"
+}
+}
+},
+{
+"key": "121",
+"ch": "instagram",
+"body": {
+"accountIds": [
+"6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+"6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+],
+"summary": "Hello, 2027\n\nThank you for an incredible 2026. Here's to growing together this year.\n\n\u2014 Michael & the Lewis Marketing team\n\n#HappyNewYear #2027 #NewYear #Siouxland #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/videos/121-new-year.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "reel",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Happy New Year! What are you most excited about this year?",
+"instagramPostDetails": {
+"type": "reel",
+"showOnFeed": true
+}
+}
+},
+{
+"key": "121",
+"ch": "threads",
+"body": {
+"accountIds": [
+"68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+"68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+],
+"summary": "Happy New Year!\n\nThank you for an incredible 2026. Here's to growing together in 2027.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/videos/121-new-year.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Happy New Year! What are you most excited about this year?"
+}
+},
+{
+"key": "121",
+"ch": "linkedin",
+"body": {
+"accountIds": [
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+"6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+],
+"summary": "Happy New Year.\n\nThank you for an incredible 2026. I'm excited for what we'll build together in 2027.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/videos/121-new-year.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Happy New Year! What are you most excited about this year?"
+}
+},
+{
+"key": "121",
+"ch": "bluesky",
+"body": {
+"accountIds": [
+"68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+],
+"summary": "Happy New Year!\n\nThank you for an incredible 2026. Here's to growing together in 2027.\n\n\u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/videos/121-new-year.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"followUpComment": "Happy New Year! What are you most excited about this year?"
+}
+},
+{
+"key": "121",
+"ch": "gbp",
+"body": {
+"accountIds": [
+"667a3352ceefda726b068695_Auzaxxusb4MezZd78QIC_16686709381460546882"
+],
+"summary": "Happy New Year from Lewis Marketing! Thank you for an incredible 2026. Here's to growing together in 2027. \u2014 Michael & the Lewis Marketing team",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/gbp/121.png",
+"type": "image/png",
+"altText": "Countdown reel from 5 to 1 revealing Happy New Year 2027, with a thank-you message from Michael and the Lewis Marketing team."
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"gmbPostDetails": {
+"gmbEventType": "STANDARD",
+"actionType": "learn_more",
+"url": "https://lewismarketingoc.com?utm_source=google&utm_medium=organic&utm_campaign=social-nov-dec-2026"
+}
+}
+},
+{
+"key": "121",
+"ch": "tiktok",
+"body": {
+"accountIds": [
+"67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+"6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
+"684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+"6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+],
+"summary": "Hello, 2027\n\nThank you for an incredible 2026. Here's to growing together this year.\n\n\u2014 Michael & the Lewis Marketing team\n\n#HappyNewYear #2027 #NewYear #Siouxland #NWIowa #LewisMarketing",
+"media": [
+{
+"url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/holidays/videos/121-new-year.mp4",
+"type": "video/mp4"
+}
+],
+"status": "scheduled",
+"scheduleDate": "2027-01-01T15:00:00.000Z",
+"type": "post",
+"userId": "0T5YzQFGjmXmN5py288b",
+"createdBy": "0T5YzQFGjmXmN5py288b",
+"tiktokPostDetails": {
+"privacyLevel": "PUBLIC_TO_EVERYONE",
+"promoteOtherBrand": false,
+"enableComment": true,
+"enableDuet": false,
+"enableStitch": false,
+"videoDisclosure": false,
+"promoteYourBrand": false
+},
+"youtubePostDetails": {
+"privacyLevel": "public",
+"title": "Happy New Year: Hello, 2027",
+"type": "short"
+}
+}
+}
+]
+}
