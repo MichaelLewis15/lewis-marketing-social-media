@@ -1,0 +1,42 @@
+name: TikTok video sync (HighLevel)
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # every 30 minutes
+  push:
+    branches: [main]
+    paths: ["**.mp4", "tools/tiktok_sync.py"]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only report, change nothing"
+        type: boolean
+        default: false
+
+concurrency:
+  group: tiktok-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Upload TikTok videos to HighLevel and repoint posts
+        env:
+          HL_TOKEN: ${{ secrets.HL_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python tools/tiktok_sync.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-sync-result
+          path: tiktok-sync-result.json
+          if-no-files-found: ignore
