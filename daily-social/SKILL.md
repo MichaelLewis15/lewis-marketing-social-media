@@ -68,3 +68,7 @@ HighLevel's API keeps only the FIRST image on scheduled multi-image posts (teste
 - If data is missing or a step fails (connector down, render error, push refused, unclear location), skip that item, log it and flag it. Do not guess.
 - If an action isn't available through the connector, use the next best route (the hub's HighLevel button, or a ready-to-paste post) and give Michael the 2-minute manual step, e.g. "Social Planner > New Post > paste caption, upload image from <URL>, schedule Sat 7:30 AM, add the first comment".
 - Never change client calendars or other sub-accounts.
+
+## Friday afternoon belongs to HighLevel Weekly
+
+Every Friday at 2:30 PM Central the highlevel-weekly task posts a recap of that week's HighLevel releases (see daily-social/hl-weekly/README.md). Do not fill a Friday afternoon slot; the Friday morning slot is still yours.
