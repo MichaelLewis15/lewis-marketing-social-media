@@ -50,6 +50,8 @@ Two posts every day for **Lewis Marketing only** (never a client account): a **m
 
 ## TikTok needs HighLevel-hosted video
 
+Automatic fix (Nov 8, 2026): the GitHub Action `.github/workflows/tiktok-sync.yml` (tools/tiktok_sync.py, secret HL_TOKEN) runs every 30 minutes and on every push of an .mp4. It uploads the video of every scheduled TikTok post that is not yet on assets.cdn.filesafe.space into the "TikTok videos" folder and repoints the post. So: commit the .mp4 to the repo BEFORE creating the TikTok post, and the post is fixed within 30 minutes. The hub queue below is the backup.
+
 TikTok rejects every video whose URL isn't on a domain HighLevel verified with TikTok ("The media URL isn't from a verified domain"). raw.githubusercontent.com is NOT verified; assets.cdn.filesafe.space (HighLevel Media Storage) is. Every other channel accepts the GitHub URL. The connector can't copy a video into Media Storage from a URL (hosted:true only links it), so:
 
 1. Create the TikTok post (both TikTok accounts) with the GitHub video URL as usual. Keep TikTok in its OWN post, not combined with other channels.
