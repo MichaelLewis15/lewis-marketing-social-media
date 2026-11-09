@@ -14,6 +14,7 @@ import json, os, sys, time, mimetypes, datetime, pathlib, urllib.request
 import requests
 
 LOC = "Auzaxxusb4MezZd78QIC"
+USER = "0T5YzQFGjmXmN5py288b"  # Michael's HighLevel user id
 FOLDER = os.environ.get("HL_TIKTOK_FOLDER", "6af11ffa1ac4234dcd04e3de")
 API = "https://services.leadconnectorhq.com"
 REPO_RAW = "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/"
@@ -59,7 +60,7 @@ def check_location():
 
 
 def scheduled_tiktok_posts():
-    now = datetime.datetime.utcnow()
+    now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
     out, skip = [], 0
     while True:
         body = {"type": "scheduled", "accounts": ",".join(TIKTOK), "skip": str(skip), "limit": "100",
@@ -142,6 +143,8 @@ def main():
                 hl = upload(name, video_bytes(v["url"]))
                 have[name] = hl
             body = {k: p[k] for k in KEEP if p.get(k) not in (None, {}, [])}
+            body["userId"] = p.get("userId") or p.get("createdBy") or USER
+            body.setdefault("createdBy", USER)
             for k in ("tiktokPostDetails",):
                 if k in body: body[k] = {a: b for a, b in body[k].items() if b is not None and a != "shortenedLinks"}
             body["media"] = [{**{k: x for k, x in m.items() if k in ("url", "type", "thumbnail", "defaultThumb", "altText", "caption")},
@@ -153,7 +156,7 @@ def main():
         except Exception as e:
             failed.append({"post": p["_id"], "when": when, "video": name, "error": str(e)[:300]})
             print(f"FAILED {when} {name}: {e}", file=sys.stderr)
-    summary = {"at": datetime.datetime.utcnow().isoformat() + "Z", "checked": len(posts),
+    summary = {"at": datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).isoformat() + "Z", "checked": len(posts),
                "alreadyHosted": ok, "fixed": fixed, "failed": failed, "dryRun": DRY}
     print(json.dumps(summary, indent=1))
     pathlib.Path("tiktok-sync-result.json").write_text(json.dumps(summary, indent=1))
