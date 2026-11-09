@@ -28,7 +28,8 @@ DRY = os.environ.get("DRY_RUN") == "1"
 
 tok = os.environ.get("HL_TOKEN")
 if not tok:
-    sys.exit("HL_TOKEN secret is missing. Add it in GitHub: Settings > Secrets and variables > Actions.")
+    print("::warning::HL_TOKEN secret is missing. Add it in GitHub: Settings > Secrets and variables > Actions. Skipping this run.")
+    sys.exit(0)
 H = {"Authorization": f"Bearer {tok}", "Version": "2021-07-28", "Accept": "application/json"}
 
 
