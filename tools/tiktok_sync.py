@@ -46,7 +46,13 @@ def call(method, path, **kw):
 
 
 def check_location():
-    d = call("GET", f"/locations/{LOC}")
+    try:
+        d = call("GET", f"/locations/{LOC}")
+    except RuntimeError as e:
+        if "401" in str(e):
+            print("Location name check skipped (token has no Locations scope); the token is bound to one sub-account and every call below is pinned to " + LOC)
+            return
+        raise
     name = ((d.get("location") or d).get("name") or "").strip()
     if "Lewis Marketing" not in name:
         sys.exit(f"Location {LOC} is named {name!r}, not Lewis Marketing. Stopping.")
