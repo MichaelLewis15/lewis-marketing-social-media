@@ -47,6 +47,16 @@ Two posts every day for **Lewis Marketing only** (never a client account): a **m
 9. **Log** to `dslog`: what was created or scheduled and for which day, what was skipped and why, and flags. Append the new topics with dates to `recentTopics`.
 10. **Notify** Michael with a short summary (SendUserMessage, or the push notification when unattended): days filled, topics, anything skipped or needing him.
 
+
+## TikTok needs HighLevel-hosted video
+
+TikTok rejects every video whose URL isn't on a domain HighLevel verified with TikTok ("The media URL isn't from a verified domain"). raw.githubusercontent.com is NOT verified; assets.cdn.filesafe.space (HighLevel Media Storage) is. Every other channel accepts the GitHub URL. The connector can't copy a video into Media Storage from a URL (hosted:true only links it), so:
+
+1. Create the TikTok post (both TikTok accounts) with the GitHub video URL as usual. Keep TikTok in its OWN post, not combined with other channels.
+2. Publish the video into the content hub artifact at its repo-relative path (files publish, keep each file under 15 MB; re-encode with ffmpeg -crf 25 -maxrate 1.4M if larger).
+3. Write a doc to the hub db collection `ttq` with id `tt-<video basename>`: {file: "<repo-relative path>", name: "<basename>.mp4", label, first: <scheduleDate>, when: "<Day Mon D, H PM>", posts:[{id: <postId>, label, at: <scheduleDate>, body: <full edit-post body with the GitHub URL>}]}.
+4. The hub uploads queued videos to Media Storage and edits the posts automatically whenever Michael opens it. If a queued TikTok post is less than 24 hours away and its doc has no hlUrl, say so in the run log so Michael opens the hub.
+
 ## Carousels (known HighLevel limit)
 HighLevel's API keeps only the FIRST image on scheduled multi-image posts (tested Nov 7, 2026; drafts keep all images, scheduled/edited posts are trimmed to one, on every platform and with HighLevel-hosted images too). So never schedule a carousel as a multi-image post through the connector. Instead render it as a swipe-style reel with `python3 daily-social/howie-tools/swipe.py out.mp4 <music 0-3> slide1.png ... slideN.png` (9:16, music, animated Howie), post that video to Facebook/Instagram as a reel and to Threads, Bluesky and both TikTok accounts, and for LinkedIn build a PDF of the slides and flag Michael to attach it to the LinkedIn post in the Social Planner (document posts can't be attached by the API either).
 
