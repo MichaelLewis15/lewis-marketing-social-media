@@ -85,6 +85,28 @@ def posts_unique(posts):
     return sorted(posts, key=lambda p: p.get("scheduleDate") or "")
 
 
+CDN = "https://assets.cdn.filesafe.space/"
+
+
+def url_ok(u):
+    try:
+        r = requests.head(u, timeout=30, allow_redirects=True)
+        return r.status_code == 200
+    except Exception:
+        return False
+
+
+def best_url(f):
+    """HighLevel now returns files.leadconnectorhq.com links (Nov 2026). TikTok has only been proven to
+    accept assets.cdn.filesafe.space, so prefer the CDN link built from the file's storage path when it serves."""
+    u = f.get("url") or ""
+    if f.get("path"):
+        cdn = CDN + f["path"]
+        if u.startswith(CDN) or url_ok(cdn):
+            return cdn
+    return u
+
+
 def folder_files():
     files, off = {}, 0
     while True:
@@ -93,9 +115,8 @@ def folder_files():
                                                   "sortBy": "createdAt", "sortOrder": "desc"})
         batch = d.get("files") or []
         for f in batch:
-            u = f.get("url") or ""
-            if u.startswith(HOSTED) and f.get("name"):
-                files.setdefault(f["name"], u)
+            if f.get("name") and f["name"] not in files and (f.get("url") or f.get("path")):
+                files[f["name"]] = best_url(f)
         if len(batch) < 100: break
         off += 100
     return files
@@ -117,6 +138,10 @@ def upload(name, data):
     url = d.get("url") or (d.get("data") or {}).get("url")
     if not url:
         raise RuntimeError(f"upload of {name} returned no url: {json.dumps(d)[:300]}")
+    if not url.startswith(CDN):
+        time.sleep(3)
+        fresh = folder_files()
+        url = fresh.get(name, url)
     return url
 
 
@@ -131,7 +156,14 @@ def main():
         if not vids: continue
         v = vids[0]
         if (v.get("url") or "").startswith(HOSTED):
+            if not url_ok(v["url"]):
+                print(f"::warning::{p['_id']} video link does not load: {v['url']}")
+                failed.append({"post": p["_id"], "when": p.get("scheduleDate"), "video": v["url"], "error": "HighLevel video link does not load"})
             ok += 1; continue
+        if "files.leadconnectorhq.com/" in (v.get("url") or ""):
+            nm = v["url"].split("?")[0].rstrip("/").split("/")[-1]
+            if not have.get(nm, "").startswith(CDN):
+                ok += 1; continue
         name = v["url"].split("?")[0].rstrip("/").split("/")[-1]
         when = p.get("scheduleDate")
         try:
