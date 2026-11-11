@@ -1,0 +1,54 @@
+{
+ "name": "launch-chatgpt-business-hub",
+ "at": "2026-11-11T05:25:52.147843Z",
+ "results": [
+  {
+   "key": "bh-2026-11-11",
+   "ch": "facebook",
+   "postId": "6af3fc5b25cf11dba37c3f23",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "instagram",
+   "postId": "6af3fc5c284bbc580a55727f",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "threads",
+   "postId": "6af3fc5cc5f8f3cada0d0aa3",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "linkedin",
+   "postId": "6af3fc5d284bbc580a55733f",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "bluesky",
+   "postId": "6af3fc5d8e0fccc9c904bb02",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "youtube",
+   "postId": "6af3fc5e8e4e5476d60f84c2",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "tiktok",
+   "postId": "6af3fc5e5180f82ef6c35b5d",
+   "when": "2026-11-11T16:30:00.000Z"
+  },
+  {
+   "key": "bh-2026-11-11",
+   "ch": "gbp",
+   "postId": "6af3fc5f8e0fccc9c904bc58",
+   "when": "2026-11-11T16:30:00.000Z"
+  }
+ ]
+}
