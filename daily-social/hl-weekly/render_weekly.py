@@ -1,7 +1,7 @@
 """HighLevel Weekly: renders the Friday "What's new in HighLevel" recap for Lewis Marketing.
 
 usage: python3 render_weekly.py spec.json OUTDIR
-spec: {"week": "Nov 2-7, 2026", "items": [{"title": "...", "why": "...", "tag": "New"|"Beta"|"Update"}, ...3-5],
+spec: {"week": "Nov 2-7, 2026", optional "eyebrow","head1","head2","sub2","cta2","button","gbpTitle" to reuse for other recaps, "items": [{"title": "...", "why": "...", "tag": "New"|"Beta"|"Update"}, ...3-5],
        "cta": "Want these set up in your account?", "music": 0-3}
 outputs in OUTDIR:
   v916.mp4  1080x1920 (Instagram/Facebook reels, Threads, TikTok)
@@ -124,12 +124,12 @@ def frame(L, bg, spec, t, total):
     if t < INTRO:
         k = t / 0.6
         def f(dd):
-            pill(dd, L.x0, L.top + (180 if L.v else 70), "HIGHLEVEL THIS WEEK", S(600, 32 if L.v else 28), SKY + (255,), WHITE)
+            pill(dd, L.x0, L.top + (180 if L.v else 70), spec.get("eyebrow", "HIGHLEVEL THIS WEEK"), S(600, 32 if L.v else 28), SKY + (255,), WHITE)
             y = L.top + (300 if L.v else 170)
-            dd.text((L.x0, y), "What's new", font=L.f_head, fill=WHITE)
-            dd.text((L.x0, y + L.f_head.size * 1.08), "in HighLevel", font=L.f_head, fill=YEL)
+            dd.text((L.x0, y), spec.get("head1", "What's new"), font=L.f_head, fill=WHITE)
+            dd.text((L.x0, y + L.f_head.size * 1.08), spec.get("head2", "in HighLevel"), font=L.f_head, fill=YEL)
             dd.text((L.x0, y + L.f_head.size * 2.3), spec["week"], font=L.f_why, fill=MIST)
-            dd.text((L.x0, y + L.f_head.size * 2.3 + L.f_why.size * 1.6), f"{n} updates worth knowing about", font=L.f_why, fill=WHITE)
+            dd.text((L.x0, y + L.f_head.size * 2.3 + L.f_why.size * 1.6), spec.get("sub2", f"{n} updates worth knowing about"), font=L.f_why, fill=WHITE)
         im.alpha_composite(layer_text(W, H, f, ease(k), int((1 - ease(k)) * 40)))
         return im
     t2 = t - INTRO
@@ -164,8 +164,8 @@ def frame(L, bg, spec, t, total):
         for ln in wrap(dd, spec.get("cta") or "Want these set up in your account?", L.f_head, L.x1 - L.x0):
             dd.text((L.x0, y), ln, font=L.f_head, fill=WHITE); y += L.f_head.size * 1.1
         y += 30
-        dd.text((L.x0, y), "We'll handle the setup.", font=L.f_title, fill=YEL); y += L.f_title.size * 1.6
-        pill(dd, L.x0, y, "Book a call: lewismarketingoc.com", S(600, 40 if L.v else 34), SKY + (255,), WHITE)
+        dd.text((L.x0, y), spec.get("cta2", "We'll handle the setup."), font=L.f_title, fill=YEL); y += L.f_title.size * 1.6
+        pill(dd, L.x0, y, spec.get("button", "Book a call: lewismarketingoc.com"), S(600, 40 if L.v else 34), SKY + (255,), WHITE)
     im.alpha_composite(layer_text(W, H, f, a, int((1 - a) * 40)))
     return im
 
@@ -208,8 +208,8 @@ def compose(base, tmp, oy, ox, scale, audio, out):
 
 def gbp_graphic(spec, out):
     W, H = 1200, 900; im = background(W, H); d = ImageDraw.Draw(im)
-    pill(d, 70, 60, "HIGHLEVEL THIS WEEK", S(600, 26), SKY + (255,), WHITE)
-    d.text((70, 125), "What's new in HighLevel", font=O(800, 64), fill=WHITE)
+    pill(d, 70, 60, spec.get("eyebrow", "HIGHLEVEL THIS WEEK"), S(600, 26), SKY + (255,), WHITE)
+    d.text((70, 125), spec.get("gbpTitle", "What's new in HighLevel"), font=O(800, 64), fill=WHITE)
     d.text((70, 205), spec["week"], font=S(400, 30), fill=YEL)
     y = 280
     for i, it in enumerate(spec["items"]):
