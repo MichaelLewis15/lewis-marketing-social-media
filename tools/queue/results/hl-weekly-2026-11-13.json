@@ -1,0 +1,54 @@
+{
+ "name": "hl-weekly-2026-11-13",
+ "at": "2026-11-13T17:58:06.562546Z",
+ "results": [
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "facebook",
+   "postId": "6af74fa9c5110d1748e206a3",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "instagram",
+   "postId": "6af74faae2f29e71af7d97b1",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "threads",
+   "postId": "6af74faa81b875eb29eca807",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "linkedin",
+   "postId": "6af74fab322e498c1ce88b6e",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "bluesky",
+   "postId": "6af74fabef59e0b7e3a5d03b",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "youtube",
+   "postId": "6af74fac6243064745ef2db9",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "tiktok",
+   "postId": "6af74fad6243064745ef2e6a",
+   "when": "2026-11-13T20:30:00.000Z"
+  },
+  {
+   "key": "hlw-2026-11-13",
+   "ch": "gbp",
+   "postId": "6af74fad2bc02ad8ef083a96",
+   "when": "2026-11-13T20:30:00.000Z"
+  }
+ ]
+}
