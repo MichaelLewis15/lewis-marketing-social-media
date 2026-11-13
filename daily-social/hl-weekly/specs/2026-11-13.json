@@ -1,9 +1,9 @@
-{"week": "Nov 2-7, 2026", "music": 1,
+{"week": "Nov 9-13, 2026", "music": 2,
  "items": [
-  {"title": "Field Services: jobs, scheduling and dispatch in one place", "why": "Requests, jobs, routing, invoicing and a crew mobile app, built right into HighLevel. Private beta for now.", "tag": "Beta"},
-  {"title": "Put your AI agent on your website chat", "why": "Connect Conversation AI to your live chat widget from AI Studio settings, so visitors get answers any time of day.", "tag": "New"},
-  {"title": "Connect more than one Facebook account", "why": "Link several Facebook accounts and Pages to one sub-account, instead of juggling logins.", "tag": "New"},
-  {"title": "Paid channels and pricing plans in Communities", "why": "Offer several membership plans and charge for private channels, one time or recurring.", "tag": "New"},
-  {"title": "Fresh templates for faster builds", "why": "New website, survey, ad, workflow and dashboard templates to start from instead of a blank page.", "tag": "Update"}
+  {"title": "Fairer SMS safeguards and shorter pauses", "why": "Standard texting pauses drop to 12 hours, judged on a rolling 7 days. Rolling out to selected sub-accounts.", "tag": "Update"},
+  {"title": "Even and weighted splits in workflows", "why": "Send leads to each rep in turn, or give one team a bigger share by the percentages you set.", "tag": "Update"},
+  {"title": "One-click cleanup for old workflows", "why": "Workflow Maps flags unused workflows, default names and empty folders so you can review and tidy up.", "tag": "New"},
+  {"title": "AI agents can now make short branded films", "why": "Managed Agents create multi-shot videos up to 60 seconds with captions and end cards. Billed per second.", "tag": "New"},
+  {"title": "Tax forms and payout setup for affiliates", "why": "Collect signed terms, W9 or W8 forms and payout details, with a Compliance column. New Client Portal only.", "tag": "New"}
  ],
  "cta": "Want these set up in your account?"}
