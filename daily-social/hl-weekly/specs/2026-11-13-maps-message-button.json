@@ -1,0 +1,29 @@
+{
+ "eyebrow": "NEW IN GOOGLE MAPS",
+ "head1": "Message button",
+ "head2": "next to Call",
+ "week": "Rolled out Nov 6 on Android and iOS",
+ "sub2": "Is anyone answering yours?",
+ "music": 2,
+ "items": [
+  {
+   "title": "Check where messages go",
+   "why": "Open your Google Business Profile and confirm which channel is linked, like text or WhatsApp.",
+   "tag": "Step 1"
+  },
+  {
+   "title": "Set an instant auto-reply",
+   "why": "Let customers know you got their message and when they will hear back.",
+   "tag": "Step 2"
+  },
+  {
+   "title": "Give it an owner",
+   "why": "Pick one person to answer during business hours, the same way someone answers the phone.",
+   "tag": "Step 3"
+  }
+ ],
+ "cta": "Want every message answered fast?",
+ "cta2": "We can set it up for you.",
+ "button": "lewismarketingoc.com",
+ "gbpTitle": "Maps added a Message button"
+}

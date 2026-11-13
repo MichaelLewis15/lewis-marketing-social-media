@@ -1,0 +1,34 @@
+{
+ "eyebrow": "GOOGLE SEARCH UPDATE",
+ "head1": "Core update",
+ "head2": "rolling out now",
+ "week": "Started Nov 10, ends about Nov 24",
+ "sub2": "Here is what to do while it runs.",
+ "music": 0,
+ "items": [
+  {
+   "title": "Don't panic-edit your site",
+   "why": "Big rewrites mid-update make it hard to tell what actually moved your rankings.",
+   "tag": "Don't"
+  },
+  {
+   "title": "Write down today's numbers",
+   "why": "Note your traffic, calls and form leads now so you have a clean baseline.",
+   "tag": "Do"
+  },
+  {
+   "title": "Keep helping customers",
+   "why": "Keep publishing useful pages and keep your Google Business Profile up to date.",
+   "tag": "Do"
+  },
+  {
+   "title": "Judge it a week after it ends",
+   "why": "Google suggests waiting at least a week after the rollout finishes before comparing.",
+   "tag": "Do"
+  }
+ ],
+ "cta": "Want a second set of eyes?",
+ "cta2": "Run our free site test.",
+ "button": "lewismarketingoc.com/test-your-website",
+ "gbpTitle": "Google core update: what to do"
+}
