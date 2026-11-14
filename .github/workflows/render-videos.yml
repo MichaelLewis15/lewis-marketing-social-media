@@ -44,7 +44,7 @@ jobs:
         if: steps.specs.outputs.list != ''
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q pillow numpy kokoro-onnx soundfile faster-whisper requests opencv-python-headless "rembg[cpu]"
+          pip install -q pillow numpy kokoro-onnx soundfile faster-whisper requests "rembg[cpu]" "opencv-python-headless<5"
           npm i -g playwright@1.48.2 && npx -y playwright@1.48.2 install --with-deps chromium
           git clone -q --depth 1 -b models "https://github.com/${{ github.repository }}.git" daily-social/models
       - name: Render
