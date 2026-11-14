@@ -1,0 +1,14 @@
+{
+ "spec": "daily-social/clip-specs/sample-jhc-agency.json",
+ "out": "daily/clip-samples/jhc-agency",
+ "ok": true,
+ "at": "2026-11-14T20:57:07.809299Z",
+ "seconds": 27.1,
+ "files": {
+  "captions.srt": "6cc37e357a",
+  "cover169.jpg": "a2a1b7e9b7",
+  "cover916.jpg": "116b60a152",
+  "v169.mp4": "f5e5a31b16",
+  "v916.mp4": "745a0674b5"
+ }
+}
