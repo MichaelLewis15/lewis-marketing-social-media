@@ -2,7 +2,7 @@
  "spec": "daily-social/clip-specs/sample-jhc-agency.json",
  "out": "daily/clip-samples/jhc-agency",
  "ok": true,
- "at": "2026-11-14T21:58:21.581662Z",
+ "at": "2026-11-14T22:03:57.694531Z",
  "seconds": 26.1,
  "qc": {
   "ok": true,
@@ -13,12 +13,12 @@
   "captions.srt": "06c729cf38",
   "clip-report.json": "bc9f5771f0",
   "cover169.jpg": "a2a1b7e9b7",
-  "cover916.jpg": "60dd50c4cd",
+  "cover916.jpg": "fea30ffcf4",
   "qc.json": "71ed98afbe",
-  "thumb-a.jpg": "2c8c0c3cf0",
-  "thumb-b.jpg": "76d3bc309f",
+  "thumb-a.jpg": "b62a25fe1e",
+  "thumb-b.jpg": "6eacbd0a55",
   "thumb-frames.json": "48cd392bc4",
-  "v169.mp4": "390c69dc8d",
-  "v916.mp4": "174340fb7a"
+  "v169.mp4": "283c73a416",
+  "v916.mp4": "3a370fb4e9"
  }
 }
