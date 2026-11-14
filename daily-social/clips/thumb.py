@@ -184,11 +184,22 @@ def spaced(cands, n=2, gap=4.0):
     return out
 
 
+def caption_line(im, below):
+    """top of a burned-in caption or name bar in the lower part of the frame (big bold text), else the frame height"""
+    a = np.asarray(im.convert("RGB")).astype(int); H_ = a.shape[0]; band = max(8, H_ // 60)
+    bright = (a.min(2) > 225) | ((a[..., 1] > 200) & (a[..., 2] < 90))  # white, yellow or green caption text
+    edge = np.abs(np.diff(a.mean(2), axis=1)) > 90
+    for y0 in range(int(max(below, H_ * 0.62)), H_ - band, band):
+        b = bright[y0:y0 + band]; e = edge[y0:y0 + band]
+        if b.mean() > 0.05 and e.mean() > 0.04: return y0 - band
+    return H_
+
+
 def person_side(im, box, size_h, side):
     """head and shoulders, cut out (or faded towards the centre when rembg is missing)"""
     x, y, w, h = box; cx = x + w / 2
     # stop above the lower part of the frame, where recordings often carry burned-in captions or name bars
-    top = max(0, y - h * 0.6); bot = min(im.height, y + h * 2.05); ht = bot - top; wd = min(im.width, ht * 0.95)
+    top = max(0, y - h * 0.6); bot = min(im.height, y + h * 2.05, caption_line(im, y + h)); ht = bot - top; wd = min(im.width, ht * 0.95)
     l = max(0, min(im.width - wd, cx - wd / 2)); crop = im.crop((int(l), int(top), int(l + wd), int(bot)))
     crop = crop.resize((int(crop.width * size_h / crop.height), size_h), Image.LANCZOS)
     try:
