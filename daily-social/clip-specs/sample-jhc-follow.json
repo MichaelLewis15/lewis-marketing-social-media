@@ -1,0 +1,39 @@
+{
+ "source": "bts/01-jhc-working-with-lewis-marketing.mp4",
+ "transcript": "daily-social/clips/transcripts/sample-jhc-working-with-lm.json",
+ "keep": [
+  [
+   0,
+   17.45
+  ],
+  [
+   25.3,
+   32.1
+  ]
+ ],
+ "style": "navy",
+ "eyebrow": "BEHIND THE STOREFRONT",
+ "title": "First time working with an agency?",
+ "lowerThird": {
+  "name": "Denise",
+  "role": "Jorgensen Hearing Center, Sioux Center",
+  "at": 6.4
+ },
+ "cards": [
+  {
+   "at": 12.0,
+   "dur": 3.2,
+   "text": "Simple, and always available"
+  }
+ ],
+ "endCard": {
+  "cta": "Want marketing that feels this simple?",
+  "button": "Book a call: lewismarketingoc.com"
+ },
+ "music": 1,
+ "out": "daily/clip-samples/jhc-follow",
+ "layout": "follow",
+ "sizes": [
+  "916"
+ ]
+}

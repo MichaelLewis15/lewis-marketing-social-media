@@ -3,7 +3,8 @@
 
 usage: python3 tools/render_specs.py spec.json [spec.json ...]
 A spec is rendered when it has "out" (repo-relative output folder, e.g. "daily/video/2026-11-20-am").
-Writes tools/render/results/<spec name>.json {spec, out, ok, seconds, files, voiceCheck, error, sha}.
+Writes tools/render/results/<spec name>.json {spec, out, ok, seconds, files, voiceCheck, qc, error}.
+Every render goes through tools/qc.py; a qc error makes ok false, so nothing broken gets posted.
 """
 import json, os, sys, subprocess, hashlib, datetime, pathlib
 
@@ -21,6 +22,10 @@ for sp in sys.argv[1:]:
     res = {"spec": sp, "out": spec["out"], "ok": r.returncode == 0, "at": datetime.datetime.utcnow().isoformat() + "Z"}
     if r.returncode == 0:
         info = json.loads(r.stdout.strip().splitlines()[-1]); res.update(seconds=info["seconds"])
+        q = subprocess.run([sys.executable, str(ROOT / "tools" / "qc.py"), "dir", str(out)] + (["--footage"] if spec.get("source") else []), capture_output=True, text=True)
+        try: res["qc"] = json.loads(q.stdout)
+        except Exception: res["qc"] = {"ok": False, "errors": ["qc did not run: " + (q.stderr or "")[-300:]], "warnings": []}
+        if not res["qc"]["ok"]: res["ok"] = False; res["error"] = "quality check: " + "; ".join(res["qc"]["errors"]); bad += 1
         res["files"] = {f.name: hashlib.sha1(f.read_bytes()).hexdigest()[:10] for f in sorted(out.iterdir()) if f.is_file()}
         vcs = sorted(out.glob("voice-check*.json"))
         if vcs:

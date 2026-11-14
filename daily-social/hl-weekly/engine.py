@@ -834,7 +834,7 @@ def mix_audio(tmp, total, spec, sc, starts, T, voiced):
             fc = ";".join(filt) + f";[0:a]volume={mv}[bg];" + "".join(f"[v{j}]" for j in range(1, nv + 1)) + f"amix=inputs={nv}:normalize=0[vo];[vo]volume=1.6[vo2];[bg][vo2]amix=inputs=2:normalize=0[out]"
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{tmp}/a.wav", *ins, "-filter_complex", fc, "-map", "[out]", f"{tmp}/a2.wav"], check=True)
             os.replace(f"{tmp}/a2.wav", f"{tmp}/a.wav")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{tmp}/a.wav", "-af", f"afade=t=out:st={total - 1.5}:d=1.5", f"{tmp}/af.wav"], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{tmp}/a.wav", "-af", f"afade=t=out:st={total - 1.5}:d=1.5,loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.79:level=false,aresample=44100", f"{tmp}/af.wav"]  # social loudness, checked by tools/qc.py, check=True)
 
 
 def prepare(spec, tmp, outdir, suffix=""):

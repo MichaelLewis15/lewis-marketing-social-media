@@ -23,10 +23,21 @@ SPEC keys (times in seconds of the SOURCE unless noted):
   captions     true (default)
   endCard      {"cta", "cta2", "button", "dur" (2.8)} or false;  music  null or 0-3 (quiet bed under the voice)
   sizes        ["916"] plus "169" for landscape footage (default both when the footage is landscape), "45" optional
-Outputs: v<size>.mp4, cover<size>.jpg, captions.srt.
+  tighten      true (default when there is a transcript): cut "um/uh", stutters and pauses over 0.45 s from the kept
+               parts; card and lower-third times are moved to match. {"maxPause": 0.6} to keep more air, false to skip
+  follow       true (default for the full layout of landscape footage, e.g. two-person interviews): the 9:16 crop
+               follows whoever is talking; layout "follow" is the same as "full" with follow on
+  popups       "auto" (default when there is a transcript): up to 4 small icon cards when a topic is mentioned
+               (reviews, website, CRM, text back, email, Google search, ads, social, AI, phone calls, booking);
+               a list [{"at": output s, "kind", "label"}] to place them by hand; false for none
+  thumbnail    {"a": {"text", "highlight", "eyebrow"}, "b": {...}}: two YouTube thumbnails for Test & compare (thumb.py)
+Outputs: v<size>.mp4, cover<size>.jpg, captions.srt, thumb-a/b.jpg, clip-report.json (what was tightened, speaker switches, pop-ups).
+Safe zones (9:16): nothing important above y 220, below y 1540 (footer logo excepted) or right of x 960 between
+y 900 and 1540, where the app buttons sit. qc.py checks every render.
 """
 import json, os, re, sys, subprocess, tempfile, math, hashlib, urllib.request
 import numpy as np
+import clipfx
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -109,7 +120,9 @@ def transcribe(src, out, model=None):
     name = model or os.environ.get("LM_WHISPER") or "small.en"
     try: m = WhisperModel(name, device="cpu", compute_type="int8")
     except Exception: m = WhisperModel(local, device="cpu", compute_type="int8"); name = "tiny.en (local)"
-    segs, _ = m.transcribe(audio, word_timestamps=True, vad_filter=True, beam_size=5, language="en")
+    # the prompt keeps "um" and "uh" in the transcript so the tighten step can find and cut them
+    segs, _ = m.transcribe(audio, word_timestamps=True, vad_filter=True, beam_size=5, language="en",
+                           initial_prompt="Umm, let me think, uh, like, hmm. Okay, so, um, we did the, uh, the website.")
     S_ = []
     for s in segs:
         S_.append(dict(start=round(s.start, 2), end=round(s.end, 2), text=s.text.strip(), words=[[w.word.strip(), round(w.start, 2), round(w.end, 2)] for w in s.words]))
@@ -161,16 +174,24 @@ class Geo:
         self.key = key; self.layout = layout
         self.W, self.H = {"916": (1080, 1920), "169": (1920, 1080), "45": (1080, 1350)}[key]
         W, H = self.W, self.H
+        self.cap_cx = W / 2; self.bug_y = 40; self.pop = None
         if key == "169":
             self.vid = (0, 0, W, H); self.cap_y = 905; self.cap_w = 1500; self.cap_f = 52; self.lt = (70, 760); self.card_y = 120
+            self.pop = (W - 400, 150, 330)
         elif layout == "fit":
             vw = W; vh = int(round(vw * sh / sw / 2) * 2)
             top = 560 if key == "916" else 330
             self.vid = (0, top, vw, vh); self.cap_y = top + vh + 70; self.cap_w = 960; self.cap_f = 64 if key == "916" else 52
-            self.lt = (50, top + vh - 190); self.card_y = top + 30
-        else:  # full frame (portrait footage, or cropped)
-            self.vid = (0, 0, W, H); self.cap_y = int(H * 0.66); self.cap_w = 960; self.cap_f = 66 if key == "916" else 54
-            self.lt = (50, int(H * 0.78)); self.card_y = int(H * 0.14)
+            self.lt = (50, top + vh - 190); self.card_y = top + 30; self.pop = (W - 330, top + 30, 270)
+            if key == "916": self.cap_w = 880; self.cap_cx = (W - 90) / 2  # keep clear of the app buttons on the right
+        else:  # full frame (portrait footage, or cropped); 9:16 keeps inside the safe zone
+            self.vid = (0, 0, W, H); self.cap_f = 66 if key == "916" else 54
+            if key == "916":
+                self.cap_y = 1110; self.cap_w = 860; self.cap_cx = (W - 110) / 2; self.lt = (50, 1385); self.card_y = 330
+                self.bug_y = 236; self.pop = (W - 400, 640, 300)
+            else:
+                self.cap_y = int(H * 0.66); self.cap_w = 960; self.lt = (50, int(H * 0.78)); self.card_y = int(H * 0.14)
+                self.pop = (W - 380, int(H * 0.3), 280)
 
 
 def static_frame(g, spec, pal):
@@ -203,7 +224,7 @@ class Overlay:
         self.g, self.spec, self.pal, self.words, self.total, self.body = g, spec, pal, words, total, body
         d = ImageDraw.Draw(Image.new("RGB", (8, 8))); self.cf = O(800, g.cap_f)
         self.chs = chunks(d, words, self.cf, g.cap_w - g.cap_f) if spec.get("captions", True) else []
-        self._cache = {}
+        self._cache = {}; self.pops = spec.get("_popups") or []
 
     def state(self, t):
         sp = self.spec; k = []
@@ -222,6 +243,9 @@ class Overlay:
         for j, c in enumerate(sp.get("cards") or []):
             dt = t - c["at"]
             if 0 <= dt < c.get("dur", 3): k.append(("card", j, min(8, int(dt * FPS)), max(0, int((dt - c.get("dur", 3) + 0.25) * FPS))))
+        for j, pp in enumerate(self.pops):
+            dt = t - pp["at"]
+            if 0 <= dt < pp.get("dur", 2.6): k.append(("pop", j, min(8, int(dt * FPS)), max(0, int((dt - pp.get("dur", 2.6) + 0.25) * FPS))))
         if self.g.layout == "full" and sp.get("title") and t < 3.2: k.append(("hook", min(8, int(t * FPS)), max(0, int((t - 2.9) * FPS))))
         return tuple(k)
 
@@ -243,7 +267,7 @@ class Overlay:
                 lines.append(line)
                 y = g.cap_y; lh = g.cap_f * 1.22
                 for ln in lines:
-                    txt = " ".join(x for x, _ in ln); tw = d.textlength(txt, font=self.cf); x = (W - tw) / 2
+                    txt = " ".join(x for x, _ in ln); tw = d.textlength(txt, font=self.cf); x = g.cap_cx - tw / 2
                     pad = g.cap_f * 0.35
                     d.rounded_rectangle((x - pad, y - pad * 0.6, x + tw + pad, y + g.cap_f * 1.05 + pad * 0.6), radius=int(pad), fill=NAVY2 + (215,))
                     for tk, wi in ln:
@@ -270,6 +294,18 @@ class Overlay:
                 for l in lines: ld.text((W / 2, yy), l, font=f, fill=NAVY, anchor="ma"); yy += f.size * 1.15
                 L = L.transform(L.size, Image.AFFINE, (1, 0, 0, 0, 1, int((1 - a) * -40)))
                 L.putalpha(L.getchannel("A").point(lambda v: int(v * a))); im.alpha_composite(L)
+            elif item[0] == "pop" and g.pop:
+                pp = self.pops[item[1]]; a = ease(item[2] / 8) * (1 - ease(item[3] / 8)); px, py, ps = g.pop
+                L = Image.new("RGBA", (W, H)); ld = ImageDraw.Draw(L); fl = O(800, int(ps * 0.12))
+                lines = wrap(ld, pp.get("label", ""), fl, ps - 30); hh = ps + len(lines) * fl.size * 1.1 + 10
+                ld.rounded_rectangle((px, py, px + ps, py + hh), radius=int(ps * 0.1), fill=WHITE + (248,))
+                ld.rectangle((px + ps * 0.1, py + hh - 12, px + ps * 0.35, py + hh - 5), fill=YEL)
+                ic = clipfx.icon(pp["kind"], int(ps * 0.7)); L.alpha_composite(ic, (int(px + ps * 0.15), int(py + ps * 0.1)))
+                yy = py + ps * 0.84
+                for l in lines: ld.text((px + ps / 2, yy), l, font=fl, fill=NAVY, anchor="ma"); yy += fl.size * 1.1
+                sc = 0.6 + 0.4 * a; cx_, cy_ = px + ps / 2, py + hh / 2
+                L = L.transform(L.size, Image.AFFINE, (1 / sc, 0, cx_ - cx_ / sc, 0, 1 / sc, cy_ - cy_ / sc), Image.BILINEAR)
+                L.putalpha(L.getchannel("A").point(lambda v: int(v * a))); im.alpha_composite(L)
             elif item[0] == "hook":
                 a = ease(item[1] / 8) * (1 - ease(item[2] / 9)); f = O(800, 70 if W < 1500 else 60)
                 lines = wrap(d, self.spec["title"], f, W - 200); h = len(lines) * f.size * 1.12 + 60
@@ -280,7 +316,7 @@ class Overlay:
                 L.putalpha(L.getchannel("A").point(lambda v: int(v * a))); im.alpha_composite(L)
         if g.layout == "full" or g.key == "169":  # small logo bug
             lg = self._bug if hasattr(self, "_bug") else logo(44 if W < 1500 else 40)
-            self._bug = lg; im.alpha_composite(lg, (W - lg.width - 40, 40))
+            self._bug = lg; im.alpha_composite(lg, (W - lg.width - 40, g.bug_y))
         b = im.tobytes(); self._cache[st] = b; return b
 
     def endcard(self, im, d, k):
@@ -318,8 +354,13 @@ def render_size(g, spec, pal, cut, words, body, total, tmp, out, music_wav):
     W, H = g.W, g.H; x, y, vw, vh = g.vid
     st = static_frame(g, spec, pal); stp = os.path.join(tmp, f"static{g.key}.png"); st.save(stp)
     if g.layout == "full" and g.key != "169":
-        cx = spec.get("cropX", 0.5)
-        vf = f"[1:v]scale=-2:{H},crop={W}:{H}:'max(0,min(iw-{W},iw*{cx}-{W}/2))':0,setsar=1[v]"
+        cx = spec.get("cropX", 0.5); track = spec.get("_follow")
+        if track and len(track) > 1:
+            iw = int(round(spec["_srcw"] * H / spec["_srch"] / 2) * 2)
+            vf = f"[1:v]scale={iw}:{H},crop={W}:{H}:'{clipfx.crop_expr(track, iw, W)}':0,setsar=1[v]"
+        else:
+            if track: cx = track[0][1]
+            vf = f"[1:v]scale=-2:{H},crop={W}:{H}:'max(0,min(iw-{W},iw*{cx}-{W}/2))':0,setsar=1[v]"
     else:
         vf = f"[1:v]scale={vw}:{vh},setsar=1[v]"
     ov = Overlay(g, spec, pal, words, total, body)
@@ -350,6 +391,13 @@ def mix_audio(cut, body, total, spec, tmp):
     return out
 
 
+def final_loudness(mix, tmp):
+    """one last pass so every clip lands near -14 LUFS with headroom (tools/qc.py checks it)"""
+    out = os.path.join(tmp, "mixn.wav")
+    run("ffmpeg", "-v", "error", "-y", "-i", mix, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.79:level=false,aresample=48000", "-ar", "48000", out)
+    return out
+
+
 def load(spec_path):
     spec = json.load(open(spec_path)); base = os.path.dirname(os.path.abspath(spec_path))
     root = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -365,13 +413,45 @@ def main(spec_path, outdir, preview_only=False):
     tmp = tempfile.mkdtemp(dir=os.environ.get("TMPDIR", "/tmp")); src = fetch(spec["source"], tmp); info = probe(src)
     keep = spec.get("keep") or [[0, info["duration"]]]
     keep = [[max(0, a), min(info["duration"], b)] for a, b in keep]
+    tr = json.load(open(spec["transcript"])) if spec.get("transcript") else {"segments": []}
+    allw = [w for s in tr["segments"] for w in s["words"]]; report = {}
+    tg = spec.get("tighten", bool(allw))
+    if tg and allw:
+        new_keep, report["tighten"] = clipfx.tighten(allw, keep, max_pause=(tg.get("maxPause", 0.45) if isinstance(tg, dict) else 0.45))
+        def remap(t, old=keep, new=new_keep):  # output time before -> output time after tightening
+            off = 0.0; src_t = None
+            for a, b in old:
+                if t <= off + (b - a): src_t = a + t - off; break
+                off += b - a
+            if src_t is None: return sum(b - a for a, b in new)
+            off = 0.0
+            for a, b in new:
+                if src_t < a: return off
+                if src_t <= b: return off + src_t - a
+                off += b - a
+            return off
+        for c in spec.get("cards") or []: c["at"] = round(remap(c["at"]), 2)
+        if spec.get("lowerThird") and "at" in spec["lowerThird"]: spec["lowerThird"]["at"] = round(remap(spec["lowerThird"]["at"]), 2)
+        if isinstance(spec.get("popups"), list):
+            for pp in spec["popups"]: pp["at"] = round(remap(pp["at"]), 2)
+        keep = new_keep
     body = sum(b - a for a, b in keep); end = spec.get("endCard", {}) ; ed = (end or {}).get("dur", 2.8) if end is not False else 0
     total = body + ed
     landscape = info["width"] > info["height"]; layout = spec.get("layout", "auto")
+    if layout == "follow": layout = "full"; spec.setdefault("follow", True)
     layout = ("fit" if landscape else "full") if layout == "auto" else layout
     sizes = spec.get("sizes") or (["916", "169"] if landscape else ["916"])
-    tr = json.load(open(spec["transcript"])) if spec.get("transcript") else {"segments": []}
     words = kept_words(tr, keep); pal = PAL[spec.get("style", "navy")]
+    words = [w for w in words if clipfx._norm(w[0]) not in clipfx.FILLERS] if tg else words
+    pops = spec.get("popups", "auto" if words else False)
+    if pops == "auto":
+        busy = [(c["at"], c["at"] + c.get("dur", 3)) for c in spec.get("cards") or []]
+        if spec.get("lowerThird"): lt = spec["lowerThird"]; busy.append((lt.get("at", 0.4), lt.get("at", 0.4) + lt.get("dur", 3.5)))
+        if layout == "full" and spec.get("title"): busy.append((0, 3.2))
+        busy.append((body - 1.5, total))
+        pops = clipfx.auto_popups(words, busy)
+    spec["_popups"] = pops or []; report["popups"] = spec["_popups"]
+    spec["_srcw"], spec["_srch"] = info["width"], info["height"]
     if preview_only:
         for key in sizes:
             g = Geo(key, "fit" if (key != "169" and layout == "fit") else ("full" if key != "169" else "fit"), info["width"], info["height"])
@@ -381,7 +461,9 @@ def main(spec_path, outdir, preview_only=False):
                 lay = Image.frombytes("RGBA", (g.W, g.H), ov.frame(t))
                 fr.alpha_composite(lay); fr.convert("RGB").save(f"{outdir}/{key}-{t:05.1f}.jpg", quality=85)
         return
-    cut = build_cut(src, keep, tmp, info["duration"]); mix = mix_audio(cut, body, total, spec, tmp)
+    cut = build_cut(src, keep, tmp, info["duration"]); mix = final_loudness(mix_audio(cut, body, total, spec, tmp), tmp)
+    if layout == "full" and landscape and spec.get("follow", True) and "cropX" not in spec:
+        spec["_follow"] = clipfx.follow_track(cut); report["speakerSwitches"] = len(spec["_follow"]) - 1
     for key in sizes:
         lay = "fit" if (key != "169" and layout == "fit") else ("full" if key != "169" else "fit")
         if key == "169" and not landscape: continue
@@ -389,8 +471,14 @@ def main(spec_path, outdir, preview_only=False):
         ov = render_size(g, spec, pal, cut, words, body, total, tmp, os.path.join(outdir, f"v{key}.mp4"), mix)
         run("ffmpeg", "-v", "error", "-y", "-ss", f"{min(1.5, body / 2):.2f}", "-i", os.path.join(outdir, f"v{key}.mp4"), "-frames:v", "1", "-q:v", "3", os.path.join(outdir, f"cover{key}.jpg"))
         if key == "916": srt(words, ov.chs, os.path.join(outdir, "captions.srt"))
+    if spec.get("thumbnail"):
+        import thumb
+        report["thumbnails"] = thumb.main(spec, outdir, src, keep)
+    report.update(seconds=round(total, 1), layout=layout, sizes=sizes, keep=keep)
+    json.dump(report, open(os.path.join(outdir, "clip-report.json"), "w"), indent=1)
     run("rm", "-rf", tmp)
-    print(json.dumps({"seconds": round(total, 1), "out": outdir, "layout": layout, "sizes": sizes, "words": len(words)}))
+    print(json.dumps({"seconds": round(total, 1), "out": outdir, "layout": layout, "sizes": sizes, "words": len(words),
+                      "cut": (report.get("tighten") or {}).get("seconds"), "popups": len(spec["_popups"])}))
 
 
 if __name__ == "__main__":

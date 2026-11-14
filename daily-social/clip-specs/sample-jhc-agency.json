@@ -31,5 +31,17 @@
   "button": "Book a call: lewismarketingoc.com"
  },
  "music": 1,
- "out": "daily/clip-samples/jhc-agency"
+ "out": "daily/clip-samples/jhc-agency",
+ "thumbnail": {
+  "a": {
+   "text": "Hiring an agency for the first time?",
+   "highlight": "first time",
+   "eyebrow": "BEHIND THE STOREFRONT"
+  },
+  "b": {
+   "text": "Simple, and always available",
+   "highlight": "always available",
+   "eyebrow": "CLIENT STORY"
+  }
+ }
 }
