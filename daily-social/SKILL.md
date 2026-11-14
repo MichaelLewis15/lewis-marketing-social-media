@@ -48,6 +48,9 @@ Two posts every day for **Lewis Marketing only** (never a client account): a **m
 10. **Notify** Michael with a short summary (SendUserMessage, or the push notification when unattended): days filled, topics, anything skipped or needing him.
 
 
+## Behind the Storefront posts are marketing content only
+Michael's rule (Nov 14, 2026): anything posted from Behind the Storefront (clips, quotes, graphics, articles, newsletter blurbs) must be about marketing: what the guest's business does to win and keep customers, how they reach people, reviews, word of mouth, follow-up, being easy to find, lessons other business owners can use. Never post the guest's industry advice on its own (health, hearing, financial, product or how-to tips for consumers), even when it is a good line. A guest quote may appear only when the post is clearly about the marketing lesson in it, and the on-screen text says that lesson. Thank the guest and name their business as usual.
+
 ## TikTok needs HighLevel-hosted video
 
 Automatic fix (Nov 8, 2026): the GitHub Action `.github/workflows/tiktok-sync.yml` (tools/tiktok_sync.py, secret HL_TOKEN) runs every 30 minutes and on every push of an .mp4. It uploads the video of every scheduled TikTok post that is not yet on assets.cdn.filesafe.space into the "TikTok videos" folder and repoints the post. So: commit the .mp4 to the repo BEFORE creating the TikTok post, and the post is fixed within 30 minutes. The hub queue below is the backup.
