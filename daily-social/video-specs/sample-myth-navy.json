@@ -1,0 +1,27 @@
+{
+ "format": "myth",
+ "style": "navy",
+ "music": 0,
+ "items": [
+  {
+   "myth": "You need to post every single day to grow.",
+   "fact": "A steady schedule you can keep beats bursts of daily posting you can't sustain."
+  },
+  {
+   "myth": "Your website is done once it launches.",
+   "fact": "Sites that win leads get updated, tested and improved every month."
+  },
+  {
+   "myth": "Reviews take care of themselves.",
+   "fact": "Happy customers rarely leave reviews unless you ask. An automatic request after every job fixes that."
+  }
+ ],
+ "cta": "Want a plan that actually fits your week?",
+ "cta2": "We'll build it with you.",
+ "out": "daily/video-samples/myth-navy",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ]
+}

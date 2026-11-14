@@ -1,0 +1,30 @@
+{
+ "format": "stat",
+ "style": "bold",
+ "music": 3,
+ "eyebrow": "LOCAL REVIEWS IN 2026",
+ "head1": "Reviews decide",
+ "head2": "who gets the call",
+ "stats": [
+  {
+   "value": "97%",
+   "label": "of consumers read reviews for local businesses",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  },
+  {
+   "value": "74%",
+   "label": "only consider reviews from the last three months",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  },
+  {
+   "value": "89%",
+   "label": "expect business owners to respond to reviews",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  }
+ ],
+ "cta": "Want more fresh 5-star reviews?",
+ "cta2": "We'll automate the ask."
+}

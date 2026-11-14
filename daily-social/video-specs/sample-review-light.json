@@ -1,0 +1,22 @@
+{
+ "format": "review",
+ "style": "light",
+ "music": 1,
+ "head1": "Sample review",
+ "head2": "layout only",
+ "reviews": [
+  {
+   "text": "SAMPLE: paste a real Google review here. This sample only shows the layout and is never posted.",
+   "name": "First name L.",
+   "stars": 5,
+   "source": "Google review"
+  }
+ ],
+ "cta": "Want results like this?",
+ "cta2": "Let's talk about your goals.",
+ "out": "daily/video-samples/review-light",
+ "sizes": [
+  "916",
+  "169"
+ ]
+}

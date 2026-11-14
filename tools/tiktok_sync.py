@@ -132,6 +132,15 @@ def video_bytes(url):
     return r.content
 
 
+def media_name(url):
+    """unique Media Storage name. Bare basenames collided (Nov 13, 2026: three different videos all named
+    v916.mp4, so later TikTok posts reused the first upload). Repo files are named after their full repo path."""
+    u = url.split("?")[0]
+    if u.startswith(REPO_RAW):
+        return u[len(REPO_RAW):].replace("/", "-")
+    return u.rstrip("/").split("/")[-1]
+
+
 def upload(name, data):
     files = {"file": (name, data, mimetypes.guess_type(name)[0] or "video/mp4")}
     d = call("POST", "/medias/upload-file", files=files, data={"name": name, "parentId": FOLDER, "hosted": "false"})
@@ -164,7 +173,7 @@ def main():
             nm = v["url"].split("?")[0].rstrip("/").split("/")[-1]
             if not have.get(nm, "").startswith(CDN):
                 ok += 1; continue
-        name = v["url"].split("?")[0].rstrip("/").split("/")[-1]
+        name = media_name(v["url"])
         when = p.get("scheduleDate")
         try:
             if name in have:

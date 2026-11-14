@@ -1,0 +1,60 @@
+name: Render videos
+
+# Renders Lewis Marketing videos in the cloud whenever a spec with an "out" folder is pushed
+# (daily-social/video-specs/*.json or daily-social/hl-weekly/specs/*.json), including re-renders after an edit.
+on:
+  push:
+    branches: [main]
+    paths: ["daily-social/video-specs/*.json", "daily-social/hl-weekly/specs/*.json"]
+  workflow_dispatch:
+    inputs:
+      specs:
+        description: "Space-separated spec paths to render"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-videos
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Which specs changed
+        id: specs
+        run: |
+          if [ -n "${{ github.event.inputs.specs }}" ]; then S="${{ github.event.inputs.specs }}";
+          else S=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'daily-social/video-specs/*.json' 'daily-social/hl-weekly/specs/*.json' | tr '\n' ' '); fi
+          S=$(for f in $S; do python3 -c "import json,sys; sys.exit(0 if json.load(open('$f')).get('out') else 1)" 2>/dev/null && echo -n "$f "; done)
+          echo "list=$S" >> "$GITHUB_OUTPUT"; echo "Specs to render: $S"
+      - name: Install tools
+        if: steps.specs.outputs.list != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow numpy kokoro-onnx soundfile faster-whisper requests
+          npm i -g playwright@1.48.2 && npx -y playwright@1.48.2 install --with-deps chromium
+          git clone -q --depth 1 -b models "https://github.com/${{ github.repository }}.git" daily-social/models
+      - name: Render
+        if: steps.specs.outputs.list != ''
+        run: python3 tools/render_specs.py ${{ steps.specs.outputs.list }}
+      - name: Save renders
+        if: always() && steps.specs.outputs.list != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A daily tools/render || true
+          git commit -qm "Rendered videos: ${{ steps.specs.outputs.list }}" || exit 0
+          git pull -q --rebase origin main && git push -q

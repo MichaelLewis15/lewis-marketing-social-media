@@ -1,0 +1,11 @@
+{
+ "format": "podcast",
+ "style": "navy",
+ "music": 1,
+ "episode": {
+  "show": "The Marketing Lens",
+  "title": "Sample episode title",
+  "guest": "Guest name",
+  "quote": "SAMPLE: the strongest line from the episode goes here, copied word for word from the transcript."
+ }
+}

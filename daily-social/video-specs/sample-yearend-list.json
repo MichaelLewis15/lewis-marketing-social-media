@@ -1,0 +1,39 @@
+{
+ "format": "list",
+ "style": "yearend",
+ "music": 3,
+ "eyebrow": "2027 STARTS NOW",
+ "head1": "Set up your",
+ "head2": "best year yet",
+ "week": "Four things to do before January 1",
+ "sub2": "",
+ "items": [
+  {
+   "title": "Look back at where your leads came from",
+   "why": "Put next year's time and budget into the channels that actually worked.",
+   "tag": "Plan"
+  },
+  {
+   "title": "Clean up your contact list",
+   "why": "Remove duplicates and tag your best customers so 2027 campaigns hit the right people.",
+   "tag": "Plan"
+  },
+  {
+   "title": "Automate your follow-up",
+   "why": "Every new lead should get a reply in minutes, even after hours.",
+   "tag": "Build"
+  },
+  {
+   "title": "Set one clear goal per quarter",
+   "why": "Small, measurable targets beat a long wish list.",
+   "tag": "Plan"
+  }
+ ],
+ "cta": "Want a 2027 marketing plan?",
+ "cta2": "We'll build it with you.",
+ "out": "daily/video-samples/yearend-list",
+ "sizes": [
+  "916",
+  "169"
+ ]
+}

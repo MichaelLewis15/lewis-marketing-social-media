@@ -1,0 +1,20 @@
+{
+ "format": "countdown",
+ "style": "shopsmall",
+ "music": 2,
+ "postDate": "2026-11-21",
+ "eyebrow": "SHOP LOCAL",
+ "event": {
+  "name": "Small Business Saturday",
+  "date": "2026-11-28",
+  "place": "Your favorite Main Street shops"
+ },
+ "cta": "Is your business ready for the rush?",
+ "cta2": "Let's get your Google profile and offers ready.",
+ "button": "Book a call: lewismarketingoc.com",
+ "out": "daily/video-samples/countdown-shopsmall",
+ "sizes": [
+  "916",
+  "169"
+ ]
+}

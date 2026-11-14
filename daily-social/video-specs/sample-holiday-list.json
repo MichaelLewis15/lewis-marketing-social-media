@@ -1,0 +1,41 @@
+{
+ "format": "list",
+ "style": "holiday",
+ "music": 0,
+ "eyebrow": "HOLIDAY CHECKLIST",
+ "head1": "Get your business",
+ "head2": "holiday ready",
+ "week": "Five quick wins before December",
+ "sub2": "Most take under an hour.",
+ "items": [
+  {
+   "title": "Update your holiday hours on Google",
+   "why": "Customers check your hours before they drive over. Wrong hours cost visits.",
+   "tag": "Do now"
+  },
+  {
+   "title": "Send one holiday email to past customers",
+   "why": "A short thank-you with a simple offer brings people back.",
+   "tag": "Do now"
+  },
+  {
+   "title": "Pin your gift card or best offer",
+   "why": "Put it at the top of your website and social profiles.",
+   "tag": "Quick win"
+  },
+  {
+   "title": "Ask December customers for a review",
+   "why": "Fresh reviews carry you into January.",
+   "tag": "Quick win"
+  }
+ ],
+ "cta": "Want this done for you?",
+ "cta2": "We'll handle the holiday setup.",
+ "out": "daily/video-samples/holiday-list",
+ "sizes": [
+  "916",
+  "169",
+  "45",
+  "11"
+ ]
+}

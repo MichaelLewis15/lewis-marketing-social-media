@@ -1,0 +1,24 @@
+{
+ "format": "beforeafter",
+ "style": "cards",
+ "music": 2,
+ "eyebrow": "BEFORE AND AFTER HIGHLEVEL",
+ "before": {
+  "title": "Leads handled by hand",
+  "points": [
+   "Missed calls go to voicemail",
+   "Follow-up depends on someone remembering",
+   "Reviews never get asked for"
+  ]
+ },
+ "after": {
+  "title": "Leads handled by HighLevel",
+  "points": [
+   "Missed calls get an instant text back",
+   "Every new lead gets an automatic follow-up",
+   "Happy customers get a review request"
+  ]
+ },
+ "cta": "Want this set up in your business?",
+ "cta2": "We'll build it for you."
+}
