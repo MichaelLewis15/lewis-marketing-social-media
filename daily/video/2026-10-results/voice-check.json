@@ -1,0 +1,44 @@
+[
+ {
+  "scene": 0,
+  "text": "What our clients saw in October. Combined across Lewis Marketing clients.",
+  "spoken": "What our clients saw in October. Combined across Lewis Marketing clients.",
+  "heard": "What are clients saw in October? Combined across Lewis marketing clients.",
+  "match": 0.967,
+  "ok": true,
+  "diffs": [
+   "our -> are"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "2,283 new contacts added to client CRMs.",
+  "spoken": "2,283 new contacts added to client CRMs.",
+  "heard": "2 ,283 new contacts added to client CRMs.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "66 new leads came into our clients' pipelines.",
+  "spoken": "66 new leads came into our clients' pipelines.",
+  "heard": "66 new leads came into our client's pipelines.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "clients -> client s"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Want your marketing working like this? Let's talk about your goals. Book a call at lewismarketingoc.com.",
+  "spoken": "Want your marketing working like this? Let's talk about your goals. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Want your marketing working like this? Let's talk about your goals. Book a call at LewisMarketingOC .com.",
+  "match": 0.982,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]
