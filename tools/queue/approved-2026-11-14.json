@@ -1,0 +1,267 @@
+{
+ "name": "approved-2026-11-14",
+ "requests": [
+  {
+   "key": "tt-fix-core-update",
+   "ch": "tiktok",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Google core update November 2026. It started Nov 10 and may run until about Nov 24. Don't panic-edit your site, write down today's numbers, keep helping customers, and judge it a week after it ends.\n\n#GoogleCoreUpdate #SEO #SmallBusinessTips #NWIowa #LewisMarketing",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/launch/2026-11-13-core-update/v916.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-14T20:46:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "key": "tt-fix-hlweekly-1113",
+   "ch": "tiktok",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "HighLevel shipped 5 updates this week. Here are the ones worth your time.\n\n1. Fairer SMS safeguards: standard texting pauses drop to 12 hours, with quality judged on a rolling 7 days (rolling out to selected sub-accounts)\n2. Even and weighted splits in workflows: send leads to each rep in turn, or give one team a bigger share\n3. Workflow cleanup: Workflow Maps flags unused workflows, default names and empty folders for review\n4. AI agents that make short branded films: Managed Agents create multi-shot videos up to 60 seconds, billed per second\n5. Affiliate compliance: collect signed terms, W9 or W8 forms and payout details (new Client Portal only)\n\nWant any of these set up in your account? We'll handle the setup. Book a call at lewismarketingoc.com\n\n#HighLevel #GoHighLevel #MarketingAutomation #SmallBusinessTips #NWIowa",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/hl-weekly/2026-11-13/v916.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-14T21:11:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "key": "p135",
+   "ch": "facebook",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "From Michael's notebook:\n\n\"Every lead has a story. Our job is making sure it doesn't end in a voicemail.\"\n\nFast follow-up isn't just good service. It's good business.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/135-quote-voicemail.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Every lead has a story. Our job is making sure it doesn't end in a voicemail.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-10T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "What happens when someone calls your business after hours?",
+    "facebookPostDetails": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "key": "p135",
+   "ch": "instagram",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "From Michael's notebook\n\n\"Every lead has a story. Our job is making sure it doesn't end in a voicemail.\"\n\n#MichaelsNotebook #SpeedToLead #CRM #SmallBusiness #LewisMarketing",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/135-quote-voicemail.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Every lead has a story. Our job is making sure it doesn't end in a voicemail.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-10T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "What happens when someone calls your business after hours?",
+    "instagramPostDetails": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "key": "p135",
+   "ch": "threads",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "\"Every lead has a story. Our job is making sure it doesn't end in a voicemail.\"\n\nFast follow-up isn't just good service. It's good business.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/135-quote-voicemail.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Every lead has a story. Our job is making sure it doesn't end in a voicemail.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-10T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "What happens when someone calls your business after hours?"
+   }
+  },
+  {
+   "key": "p135",
+   "ch": "bluesky",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "\"Every lead has a story. Our job is making sure it doesn't end in a voicemail.\"\n\nFast follow-up isn't just good service. It's good business.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/135-quote-voicemail.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Every lead has a story. Our job is making sure it doesn't end in a voicemail.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-10T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "What happens when someone calls your business after hours?"
+   }
+  },
+  {
+   "key": "p139",
+   "ch": "facebook",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "From Michael's notebook:\n\n\"Small towns don't need small marketing. They need marketing built for them.\"\n\nHere's to every Siouxland business dreaming big for 2027.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/139-quote-smalltowns.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Small towns don't need small marketing. They need marketing built for them.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-31T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Here's to small towns and big goals in 2027.",
+    "facebookPostDetails": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "key": "p139",
+   "ch": "instagram",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "From Michael's notebook\n\n\"Small towns don't need small marketing. They need marketing built for them.\"\n\n#MichaelsNotebook #SmallTownBusiness #Siouxland #NWIowa #LewisMarketing",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/139-quote-smalltowns.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Small towns don't need small marketing. They need marketing built for them.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-31T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Here's to small towns and big goals in 2027.",
+    "instagramPostDetails": {
+     "type": "post"
+    }
+   }
+  },
+  {
+   "key": "p139",
+   "ch": "threads",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "\"Small towns don't need small marketing. They need marketing built for them.\"\n\nHere's to every Siouxland business dreaming big for 2027.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/139-quote-smalltowns.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Small towns don't need small marketing. They need marketing built for them.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-31T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Here's to small towns and big goals in 2027."
+   }
+  },
+  {
+   "key": "p139",
+   "ch": "bluesky",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "\"Small towns don't need small marketing. They need marketing built for them.\"\n\nHere's to every Siouxland business dreaming big for 2027.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/extras/139-quote-smalltowns.png",
+      "type": "image/png",
+      "altText": "Quote graphic from Michael Lewis, Owner of Lewis Marketing: 'Small towns don't need small marketing. They need marketing built for them.'"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-31T01:00:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Here's to small towns and big goals in 2027."
+   }
+  }
+ ]
+}
