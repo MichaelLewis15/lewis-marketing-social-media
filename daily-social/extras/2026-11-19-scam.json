@@ -1,0 +1,11 @@
+{"id":"2026-11-19-scam","theme":"alert","eyebrow":"SCAM ALERT","tag":"OWNERS AND FRONT DESKS",
+ "head":[["THAT CALL","ink"],["FROM THE FTC?","ink"],["IT'S A SCAM","blue"]],
+ "sub":"Scammers are pretending to be the Federal Trade Commission by phone, text, email and social media.",
+ "slides":[
+  {"title":"What it looks like","body":"A call, text, email or social message from someone who says they are with the FTC. Some use real or made-up employee names, fake badges, or websites that copy the FTC's logo and design."},
+  {"title":"The red flags","body":"They ask you to move money to keep it safe, or to hand over cash.\nThe website does not end in .gov.","tip":"The FTC says a real FTC employee will never ask you to move money."},
+  {"title":"What to do","body":"Hang up or don't reply. Check that any FTC website address ends in .gov before you type anything.\nTell your team today. The front desk and the bookkeeper usually get these first."},
+  {"title":"Report it","body":"Report it to the FTC at ReportFraud.ftc.gov. Reports help the FTC shut these down.","tip":"Share this with one business owner who answers their own phone."}
+ ],
+ "cta":{"head":"Share this with a business owner","sub":"Scam alerts from Lewis Marketing, whenever one is hitting local businesses.","button":"lewismarketingoc.com"},
+ "sources":["FTC Consumer Alert, Nov 12, 2026: How to spot fake FTC websites and FTC impersonators (consumer.ftc.gov)"]}
