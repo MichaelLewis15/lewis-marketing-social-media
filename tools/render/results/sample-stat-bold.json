@@ -1,7 +1,25 @@
 {
  "spec": "daily-social/video-specs/sample-stat-bold.json",
  "out": "daily/video-samples/stat-bold",
- "ok": false,
- "at": "2026-11-14T21:34:50.300846Z",
- "error": "Traceback (most recent call last):\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/hl-weekly/render_weekly.py\", line 8, in <module>\n    import engine\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/hl-weekly/engine.py\", line 837\n    subprocess.run([\"ffmpeg\", \"-v\", \"error\", \"-y\", \"-i\", f\"{tmp}/a.wav\", \"-af\", f\"afade=t=out:st={total - 1.5}:d=1.5,loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.79:level=false,aresample=44100\", f\"{tmp}/af.wav\"]  # social loudness, checked by tools/qc.py, check=True)\n                  ^\nSyntaxError: '(' was never closed\n"
+ "ok": true,
+ "at": "2026-11-14T21:44:47.414238Z",
+ "seconds": 42.6,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "43300da0e3",
+  "cover916.jpg": "35aa7517e0",
+  "gbp.png": "d1a456df07",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "b9a3427fae",
+  "v916.mp4": "4f42ad953e",
+  "voice-check.json": "5adafb1940"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
 }

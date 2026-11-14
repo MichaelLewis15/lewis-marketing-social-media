@@ -1,7 +1,19 @@
 {
  "spec": "daily-social/clip-specs/sample-jhc-follow.json",
  "out": "daily/clip-samples/jhc-follow",
- "ok": false,
- "at": "2026-11-14T21:33:14.930575Z",
- "error": "Traceback (most recent call last):\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/clip.py\", line 487, in <module>\n    elif a[0] == \"render\": main(a[1], a[2])\n                           ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/clip.py\", line 466, in main\n    spec[\"_follow\"] = clipfx.follow_track(cut); report[\"speakerSwitches\"] = len(spec[\"_follow\"]) - 1\n                      ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/clipfx.py\", line 72, in follow_track\n    cas = face_cascade()\n          ^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/clipfx.py\", line 54, in face_cascade\n    c = cv2.CascadeClassifier(p)\n        ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'cv2' has no attribute 'CascadeClassifier'\n"
+ "ok": true,
+ "at": "2026-11-14T21:40:39.699139Z",
+ "seconds": 26.1,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "captions.srt": "44921cc56b",
+  "clip-report.json": "cd72d0d9b1",
+  "cover916.jpg": "64923ca312",
+  "qc.json": "71ed98afbe",
+  "v916.mp4": "27229dbf1b"
+ }
 }

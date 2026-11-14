@@ -12,7 +12,7 @@
   "scene": 1,
   "text": "97% of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
   "spoken": "97 percent of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
-  "heard": "97 % of consumers read reviews for local businesses. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "heard": "97 % of consumers read reviews for local businesses. Source. Bright Local Local Consumer Review Survey, 2026.",
   "match": 0.962,
   "ok": true,
   "diffs": [
@@ -48,11 +48,10 @@
   "scene": 4,
   "text": "Want more fresh 5-star reviews? We'll automate the ask. Book a call at lewismarketingoc.com.",
   "spoken": "Want more fresh 5-star reviews? We'll automate the ask. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Want more Fresh Five Star reviews? We'll automate the ask. Book a call at LewisMarketingOC .com.",
-  "match": 0.947,
+  "heard": "Want more Fresh 5 Star reviews? We'll automate the ask. Book a call at LewisMarketingOC .com",
+  "match": 0.98,
   "ok": true,
   "diffs": [
-   "5 -> five",
    "lewis marketing oc dot -> lewismarketingoc"
   ]
  }
