@@ -1,0 +1,40 @@
+name: Fetch voice models
+
+# Downloads the voiceover model (Kokoro, int8 ONNX) and the caption/pronunciation checker
+# (faster-whisper tiny.en) and stores them on the orphan branch "models", so the render
+# containers (which cannot reach Hugging Face) can fetch them with git.
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/fetch-models.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download models
+        run: |
+          set -e
+          mkdir m && cd m
+          K=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0
+          curl -sSLf -o kokoro-v1.0.int8.onnx $K/kokoro-v1.0.int8.onnx
+          curl -sSLf -o voices-v1.0.bin $K/voices-v1.0.bin
+          mkdir whisper-tiny.en
+          for f in model.bin config.json tokenizer.json vocabulary.txt; do
+            curl -sSLf -o whisper-tiny.en/$f https://huggingface.co/Systran/faster-whisper-tiny.en/resolve/main/$f
+          done
+          ls -la . whisper-tiny.en
+      - name: Commit to the models branch
+        run: |
+          cd m
+          git init -q -b models
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          printf 'Voice models for daily-social/hl-weekly/voice.py. Kokoro v1.0 int8 (Apache-2.0), faster-whisper tiny.en (MIT).\n' > README.md
+          git add -A && git commit -qm "Voice models"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" models
