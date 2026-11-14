@@ -66,7 +66,9 @@ def wrap(d, text, font, width):
 
 
 def logo(h, kind="white"):
+    """kind: color (light backgrounds), white (two-tone white logo, navy backgrounds), allwhite (blue backgrounds)"""
     src = Image.open(os.path.join(ENGINE, "logo.png" if kind == "color" else "logo_white.png")).convert("RGBA")
+    if kind == "allwhite": w = Image.new("RGBA", src.size, WHITE + (255,)); w.putalpha(src.getchannel("A")); src = w
     return src.resize((int(src.width * h / src.height), h), Image.LANCZOS)
 
 
@@ -151,7 +153,7 @@ def srt(words, chs, path):
 # ------------------------------------------------------------------ geometry per size
 PAL = {"navy": dict(bg1=NAVY, bg2=NAVY2, ink=WHITE, ink2=MIST, acc=YEL, eyebrow=SKY, logo="white"),
        "light": dict(bg1=CREAM, bg2=(236, 231, 220), ink=NAVY, ink2=SLATE, acc=BLUE, eyebrow=NAVY, logo="color"),
-       "bold": dict(bg1=BLUE, bg2=(3, 84, 168), ink=WHITE, ink2=(214, 228, 245), acc=YEL, eyebrow=NAVY, logo="white")}
+       "bold": dict(bg1=BLUE, bg2=(3, 84, 168), ink=WHITE, ink2=(214, 228, 245), acc=YEL, eyebrow=NAVY, logo="allwhite")}
 
 
 class Geo:

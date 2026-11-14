@@ -37,10 +37,21 @@ def dots(im, col, alpha=26, step=36):
     im.alpha_composite(lay)
 
 
+LOGO_ALLW = Image.new("RGBA", LOGO_W.size, (255, 255, 255, 255)); LOGO_ALLW.putalpha(LOGO_W.getchannel("A"))  # every stroke white
+
+
 def logo(im, white, x=58, y=None, w=280):
+    """white=True: white wordmark. Michael's rule (Nov 14, 2026): on a blue background the whole logo is white
+    (the two-tone version's blue mark disappears on Lewis Marketing blue); on navy the two-tone white logo stays."""
     src = LOGO_W if white else LOGO
     lg = src.resize((P(w), int(P(w) * src.height / src.width)), Image.LANCZOS)
-    im.alpha_composite(lg, (P(x), (P(y) if y is not None else P(H - 50) - lg.height)))
+    pos = (P(x), (P(y) if y is not None else P(H - 50) - lg.height))
+    if white:
+        box = im.crop((pos[0], pos[1], pos[0] + lg.width, pos[1] + lg.height)).convert("RGB")
+        r, g, b = [sum(c) / len(c) for c in zip(*box.getdata())]
+        if b > 140 and b > r + 40:  # blue, not navy: all-white logo
+            lg = LOGO_ALLW.resize(lg.size, Image.LANCZOS)
+    im.alpha_composite(lg, pos)
 
 
 def howie(im, hw, default):

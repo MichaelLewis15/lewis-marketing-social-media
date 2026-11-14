@@ -513,7 +513,7 @@ class Bold(Style):
         if p < 1:
             acc = YEL if col != YEL else WHITE
             d.polygon([(xl + sl - 22, 0), (xl + sl, 0), (xl, H), (xl - 22, H)], fill=acc)
-        if p >= 0.98: self.footer(im, NAVY if col == YEL else "white", NAVYM if col == YEL else (214, 228, 245))
+        if p >= 0.98: self.footer(im, NAVY if col == YEL else (WHITE if col == BLUE else "white"), NAVYM if col == YEL else (214, 228, 245))  # all-white logo on blue
         return im
 
     def decorate(self, im, sc, si, lt, t, total):
@@ -808,7 +808,7 @@ def gbp_graphic(spec, sc, out, howie):
         hp = Image.open(os.path.join(TOOLS, "howie", cls.png if os.path.exists(os.path.join(TOOLS, "howie", cls.png)) else "howie-pointL.png")).convert("RGBA")
         hp = hp.resize((int(hp.width * 290 / hp.height), 290), Image.LANCZOS); im.alpha_composite(hp, (W - hp.width - 50, H - hp.height - 130))
     light = key in ("light", "shopsmall")
-    paste_logo(im, 70, H - 95, 54, "color" if light else "white")
+    paste_logo(im, 70, H - 95, 54, "color" if light else (WHITE if key == "bold" else "white"))  # all-white logo on blue
     d.text((W - 60, H - 68), "lewismarketingoc.com", font=S(600, 26), fill=SLATE if light else MIST if key != "bold" else WHITE, anchor="rm")
     im.convert("RGB").save(out, quality=95)
 
