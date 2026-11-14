@@ -1,14 +1,7 @@
 {
  "spec": "daily-social/clip-specs/sample-jhc-agency.json",
  "out": "daily/clip-samples/jhc-agency",
- "ok": true,
- "at": "2026-11-14T20:57:07.809299Z",
- "seconds": 27.1,
- "files": {
-  "captions.srt": "6cc37e357a",
-  "cover169.jpg": "a2a1b7e9b7",
-  "cover916.jpg": "116b60a152",
-  "v169.mp4": "f5e5a31b16",
-  "v916.mp4": "745a0674b5"
- }
+ "ok": false,
+ "at": "2026-11-14T21:33:01.885586Z",
+ "error": "Traceback (most recent call last):\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/clip.py\", line 487, in <module>\n    elif a[0] == \"render\": main(a[1], a[2])\n                           ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/clip.py\", line 476, in main\n    report[\"thumbnails\"] = thumb.main(spec, outdir, src, keep)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/thumb.py\", line 143, in main\n    times = th.get(\"frames\") or best_frames(src, keep)\n                                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/thumb.py\", line 36, in best_frames\n    face, eye = cascade(\"haarcascade_frontalface_default.xml\"), cascade(\"haarcascade_eye.xml\")\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/lewis-marketing-social-media/lewis-marketing-social-media/daily-social/clips/thumb.py\", line 30, in cascade\n    c = cv2.CascadeClassifier(os.path.join(HERE, name)); return c\n        ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'cv2' has no attribute 'CascadeClassifier'\n"
 }
