@@ -1,0 +1,66 @@
+{
+ "name": "approved-2026-11-14",
+ "at": "2026-11-14T20:17:26.892990Z",
+ "results": [
+  {
+   "key": "tt-fix-core-update",
+   "ch": "tiktok",
+   "postId": "6af8c1d075c446e281dffeb0",
+   "when": "2026-11-14T20:46:00.000Z"
+  },
+  {
+   "key": "tt-fix-hlweekly-1113",
+   "ch": "tiktok",
+   "postId": "6af8c1d01f7fe2dc5af8ba74",
+   "when": "2026-11-14T21:11:00.000Z"
+  },
+  {
+   "key": "p135",
+   "ch": "facebook",
+   "postId": "6af8c1d175c446e281e00048",
+   "when": "2026-12-10T01:00:00.000Z"
+  },
+  {
+   "key": "p135",
+   "ch": "instagram",
+   "postId": "6af8c1d22a98d7a0efc2d539",
+   "when": "2026-12-10T01:00:00.000Z"
+  },
+  {
+   "key": "p135",
+   "ch": "threads",
+   "postId": "6af8c1d2caaa90b6c9c861e4",
+   "when": "2026-12-10T01:00:00.000Z"
+  },
+  {
+   "key": "p135",
+   "ch": "bluesky",
+   "postId": "6af8c1d38aed0264f348726f",
+   "when": "2026-12-10T01:00:00.000Z"
+  },
+  {
+   "key": "p139",
+   "ch": "facebook",
+   "postId": "6af8c1d46300192aa185995b",
+   "when": "2026-12-31T01:00:00.000Z"
+  },
+  {
+   "key": "p139",
+   "ch": "instagram",
+   "postId": "6af8c1d5caaa90b6c9c86369",
+   "when": "2026-12-31T01:00:00.000Z"
+  },
+  {
+   "key": "p139",
+   "ch": "threads",
+   "postId": "6af8c1d5750ba383dd89319f",
+   "when": "2026-12-31T01:00:00.000Z"
+  },
+  {
+   "key": "p139",
+   "ch": "bluesky",
+   "postId": "6af8c1d6f529c66d6ae4e6a3",
+   "when": "2026-12-31T01:00:00.000Z"
+  }
+ ]
+}
