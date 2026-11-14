@@ -19,7 +19,10 @@ Write `daily-social/hl-weekly/specs/<Friday YYYY-MM-DD>.json`:
  "items": [{"title": "short benefit-led title, under 60 characters", "why": "one plain sentence on why a business owner should care, under 140 characters", "tag": "New|Beta|Update"}],
  "cta": "Want these set up in your account?"}
 ```
-Rotate `music` 0 to 3 week to week. Then:
+Rotate `music` 0 to 3 week to week.
+
+**Rotate the video design (Michael's rule, Nov 14, 2026: mix in different looks, never the same look twice in a row).** Set `"style"` in the spec to the next one in this order after the style of the most recent spec in `specs/` (any spec in that folder counts, including launch videos; a spec with no `style` is `navy`):
+`navy` (dark navy, big numbers) -> `light` ("Clean": off-white page, navy type, highlighter accents) -> `bold` ("Color block": full-screen brand color wipes, giant numerals) -> `cards` (white cards stacking on navy) -> back to `navy`. Samples: `daily/video-styles/`. Record it in the hub daily doc as `asset.style`. Check a style quickly without Howie or audio: `python3 render_weekly.py --preview spec.json OUTDIR` (stills of every scene plus gbp.png). Then:
 ```
 cd daily-social/hl-weekly && TMPDIR=/tmp python3 render_weekly.py specs/<date>.json ../../daily/hl-weekly/<date>
 ```

@@ -1,7 +1,7 @@
 """HighLevel Weekly: renders the Friday "What's new in HighLevel" recap for Lewis Marketing.
 
 usage: python3 render_weekly.py spec.json OUTDIR
-spec: {"week": "Nov 2-7, 2026", optional "eyebrow","head1","head2","sub2","cta2","button","gbpTitle" to reuse for other recaps, "items": [{"title": "...", "why": "...", "tag": "New"|"Beta"|"Update"}, ...3-5],
+spec: {"week": "Nov 2-7, 2026", optional "style": navy (default) | light | bold | cards (see styles.py), optional "eyebrow","head1","head2","sub2","cta2","button","gbpTitle" to reuse for other recaps, "items": [{"title": "...", "why": "...", "tag": "New"|"Beta"|"Update"}, ...3-5],
        "cta": "Want these set up in your account?", "music": 0-3}
 outputs in OUTDIR:
   v916.mp4  1080x1920 (Instagram/Facebook reels, Threads, TikTok)
@@ -170,12 +170,19 @@ def frame(L, bg, spec, t, total):
     return im
 
 
+def style_of(spec):
+    st = spec.get("style", "navy")
+    if st == "navy": return dict(bg=background, frame=frame, gbp=gbp_graphic)
+    import styles; styles.R = sys.modules[__name__]
+    return styles.STYLES[st]
+
+
 def render_base(spec, W, H, total, out):
-    L = Layout(W, H); bg = background(W, H)
+    S_ = style_of(spec); L = Layout(W, H); bg = S_["bg"](W, H); frame_fn = S_["frame"]
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                           "-c:v", "libx264", "-preset", "veryfast", "-crf", "17", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
     for f in range(int(round(total * FPS))):
-        p.stdin.write(frame(L, bg, spec, f / FPS, total).convert("RGB").tobytes())
+        p.stdin.write(frame_fn(L, bg, spec, f / FPS, total).convert("RGB").tobytes())
     p.stdin.close(); p.wait()
 
 
@@ -238,7 +245,7 @@ def main(spec_path, outdir):
     compose(f"{tmp}/b916.mp4", tmp, 1000, 0, 1, f"{tmp}/af.wav", os.path.join(outdir, "v916.mp4"))
     render_base(spec, 1920, 1080, total, f"{tmp}/b169.mp4")
     compose(f"{tmp}/b169.mp4", tmp, 430, 20, 1, f"{tmp}/af.wav", os.path.join(outdir, "v169.mp4"))
-    gbp_graphic(spec, os.path.join(outdir, "gbp.png"))
+    style_of(spec)["gbp"](spec, os.path.join(outdir, "gbp.png"))
     for v in ("916", "169"):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(INTRO - 0.6), "-i", os.path.join(outdir, f"v{v}.mp4"), "-frames:v", "1", "-q:v", "3",
                         os.path.join(outdir, f"cover{v}.jpg")], check=True)
@@ -246,5 +253,17 @@ def main(spec_path, outdir):
     print(json.dumps({"seconds": total, "out": outdir}))
 
 
+def preview(spec_path, outdir):
+    """quick still frames (no Howie, no video) for checking a style: intro, each item, outro, both sizes, plus gbp.png"""
+    spec = json.load(open(spec_path)); os.makedirs(outdir, exist_ok=True); n = len(spec["items"])
+    total = INTRO + n * ITEM + OUTRO; S_ = style_of(spec)
+    ts = [INTRO - 0.4] + [INTRO + i * ITEM + 2.0 for i in range(n)] + [total - 0.5]
+    for W, H in ((1080, 1920), (1920, 1080)):
+        L = Layout(W, H); bg = S_["bg"](W, H)
+        for k, t in enumerate(ts): S_["frame"](L, bg, spec, t, total).convert("RGB").save(f"{outdir}/{W}x{H}-{k}.jpg", quality=88)
+    S_["gbp"](spec, os.path.join(outdir, "gbp.png"))
+
+
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    if sys.argv[1] == "--preview": preview(sys.argv[2], sys.argv[3])
+    else: main(sys.argv[1], sys.argv[2])
