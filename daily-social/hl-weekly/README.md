@@ -4,7 +4,7 @@ Michael's rule (Nov 9, 2026): every Friday at about 2:30 PM Central, Lewis Marke
 - A graphic for platforms that do not take video (Google Business Profile).
 - A 16:9 video for platforms that take landscape video (YouTube, LinkedIn, Bluesky).
 - A 9:16 video for the rest (Instagram Reels, Facebook Reels, Threads, TikTok).
-Howie is in every graphic and video (the renderer handles this). It is the Friday afternoon post: when the daily-social or monthly-planner tasks fill slots, Friday's afternoon slot belongs to HighLevel Weekly.
+Howie is optional (Michael, Nov 14, 2026: he does not have to be in every one). Keep him in most weeks; set `"howie": false` in the spec to leave him out of both videos and the GBP graphic, e.g. when the look is busy enough on its own (`bold` works well without him) or the topic is serious. Never leave him out two weeks in a row. It is the Friday afternoon post: when the daily-social or monthly-planner tasks fill slots, Friday's afternoon slot belongs to HighLevel Weekly.
 
 ## 1. Research (Monday to Friday of this week)
 - Primary source: the HighLevel changelog, https://highlevel.canny.io/changelog (fetch it; open individual entries when a summary is unclear). Use only entries dated Monday through Friday of this week, Central time.

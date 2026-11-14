@@ -72,9 +72,10 @@ def fade(lt, dur):
 def light_bg(W, H):
     im = Image.new("RGBA", (W, H), CREAM + (255,))
     L = R.Layout(W, H); cx, cy, r = _hz(L)
+    if not R.HOWIE: r = 0
     disc = Image.new("RGBA", (W, H)); dd = ImageDraw.Draw(disc)
-    dd.ellipse((cx - r, cy - r, cx + r, cy + r), fill=R.SKY + (46,))
-    dd.ellipse((cx - r - 26, cy - r - 26, cx + r + 26, cy + r + 26), outline=R.SKY + (70,), width=3)
+    if r: dd.ellipse((cx - r, cy - r, cx + r, cy + r), fill=R.SKY + (46,))
+    if r: dd.ellipse((cx - r - 26, cy - r - 26, cx + r + 26, cy + r + 26), outline=R.SKY + (70,), width=3)
     im.alpha_composite(disc)
     d = ImageDraw.Draw(im)
     d.rectangle((0, 0, W, 14), fill=R.NAVY); d.rectangle((0, 0, W * 0.28, 14), fill=R.SKY); d.rectangle((W * 0.28, 0, W * 0.36, 14), fill=R.YEL)
@@ -140,7 +141,7 @@ def light_frame(L, bg, spec, t, total):
 def light_gbp(spec, out):
     W, H = 1200, 900; im = Image.new("RGBA", (W, H), CREAM + (255,)); d = ImageDraw.Draw(im)
     d.rectangle((0, 0, W, 14), fill=R.NAVY); d.rectangle((0, 0, W * 0.28, 14), fill=R.SKY); d.rectangle((W * 0.28, 0, W * 0.36, 14), fill=R.YEL)
-    d.ellipse((W - 330, H - 470, W - 30, H - 170), fill=(214, 233, 245))
+    if R.HOWIE: d.ellipse((W - 330, H - 470, W - 30, H - 170), fill=(214, 233, 245))
     pill_outline(d, 70, 60, spec.get("eyebrow", "HIGHLEVEL THIS WEEK"), R.S(600, 26), R.NAVY)
     d.text((70, 125), spec.get("gbpTitle", "What's new in HighLevel"), font=R.O(800, 64), fill=R.NAVY)
     d.text((70, 205), spec["week"], font=R.S(400, 30), fill=SLATE)
@@ -160,6 +161,7 @@ def _gbp_list(d, spec, ncol, tcol, x=70, y=280, width=650):
 
 
 def _gbp_howie(im, h=290, right=50, bottom=130):
+    if not R.HOWIE: return
     W, H = im.size
     howie = Image.open(os.path.join(R.TOOLS, "howie", "howie-pointL.png")).convert("RGBA")
     howie = howie.resize((int(howie.width * h / howie.height), h), Image.LANCZOS)

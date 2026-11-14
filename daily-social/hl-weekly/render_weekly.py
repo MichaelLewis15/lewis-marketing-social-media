@@ -1,7 +1,7 @@
 """HighLevel Weekly: renders the Friday "What's new in HighLevel" recap for Lewis Marketing.
 
 usage: python3 render_weekly.py spec.json OUTDIR
-spec: {"week": "Nov 2-7, 2026", optional "style": navy (default) | light | bold | cards (see styles.py), optional "eyebrow","head1","head2","sub2","cta2","button","gbpTitle" to reuse for other recaps, "items": [{"title": "...", "why": "...", "tag": "New"|"Beta"|"Update"}, ...3-5],
+spec: {"week": "Nov 2-7, 2026", optional "style": navy (default) | light | bold | cards (see styles.py), optional "howie": false to leave Howie out, optional "eyebrow","head1","head2","sub2","cta2","button","gbpTitle" to reuse for other recaps, "items": [{"title": "...", "why": "...", "tag": "New"|"Beta"|"Update"}, ...3-5],
        "cta": "Want these set up in your account?", "music": 0-3}
 outputs in OUTDIR:
   v916.mp4  1080x1920 (Instagram/Facebook reels, Threads, TikTok)
@@ -27,6 +27,7 @@ O = lambda w, s: ImageFont.truetype(os.path.join(TOOLS, f"outfit-latin-{w}-norma
 S = lambda w, s: ImageFont.truetype(os.path.join(TOOLS, f"open-sans-latin-{w}-normal.woff"), s)
 LOGO = Image.open(os.path.join(ENGINE, "logo_white.png")).convert("RGBA")
 INTRO, ITEM, OUTRO = 3.2, 4.6, 4.2
+HOWIE = True  # set from spec "howie" (default true); false = no Howie in the videos or the GBP graphic
 
 
 def ease(x):
@@ -207,6 +208,10 @@ def howie_frames(total, tmp):
 
 
 def compose(base, tmp, oy, ox, scale, audio, out):
+    if not HOWIE:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", base, "-i", audio, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                        "-shortest", "-movflags", "+faststart", out], check=True)
+        return
     ov = f"[1:v]scale=iw*{scale}:-1[h];[0:v][h]overlay={ox}:{oy}:eof_action=pass[v]"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", base, "-framerate", str(FPS), "-i", f"{tmp}/fr/h%04d.png", "-i", audio,
                     "-filter_complex", ov, "-map", "[v]", "-map", "2:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "19",
@@ -224,22 +229,26 @@ def gbp_graphic(spec, out):
         ln = wrap(d, it["title"], O(700, 34), 650)[:2]
         for k, l in enumerate(ln): d.text((150, y + 4 + k * 40), l, font=O(700, 34), fill=WHITE)
         y += 52 + 40 * (len(ln) - 1) + 22
-    howie = Image.open(os.path.join(TOOLS, "howie", "howie-pointL.png")).convert("RGBA")
-    howie = howie.resize((int(howie.width * 290 / howie.height), 290), Image.LANCZOS)
-    im.alpha_composite(howie, (W - howie.width - 50, H - howie.height - 130))
+    if HOWIE:
+        howie = Image.open(os.path.join(TOOLS, "howie", "howie-pointL.png")).convert("RGBA")
+        howie = howie.resize((int(howie.width * 290 / howie.height), 290), Image.LANCZOS)
+        im.alpha_composite(howie, (W - howie.width - 50, H - howie.height - 130))
     paste_logo(im, 70, H - 95, 54)
     d.text((W - 60, H - 68), "lewismarketingoc.com", font=S(600, 26), fill=MIST, anchor="rm")
     im.convert("RGB").save(out, quality=95)
 
 
 def main(spec_path, outdir):
-    spec = json.load(open(spec_path)); os.makedirs(outdir, exist_ok=True)
+    global HOWIE
+    spec = json.load(open(spec_path)); os.makedirs(outdir, exist_ok=True); HOWIE = spec.get("howie", True) is not False
     n = len(spec["items"]); assert 3 <= n <= 5, "use 3 to 5 releases"
     total = INTRO + n * ITEM + OUTRO
     tmp = tempfile.mkdtemp(dir=os.environ.get("TMPDIR", "/tmp"))
     music.render(total + 0.5, f"{tmp}/m.wav", spec.get("music", 1))
-    T = howie_frames(total, tmp)
-    howie_reel.sfx(f"{tmp}/m.wav", f"{tmp}/a.wav", T)
+    if HOWIE:
+        T = howie_frames(total, tmp)
+        howie_reel.sfx(f"{tmp}/m.wav", f"{tmp}/a.wav", T)
+    else: subprocess.run(["cp", f"{tmp}/m.wav", f"{tmp}/a.wav"], check=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{tmp}/a.wav", "-af", f"afade=t=out:st={total - 1.5}:d=1.5", f"{tmp}/af.wav"], check=True)
     render_base(spec, 1080, 1920, total, f"{tmp}/b916.mp4")
     compose(f"{tmp}/b916.mp4", tmp, 1000, 0, 1, f"{tmp}/af.wav", os.path.join(outdir, "v916.mp4"))
@@ -255,7 +264,8 @@ def main(spec_path, outdir):
 
 def preview(spec_path, outdir):
     """quick still frames (no Howie, no video) for checking a style: intro, each item, outro, both sizes, plus gbp.png"""
-    spec = json.load(open(spec_path)); os.makedirs(outdir, exist_ok=True); n = len(spec["items"])
+    global HOWIE
+    spec = json.load(open(spec_path)); os.makedirs(outdir, exist_ok=True); n = len(spec["items"]); HOWIE = spec.get("howie", True) is not False
     total = INTRO + n * ITEM + OUTRO; S_ = style_of(spec)
     ts = [INTRO - 0.4] + [INTRO + i * ITEM + 2.0 for i in range(n)] + [total - 0.5]
     for W, H in ((1080, 1920), (1920, 1080)):
