@@ -2,7 +2,7 @@
  "spec": "daily-social/clip-specs/sample-jhc-agency.json",
  "out": "daily/clip-samples/jhc-agency",
  "ok": true,
- "at": "2026-11-14T22:03:57.694531Z",
+ "at": "2026-11-14T22:10:22.447865Z",
  "seconds": 26.1,
  "qc": {
   "ok": true,
@@ -15,8 +15,8 @@
   "cover169.jpg": "a2a1b7e9b7",
   "cover916.jpg": "fea30ffcf4",
   "qc.json": "71ed98afbe",
-  "thumb-a.jpg": "b62a25fe1e",
-  "thumb-b.jpg": "6eacbd0a55",
+  "thumb-a.jpg": "f2debea40c",
+  "thumb-b.jpg": "c1333d721b",
   "thumb-frames.json": "48cd392bc4",
   "v169.mp4": "283c73a416",
   "v916.mp4": "3a370fb4e9"
