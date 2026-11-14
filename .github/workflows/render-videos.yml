@@ -5,7 +5,7 @@ name: Render videos
 on:
   push:
     branches: [main]
-    paths: ["daily-social/video-specs/*.json", "daily-social/hl-weekly/specs/*.json"]
+    paths: ["daily-social/video-specs/*.json", "daily-social/hl-weekly/specs/*.json", "daily-social/clip-specs/*.json"]
   workflow_dispatch:
     inputs:
       specs:
@@ -37,7 +37,7 @@ jobs:
         id: specs
         run: |
           if [ -n "${{ github.event.inputs.specs }}" ]; then S="${{ github.event.inputs.specs }}";
-          else S=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'daily-social/video-specs/*.json' 'daily-social/hl-weekly/specs/*.json' | tr '\n' ' '); fi
+          else S=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'daily-social/video-specs/*.json' 'daily-social/hl-weekly/specs/*.json' 'daily-social/clip-specs/*.json' | tr '\n' ' '); fi
           S=$(for f in $S; do python3 -c "import json,sys; sys.exit(0 if json.load(open('$f')).get('out') else 1)" 2>/dev/null && echo -n "$f "; done)
           echo "list=$S" >> "$GITHUB_OUTPUT"; echo "Specs to render: $S"
       - name: Install tools

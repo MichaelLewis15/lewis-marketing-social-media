@@ -16,7 +16,8 @@ for sp in sys.argv[1:]:
     spec = json.loads(p.read_text())
     if not spec.get("out"): print(f"skip {sp}: no out"); continue
     out = ROOT / spec["out"]; out.mkdir(parents=True, exist_ok=True)
-    r = subprocess.run([sys.executable, str(ROOT / "daily-social/hl-weekly/render_weekly.py"), str(p), str(out)], capture_output=True, text=True)
+    tool = ["daily-social/clips/clip.py", "render"] if spec.get("source") else ["daily-social/hl-weekly/render_weekly.py"]
+    r = subprocess.run([sys.executable, str(ROOT / tool[0]), *tool[1:], str(p), str(out)], capture_output=True, text=True)
     res = {"spec": sp, "out": spec["out"], "ok": r.returncode == 0, "at": datetime.datetime.utcnow().isoformat() + "Z"}
     if r.returncode == 0:
         info = json.loads(r.stdout.strip().splitlines()[-1]); res.update(seconds=info["seconds"])
