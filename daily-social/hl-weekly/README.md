@@ -20,7 +20,7 @@ The renderer and all its options are documented in `VIDEO-ENGINE.md` (read it). 
  "items": [{"title": "short benefit-led title, under 60 characters", "why": "one plain sentence on why a business owner should care, under 140 characters", "tag": "New|Beta|Update"}],
  "cta": "Want these set up in your account?"}
 ```
-Rotate `music` 0 to 3 week to week and `style` per VIDEO-ENGINE.md (never the same look twice in a row; seasonal looks in their windows). Howie is optional (Michael, Nov 14, 2026): keep him in most weeks, `"howie": false` sometimes, never two weeks in a row without him. Voiceover on by default for this series; check `voiceCheck.ok`.
+Rotate `music` 0 to 3 week to week and `style` per VIDEO-ENGINE.md (never the same look twice in a row; seasonal looks in their windows). Howie is optional (Michael, Nov 14, 2026): keep him in most weeks, `"howie": false` sometimes, never two weeks in a row without him. Voiceover on by default for this series; check `voiceCheck.ok`. Every other week, run a hook test (`variants.b`, see VIDEO-ENGINE.md "Hook tests"): queue the A and B versions as separate requests per account group (brand accounts vs Michael's personal accounts, alternating which gets A), and record `asset.hookTest` on the hub daily doc.
 Preview first (`python3 render_weekly.py --preview specs/<date>.json /tmp/prev 916,169`, look at the stills), then push the spec: the "Render videos" GitHub Action renders all four sizes into `out` and writes `tools/render/results/<date>.json`. Pull and confirm `ok`. (Local render if the Action is down: see VIDEO-ENGINE.md.)
 Outputs: `v916.mp4`, `v169.mp4`, `v45.mp4`, `v11.mp4`, covers, `gbp.png`, `voice-check.json`.
 
