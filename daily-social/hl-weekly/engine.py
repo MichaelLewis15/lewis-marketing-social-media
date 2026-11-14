@@ -713,7 +713,7 @@ class Renderer:
         while a < len(words):
             b = a
             while b + 1 < len(words) and words[b + 1][1] - words[b][2] < 0.6 and d.textlength(" ".join(w[0] for w in words[a:b + 2]), font=f) <= maxw \
-                    and not re.search(r"[.!?:]$", words[b][0]) and b - a < 5:
+                    and not re.search(r"[.!?]$", words[b][0]) and b - a < 5:
                 b += 1
             self.chunks.append((a, b)); a = b + 1
 
