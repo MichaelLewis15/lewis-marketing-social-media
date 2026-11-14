@@ -1,0 +1,19 @@
+{
+ "spec": "daily-social/video-specs/sample-stat-bold.json",
+ "out": "daily/video-samples/stat-bold",
+ "ok": true,
+ "at": "2026-11-14T20:01:37.538242Z",
+ "seconds": 42.4,
+ "files": {
+  "cover169.jpg": "998dad0267",
+  "cover916.jpg": "e09f1ef650",
+  "gbp.png": "7272447ce8",
+  "v169.mp4": "695e220df6",
+  "v916.mp4": "667dd6ef66",
+  "voice-check.json": "f40facc163"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

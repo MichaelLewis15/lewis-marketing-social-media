@@ -1,0 +1,14 @@
+{
+ "spec": "daily-social/video-specs/sample-podcast-navy.json",
+ "out": "daily/video-samples/podcast-navy",
+ "ok": true,
+ "at": "2026-11-14T19:56:27.290908Z",
+ "seconds": 15.7,
+ "files": {
+  "cover169.jpg": "45a8ec764c",
+  "cover916.jpg": "0451ebb8f6",
+  "gbp.png": "9398339d45",
+  "v169.mp4": "bd5a6e3a65",
+  "v916.mp4": "ee20d5355f"
+ }
+}

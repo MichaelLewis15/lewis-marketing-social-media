@@ -1,0 +1,14 @@
+{
+ "spec": "daily-social/video-specs/sample-yearend-list.json",
+ "out": "daily/video-samples/yearend-list",
+ "ok": true,
+ "at": "2026-11-14T20:03:39.372487Z",
+ "seconds": 25.8,
+ "files": {
+  "cover169.jpg": "8d10e06e09",
+  "cover916.jpg": "841ba46f28",
+  "gbp.png": "d17b5fdf44",
+  "v169.mp4": "c28f648c1b",
+  "v916.mp4": "8880f93f3c"
+ }
+}

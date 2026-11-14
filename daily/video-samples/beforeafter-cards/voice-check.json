@@ -1,0 +1,44 @@
+[
+ {
+  "scene": 0,
+  "text": "What changes when it's set up right. ",
+  "spoken": "What changes when it's set up right.",
+  "heard": "What changes when it's set up right?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Before. Leads handled by hand. Missed calls go to voicemail. Follow-up depends on someone remembering. Reviews never get asked for.",
+  "spoken": "Before. Leads handled by hand. Missed calls go to voicemail. Follow-up depends on someone remembering. Reviews never get asked for.",
+  "heard": "Before, leads handled by hand. Mist calls go to voicemail. Follow -up depends on someone remembering. Reviews never get asked for.",
+  "match": 0.981,
+  "ok": true,
+  "diffs": [
+   "missed -> mist"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "After. Leads handled by HighLevel. Missed calls get an instant text back. Every new lead gets an automatic follow-up. Happy customers get a review request.",
+  "spoken": "After. Leads handled by High Level. Missed calls get an instant text back. Every new lead gets an automatic follow-up. Happy customers get a review request.",
+  "heard": "After, leads handled by high level. Mist calls get an instant text back. Every new lead gets an automatic follow -up. Happy customers get a review request.",
+  "match": 0.984,
+  "ok": true,
+  "diffs": [
+   "missed -> mist"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Want this set up in your business? We'll build it for you. Book a call at lewismarketingoc.com.",
+  "spoken": "Want this set up in your business? We'll build it for you. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Want this set up in your business? We'll build it for you. Book a call at LewisMarketingOC .com.",
+  "match": 0.98,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

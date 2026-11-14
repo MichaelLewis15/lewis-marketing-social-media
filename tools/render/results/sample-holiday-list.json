@@ -1,0 +1,18 @@
+{
+ "spec": "daily-social/video-specs/sample-holiday-list.json",
+ "out": "daily/video-samples/holiday-list",
+ "ok": true,
+ "at": "2026-11-14T19:51:33.986998Z",
+ "seconds": 25.8,
+ "files": {
+  "cover11.jpg": "7078de48a2",
+  "cover169.jpg": "5e7912359a",
+  "cover45.jpg": "2476849894",
+  "cover916.jpg": "53d4fd9cc7",
+  "gbp.png": "fa65a5c873",
+  "v11.mp4": "dc882278e0",
+  "v169.mp4": "9395adc180",
+  "v45.mp4": "3bec33b1ae",
+  "v916.mp4": "e69149aa77"
+ }
+}

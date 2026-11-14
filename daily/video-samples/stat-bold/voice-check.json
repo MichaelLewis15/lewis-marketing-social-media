@@ -1,0 +1,59 @@
+[
+ {
+  "scene": 0,
+  "text": "Reviews decide who gets the call. ",
+  "spoken": "Reviews decide who gets the call.",
+  "heard": "Reviews decide who gets the call.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "97% of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "97 percent of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "97 % of consumers read reviews for local businesses. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.962,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "74% only consider reviews from the last three months. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "74 percent only consider reviews from the last three months. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "74 % only consider reviews from the last three months. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.962,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "89% expect business owners to respond to reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "89 percent expect business owners to respond to reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "89 % expect business owners to respond to reviews. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.961,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 4,
+  "text": "Want more fresh 5-star reviews? We'll automate the ask. Book a call at lewismarketingoc.com.",
+  "spoken": "Want more fresh 5-star reviews? We'll automate the ask. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Want more Fresh Five Star reviews? We'll automate the ask. Book a call at LewisMarketingOC .com.",
+  "match": 0.947,
+  "ok": true,
+  "diffs": [
+   "5 -> five",
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

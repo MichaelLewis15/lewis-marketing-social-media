@@ -1,0 +1,49 @@
+[
+ {
+  "scene": 0,
+  "text": "Marketing myths we hear every week. ",
+  "spoken": "Marketing myths we hear every week.",
+  "heard": "Marketing myths we hear every week.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Myth: You need to post every single day to grow. Fact: A steady schedule you can keep beats bursts of daily posting you can't sustain.",
+  "spoken": "Myth: You need to post every single day to grow. Fact: A steady schedule you can keep beats bursts of daily posting you can't sustain.",
+  "heard": "Myth, you need to post every single day to grow. Fact, a steady schedule you can keep beats bursts of daily posting you can't sustain.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Myth: Your website is done once it launches. Fact: Sites that win leads get updated, tested and improved every month.",
+  "spoken": "Myth: Your website is done once it launches. Fact: Sites that win leads get updated, tested and improved every month.",
+  "heard": "Myth your website is done once it launches. Fact, sites that win leads get updated, tested and improved every month.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Myth: Reviews take care of themselves. Fact: Happy customers rarely leave reviews unless you ask. An automatic request after every job fixes that.",
+  "spoken": "Myth: Reviews take care of themselves. Fact: Happy customers rarely leave reviews unless you ask. An automatic request after every job fixes that.",
+  "heard": "Myth reviews take care of themselves. Fact, happy customers rarely leave reviews unless you ask. An automatic request after every job fixes that.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Want a plan that actually fits your week? We'll build it with you. Book a call at lewismarketingoc.com.",
+  "spoken": "Want a plan that actually fits your week? We'll build it with you. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Want a plan that actually fits your week? We'll build it with you. Book a call at LewisMarketingOC .com.",
+  "match": 0.982,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

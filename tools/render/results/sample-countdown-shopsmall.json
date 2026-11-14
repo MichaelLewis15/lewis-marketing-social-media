@@ -1,0 +1,14 @@
+{
+ "spec": "daily-social/video-specs/sample-countdown-shopsmall.json",
+ "out": "daily/video-samples/countdown-shopsmall",
+ "ok": true,
+ "at": "2026-11-14T19:48:57.516980Z",
+ "seconds": 17.0,
+ "files": {
+  "cover169.jpg": "602043a8aa",
+  "cover916.jpg": "490f7c9ade",
+  "gbp.png": "90ad70a90e",
+  "v169.mp4": "82324c3b72",
+  "v916.mp4": "b84a88e59f"
+ }
+}

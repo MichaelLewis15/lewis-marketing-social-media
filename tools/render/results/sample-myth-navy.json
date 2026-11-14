@@ -1,0 +1,19 @@
+{
+ "spec": "daily-social/video-specs/sample-myth-navy.json",
+ "out": "daily/video-samples/myth-navy",
+ "ok": true,
+ "at": "2026-11-14T19:55:11.569814Z",
+ "seconds": 40.7,
+ "files": {
+  "cover169.jpg": "9f54f47029",
+  "cover916.jpg": "e089f3d3ab",
+  "gbp.png": "018e9881b1",
+  "v169.mp4": "da95fe9123",
+  "v916.mp4": "aa3ea8a2b0",
+  "voice-check.json": "8a1f4b65f8"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

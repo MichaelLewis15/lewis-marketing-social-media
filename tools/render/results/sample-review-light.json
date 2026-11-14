@@ -1,0 +1,14 @@
+{
+ "spec": "daily-social/video-specs/sample-review-light.json",
+ "out": "daily/video-samples/review-light",
+ "ok": true,
+ "at": "2026-11-14T19:57:36.466358Z",
+ "seconds": 14.7,
+ "files": {
+  "cover169.jpg": "5f0397d1c3",
+  "cover916.jpg": "2f9f7d6f5f",
+  "gbp.png": "aec9c8606f",
+  "v169.mp4": "f1d4c6bf11",
+  "v916.mp4": "b2dfa0dacb"
+ }
+}

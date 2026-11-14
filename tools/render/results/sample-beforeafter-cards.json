@@ -1,0 +1,19 @@
+{
+ "spec": "daily-social/video-specs/sample-beforeafter-cards.json",
+ "out": "daily/video-samples/beforeafter-cards",
+ "ok": true,
+ "at": "2026-11-14T19:47:36.995060Z",
+ "seconds": 31.6,
+ "files": {
+  "cover169.jpg": "09e7dd30d6",
+  "cover916.jpg": "baafdce1a6",
+  "gbp.png": "816146cca0",
+  "v169.mp4": "7e0f4f6580",
+  "v916.mp4": "b2e0773da8",
+  "voice-check.json": "6b464a61b3"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}
