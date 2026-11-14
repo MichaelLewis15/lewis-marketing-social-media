@@ -13,20 +13,16 @@ Howie is optional (Michael, Nov 14, 2026: he does not have to be in every one). 
 - Never invent a feature, availability or price. Say "beta" when the changelog says beta. Mark the source for each item.
 
 ## 2. Spec and render
-Write `daily-social/hl-weekly/specs/<Friday YYYY-MM-DD>.json`:
+The renderer and all its options are documented in `VIDEO-ENGINE.md` (read it). Write `daily-social/hl-weekly/specs/<Friday YYYY-MM-DD>.json`:
 ```json
-{"week": "Nov 9-13, 2026", "music": 0,
+{"week": "Nov 9-13, 2026", "music": 0, "style": "<next in the rotation>", "voice": true,
+ "out": "daily/hl-weekly/<Friday YYYY-MM-DD>",
  "items": [{"title": "short benefit-led title, under 60 characters", "why": "one plain sentence on why a business owner should care, under 140 characters", "tag": "New|Beta|Update"}],
  "cta": "Want these set up in your account?"}
 ```
-Rotate `music` 0 to 3 week to week.
-
-**Rotate the video design (Michael's rule, Nov 14, 2026: mix in different looks, never the same look twice in a row).** Set `"style"` in the spec to the next one in this order after the style of the most recent spec in `specs/` (any spec in that folder counts, including launch videos; a spec with no `style` is `navy`):
-`navy` (dark navy, big numbers) -> `light` ("Clean": off-white page, navy type, highlighter accents) -> `bold` ("Color block": full-screen brand color wipes, giant numerals) -> `cards` (white cards stacking on navy) -> back to `navy`. Samples: `daily/video-styles/`. Record it in the hub daily doc as `asset.style`. Check a style quickly without Howie or audio: `python3 render_weekly.py --preview spec.json OUTDIR` (stills of every scene plus gbp.png). Then:
-```
-cd daily-social/hl-weekly && TMPDIR=/tmp python3 render_weekly.py specs/<date>.json ../../daily/hl-weekly/<date>
-```
-Outputs: `v916.mp4`, `v169.mp4`, `gbp.png`, `cover916.jpg`, `cover169.jpg`. Look at a frame sheet of both videos and the PNG before posting (no text cut off, nothing behind Howie).
+Rotate `music` 0 to 3 week to week and `style` per VIDEO-ENGINE.md (never the same look twice in a row; seasonal looks in their windows). Howie is optional (Michael, Nov 14, 2026): keep him in most weeks, `"howie": false` sometimes, never two weeks in a row without him. Voiceover on by default for this series; check `voiceCheck.ok`.
+Preview first (`python3 render_weekly.py --preview specs/<date>.json /tmp/prev 916,169`, look at the stills), then push the spec: the "Render videos" GitHub Action renders all four sizes into `out` and writes `tools/render/results/<date>.json`. Pull and confirm `ok`. (Local render if the Action is down: see VIDEO-ENGINE.md.)
+Outputs: `v916.mp4`, `v169.mp4`, `v45.mp4`, `v11.mp4`, covers, `gbp.png`, `voice-check.json`.
 
 ## 3. Copy (no emojis anywhere; statistics only with a credible source link)
 - Hook on line one (a double hook on roughly one in three weeks, never on consecutive days). Example hooks: "HighLevel shipped 5 updates this week. Here are the ones worth your time." / "Your HighLevel account got better this week."
@@ -39,7 +35,7 @@ Outputs: `v916.mp4`, `v169.mp4`, `gbp.png`, `cover916.jpg`, `cover169.jpg`. Look
 - tiktok (9:16): instagram copy.
 - gbp (graphic): "UPDATE POST · Button: Learn more -> https://lewismarketingoc.com" style setup line, then 2 to 4 sentences, no phone numbers.
 - firstComment: "This week's HighLevel release notes: https://highlevel.canny.io/changelog  Want help setting any of these up? https://lewismarketingoc.com" (UTM-tag lewismarketingoc.com links with utm_campaign=highlevel-weekly).
-- alt: describe Howie and the 3 to 5 release titles.
+- alt: describe the video (Howie if he is in it) and the 3 to 5 release titles.
 
 ## 4. Schedule (2:30 PM Central that Friday, every channel)
 Write `tools/queue/hl-weekly-<date>.json` = {"name": "hl-weekly-<date>", "requests": [...]}, one request per channel group, each a full create-post body with `status: "scheduled"`, `scheduleDate` = Friday 2:30 PM Central in UTC (20:30Z in CST, 19:30Z in CDT), `userId`/`createdBy` 0T5YzQFGjmXmN5py288b, media from raw GitHub URLs of the files above:
@@ -57,6 +53,6 @@ Account ids are in `tools/hl_create.py` (ALLOWED). Commit the renders, spec and 
 
 ## 5. Hub
 Hub artifact https://claude.ai/artifact/YLBNhbEhrs7SEkAX7sJ9yi (ArtifactData):
-- daily doc `hlw-<date>`: {id, date, day, time:"2:30 PM", title:"HighLevel Weekly: <week>", series:"HighLevel Weekly", pillar:"Teach", status:"scheduled", createdBy:"highlevel-weekly", asset:{type:"video", file:<raw url v916.mp4>, poster:<raw url cover916.jpg>, gbp:<raw url gbp.png>, note:"16:9 version for YouTube, LinkedIn, Bluesky: <raw url v169.mp4>"}, copy:{facebook, instagram, threads, linkedin, bluesky, gbp, tiktok}, firstComment, alt, sources:[changelog entry urls]}
+- daily doc `hlw-<date>`: {id, date, day, time:"2:30 PM", title:"HighLevel Weekly: <week>", series:"HighLevel Weekly", pillar:"Teach", status:"scheduled", createdBy:"highlevel-weekly", asset:{type:"video", file:<raw url v916.mp4>, poster:<raw url cover916.jpg>, gbp:<raw url gbp.png>, note:"16:9: <raw url v169.mp4> · 4:5: <raw url v45.mp4> · 1:1: <raw url v11.mp4>", style, format:"list", howie, voice, spec:"daily-social/hl-weekly/specs/<date>.json", specData:<the spec JSON>}, copy:{facebook, instagram, threads, linkedin, bluesky, gbp, tiktok}, firstComment, alt, sources:[changelog entry urls]}
 - hl doc `phlw-<date>`: {_id:"hlw-<date>", <ch>:{postId, sig:"auto:<date>", at, when}} for each channel (youtube under "youtube").
 - dslog doc `<YYYY-MM-DD-HHMM>-hlweekly`.

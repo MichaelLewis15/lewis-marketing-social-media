@@ -124,7 +124,7 @@ def folder_files():
 
 def video_bytes(url):
     if url.startswith(REPO_RAW):
-        p = pathlib.Path(url[len(REPO_RAW):])
+        p = pathlib.Path(url.split("?")[0][len(REPO_RAW):])
         if p.is_file():
             return p.read_bytes()
     r = requests.get(url, timeout=300)
@@ -135,9 +135,14 @@ def video_bytes(url):
 def media_name(url):
     """unique Media Storage name. Bare basenames collided (Nov 13, 2026: three different videos all named
     v916.mp4, so later TikTok posts reused the first upload). Repo files are named after their full repo path."""
-    u = url.split("?")[0]
+    u, _, q = url.partition("?")
     if u.startswith(REPO_RAW):
-        return u[len(REPO_RAW):].replace("/", "-")
+        name = u[len(REPO_RAW):].replace("/", "-")
+        v = dict(x.split("=", 1) for x in q.split("&") if "=" in x).get("v")
+        if v:  # re-rendered video (?v=<version>): keep each version as its own file
+            stem, dot, ext = name.rpartition(".")
+            name = f"{stem}-{v}.{ext}" if dot else f"{name}-{v}"
+        return name
     return u.rstrip("/").split("/")[-1]
 
 
