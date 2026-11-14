@@ -22,9 +22,9 @@ for sp in sys.argv[1:]:
     if r.returncode == 0:
         info = json.loads(r.stdout.strip().splitlines()[-1]); res.update(seconds=info["seconds"])
         res["files"] = {f.name: hashlib.sha1(f.read_bytes()).hexdigest()[:10] for f in sorted(out.iterdir()) if f.is_file()}
-        vc = out / "voice-check.json"
-        if vc.exists():
-            checks = [c for c in json.loads(vc.read_text()) if c]
+        vcs = sorted(out.glob("voice-check*.json"))
+        if vcs:
+            checks = [c for vc in vcs for c in json.loads(vc.read_text()) if c]
             res["voiceCheck"] = {"ok": all(c["ok"] for c in checks), "flagged": [c for c in checks if not c["ok"]]}
     else:
         res["error"] = (r.stderr or r.stdout)[-1500:]; bad += 1

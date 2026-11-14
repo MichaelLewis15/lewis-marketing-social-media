@@ -19,6 +19,8 @@ SIZES ("sizes", default all): 916 (1080x1920), 169 (1920x1080), 45 (1080x1350 fe
 "voiceName": Kokoro voice (default af_heart).  Scene narration defaults to the on-screen words; override with "vo" on an item
 or spec["vo"] = {"intro": "...", "outro": "..."}.
 Outputs: v916.mp4 v169.mp4 v45.mp4 v11.mp4 (as requested), cover<size>.jpg, gbp.png, voice-check.json when voiced.
+Hook tests: "variants": {"b": {"head1": "...", "head2": "...", "vo": {"intro": "..."}}} renders the same video again with a different
+opening as v<size>-b.mp4 (and cover<size>-b.jpg, voice-check-b.json).
 """
 import json, os, re, sys, subprocess, tempfile, math, datetime, wave
 import numpy as np
@@ -835,7 +837,7 @@ def mix_audio(tmp, total, spec, sc, starts, T, voiced):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{tmp}/a.wav", "-af", f"afade=t=out:st={total - 1.5}:d=1.5", f"{tmp}/af.wav"], check=True)
 
 
-def prepare(spec, tmp, outdir):
+def prepare(spec, tmp, outdir, suffix=""):
     spec = defaults(spec); sc = build_scenes(spec); howie = spec.get("howie", True) is not False
     voiced = bool(spec.get("voice")); words = []
     if voiced:
@@ -847,7 +849,7 @@ def prepare(spec, tmp, outdir):
             if s["draw"] is draw_myth:  # reveal the fact as the narrator says "Fact"
                 ft = next((w[1] for w in r["words"] if w[0].lower().strip(".:,") == "fact"), None)
                 if ft is not None: s["reveal"] = s["lead"] + ft
-        json.dump([r.get("check") if r else None for r in res], open(os.path.join(outdir, "voice-check.json"), "w"), indent=1)
+        json.dump([r.get("check") if r else None for r in res], open(os.path.join(outdir, f"voice-check{suffix}.json"), "w"), indent=1)
     starts = np.cumsum([0] + [s["dur"] for s in sc])[:-1]; total = float(sum(s["dur"] for s in sc))
     for k, s in enumerate(sc):
         for w in s.get("words", []): words.append((w[0], starts[k] + s["lead"] + w[1], starts[k] + s["lead"] + w[2]))
@@ -856,8 +858,18 @@ def prepare(spec, tmp, outdir):
 
 def main(spec_path, outdir):
     raw = json.load(open(spec_path)); os.makedirs(outdir, exist_ok=True)
+    render_one(raw, outdir, "")
+    for name, over in (raw.get("variants") or {}).items():  # hook tests: same video, different opening
+        v = json.loads(json.dumps(raw)); v.pop("variants", None)
+        for k, val in over.items():
+            if k == "vo" and isinstance(val, dict): v["vo"] = dict(v.get("vo") or {}, **val)
+            else: v[k] = val
+        render_one(v, outdir, "-" + name)
+
+
+def render_one(raw, outdir, suffix):
     tmp = tempfile.mkdtemp(dir=os.environ.get("TMPDIR", "/tmp"))
-    spec, sc, howie, voiced, words, starts, total = prepare(raw, tmp, outdir)
+    spec, sc, howie, voiced, words, starts, total = prepare(raw, tmp, outdir, suffix)
     captions = spec.get("captions", voiced) and bool(words)
     style = STYLES[spec.get("style", "navy")]
     T = howie_frames(sc, total, tmp, style.page) if howie else None
@@ -867,12 +879,12 @@ def main(spec_path, outdir):
         r = Renderer(spec, sc, key, howie, captions); r.env = env
         if captions: r.set_words(words)
         render_base(r, f"{tmp}/b{key}.mp4")
-        compose(f"{tmp}/b{key}.mp4", tmp, r.L, howie, f"{tmp}/af.wav", os.path.join(outdir, f"v{key}.mp4"))
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(sc[0]["dur"] - 0.6), "-i", os.path.join(outdir, f"v{key}.mp4"), "-frames:v", "1", "-q:v", "3",
-                        os.path.join(outdir, f"cover{key}.jpg")], check=True)
-    gbp_graphic(spec, sc, os.path.join(outdir, "gbp.png"), howie)
+        compose(f"{tmp}/b{key}.mp4", tmp, r.L, howie, f"{tmp}/af.wav", os.path.join(outdir, f"v{key}{suffix}.mp4"))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(sc[0]["dur"] - 0.6), "-i", os.path.join(outdir, f"v{key}{suffix}.mp4"), "-frames:v", "1", "-q:v", "3",
+                        os.path.join(outdir, f"cover{key}{suffix}.jpg")], check=True)
+    if not suffix: gbp_graphic(spec, sc, os.path.join(outdir, "gbp.png"), howie)
     subprocess.run(["rm", "-rf", tmp])
-    print(json.dumps({"seconds": round(total, 1), "out": outdir, "style": spec.get("style", "navy"), "format": spec.get("format", "list"), "voice": voiced}))
+    print(json.dumps({"seconds": round(total, 1), "out": outdir, "variant": suffix.lstrip("-") or "a", "style": spec.get("style", "navy"), "format": spec.get("format", "list"), "voice": voiced}))
 
 
 def preview(spec_path, outdir, sizes=None):
