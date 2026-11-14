@@ -187,12 +187,16 @@ def spaced(cands, n=2, gap=4.0):
 def person_side(im, box, size_h, side):
     """head and shoulders, cut out (or faded towards the centre when rembg is missing)"""
     x, y, w, h = box; cx = x + w / 2
-    top = max(0, y - h * 0.6); bot = min(im.height, y + h * 2.5); ht = bot - top; wd = min(im.width, ht * 0.82)
+    # stop above the lower part of the frame, where recordings often carry burned-in captions or name bars
+    top = max(0, y - h * 0.6); bot = min(im.height, y + h * 2.05); ht = bot - top; wd = min(im.width, ht * 0.95)
     l = max(0, min(im.width - wd, cx - wd / 2)); crop = im.crop((int(l), int(top), int(l + wd), int(bot)))
     crop = crop.resize((int(crop.width * size_h / crop.height), size_h), Image.LANCZOS)
     try:
         from rembg import remove
-        return remove(crop)
+        cut = remove(crop); a_ = np.asarray(cut.getchannel("A")).astype(float)
+        hh, ww = a_.shape; fy = np.clip((hh - np.arange(hh)) / (hh * 0.16), 0, 1)[:, None]  # soft bottom
+        fx = np.clip(np.minimum(np.arange(ww), ww - 1 - np.arange(ww)) / (ww * 0.06), 0, 1)[None, :]  # soft sides
+        cut.putalpha(Image.fromarray((a_ * fy * fx).astype(np.uint8))); return cut
     except Exception:
         m = Image.new("L", crop.size, 0); md = ImageDraw.Draw(m); cw = crop.width
         md.ellipse((cw * 0.08, crop.height * 0.02, cw * 0.92, crop.height * 1.4), fill=255)
@@ -235,10 +239,10 @@ def make_duo(mfr, mbox, gfr, gbox, v, look, out, guest=""):
     for cx in (200, W - 200): gd.ellipse((cx - 250, 150, cx + 250, 650), fill=gc)
     if look == "b": gd.rectangle((0, H - 16, W, H), fill=YEL + (255,))
     im.alpha_composite(glow)
-    ph = 600
+    ph = 560
     for fr, box, cx in ((mfr, mbox, 200), (gfr, gbox, W - 200)):
         pc = person_side(pump(fr), box, ph, "l" if cx < W / 2 else "r")
-        im.alpha_composite(pc, (int(cx - pc.width / 2), H - pc.height + 20))
+        im.alpha_composite(pc, (int(cx - pc.width / 2), H - pc.height))
     shade = Image.new("RGBA", (W, H)); sd = ImageDraw.Draw(shade)  # keep the centre readable
     for k in range(40): sd.rounded_rectangle((380 - k * 3, 40 - k, W - 380 + k * 3, H - 40 + k), radius=40, fill=bg1 + (6,))
     im.alpha_composite(shade); d = ImageDraw.Draw(im)
