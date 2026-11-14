@@ -1,0 +1,26 @@
+{
+ "format": "results",
+ "style": "light",
+ "month": "October 2026",
+ "music": 2,
+ "eyebrow": "OCTOBER 2026 RESULTS",
+ "head1": "What our clients",
+ "head2": "saw in October",
+ "sub2": "Combined across Lewis Marketing clients.",
+ "stats": [
+  {
+   "value": "2,283",
+   "label": "new contacts added to client CRMs"
+  },
+  {
+   "value": "66",
+   "label": "new leads came into our clients' pipelines"
+  }
+ ],
+ "footnote": "Combined results across 75 Lewis Marketing client accounts, October 2026",
+ "cta": "Want your marketing working like this?",
+ "cta2": "Let's talk about your goals.",
+ "howie": true,
+ "voice": true,
+ "out": "daily/video/2026-10-results"
+}
