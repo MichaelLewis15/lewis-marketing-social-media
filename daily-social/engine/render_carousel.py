@@ -5,9 +5,9 @@ Writes <repo_root>/daily/x/<id>/s1.png ... sN.png (1080x1350) and cover-gbp.png 
 
 spec = {
   "id": "2026-11-17-playbook",
-  "theme": "playbook" | "alert",
-  "eyebrow": "INDUSTRY PLAYBOOK" | "SCAM ALERT",
-  "tag": "MANUFACTURING",                          # playbook: the industry; alert: who it targets ("BUSINESS PAGES")
+  "theme": "playbook" | "alert" | "update",
+  "eyebrow": "INDUSTRY PLAYBOOK" | "SCAM ALERT" | "WHAT CHANGED",
+  "tag": "MANUFACTURING",                          # playbook: the industry; alert: who it targets ("BUSINESS PAGES"); update: the platform ("GOOGLE BUSINESS PROFILE")
   "head": [["WHERE YOUR", "ink"], ["NEXT HIRE", "ink"], ["IS LOOKING", "blue"]],   # cover headline, 2-4 short lines
   "sub": "One sentence under the headline.",
   "slides": [{"title": "Short slide title", "body": "Two or three short sentences.", "tip": "optional one-line tip"}],   # 3-6
@@ -15,6 +15,7 @@ spec = {
   "sources": ["FTC consumer alert, Nov 2026"]      # alert: required, printed on the last slide; playbook: any stat sources
 }
 Howie is on the cover and the last slide. Scam Alert Howie (Michael's rule, Nov 14, 2026): never smiling, clearly concerned face (raised worried brows, wide eyes, wobbly mouth, sweat drop), yellow hard hat and hi-vis safety vest (howie/howie-safety-*.png, made from howie/howie-safety.svg with shoot2.js). Logo on every slide (all white on blue, two-tone white on navy, color on light).
+Industry Update (theme "update", Nov 14, 2026): blue cover with "WHAT CHANGED" and the platform tag, optional "date_line" (for example "Announced Nov 12, 2026 by Google"), 3 slides (what changed, who it affects, what to do), navy last slide with sources. Regular smiling Howie.
 """
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -36,17 +37,18 @@ def counter(d, i, n, col):
 
 
 def cover(s, n, path):
-    alert = s["theme"] == "alert"
-    im = canvas(ALERT_BG if alert else NAVY)
-    radial(im, 260, 420, 560, RED if alert else SKY, 60 if alert else 70); dots(im, (255, 255, 255), 18)
+    alert = s["theme"] == "alert"; upd = s["theme"] == "update"
+    im = canvas(ALERT_BG if alert else BLUE_D if upd else NAVY)
+    radial(im, 260, 420, 560, RED if alert else (255, 255, 255) if upd else SKY, 60 if alert else 45 if upd else 70); dots(im, (255, 255, 255), 18)
     if alert: hazard(im, 0); hazard(im, H - 26)
     d = ImageDraw.Draw(im); L = 70
     y = pill(d, L, 90, s.get("eyebrow", "INDUSTRY PLAYBOOK"), AMBER if alert else SUN, INK, 22) + 18
-    if s.get("tag"): y = pill(d, L, y, s["tag"], (255, 255, 255, 40) if False else (58, 76, 110) if not alert else (80, 30, 30), WHITE, 18) + 34
+    if s.get("tag"): y = pill(d, L, y, s["tag"], (80, 30, 30) if alert else NAVY if upd else (58, 76, 110), WHITE, 18) + 34
     size = fit_head(s["head"], 900, 560, 176)
     y = draw_head(d, s["head"], L, y, size, {"ink": WHITE, "blue": AMBER if alert else SUN, "dark": SKY}) + 18
     for ln in wrap(s.get("sub", ""), BODY(36), P(820)): d.text((P(L), P(y)), ln, font=BODY(36), fill=(214, 222, 234)); y += 50
     d.text((P(L), P(H - 200)), "Swipe  >", font=SEMI(30), fill=AMBER if alert else SUN)
+    if s.get("date_line"): d.text((P(L), P(H - 250)), s["date_line"], font=SEMI(24), fill=(214, 222, 234))
     counter(d, 1, n, (170, 184, 204))
     logo(im, True, L, None, 260)
     howie(im, s.get("howie"), {"pose": "safety-idle" if alert else "pointL", "x": 900, "feet": H - 60 - (26 if alert else 0), "h": 340 if alert else 330})
@@ -78,7 +80,8 @@ def slide(s, i, n, sl, path):
 
 def last(s, n, path):
     alert = s["theme"] == "alert"; c = s.get("cta") or {}
-    im = canvas(BLUE if not alert else ALERT_BG)
+    upd = s["theme"] == "update"
+    im = canvas(ALERT_BG if alert else NAVY if upd else BLUE)
     radial(im, 800, 300, 520, (255, 255, 255) if not alert else RED, 40); dots(im, (255, 255, 255), 20)
     if alert: hazard(im, 0)
     d = ImageDraw.Draw(im); L = 70
