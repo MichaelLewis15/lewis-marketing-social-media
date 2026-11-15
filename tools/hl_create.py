@@ -81,6 +81,7 @@ def main():
                     b["media"] = r["media"]; b["status"] = "scheduled"
                     b["userId"] = cp.get("createdBy") or "0T5YzQFGjmXmN5py288b"; b.setdefault("createdBy", b["userId"])
                     if r.get("summary"): b["summary"] = r["summary"]
+                    if r.get("thumbnail"): b["thumbnail"] = r["thumbnail"]
                 except Exception as e:
                     res.append({"key": r["key"], "ch": r["ch"], "postId": r["postId"], "error": "read: " + str(e)[:280]}); bad += 1; continue
             if not set(b.get("accountIds") or []) <= ALLOWED:
