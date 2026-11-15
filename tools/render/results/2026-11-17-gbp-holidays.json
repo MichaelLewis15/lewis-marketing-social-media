@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-11-17-gbp-holidays.json",
+ "out": "daily/video/2026-11-17-gbp-holidays",
+ "ok": true,
+ "at": "2026-11-15T05:33:23.247218Z",
+ "seconds": 37.0,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "ad42a91ca4",
+  "cover916.jpg": "9f8b62da4a",
+  "gbp.png": "2055a13530",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "c57748963a",
+  "v916.mp4": "87cbe0cc75",
+  "voice-check.json": "101e383fa2"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

@@ -1,0 +1,35 @@
+[
+ {
+  "scene": 0,
+  "text": "Do you reply to your reviews?. ",
+  "spoken": "Do you reply to your reviews?.",
+  "heard": "Do you reply to your reviews?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "89% of consumers expect business owners to respond to reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "89 percent of consumers expect business owners to respond to reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "89 % of consumers expect business owners to respond to reviews. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.965,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "A real thank-you goes a long way. Skip the copy-paste replies. Book a call at lewismarketingoc.com.",
+  "spoken": "A real thank-you goes a long way. Skip the copy-paste replies. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "A real thank you goes a long way. Skip the COPPA paste replies. Book a call at LewisMarketingOC .com.",
+  "match": 0.963,
+  "ok": true,
+  "diffs": [
+   "copy -> coppa",
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

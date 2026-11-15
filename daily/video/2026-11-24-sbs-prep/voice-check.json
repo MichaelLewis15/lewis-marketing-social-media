@@ -1,0 +1,67 @@
+[
+ {
+  "scene": 0,
+  "text": "Small Business Saturday is this week. Ready?. ",
+  "spoken": "Small Business Saturday is this week. Ready?.",
+  "heard": "Small Business Saturday is this week. Ready.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Post your Saturday hours everywhere. Google, Facebook and your website.",
+  "spoken": "Post your Saturday hours everywhere. Google, Facebook and your website.",
+  "heard": "post your Saturday hours everywhere. Google, Facebook, and your website.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Pick one simple offer. One clear reason to stop in.",
+  "spoken": "Pick one simple offer. One clear reason to stop in.",
+  "heard": "Pick one simple offer, one clear reason to stop in.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Email your list. Thursday or Friday works best.",
+  "spoken": "Email your list. Thursday or Friday works best.",
+  "heard": "Email your list. Thursday or Friday works best.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Put a review QR code by the register. Happy shoppers can leave a review on the spot.",
+  "spoken": "Put a review QR code by the register. Happy shoppers can leave a review on the spot.",
+  "heard": "Put a review QR code by the register. Happy shoppers can leave a review on the spot.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Post from the shop on Saturday. Real people, real moments.",
+  "spoken": "Post from the shop on Saturday. Real people, real moments.",
+  "heard": "Post from the shop on Saturday. Real people, real moments.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Share this with a local shop owner. Let's make Saturday count. Book a call at lewismarketingoc.com.",
+  "spoken": "Share this with a local shop owner. Let's make Saturday count. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Share this with a local shop owner. Let's make Saturday count. Book a call at LewisMarketingOC .com.",
+  "match": 0.981,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

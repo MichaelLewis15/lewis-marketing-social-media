@@ -1,0 +1,60 @@
+[
+ {
+  "scene": 0,
+  "text": "4 ways to support local that don't cost a dime. ",
+  "spoken": "4 ways to support local that don't cost a dime.",
+  "heard": "four ways to support local that don't cost a dime.",
+  "match": 0.933,
+  "ok": true,
+  "diffs": [
+   "4 -> four"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Leave a Google review. For a business you love.",
+  "spoken": "Leave a Google review. For a business you love.",
+  "heard": "Leave a Google review for a business you love.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Share one of their posts. It takes two seconds.",
+  "spoken": "Share one of their posts. It takes two seconds.",
+  "heard": "Share one of their posts, it takes two seconds.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Tell a friend about them. Word of mouth still wins.",
+  "spoken": "Tell a friend about them. Word of mouth still wins.",
+  "heard": "Tell a friend about them. Word of mouth still wins.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Shop local this weekend. If you can.",
+  "spoken": "Shop local this weekend. If you can.",
+  "heard": "shop local this weekend, if you can.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Where are you shopping local today? Drop the name in the comments. Book a call at lewismarketingoc.com.",
+  "spoken": "Where are you shopping local today? Drop the name in the comments. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Where are you shopping local today? Drop the name in the comments. Book a call at LewisMarketingOC .com.",
+  "match": 0.982,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

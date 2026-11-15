@@ -1,0 +1,69 @@
+[
+ {
+  "scene": 0,
+  "text": "Marketing This or That Business owner edition. ",
+  "spoken": "Marketing This or That Business owner edition.",
+  "heard": "Marketing this or that business owner edition.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Google Ads, or Facebook Ads?",
+  "spoken": "Google Ads, or Facebook Ads?",
+  "heard": "Google Ads or Facebook Ads.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Website, or social media?",
+  "spoken": "Website, or social media?",
+  "heard": "website or social media.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Email, or text?",
+  "spoken": "Email, or text?",
+  "heard": "Email or text?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Reviews, or referrals?",
+  "spoken": "Reviews, or referrals?",
+  "heard": "reviews or referrals.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Video, or photos?",
+  "spoken": "Video, or photos?",
+  "heard": "video or photos.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Comment your 5 letters. Like A B B A B. Our answers tomorrow. Book a call at lewismarketingoc.com.",
+  "spoken": "Comment your 5 letters. Like A B B A B. Our answers tomorrow. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Comment your five letters, like a BBB, our answers tomorrow. Book a call at LewisMarketingOC .com",
+  "match": 0.943,
+  "ok": true,
+  "diffs": [
+   "5 -> five",
+   "b b a b -> bbb",
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

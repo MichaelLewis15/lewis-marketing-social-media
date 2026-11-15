@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-11-28-support-local.json",
+ "out": "daily/video/2026-11-28-support-local",
+ "ok": true,
+ "at": "2026-11-15T05:50:23.217836Z",
+ "seconds": 31.1,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "90af792875",
+  "cover916.jpg": "de2f21e958",
+  "gbp.png": "cd22a16d5d",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "4a1e42e761",
+  "v916.mp4": "10c0e0f3a8",
+  "voice-check.json": "acf7d629ba"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

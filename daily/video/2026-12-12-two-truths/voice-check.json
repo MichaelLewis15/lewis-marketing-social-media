@@ -1,0 +1,56 @@
+[
+ {
+  "scene": 0,
+  "text": "Two truths and a lie Review edition. Source for the truths: BrightLocal Local Consumer Review Survey 2026",
+  "spoken": "Two truths and a lie Review edition. Source for the truths: BrightLocal Local Consumer Review Survey 2026",
+  "heard": "Two truths and a lie review edition. Source for the truths. Bright local local consumer review survey, 2026.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "47% won't use a business with fewer than 20 reviews. Truth or lie?",
+  "spoken": "47 percent won't use a business with fewer than 20 reviews. Truth or lie?",
+  "heard": "47 % won't use a business with fewer than 20 reviews. Truth or lie.",
+  "match": 0.935,
+  "ok": true,
+  "diffs": [
+   "percent -> "
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "74% only care about reviews from the last three months. Truth or lie?",
+  "spoken": "74 percent only care about reviews from the last three months. Truth or lie?",
+  "heard": "74 % only care about reviews from the last three months. Truth or lie.",
+  "match": 0.939,
+  "ok": true,
+  "diffs": [
+   "percent -> "
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Most people never read reviews for local businesses. Truth or lie?",
+  "spoken": "Most people never read reviews for local businesses. Truth or lie?",
+  "heard": "Most people never read reviews for local businesses, truth or lie.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Comment A, B or C. We'll reveal it tomorrow. Book a call at lewismarketingoc.com.",
+  "spoken": "Comment A, B or C. We'll reveal it tomorrow. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Comment A B or C will reveal it tomorrow. Book a call at LewisMarketingOC .com.",
+  "match": 0.961,
+  "ok": true,
+  "diffs": [
+   "we ll -> will",
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

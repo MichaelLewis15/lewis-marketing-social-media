@@ -1,0 +1,71 @@
+[
+ {
+  "scene": 0,
+  "text": "5 AI prompts to wrap up your year. ",
+  "spoken": "5 A.I. prompts to wrap up your year.",
+  "heard": "5AI prompts to wrap up your year.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "5 ai -> 5ai"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Thank a loyal customer. Write a warm thank-you note. Under 100 words, no sales pitch.",
+  "spoken": "Thank a loyal customer. Write a warm thank-you note. Under 100 words, no sales pitch.",
+  "heard": "Think a loyal customer. Write a warm thank you note, under 100 words no sales pitch.",
+  "match": 0.985,
+  "ok": true,
+  "diffs": [
+   "thank -> think"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "Announce holiday hours. For Google, Facebook and email.",
+  "spoken": "Announce holiday hours. For Google, Facebook and email.",
+  "heard": "Announce Holiday Hours for Google, Facebook, and email.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Review your year. What worked, what didn't, what to do more of.",
+  "spoken": "Review your year. What worked, what didn't, what to do more of.",
+  "heard": "Review your year, what worked, what didn't, what to do more of.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Plan January posts. 12 social post ideas for your business.",
+  "spoken": "Plan January posts. 12 social post ideas for your business.",
+  "heard": "Plan January posts, 12 social post ideas for your business.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Break down your 2027 goal. Into monthly steps.",
+  "spoken": "Break down your 2027 goal. Into monthly steps.",
+  "heard": "Break down your 2027 goal into monthly steps.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Save this for the slow week. Full prompts in the caption. Book a call at lewismarketingoc.com.",
+  "spoken": "Save this for the slow week. Full prompts in the caption. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Save this for the slow week. Full prompts in the caption. Book a call at LewisMarketingOc .com",
+  "match": 0.98,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

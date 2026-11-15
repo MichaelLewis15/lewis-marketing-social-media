@@ -1,0 +1,60 @@
+[
+ {
+  "scene": 0,
+  "text": "The 10-second phone test. ",
+  "spoken": "The 10-second phone test.",
+  "heard": "the 10 second phone test.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Pull up your website on your phone. The way most customers see it.",
+  "spoken": "Pull up your website on your phone. The way most customers see it.",
+  "heard": "Pull up your website on your phone, the way most customers see it.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Hand it to a friend. Someone who doesn't know your site.",
+  "spoken": "Hand it to a friend. Someone who doesn't know your site.",
+  "heard": "hand it to a friend, someone who doesn't know your sight.",
+  "match": 0.966,
+  "ok": true,
+  "diffs": [
+   "site -> sight"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Say: find our phone number. Go!. No hints allowed.",
+  "spoken": "Say: find our phone number. Go!. No hints allowed.",
+  "heard": "Say, find our phone number. Go, no hints allowed.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Time them. Over 10 seconds could be a lead lost every day.",
+  "spoken": "Time them. Over 10 seconds could be a lead lost every day.",
+  "heard": "Time them over 10 seconds could be a lead lost every day.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Comment your time. Under 10 seconds or over? Book a call at lewismarketingoc.com.",
+  "spoken": "Comment your time. Under 10 seconds or over? Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Comment your time under 10 seconds or over. Book a call at LewisMarketingOC .com.",
+  "match": 0.977,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

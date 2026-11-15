@@ -1,0 +1,53 @@
+[
+ {
+  "scene": 0,
+  "text": "Sending a Cyber Monday email? Check 3 things first. ",
+  "spoken": "Sending a Cyber Monday email? Check 3 things first.",
+  "heard": "Sending a Cyber Monday email, check three things first.",
+  "match": 0.93,
+  "ok": true,
+  "diffs": [
+   "3 -> three"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "A short subject line. Lead with the offer.",
+  "spoken": "A short subject line. Lead with the offer.",
+  "heard": "A short subject line, lead with the offer.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "One clear button. One offer, one link, one action.",
+  "spoken": "One clear button. One offer, one link, one action.",
+  "heard": "One clear butts, one offer, one link, one action.",
+  "match": 0.96,
+  "ok": true,
+  "diffs": [
+   "button -> butts"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Open it on your phone first. That's where most people will read it.",
+  "spoken": "Open it on your phone first. That's where most people will read it.",
+  "heard": "Open it on your phone first, that's where most people will read it.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Save this for next time. We run email for local businesses. Book a call at lewismarketingoc.com.",
+  "spoken": "Save this for next time. We run email for local businesses. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Save this for next time. We run email for local businesses. Book a call at LewisMarketingOC .com.",
+  "match": 0.981,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

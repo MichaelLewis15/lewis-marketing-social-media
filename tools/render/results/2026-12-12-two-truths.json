@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-12-12-two-truths.json",
+ "out": "daily/video/2026-12-12-two-truths",
+ "ok": true,
+ "at": "2026-11-15T06:02:43.392995Z",
+ "seconds": 35.5,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "c7d4c65578",
+  "cover916.jpg": "0a24b6cc91",
+  "gbp.png": "6350f2f846",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "d48ea65705",
+  "v916.mp4": "665d57ecf3",
+  "voice-check.json": "6157041e5b"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

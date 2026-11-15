@@ -1,0 +1,53 @@
+[
+ {
+  "scene": 0,
+  "text": "It's 4:55 on Friday. Who answers?. ",
+  "spoken": "It's 4:55 on Friday. Who answers?.",
+  "heard": "It's four 55 on Friday, who answers.",
+  "match": 0.902,
+  "ok": true,
+  "diffs": [
+   "4 -> four"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Text back missed calls. Automatically, within a minute.",
+  "spoken": "Text back missed calls. Automatically, within a minute.",
+  "heard": "text back missed calls, automatically within a minute.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Add an online booking link. Let them book without waiting for you.",
+  "spoken": "Add an online booking link. Let them book without waiting for you.",
+  "heard": "Add an online booking link, let them book without waiting for you.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Reply in minutes, not hours. The first business to answer usually wins.",
+  "spoken": "Reply in minutes, not hours. The first business to answer usually wins.",
+  "heard": "reply in minutes, not hours. The first business to answer usually wins.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "We set this up for local businesses. Never miss the 4:55 call again. Book a call at lewismarketingoc.com.",
+  "spoken": "We set this up for local businesses. Never miss the 4:55 call again. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "We set this up for local businesses. Never missed the four 55 call again. Book a call at LewisMarketingOC .com.",
+  "match": 0.943,
+  "ok": true,
+  "diffs": [
+   "miss -> missed",
+   "4 -> four",
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

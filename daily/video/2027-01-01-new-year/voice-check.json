@@ -1,0 +1,51 @@
+[
+ {
+  "scene": 0,
+  "text": "Hello, 2027. Thank you for 2026. ",
+  "spoken": "Hello, 2027. Thank you for 2026.",
+  "heard": "Hello, 2027. Thank you for 2026.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Thank you to our clients. For trusting us with your business.",
+  "spoken": "Thank you to our clients. For trusting us with your business.",
+  "heard": "Thank you to our clients for trusting us with your business.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Thank you to our community. Northwest Iowa and Siouxland, you made this year.",
+  "spoken": "Thank you to our community. Northwest Iowa and Siouxland, you made this year.",
+  "heard": "Thank you to our community. Northwest Iowa and Sewland, you made this year.",
+  "match": 0.951,
+  "ok": true,
+  "diffs": [
+   "siouxland -> sewland"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Here's to growing together. Big things ahead in 2027.",
+  "spoken": "Here's to growing together. Big things ahead in 2027.",
+  "heard": "Here's to growing together. Big things ahead in 2027.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Happy New Year! Michael and the Lewis Marketing team. Book a call at lewismarketingoc.com.",
+  "spoken": "Happy New Year! Michael and the Lewis Marketing team. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Happy New Year, Michael and the Lewis Marketing Team. Book a call at LewisMarketingOC .com",
+  "match": 0.98,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

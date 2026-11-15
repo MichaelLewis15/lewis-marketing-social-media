@@ -1,0 +1,60 @@
+[
+ {
+  "scene": 0,
+  "text": "The lie was C. Here's the truth. ",
+  "spoken": "The lie was C. Here's the truth.",
+  "heard": "The lie we see, here's the truth.",
+  "match": 0.894,
+  "ok": false,
+  "diffs": [
+   "was c -> we see"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "97% of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "97 percent of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "97 % of consumers read reviews for local businesses. Source. Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.962,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "47% won't use a business with fewer than 20 reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "47 percent won't use a business with fewer than 20 reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "47 % won't use a business with fewer than 20 reviews. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.961,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "74% only care about reviews from the last three months. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "spoken": "74 percent only care about reviews from the last three months. Source: BrightLocal Local Consumer Review Survey 2026.",
+  "heard": "74 % only care about reviews from the last three months. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "match": 0.963,
+  "ok": true,
+  "diffs": [
+   "percent -> ",
+   "brightlocal -> bright local"
+  ]
+ },
+ {
+  "scene": 4,
+  "text": "Did you get it right? We help businesses earn fresh reviews. Book a call at lewismarketingoc.com.",
+  "spoken": "Did you get it right? We help businesses earn fresh reviews. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Did you get it right? We help businesses earn fresh reviews. Book a call at luismarketingoc .com",
+  "match": 0.962,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> luismarketingoc"
+  ]
+ }
+]

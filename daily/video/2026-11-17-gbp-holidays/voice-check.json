@@ -1,0 +1,69 @@
+[
+ {
+  "scene": 0,
+  "text": "Is your Google profile ready for the holidays?. ",
+  "spoken": "Is your Google profile ready for the holidays?.",
+  "heard": "Is your Google profile ready for the holidays?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Add your holiday hours. Shoppers check before they drive over.",
+  "spoken": "Add your holiday hours. Shoppers check before they drive over.",
+  "heard": "Add your holiday hours, shoppers check before they drive over.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Post 3 fresh photos. Show what people will see when they walk in.",
+  "spoken": "Post 3 fresh photos. Show what people will see when they walk in.",
+  "heard": "post three fresh photos, show what people will see when they walk in.",
+  "match": 0.943,
+  "ok": true,
+  "diffs": [
+   "3 -> three"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Share a holiday update. Hours, gift cards or a seasonal offer.",
+  "spoken": "Share a holiday update. Hours, gift cards or a seasonal offer.",
+  "heard": "Share a holiday update, hours, gift cards, or a seasonal offer.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Answer your top questions. Put the answers right on your profile.",
+  "spoken": "Answer your top questions. Put the answers right on your profile.",
+  "heard": "Answer your top questions, put the answers right on your profile.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Ask for a review. Fresh reviews carry you into January.",
+  "spoken": "Ask for a review. Fresh reviews carry you into January.",
+  "heard": "Ask for a review. Fresh reviews carry you into January.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Want us to handle it? We keep Google profiles holiday ready. Book a call at lewismarketingoc.com.",
+  "spoken": "Want us to handle it? We keep Google profiles holiday ready. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Want us to handle it? We keep Google Profiles holiday ready. Book a call at LewisMarketingOC .com",
+  "match": 0.981,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+{
+ "spec": "daily-social/video-specs/2026-11-15-post-these-3.json",
+ "out": "daily/video/2026-11-15-post-these-3",
+ "ok": true,
+ "at": "2026-11-15T05:30:35.047526Z",
+ "seconds": 27.9,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "f24ac61e43",
+  "cover916.jpg": "846e7dc7dc",
+  "gbp.png": "b70587bcbe",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "a8cba9c5bf",
+  "v916.mp4": "91edd42673",
+  "voice-check.json": "5f3ce32a47"
+ },
+ "voiceCheck": {
+  "ok": false,
+  "flagged": [
+   {
+    "scene": 0,
+    "text": "Stuck on what to post? Post these 3. ",
+    "spoken": "Stuck on what to post? Post these 3.",
+    "heard": "Stuck on what a post, post these three.",
+    "match": 0.842,
+    "ok": false,
+    "diffs": [
+     "to -> a",
+     "3 -> three"
+    ]
+   }
+  ]
+ }
+}

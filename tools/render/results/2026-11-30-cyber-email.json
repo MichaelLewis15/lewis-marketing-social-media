@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-11-30-cyber-email.json",
+ "out": "daily/video/2026-11-30-cyber-email",
+ "ok": true,
+ "at": "2026-11-15T05:52:21.771063Z",
+ "seconds": 27.0,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "45d90505f1",
+  "cover916.jpg": "435139a9ad",
+  "gbp.png": "d955f70abe",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "7c5ac4fc60",
+  "v916.mp4": "772a6a2f3a",
+  "voice-check.json": "9bdd72dd94"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

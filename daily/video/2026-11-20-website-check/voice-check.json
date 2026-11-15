@@ -1,0 +1,62 @@
+[
+ {
+  "scene": 0,
+  "text": "The 60-second website check. ",
+  "spoken": "The 60-second website check.",
+  "heard": "the 60 -second website track.",
+  "match": 0.87,
+  "ok": false,
+  "diffs": [
+   "check -> track"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Tap your phone number. Does it actually dial?",
+  "spoken": "Tap your phone number. Does it actually dial?",
+  "heard": "Tap your phone number, does it actually dial?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Find Call or Get a Quote. Can you spot it in 3 seconds?",
+  "spoken": "Find Call or Get a Quote. Can you spot it in 3 seconds?",
+  "heard": "Find call or get a quote. Can you spot it in three seconds?",
+  "match": 0.93,
+  "ok": true,
+  "diffs": [
+   "3 -> three"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Send a test form. Did it reach a real inbox?",
+  "spoken": "Send a test form. Did it reach a real inbox?",
+  "heard": "Send a test form, did it reach a real inbox?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Watch it load. Does it load before you get bored?",
+  "spoken": "Watch it load. Does it load before you get bored?",
+  "heard": "Watch it load. Does it load before you get bored?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Fail one? Comment FIX. We'll take a free look at your site. Book a call at lewismarketingoc.com.",
+  "spoken": "Fail one? Comment FIX. We'll take a free look at your site. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Fail one comment fix. We'll take a free look at your site. Book a call at LewisMarketingOC .com",
+  "match": 0.98,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

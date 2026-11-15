@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-12-10-tips-2027.json",
+ "out": "daily/video/2026-12-10-tips-2027",
+ "ok": true,
+ "at": "2026-11-15T06:00:06.337133Z",
+ "seconds": 31.4,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "760e25027b",
+  "cover916.jpg": "2976397f9a",
+  "gbp.png": "208a108ca3",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "1bb14e0571",
+  "v916.mp4": "3419c5beba",
+  "voice-check.json": "859b49e03b"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

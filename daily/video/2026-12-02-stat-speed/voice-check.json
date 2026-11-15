@@ -1,0 +1,42 @@
+[
+ {
+  "scene": 0,
+  "text": "How fast should you answer a lead?. ",
+  "spoken": "How fast should you answer a lead?.",
+  "heard": "How fast should you answer a lead?",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "7x more likely to qualify a lead when you respond within an hour. Source: Harvard Business Review, The Short Life of Online Sales Leads (2011).",
+  "spoken": "7x more likely to qualify a lead when you respond within an hour. Source: Harvard Business Review, The Short Life of Online Sales Leads (2011).",
+  "heard": "7x more likely to qualify a lead when you respond within an hour. Source, Harvard Business Review, the short life of online sales leads 2011.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "23% of companies never responded to web leads at all. Source: Harvard Business Review, The Short Life of Online Sales Leads (2011).",
+  "spoken": "23 percent of companies never responded to web leads at all. Source: Harvard Business Review, The Short Life of Online Sales Leads (2011).",
+  "heard": "23 % of companies never responded to web leads at all. Source, Harvard Business Review, the short life of online sales leads 2011.",
+  "match": 0.967,
+  "ok": true,
+  "diffs": [
+   "percent -> "
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Speed is the whole game. We help you answer in minutes. Book a call at lewismarketingoc.com.",
+  "spoken": "Speed is the whole game. We help you answer in minutes. Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Speed is the whole game. We help you answer in minutes. Book a call at LewisMarketingOc .com",
+  "match": 0.98,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]

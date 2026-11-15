@@ -1,0 +1,52 @@
+[
+ {
+  "scene": 0,
+  "text": "Stuck on what to post? Post these 3. ",
+  "spoken": "Stuck on what to post? Post these 3.",
+  "heard": "Stuck on what a post, post these three.",
+  "match": 0.842,
+  "ok": false,
+  "diffs": [
+   "to -> a",
+   "3 -> three"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "A question a customer asked. If one person asked, others are wondering too.",
+  "spoken": "A question a customer asked. If one person asked, others are wondering too.",
+  "heard": "A question a customer asked, if one person asked, others are wondering, too.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "A real behind-the-scenes photo. Your team at work. No stock photos.",
+  "spoken": "A real behind-the-scenes photo. Your team at work. No stock photos.",
+  "heard": "A real behind -the -scenes photo, your team at work, no stock photos.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "One quick tip. Something a customer can use today.",
+  "spoken": "One quick tip. Something a customer can use today.",
+  "heard": "One quick tip, something a customer can use today.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Save this for Monday morning. Want help planning the rest? Book a call at lewismarketingoc.com.",
+  "spoken": "Save this for Monday morning. Want help planning the rest? Book a call at Lewis Marketing O.C. dot com.",
+  "heard": "Save this for Monday morning. Want help planning the rest? Book a call at LewisMarketingOC .com.",
+  "match": 0.981,
+  "ok": true,
+  "diffs": [
+   "lewis marketing oc dot -> lewismarketingoc"
+  ]
+ }
+]
