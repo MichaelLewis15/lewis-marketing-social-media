@@ -14,7 +14,7 @@ spec = {
   "cta": {"head": "Want this done for you?", "sub": "One line.", "button": "lewismarketingoc.com"},
   "sources": ["FTC consumer alert, Nov 2026"]      # alert: required, printed on the last slide; playbook: any stat sources
 }
-Howie is on the cover and the last slide. Logo on every slide (all white on blue, two-tone white on navy, color on light).
+Howie is on the cover and the last slide. Scam Alert Howie (Michael's rule, Nov 14, 2026): never smiling, concerned face, yellow hard hat and hi-vis safety vest (howie/howie-safety-*.png, made from howie/howie-safety.svg with shoot2.js). Logo on every slide (all white on blue, two-tone white on navy, color on light).
 """
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -49,7 +49,7 @@ def cover(s, n, path):
     d.text((P(L), P(H - 200)), "Swipe  >", font=SEMI(30), fill=AMBER if alert else SUN)
     counter(d, 1, n, (170, 184, 204))
     logo(im, True, L, None, 260)
-    howie(im, s.get("howie"), {"pose": "pointL" if not alert else "idle", "x": 900, "feet": H - 60, "h": 330})
+    howie(im, s.get("howie"), {"pose": "safety-idle" if alert else "pointL", "x": 900, "feet": H - 60 - (26 if alert else 0), "h": 340 if alert else 330})
     return finish(im, path)
 
 
@@ -95,7 +95,7 @@ def last(s, n, path):
             for ln in wrap(src, BODY(22), P(560)): d.text((P(L), P(sy)), ln, font=BODY(22), fill=(230, 238, 246)); sy += 30
     counter(d, n, n, (220, 232, 244))
     logo(im, True, L, None, 260)
-    howie(im, s.get("howie_end"), {"pose": "wave", "x": 900, "feet": H - 60, "h": 330})
+    howie(im, s.get("howie_end"), {"pose": "safety-pointL" if alert else "wave", "x": 900, "feet": H - 60, "h": 340 if alert else 330})
     return finish(im, path)
 
 
