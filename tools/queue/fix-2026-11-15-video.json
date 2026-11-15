@@ -1,0 +1,89 @@
+{
+ "name": "fix-2026-11-15-video",
+ "requests": [
+  {
+   "op": "edit",
+   "key": "nx-2026-11-15",
+   "ch": "facebook",
+   "postId": "6aefd4ba500565d7892c5033",
+   "when": "2026-11-15T16:00:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/v916.mp4?v=1aaaf7c9",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/cover916.jpg?v=1a453eb9"
+  },
+  {
+   "op": "edit",
+   "key": "nx-2026-11-15",
+   "ch": "instagram",
+   "postId": "6aefd4bf619b539bf10a70e3",
+   "when": "2026-11-15T16:00:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/v916.mp4?v=1aaaf7c9",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/cover916.jpg?v=1a453eb9"
+  },
+  {
+   "op": "edit",
+   "key": "nx-2026-11-15",
+   "ch": "linkedin",
+   "postId": "6aefd4c5a16da913ed0a5bca",
+   "when": "2026-11-15T16:00:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/v169.mp4?v=a3b0457f",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/cover169.jpg?v=3326b6f7"
+  },
+  {
+   "op": "edit",
+   "key": "nx-2026-11-15",
+   "ch": "threads",
+   "postId": "6aefd4c9500565d7892c5d8b",
+   "when": "2026-11-15T16:00:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/v916.mp4?v=1aaaf7c9",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/cover916.jpg?v=1a453eb9"
+  },
+  {
+   "op": "edit",
+   "key": "nx-2026-11-15",
+   "ch": "bluesky",
+   "postId": "6aefd4ce65bfb310a53c03a8",
+   "when": "2026-11-15T16:00:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/v169.mp4?v=a3b0457f",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/cover169.jpg?v=3326b6f7"
+  },
+  {
+   "op": "edit",
+   "key": "nx-2026-11-15",
+   "ch": "tiktok",
+   "postId": "6aefd4d68e5a79aa89f84e7f",
+   "when": "2026-11-15T16:00:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/v916.mp4?v=1aaaf7c9",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-15-post-these-3/cover916.jpg?v=1a453eb9"
+  }
+ ]
+}
