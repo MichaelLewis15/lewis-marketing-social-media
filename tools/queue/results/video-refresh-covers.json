@@ -1,0 +1,318 @@
+{
+ "name": "video-refresh-covers",
+ "at": "2026-11-15T06:32:28.583664Z",
+ "results": [
+  {
+   "key": "nx-2026-11-15",
+   "ch": "facebook",
+   "postId": "6aefd4ba500565d7892c5033",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"7bf2f359-f2f0-463a-9fe1-1d389eb165db\"}"
+  },
+  {
+   "key": "nx-2026-11-15",
+   "ch": "instagram",
+   "postId": "6aefd4bf619b539bf10a70e3",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"1910e148-2df2-4b0d-b8fa-52a0bcaa9f18\"}"
+  },
+  {
+   "key": "nx-2026-11-15",
+   "ch": "linkedin",
+   "postId": "6aefd4c5a16da913ed0a5bca",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"72ef1411-3437-412f-a207-c35d5b1c7d74\"}"
+  },
+  {
+   "key": "nx-2026-11-15",
+   "ch": "threads",
+   "postId": "6aefd4c9500565d7892c5d8b",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"9250ad7d-c5cf-4264-8b20-1736fbd26c67\"}"
+  },
+  {
+   "key": "nx-2026-11-15",
+   "ch": "bluesky",
+   "postId": "6aefd4ce65bfb310a53c03a8",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"0d541eb0-b236-4d70-8ac3-81e8811e8de6\"}"
+  },
+  {
+   "key": "nx-2026-11-15",
+   "ch": "tiktok",
+   "postId": "6aefd4d68e5a79aa89f84e7f",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"a914ad7a-bb3d-49c4-8a9d-ec737cb218c4\"}"
+  },
+  {
+   "key": "nx-2026-11-17",
+   "ch": "tiktok",
+   "postId": "6aefd952500565d7892f873e",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"8dd12deb-9ca8-4341-b049-859dc63cfb2d\"}"
+  },
+  {
+   "key": "nx-2026-11-17",
+   "ch": "bluesky",
+   "postId": "6aefd560abb5e4b629c60daf",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"c85efdbd-eb61-4d4b-a080-50bd6e7edbc1\"}"
+  },
+  {
+   "key": "nx-2026-11-17",
+   "ch": "instagram",
+   "postId": "6aefd5483f522d982f11efd8",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"04fe7d3c-46fc-4d70-b2a2-83d796f75503\"}"
+  },
+  {
+   "key": "nx-2026-11-17",
+   "ch": "facebook",
+   "postId": "6aefd53f500565d7892ca8b3",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"f46eafbe-74ef-46d4-b4d0-41c5d991c289\"}"
+  },
+  {
+   "key": "nx-2026-11-17",
+   "ch": "threads",
+   "postId": "6aefd55a619b539bf10ae081",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"5d1b03fb-daa8-4368-9a6b-e01ab17138ab\"}"
+  },
+  {
+   "key": "nx-2026-11-19",
+   "ch": "instagram",
+   "postId": "6aefd57565bfb310a53c6bf9",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"dba2cd7b-656f-4a17-ac8c-f3ec12686060\"}"
+  },
+  {
+   "key": "nx-2026-11-19",
+   "ch": "tiktok",
+   "postId": "6aefd58b13c74e9196269619",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"e7d79b9f-d40a-43ec-84d5-10c8bdf95429\"}"
+  },
+  {
+   "key": "nx-2026-11-19",
+   "ch": "bluesky",
+   "postId": "6aefd583b5de0827da762335",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"729ede32-b870-41e6-93fb-c049fe2cf8f5\"}"
+  },
+  {
+   "key": "nx-2026-11-19",
+   "ch": "threads",
+   "postId": "6aefd57fc7cd4e7e4cce34c5",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"9f48d216-f364-49e3-95f8-d227e7d6c375\"}"
+  },
+  {
+   "key": "nx-2026-11-19",
+   "ch": "linkedin",
+   "postId": "6aefd57a97f3fd6dc5c238da",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"1cbbbe87-99eb-4350-88b2-36230019b17b\"}"
+  },
+  {
+   "key": "nx-2026-11-19",
+   "ch": "facebook",
+   "postId": "6aefd571a16da913ed0ac7b3",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"e9a3c69c-b581-4f29-ad2d-3deb8e58852e\"}"
+  },
+  {
+   "key": "104",
+   "ch": "bluesky",
+   "postId": "6ace4d62e422a0c5112ca0a4",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"9605b713-f9d6-4468-a9a0-941dbf11908b\"}"
+  },
+  {
+   "key": "104",
+   "ch": "threads",
+   "postId": "6ace4d62d404213caf82fc7d",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"5e5b8d7d-df87-4b27-a654-10963edc92ea\"}"
+  },
+  {
+   "key": "104",
+   "ch": "facebook",
+   "postId": "6ace4d62fbe65cc160a10792",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"61c24bec-639d-4123-ba78-8b496570ee12\"}"
+  },
+  {
+   "key": "104",
+   "ch": "instagram",
+   "postId": "6ace4d623e0aa2a393b22253",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"bfc14d4f-f1c1-447f-9e2e-365efdcec1cd\"}"
+  },
+  {
+   "key": "104",
+   "ch": "linkedin",
+   "postId": "6ace4d627ad751f690901445",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"38b9151e-0a25-4df0-9988-87f4837c7ee4\"}"
+  },
+  {
+   "key": "104",
+   "ch": "gbp",
+   "postId": "6ace4d62e72714923d558c19",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"eaba6d1b-d66a-4191-a1f1-74bb7a6742ab\"}"
+  },
+  {
+   "key": "132",
+   "ch": "facebook",
+   "postId": "6ace44c94aee5149a171d372",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"0f616f24-be25-446f-bc48-402a012be36f\"}"
+  },
+  {
+   "key": "132",
+   "ch": "threads",
+   "postId": "6ace44c999bc22795d551795",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"ccc06fec-c6cb-4aa7-abab-4f3ca869b01b\"}"
+  },
+  {
+   "key": "132",
+   "ch": "bluesky",
+   "postId": "6ace44c989f4d380e24b489b",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"238961c6-3ade-4faf-bb98-ef6cbe10b87d\"}"
+  },
+  {
+   "key": "132",
+   "ch": "instagram",
+   "postId": "6ace44cbddaba00a5bb1dc3b",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"c1678331-dd20-40f3-9223-1c38c65f6796\"}"
+  },
+  {
+   "key": "132",
+   "ch": "tiktok",
+   "postId": "6aec7c6f65bfb310a5393077",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"f5bb6f8b-4c7d-4dd9-be08-9e1a5a85d2b9\"}"
+  },
+  {
+   "key": "132",
+   "ch": "tiktok",
+   "postId": "6aec7c75b75c2fe34c8772e0",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"d1cbbffa-f339-4705-a325-4442c7e45afe\"}"
+  },
+  {
+   "key": "nx-2026-11-24",
+   "ch": "facebook",
+   "postId": "6aefd5bb619b539bf10b2e3d",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"e7de747d-6741-4ead-b2f7-354fc0802ba1\"}"
+  },
+  {
+   "key": "nx-2026-11-24",
+   "ch": "instagram",
+   "postId": "6aefd5c46b311a7f8a2befdf",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"a365c13a-65f8-4dce-ac6a-66604bf24156\"}"
+  },
+  {
+   "key": "nx-2026-11-24",
+   "ch": "threads",
+   "postId": "6aefd5d63f522d982f123903",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"27f491d6-6439-44d8-9c87-dd3c536a2b89\"}"
+  },
+  {
+   "key": "nx-2026-11-24",
+   "ch": "bluesky",
+   "postId": "6aefd5ddc262dede21172cbc",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"0396e0f2-e5ec-45c3-82de-a814aa1332e5\"}"
+  },
+  {
+   "key": "nx-2026-11-24",
+   "ch": "tiktok",
+   "postId": "6aefd960500565d7892f8be2",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"60a64bd6-eef3-411f-928b-2d6df3ede96a\"}"
+  },
+  {
+   "key": "nx-2026-11-27",
+   "ch": "facebook",
+   "postId": "6aefd5ec6b311a7f8a2c08c0",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"528dcd25-2d11-42a4-8327-113b8739f29c\"}"
+  },
+  {
+   "key": "nx-2026-11-27",
+   "ch": "instagram",
+   "postId": "6aefd5f165bfb310a53cace2",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"8c6243ad-49a6-9a90-ae91-be1d9fcc707c\"}"
+  },
+  {
+   "key": "nx-2026-11-27",
+   "ch": "linkedin",
+   "postId": "6aefd5f6c7cd4e7e4cce74c2",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"daf42f17-d35e-4580-ab02-697f4b8a8318\"}"
+  },
+  {
+   "key": "nx-2026-11-27",
+   "ch": "threads",
+   "postId": "6aefd5fbb5de0827da765c20",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"37648b63-a810-4a6f-99d7-836d1d375ba5\"}"
+  },
+  {
+   "key": "nx-2026-11-27",
+   "ch": "bluesky",
+   "postId": "6aefd5ff13c74e919626d036",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"dbdf03b7-fcd1-4c9e-a919-25f103a5252f\"}"
+  },
+  {
+   "key": "nx-2026-11-27",
+   "ch": "tiktok",
+   "postId": "6aefd607c7cd4e7e4cce77a0",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"cb32b931-328c-425d-bad6-17a8df20532f\"}"
+  },
+  {
+   "key": "107",
+   "ch": "linkedin",
+   "postId": "6ace5009ddaba00a5bcaf2d6",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"a2679201-cd7a-4b8e-882e-70eaf51eff47\"}"
+  },
+  {
+   "key": "107",
+   "ch": "bluesky",
+   "postId": "6ace50042e243eef4f146461",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"6514d663-93e1-4200-af50-b2c99483007c\"}"
+  },
+  {
+   "key": "107",
+   "ch": "facebook",
+   "postId": "6ace5004731eae50a518d805",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"d497d60c-af0d-4f22-a4eb-28bdaf1a4632\"}"
+  },
+  {
+   "key": "107",
+   "ch": "instagram",
+   "postId": "6ace5004284c3b76e76d4fa0",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"16f05551-21ff-4f42-b97c-5fedbf2751ef\"}"
+  },
+  {
+   "key": "107",
+   "ch": "threads",
+   "postId": "6ace500489f4d380e261bcf9",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"d592e532-570e-4a52-81ef-0f53277de0ae\"}"
+  },
+  {
+   "key": "107",
+   "ch": "gbp",
+   "postId": "6ace5003d404213caf87e6d2",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"790a558f-0021-417c-bbb3-311c343b9b5f\"}"
+  },
+  {
+   "key": "nx-2026-11-30",
+   "ch": "bluesky",
+   "postId": "6aefd64897f3fd6dc5c29b24",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"ba75904d-af24-4740-8a88-36a1dcf83568\"}"
+  },
+  {
+   "key": "nx-2026-11-30",
+   "ch": "instagram",
+   "postId": "6aefd63a8e5a79aa89f939d9",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"1a325341-ff0b-4cdc-b14c-8acd2bec0228\"}"
+  },
+  {
+   "key": "nx-2026-11-30",
+   "ch": "threads",
+   "postId": "6aefd644619b539bf10b964a",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"c4488ea0-9ef5-45b5-a7d3-992826a23e1d\"}"
+  },
+  {
+   "key": "nx-2026-11-30",
+   "ch": "tiktok",
+   "postId": "6aefd65013c74e919626f1bf",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"4c6626eb-9489-4db8-b15a-bde871cfee33\"}"
+  },
+  {
+   "key": "nx-2026-11-30",
+   "ch": "linkedin",
+   "postId": "6aefd63fc262dede21174b5b",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"9964bf60-b682-4722-b69e-9143e83d45ab\"}"
+  },
+  {
+   "key": "nx-2026-11-30",
+   "ch": "facebook",
+   "postId": "6aefd632c7cd4e7e4cce9704",
+   "error": "422: {\"status\":422,\"options\":{},\"message\":[\"property thumbnail should not exist\"],\"name\":\"UnprocessableEntityException\",\"error\":\"Unprocessable Entity\",\"statusCode\":422,\"traceId\":\"97f27378-2b93-4469-8753-2f6534db9bc4\"}"
+  }
+ ]
+}
