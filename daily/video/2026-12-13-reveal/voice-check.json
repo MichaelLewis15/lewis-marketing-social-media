@@ -1,20 +1,18 @@
 [
  {
   "scene": 0,
-  "text": "The lie was C. Here's the truth. ",
-  "spoken": "The lie was C. Here's the truth.",
-  "heard": "The lie we see, here's the truth.",
-  "match": 0.894,
-  "ok": false,
-  "diffs": [
-   "was c -> we see"
-  ]
+  "text": "The answer is C. Here's the truth.",
+  "spoken": "The answer is C. Here's the truth.",
+  "heard": "The answer is C, here's the truth.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
  },
  {
   "scene": 1,
   "text": "97% of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
   "spoken": "97 percent of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
-  "heard": "97 % of consumers read reviews for local businesses. Source. Bright Local Local Consumer Review Survey, 2026.",
+  "heard": "97 % of consumers read reviews for local businesses. Source, Bright Local Local Consumer Review Survey, 2026.",
   "match": 0.962,
   "ok": true,
   "diffs": [
@@ -26,7 +24,7 @@
   "scene": 2,
   "text": "47% won't use a business with fewer than 20 reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
   "spoken": "47 percent won't use a business with fewer than 20 reviews. Source: BrightLocal Local Consumer Review Survey 2026.",
-  "heard": "47 % won't use a business with fewer than 20 reviews. Source, Bright Local Local Consumer Review Survey, 2026.",
+  "heard": "47 % won't use a business with fewer than 20 reviews. Source. Bright local local consumer review survey, 2026.",
   "match": 0.961,
   "ok": true,
   "diffs": [
@@ -50,11 +48,11 @@
   "scene": 4,
   "text": "Did you get it right? We help businesses earn fresh reviews. Book a call at lewismarketingoc.com.",
   "spoken": "Did you get it right? We help businesses earn fresh reviews. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Did you get it right? We help businesses earn fresh reviews. Book a call at luismarketingoc .com",
-  "match": 0.962,
+  "heard": "Did you get it right? We help businesses earn fresh reviews. Book a call at LewisMarketingOC .com.",
+  "match": 0.981,
   "ok": true,
   "diffs": [
-   "lewis marketing oc dot -> luismarketingoc"
+   "lewis marketing oc dot -> lewismarketingoc"
   ]
  }
 ]

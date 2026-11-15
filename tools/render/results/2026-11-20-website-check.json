@@ -2,36 +2,24 @@
  "spec": "daily-social/video-specs/2026-11-20-website-check.json",
  "out": "daily/video/2026-11-20-website-check",
  "ok": true,
- "at": "2026-11-15T05:39:37.744757Z",
- "seconds": 29.6,
+ "at": "2026-11-15T06:19:54.642410Z",
+ "seconds": 32.1,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "fc66394b1b",
-  "cover916.jpg": "e7ae2a0735",
+  "cover169.jpg": "a9efd4aff2",
+  "cover916.jpg": "2a901cf921",
   "gbp.png": "7c350023ff",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "388bf96f96",
-  "v916.mp4": "70e58a63da",
-  "voice-check.json": "a09c71a23f"
+  "v169.mp4": "91181978f3",
+  "v916.mp4": "dede34ae04",
+  "voice-check.json": "05ea3d79be"
  },
  "voiceCheck": {
-  "ok": false,
-  "flagged": [
-   {
-    "scene": 0,
-    "text": "The 60-second website check. ",
-    "spoken": "The 60-second website check.",
-    "heard": "the 60 -second website track.",
-    "match": 0.87,
-    "ok": false,
-    "diffs": [
-     "check -> track"
-    ]
-   }
-  ]
+  "ok": true,
+  "flagged": []
  }
 }

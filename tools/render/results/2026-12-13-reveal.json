@@ -2,36 +2,24 @@
  "spec": "daily-social/video-specs/2026-12-13-reveal.json",
  "out": "daily/video/2026-12-13-reveal",
  "ok": true,
- "at": "2026-11-15T06:05:50.374389Z",
- "seconds": 42.9,
+ "at": "2026-11-15T06:23:50.919706Z",
+ "seconds": 43.0,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "7ef0446cf7",
-  "cover916.jpg": "9f362d346e",
+  "cover169.jpg": "68d54bd06a",
+  "cover916.jpg": "3162d7d584",
   "gbp.png": "b0029dc90c",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "9af484bc57",
-  "v916.mp4": "1d87ff013a",
-  "voice-check.json": "001b446a9c"
+  "v169.mp4": "6e77aff46f",
+  "v916.mp4": "59fca8b052",
+  "voice-check.json": "bb065d45ab"
  },
  "voiceCheck": {
-  "ok": false,
-  "flagged": [
-   {
-    "scene": 0,
-    "text": "The lie was C. Here's the truth. ",
-    "spoken": "The lie was C. Here's the truth.",
-    "heard": "The lie we see, here's the truth.",
-    "match": 0.894,
-    "ok": false,
-    "diffs": [
-     "was c -> we see"
-    ]
-   }
-  ]
+  "ok": true,
+  "flagged": []
  }
 }

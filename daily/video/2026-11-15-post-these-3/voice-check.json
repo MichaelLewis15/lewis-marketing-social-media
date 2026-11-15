@@ -1,15 +1,12 @@
 [
  {
   "scene": 0,
-  "text": "Stuck on what to post? Post these 3. ",
-  "spoken": "Stuck on what to post? Post these 3.",
-  "heard": "Stuck on what a post, post these three.",
-  "match": 0.842,
-  "ok": false,
-  "diffs": [
-   "to -> a",
-   "3 -> three"
-  ]
+  "text": "Stuck on what to post this week? Here are three posts to make.",
+  "spoken": "Stuck on what to post this week? Here are three posts to make.",
+  "heard": "Stuck on what to post this week. Here are three posts to make.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
  },
  {
   "scene": 1,
@@ -42,7 +39,7 @@
   "scene": 4,
   "text": "Save this for Monday morning. Want help planning the rest? Book a call at lewismarketingoc.com.",
   "spoken": "Save this for Monday morning. Want help planning the rest? Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Save this for Monday morning. Want help planning the rest? Book a call at LewisMarketingOC .com.",
+  "heard": "Save this for Monday morning. Want help planning the rest? Book a call at LewisMarketingOC .com",
   "match": 0.981,
   "ok": true,
   "diffs": [

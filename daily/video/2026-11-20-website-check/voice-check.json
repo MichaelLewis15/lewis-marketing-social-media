@@ -1,13 +1,13 @@
 [
  {
   "scene": 0,
-  "text": "The 60-second website check. ",
-  "spoken": "The 60-second website check.",
-  "heard": "the 60 -second website track.",
-  "match": 0.87,
-  "ok": false,
+  "text": "Friday fix. Here's a sixty second website test you can do right now.",
+  "spoken": "Friday fix. Here's a sixty second website test you can do right now.",
+  "heard": "Friday Fix. Here's a 60 -second website test you can do right now.",
+  "match": 0.932,
+  "ok": true,
   "diffs": [
-   "check -> track"
+   "sixty -> 60"
   ]
  },
  {
