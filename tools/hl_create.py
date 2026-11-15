@@ -2,6 +2,8 @@
 """Create HighLevel Social Planner posts from queue files (Lewis Marketing sub-account only).
 
 Each tools/queue/<name>.json is {"name": str, "requests": [{"key": str, "ch": str, "body": {...create-post body...}}]}.
+A request with "op": "edit" and "postId" updates that existing scheduled post instead (PUT, full body); the post must still be
+scheduled in Lewis Marketing and every account must be on the allow-list (Michael, Nov 15, 2026: video refresh).
 Posts that already exist (same accounts, same time, same caption start) are not created twice.
 Results go to tools/queue/results/<name>.json and the queue file moves to tools/queue/done/.
 """
@@ -22,6 +24,10 @@ ALLOWED = {  # every account id must belong to Lewis Marketing
     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business", "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business",
     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile", "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile",
 }
+
+
+EDIT_KEEP = ("accountIds", "summary", "media", "status", "scheduleDate", "type", "followUpComment", "createdBy", "tags", "categoryId",
+             "facebookPostDetails", "instagramPostDetails", "linkedinPostDetails", "youtubePostDetails", "gmbPostDetails", "tiktokPostDetails")
 
 
 def call(method, path, **kw):
@@ -57,17 +63,43 @@ def main():
     bad = 0
     for f in files:
         q = json.load(open(f)); reqs = q["requests"]; name = q.get("name") or pathlib.Path(f).stem
-        dates = sorted(r["body"]["scheduleDate"] for r in reqs)
+        dates = sorted((r.get("body") or {}).get("scheduleDate") or r.get("when") for r in reqs)
         frm = (datetime.datetime.fromisoformat(dates[0].replace("Z", "")) - datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         to = (datetime.datetime.fromisoformat(dates[-1].replace("Z", "")) + datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         have = {sig(p): p["_id"] for p in existing(frm, to)}
         res = []
         for r in reqs:
-            b = r["body"]
+            b = r.get("body") or {}
+            if r.get("op") == "edit" and not b:
+                try:
+                    cur = call("GET", f"/social-media-posting/{LOC}/posts/{r['postId']}")
+                    cp = ((cur.get("results") or {}).get("post")) or cur.get("post") or {}
+                    b = {k: cp[k] for k in EDIT_KEEP if cp.get(k) not in (None, {}, [], "")}
+                    for k in [k for k in b if k.endswith("PostDetails")]:
+                        b[k] = {x: y for x, y in b[k].items() if y is not None and x != "shortenedLinks"} or None
+                        if b[k] is None: del b[k]
+                    b["media"] = r["media"]; b["status"] = "scheduled"
+                    b["userId"] = cp.get("createdBy") or "0T5YzQFGjmXmN5py288b"; b.setdefault("createdBy", b["userId"])
+                    if r.get("summary"): b["summary"] = r["summary"]
+                except Exception as e:
+                    res.append({"key": r["key"], "ch": r["ch"], "postId": r["postId"], "error": "read: " + str(e)[:280]}); bad += 1; continue
             if not set(b.get("accountIds") or []) <= ALLOWED:
                 res.append({**{k: r[k] for k in ("key", "ch")}, "error": "account not in Lewis Marketing allow-list"}); bad += 1; continue
             if b.get("scheduleDate", "") < datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S"):
                 res.append({"key": r["key"], "ch": r["ch"], "error": "time passed"}); bad += 1; continue
+            if r.get("op") == "edit":
+                try:
+                    cur = call("GET", f"/social-media-posting/{LOC}/posts/{r['postId']}")
+                    cp = ((cur.get("results") or {}).get("post")) or cur.get("post") or {}
+                    if cp.get("locationId") not in (None, LOC) or cp.get("status") not in (None, "scheduled"):
+                        raise RuntimeError(f"post is {cp.get('status')} in {cp.get('locationId')}; only scheduled Lewis Marketing posts are edited")
+                    call("PUT", f"/social-media-posting/{LOC}/posts/{r['postId']}", json=b)
+                    res.append({"key": r["key"], "ch": r["ch"], "postId": r["postId"], "when": b.get("scheduleDate"), "edited": True})
+                    print("edited", r["key"], r["ch"], r["postId"])
+                except Exception as e:
+                    res.append({"key": r["key"], "ch": r["ch"], "postId": r["postId"], "error": str(e)[:300]}); bad += 1
+                    print("FAILED edit", r["key"], r["ch"], e, file=sys.stderr)
+                time.sleep(0.4); continue
             s = sig(b)
             if s in have:
                 res.append({"key": r["key"], "ch": r["ch"], "postId": have[s], "when": b["scheduleDate"], "existed": True}); continue
