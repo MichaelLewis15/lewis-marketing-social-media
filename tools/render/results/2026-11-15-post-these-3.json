@@ -2,21 +2,21 @@
  "spec": "daily-social/video-specs/2026-11-15-post-these-3.json",
  "out": "daily/video/2026-11-15-post-these-3",
  "ok": true,
- "at": "2026-11-15T06:17:00.613751Z",
- "seconds": 28.9,
+ "at": "2026-11-15T11:03:59.424074Z",
+ "seconds": 27.9,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "f1d980b3f2",
-  "cover916.jpg": "2f7668a47b",
+  "cover169.jpg": "3326b6f7ad",
+  "cover916.jpg": "1a453eb929",
   "gbp.png": "b70587bcbe",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "d119aaad98",
-  "v916.mp4": "4e56cd1436",
-  "voice-check.json": "d17a71fadb"
+  "v169.mp4": "a3b0457ff0",
+  "v916.mp4": "1aaaf7c908",
+  "voice-check.json": "8ef8ae7913"
  },
  "voiceCheck": {
   "ok": true,
