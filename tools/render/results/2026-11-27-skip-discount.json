@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-11-27-skip-discount.json",
  "out": "daily/video/2026-11-27-skip-discount",
  "ok": true,
- "at": "2026-11-15T05:48:09.041529Z",
+ "at": "2026-11-15T11:29:57.620401Z",
  "seconds": 25.9,
  "qc": {
   "ok": true,
@@ -10,13 +10,13 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "f5a5d3405e",
-  "cover916.jpg": "caf0f8607f",
+  "cover169.jpg": "6934c5beb1",
+  "cover916.jpg": "5c68cb0b0b",
   "gbp.png": "075029adec",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "95e39840db",
-  "v916.mp4": "4b8df7e3ea",
-  "voice-check.json": "12356f7180"
+  "v169.mp4": "ecf55ad680",
+  "v916.mp4": "8f95e9fae0",
+  "voice-check.json": "e2e2b7eaaa"
  },
  "voiceCheck": {
   "ok": true,

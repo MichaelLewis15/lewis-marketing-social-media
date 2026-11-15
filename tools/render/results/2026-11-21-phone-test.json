@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-11-21-phone-test.json",
  "out": "daily/video/2026-11-21-phone-test",
  "ok": true,
- "at": "2026-11-15T05:41:50.789290Z",
+ "at": "2026-11-15T11:22:43.019335Z",
  "seconds": 29.0,
  "qc": {
   "ok": true,
@@ -10,13 +10,13 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "dbb36aa48c",
-  "cover916.jpg": "68708a79b5",
+  "cover169.jpg": "d4171e565c",
+  "cover916.jpg": "d9ae1dce0b",
   "gbp.png": "42e0680729",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "e1ec879d31",
-  "v916.mp4": "bfc01d2093",
-  "voice-check.json": "7ad6678f34"
+  "v169.mp4": "350c692dad",
+  "v916.mp4": "073236f3e9",
+  "voice-check.json": "bcf316a642"
  },
  "voiceCheck": {
   "ok": true,

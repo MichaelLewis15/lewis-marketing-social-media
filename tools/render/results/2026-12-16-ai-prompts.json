@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-12-16-ai-prompts.json",
  "out": "daily/video/2026-12-16-ai-prompts",
  "ok": true,
- "at": "2026-11-15T06:08:38.264324Z",
+ "at": "2026-11-15T11:51:05.563059Z",
  "seconds": 38.3,
  "qc": {
   "ok": true,
@@ -10,12 +10,12 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "601ae8dd9f",
-  "cover916.jpg": "c21f7b4ba9",
+  "cover169.jpg": "15a4d2e296",
+  "cover916.jpg": "13f3ce13a2",
   "gbp.png": "c42bdcf528",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "fa491c392f",
-  "v916.mp4": "97e0cf2fd4",
+  "v169.mp4": "25bd2f994c",
+  "v916.mp4": "50abd7e8a8",
   "voice-check.json": "115e0dab4b"
  },
  "voiceCheck": {

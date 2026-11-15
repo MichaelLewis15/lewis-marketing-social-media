@@ -32,7 +32,7 @@
   "scene": 3,
   "text": "Say: find our phone number. Go!. No hints allowed.",
   "spoken": "Say: find our phone number. Go!. No hints allowed.",
-  "heard": "Say, find our phone number. Go, no hints allowed.",
+  "heard": "Say find our phone number. Go. No hints allowed.",
   "match": 1.0,
   "ok": true,
   "diffs": []

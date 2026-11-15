@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-11-19-who-answers.json",
  "out": "daily/video/2026-11-19-who-answers",
  "ok": true,
- "at": "2026-11-15T05:37:31.473165Z",
+ "at": "2026-11-15T11:18:23.016935Z",
  "seconds": 28.8,
  "qc": {
   "ok": true,
@@ -10,12 +10,12 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "5cca9f1d8b",
-  "cover916.jpg": "044af61e4e",
+  "cover169.jpg": "3b7ba6977c",
+  "cover916.jpg": "d38423629f",
   "gbp.png": "db72596dd9",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "627d6ca6df",
-  "v916.mp4": "ca854762da",
+  "v169.mp4": "c28f9be2e5",
+  "v916.mp4": "88cda0395a",
   "voice-check.json": "f2dbf932d4"
  },
  "voiceCheck": {
