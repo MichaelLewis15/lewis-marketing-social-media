@@ -14,7 +14,7 @@ spec = {
   "cta": {"head": "Want this done for you?", "sub": "One line.", "button": "lewismarketingoc.com"},
   "sources": ["FTC consumer alert, Nov 2026"]      # alert: required, printed on the last slide; playbook: any stat sources
 }
-Howie is on the cover and the last slide. Scam Alert Howie (Michael's rule, Nov 14, 2026): never smiling, concerned face, yellow hard hat and hi-vis safety vest (howie/howie-safety-*.png, made from howie/howie-safety.svg with shoot2.js). Logo on every slide (all white on blue, two-tone white on navy, color on light).
+Howie is on the cover and the last slide. Scam Alert Howie (Michael's rule, Nov 14, 2026): never smiling, clearly concerned face (raised worried brows, wide eyes, wobbly mouth, sweat drop), yellow hard hat and hi-vis safety vest (howie/howie-safety-*.png, made from howie/howie-safety.svg with shoot2.js). Logo on every slide (all white on blue, two-tone white on navy, color on light).
 """
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
