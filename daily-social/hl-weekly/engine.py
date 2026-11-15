@@ -670,19 +670,28 @@ class Renderer:
 
     def fit(self, si, p):
         if si in self._fit: return self._fit[si]
+        if self.L.key == "916" and self.sc[si].get("body") and not getattr(self, "_bodyfit", False):
+            # every point in a vertical video gets the same text size (the smallest that fits all of them)
+            self._bodyfit = True; ks = [k for k, sc in enumerate(self.sc) if sc.get("body")]
+            res = {k: self.fit(k, self.st.pal(k)) for k in ks}; smin = min(r[0].s for r in res.values())
+            x, y, w, h = self.st.box(); probe = ImageDraw.Draw(Image.new("RGBA", (max(4, int(w) + 400), 4000)))
+            for k in ks:
+                F = self.L.fonts(smin); self._fit[k] = (F, self.sc[k]["draw"](probe, 0, 0, w, F, self.st.pal(k), 99, self.ctx(k, 0)))
+            return self._fit[si]
         x, y, w, h = self.st.box(); probe = ImageDraw.Draw(Image.new("RGBA", (max(4, int(w) + 400), 4000)))
-        s = 1.0
+        # vertical videos: start bigger and shrink to fit, so short scenes fill the phone screen (Michael, Nov 15, 2026)
+        s = float(self.spec.get("grow", 1.35)) if self.L.v and self.L.key == "916" else 1.0
         while True:
             F = self.L.fonts(s); hh = self.sc[si]["draw"](probe, 0, 0, w, F, p, 99, self.ctx(si, 0))
-            if hh <= h or s < 0.6: break
-            s *= 0.92
+            if (hh <= h * (0.8 if s > 1 else 1.0)) or s < 0.6: break
+            s *= 0.94
         self._fit[si] = (F, hh); return self._fit[si]
 
     def frame(self, t):
         si = int(np.searchsorted(self.starts, t, side="right") - 1); lt = t - self.starts[si]
         st = self.st; im = st.scene_bg(self.sc, si, lt); p = st.pal(si)
         F, hh = self.fit(si, p); x, y, w, h = st.box()
-        y = y + max(0, (h - hh) * (0.3 if self.L.v else 0.4))
+        y = y + max(0, (h - hh) * (0.4 if self.L.v else 0.4))
         layer = Image.new("RGBA", (self.L.W, self.L.H)); self.sc[si]["draw"](ImageDraw.Draw(layer), x, y, w, F, p, lt, self.ctx(si, t))
         if isinstance(st, Cards):
             pad = st.pad(); layer = shift(layer, dy=-int(y - (self.L.top + pad)))
@@ -732,7 +741,7 @@ def render_base(r, out):
 def howie_frames(sc, total, tmp, page):
     T = howie_reel.timeline(total); starts = np.cumsum([0] + [s["dur"] for s in sc])
     PO = [dict(t=0, p="idle"), dict(t=0.9, p="wave"), dict(t=2.6, p="idle")]
-    MV = [dict(t=0, x=-200, y=1590, s=1.25), dict(t=0.2, x=200, y=1590, s=1.25, d=0.6, h=150)]
+    MV = [dict(t=0, x=200, y=1590, s=1.25), dict(t=0.3, x=200, y=1590, s=1.25, d=0.5, h=60)]  # Howie on screen from the first frame
     for k, s in enumerate(sc):
         if not s["body"]: continue
         t0 = float(starts[k]); PO += [dict(t=t0 + 0.5, p="pointR", a=100), dict(t=t0 + 2.4, p="idle")]
