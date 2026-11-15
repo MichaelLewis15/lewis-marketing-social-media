@@ -1,0 +1,32 @@
+{
+ "format": "stat",
+ "style": "bold",
+ "music": 2,
+ "howie": false,
+ "eyebrow": "STAT SNACK",
+ "head1": "How fast should",
+ "head2": "you answer a lead?",
+ "stats": [
+  {
+   "value": "7x",
+   "label": "more likely to qualify a lead when you respond within an hour",
+   "source": "Harvard Business Review, The Short Life of Online Sales Leads (2011)",
+   "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads"
+  },
+  {
+   "value": "23%",
+   "label": "of companies never responded to web leads at all",
+   "source": "Harvard Business Review, The Short Life of Online Sales Leads (2011)",
+   "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads"
+  }
+ ],
+ "cta": "Speed is the whole game.",
+ "cta2": "We help you answer in minutes.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-02-stat-speed",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

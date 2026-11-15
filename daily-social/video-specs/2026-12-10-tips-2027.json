@@ -1,0 +1,36 @@
+{
+ "format": "list",
+ "style": "cards",
+ "music": 0,
+ "eyebrow": "GOING INTO 2027",
+ "head1": "4 things we'd tell",
+ "head2": "every business owner",
+ "week": "Going into 2027",
+ "items": [
+  {
+   "title": "Fix the foundation before you buy ads",
+   "why": "Website, Google profile, follow-up."
+  },
+  {
+   "title": "Answer leads in minutes, not days",
+   "why": "Speed wins the job."
+  },
+  {
+   "title": "Own your audience",
+   "why": "Build that email list."
+  },
+  {
+   "title": "Let AI write the first draft",
+   "why": "Not the final say."
+  }
+ ],
+ "cta": "What would you add as number 5?",
+ "cta2": "Tell us in the comments.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-10-tips-2027",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

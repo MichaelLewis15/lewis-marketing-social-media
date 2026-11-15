@@ -1,0 +1,38 @@
+{
+ "format": "list",
+ "style": "bold",
+ "music": 1,
+ "eyebrow": "WEEKEND MISSION",
+ "howie": true,
+ "head1": "The 10-second",
+ "head2": "phone test",
+ "week": "Try it this weekend",
+ "items": [
+  {
+   "title": "Pull up your website on your phone",
+   "why": "The way most customers see it."
+  },
+  {
+   "title": "Hand it to a friend",
+   "why": "Someone who doesn't know your site."
+  },
+  {
+   "title": "Say: find our phone number. Go!",
+   "why": "No hints allowed."
+  },
+  {
+   "title": "Time them",
+   "why": "Over 10 seconds could be a lead lost every day."
+  }
+ ],
+ "cta": "Comment your time.",
+ "cta2": "Under 10 seconds or over?",
+ "itemWord": "STEP",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-21-phone-test",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

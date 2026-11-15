@@ -1,0 +1,35 @@
+{
+ "format": "list",
+ "style": "yearend",
+ "music": 1,
+ "eyebrow": "HAPPY NEW YEAR",
+ "head1": "Hello, 2027.",
+ "head2": "Thank you for 2026.",
+ "week": "From the Lewis Marketing team",
+ "items": [
+  {
+   "title": "Thank you to our clients",
+   "why": "For trusting us with your business.",
+   "tag": "Thank you"
+  },
+  {
+   "title": "Thank you to our community",
+   "why": "Northwest Iowa and Siouxland, you made this year.",
+   "tag": "Thank you"
+  },
+  {
+   "title": "Here's to growing together",
+   "why": "Big things ahead in 2027.",
+   "tag": "Cheers"
+  }
+ ],
+ "cta": "Happy New Year!",
+ "cta2": "Michael and the Lewis Marketing team.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2027-01-01-new-year",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

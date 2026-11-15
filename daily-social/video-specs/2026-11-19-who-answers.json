@@ -1,0 +1,32 @@
+{
+ "format": "list",
+ "style": "cards",
+ "music": 3,
+ "eyebrow": "4:55 ON FRIDAY",
+ "head1": "It's 4:55 on Friday.",
+ "head2": "Who answers?",
+ "week": "They'll call the next business.",
+ "items": [
+  {
+   "title": "Text back missed calls",
+   "why": "Automatically, within a minute."
+  },
+  {
+   "title": "Add an online booking link",
+   "why": "Let them book without waiting for you."
+  },
+  {
+   "title": "Reply in minutes, not hours",
+   "why": "The first business to answer usually wins."
+  }
+ ],
+ "cta": "We set this up for local businesses.",
+ "cta2": "Never miss the 4:55 call again.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-19-who-answers",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

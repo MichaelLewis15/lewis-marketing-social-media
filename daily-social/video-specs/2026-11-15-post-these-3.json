@@ -1,0 +1,32 @@
+{
+ "format": "list",
+ "style": "light",
+ "music": 1,
+ "eyebrow": "STUCK ON WHAT TO POST?",
+ "head1": "Stuck on what to post?",
+ "head2": "Post these 3.",
+ "week": "Your whole week, planned",
+ "items": [
+  {
+   "title": "A question a customer asked",
+   "why": "If one person asked, others are wondering too."
+  },
+  {
+   "title": "A real behind-the-scenes photo",
+   "why": "Your team at work. No stock photos."
+  },
+  {
+   "title": "One quick tip",
+   "why": "Something a customer can use today."
+  }
+ ],
+ "cta": "Save this for Monday morning.",
+ "cta2": "Want help planning the rest?",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-15-post-these-3",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

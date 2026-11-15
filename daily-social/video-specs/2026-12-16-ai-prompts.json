@@ -1,0 +1,40 @@
+{
+ "format": "list",
+ "style": "holiday",
+ "music": 3,
+ "eyebrow": "5 AI PROMPTS",
+ "head1": "5 AI prompts",
+ "head2": "to wrap up your year",
+ "week": "Copy, paste, done",
+ "items": [
+  {
+   "title": "Thank a loyal customer",
+   "why": "Write a warm thank-you note. Under 100 words, no sales pitch."
+  },
+  {
+   "title": "Announce holiday hours",
+   "why": "For Google, Facebook and email."
+  },
+  {
+   "title": "Review your year",
+   "why": "What worked, what didn't, what to do more of."
+  },
+  {
+   "title": "Plan January posts",
+   "why": "12 social post ideas for your business."
+  },
+  {
+   "title": "Break down your 2027 goal",
+   "why": "Into monthly steps."
+  }
+ ],
+ "cta": "Save this for the slow week.",
+ "cta2": "Full prompts in the caption.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-16-ai-prompts",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

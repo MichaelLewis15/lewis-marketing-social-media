@@ -1,0 +1,32 @@
+{
+ "format": "list",
+ "style": "cards",
+ "music": 0,
+ "eyebrow": "BLACK FRIDAY",
+ "head1": "Service business?",
+ "head2": "Skip the discount.",
+ "week": "Try one of these instead",
+ "items": [
+  {
+   "title": "Gift cards with bonus value",
+   "why": "They pay now and come back later."
+  },
+  {
+   "title": "Priority booking for January",
+   "why": "First pick of the calendar."
+  },
+  {
+   "title": "A service plus maintenance bundle",
+   "why": "More value without cutting your price."
+  }
+ ],
+ "cta": "Protect your price.",
+ "cta2": "Which one fits your business?",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-27-skip-discount",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

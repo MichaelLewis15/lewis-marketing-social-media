@@ -1,0 +1,37 @@
+{
+ "format": "stat",
+ "style": "light",
+ "music": 2,
+ "eyebrow": "THE ANSWER",
+ "head1": "The lie was C.",
+ "head2": "Here's the truth.",
+ "stats": [
+  {
+   "value": "97%",
+   "label": "of consumers read reviews for local businesses",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  },
+  {
+   "value": "47%",
+   "label": "won't use a business with fewer than 20 reviews",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  },
+  {
+   "value": "74%",
+   "label": "only care about reviews from the last three months",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  }
+ ],
+ "cta": "Did you get it right?",
+ "cta2": "We help businesses earn fresh reviews.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-13-reveal",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

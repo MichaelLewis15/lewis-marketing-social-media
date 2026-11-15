@@ -1,0 +1,45 @@
+{
+ "format": "list",
+ "style": "holiday",
+ "music": 3,
+ "eyebrow": "THIS OR THAT",
+ "head1": "Marketing This or That",
+ "head2": "Business owner edition",
+ "week": "Pick A or B for each",
+ "items": [
+  {
+   "title": "Google Ads or Facebook Ads?",
+   "why": "A or B?",
+   "vo": "Google Ads, or Facebook Ads?"
+  },
+  {
+   "title": "Website or social media?",
+   "why": "A or B?",
+   "vo": "Website, or social media?"
+  },
+  {
+   "title": "Email or text?",
+   "why": "A or B?",
+   "vo": "Email, or text?"
+  },
+  {
+   "title": "Reviews or referrals?",
+   "why": "A or B?",
+   "vo": "Reviews, or referrals?"
+  },
+  {
+   "title": "Video or photos?",
+   "why": "A or B?",
+   "vo": "Video, or photos?"
+  }
+ ],
+ "cta": "Comment your 5 letters.",
+ "cta2": "Like A B B A B. Our answers tomorrow.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-03-this-or-that",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

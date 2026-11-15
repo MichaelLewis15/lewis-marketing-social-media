@@ -1,0 +1,41 @@
+{
+ "format": "list",
+ "style": "bold",
+ "music": 2,
+ "eyebrow": "GOOGLE PROFILE",
+ "head1": "Is your Google profile",
+ "head2": "ready for the holidays?",
+ "week": "Five updates in under 30 minutes",
+ "items": [
+  {
+   "title": "Add your holiday hours",
+   "why": "Shoppers check before they drive over."
+  },
+  {
+   "title": "Post 3 fresh photos",
+   "why": "Show what people will see when they walk in."
+  },
+  {
+   "title": "Share a holiday update",
+   "why": "Hours, gift cards or a seasonal offer."
+  },
+  {
+   "title": "Answer your top questions",
+   "why": "Put the answers right on your profile."
+  },
+  {
+   "title": "Ask for a review",
+   "why": "Fresh reviews carry you into January."
+  }
+ ],
+ "cta": "Want us to handle it?",
+ "cta2": "We keep Google profiles holiday ready.",
+ "itemWord": "UPDATE",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-17-gbp-holidays",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

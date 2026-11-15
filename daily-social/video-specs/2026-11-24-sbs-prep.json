@@ -1,0 +1,40 @@
+{
+ "format": "list",
+ "style": "shopsmall",
+ "music": 2,
+ "eyebrow": "SMALL BUSINESS SATURDAY",
+ "head1": "Small Business Saturday",
+ "head2": "is this week. Ready?",
+ "week": "Five things to do before Friday night",
+ "items": [
+  {
+   "title": "Post your Saturday hours everywhere",
+   "why": "Google, Facebook and your website."
+  },
+  {
+   "title": "Pick one simple offer",
+   "why": "One clear reason to stop in."
+  },
+  {
+   "title": "Email your list",
+   "why": "Thursday or Friday works best."
+  },
+  {
+   "title": "Put a review QR code by the register",
+   "why": "Happy shoppers can leave a review on the spot."
+  },
+  {
+   "title": "Post from the shop on Saturday",
+   "why": "Real people, real moments."
+  }
+ ],
+ "cta": "Share this with a local shop owner.",
+ "cta2": "Let's make Saturday count.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-24-sbs-prep",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

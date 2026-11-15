@@ -1,0 +1,36 @@
+{
+ "format": "list",
+ "style": "shopsmall",
+ "music": 3,
+ "eyebrow": "SMALL BUSINESS SATURDAY",
+ "head1": "4 ways to support local",
+ "head2": "that don't cost a dime",
+ "week": "Happy Small Business Saturday",
+ "items": [
+  {
+   "title": "Leave a Google review",
+   "why": "For a business you love."
+  },
+  {
+   "title": "Share one of their posts",
+   "why": "It takes two seconds."
+  },
+  {
+   "title": "Tell a friend about them",
+   "why": "Word of mouth still wins."
+  },
+  {
+   "title": "Shop local this weekend",
+   "why": "If you can."
+  }
+ ],
+ "cta": "Where are you shopping local today?",
+ "cta2": "Drop the name in the comments.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-28-support-local",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

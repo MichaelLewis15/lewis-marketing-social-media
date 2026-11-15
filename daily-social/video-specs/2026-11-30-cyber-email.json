@@ -1,0 +1,32 @@
+{
+ "format": "list",
+ "style": "light",
+ "music": 1,
+ "eyebrow": "CYBER MONDAY",
+ "head1": "Sending a Cyber Monday email?",
+ "head2": "Check 3 things first.",
+ "week": "Before you hit send",
+ "items": [
+  {
+   "title": "A short subject line",
+   "why": "Lead with the offer."
+  },
+  {
+   "title": "One clear button",
+   "why": "One offer, one link, one action."
+  },
+  {
+   "title": "Open it on your phone first",
+   "why": "That's where most people will read it."
+  }
+ ],
+ "cta": "Save this for next time.",
+ "cta2": "We run email for local businesses.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-30-cyber-email",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

@@ -1,0 +1,36 @@
+{
+ "format": "list",
+ "style": "holiday",
+ "music": 1,
+ "eyebrow": "WEEKEND MISSION",
+ "head1": "Two truths and a lie",
+ "head2": "Review edition",
+ "week": "Which one is the lie?",
+ "items": [
+  {
+   "title": "47% won't use a business with fewer than 20 reviews",
+   "why": "Truth or lie?",
+   "tag": "A"
+  },
+  {
+   "title": "74% only care about reviews from the last three months",
+   "why": "Truth or lie?",
+   "tag": "B"
+  },
+  {
+   "title": "Most people never read reviews for local businesses",
+   "why": "Truth or lie?",
+   "tag": "C"
+  }
+ ],
+ "sub2": "Source for the truths: BrightLocal Local Consumer Review Survey 2026",
+ "cta": "Comment A, B or C.",
+ "cta2": "We'll reveal it tomorrow.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-12-two-truths",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

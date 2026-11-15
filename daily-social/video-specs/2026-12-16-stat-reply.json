@@ -1,0 +1,26 @@
+{
+ "format": "stat",
+ "style": "bold",
+ "music": 0,
+ "howie": false,
+ "eyebrow": "STAT SNACK",
+ "head1": "Do you reply",
+ "head2": "to your reviews?",
+ "stats": [
+  {
+   "value": "89%",
+   "label": "of consumers expect business owners to respond to reviews",
+   "source": "BrightLocal Local Consumer Review Survey 2026",
+   "url": "https://www.brightlocal.com/research/local-consumer-review-survey/"
+  }
+ ],
+ "cta": "A real thank-you goes a long way.",
+ "cta2": "Skip the copy-paste replies.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-12-16-stat-reply",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}

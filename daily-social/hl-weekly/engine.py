@@ -12,6 +12,7 @@ FORMATS ("format" in the spec, default "list")
   podcast     episode{show, number, title, guest, quote}; optional "audio": clip.wav/mp3 (used as the soundtrack, drives the waveform)
   countdown   event{name, date "YYYY-MM-DD", time, place}; "postDate" (YYYY-MM-DD, the day it posts) sets the day count
 Shared keys: eyebrow, head1, head2, week (subtitle line), sub2, cta, cta2, button, gbpTitle, music 0-3.
+"itemWord" (list format): the word in the bold look's "UPDATE 1 OF 5" label, e.g. "TIP", "STEP", "IDEA" (default UPDATE).
 
 STYLES ("style"): navy | light | bold | cards (normal rotation) and seasonal holiday | shopsmall | yearend
 SIZES ("sizes", default all): 916 (1080x1920), 169 (1920x1080), 45 (1080x1350 feed), 11 (1080x1080 square)
@@ -361,7 +362,7 @@ def build_scenes(spec):
     def add(draw, dur, item=None, **k):
         sc.append(dict(kind="body", draw=draw, dur=dur, body=True, item=item, **k))
     if fmt == "list":
-        for it in spec["items"]: add(draw_item, 4.6, it, tag=it.get("tag"), vo=it.get("vo") or f"{it['title']}. {it.get('why', '')}")
+        for it in spec["items"]: add(draw_item, 4.6, it, tag=it.get("tag"), vo=it.get("vo") or f"{it['title']}. {it.get('why', '')}", word=spec.get("itemWord"))
     elif fmt == "myth":
         for it in spec["items"]: add(draw_myth, 6.0, it, vo=it.get("vo") or f"Myth: {it['myth']} Fact: {it['fact']}", word="MYTH")
     elif fmt == "beforeafter":

@@ -1,0 +1,36 @@
+{
+ "format": "list",
+ "style": "light",
+ "music": 0,
+ "eyebrow": "FRIDAY FIX",
+ "head1": "The 60-second",
+ "head2": "website check",
+ "week": "Grab your phone and test your own site",
+ "items": [
+  {
+   "title": "Tap your phone number",
+   "why": "Does it actually dial?"
+  },
+  {
+   "title": "Find Call or Get a Quote",
+   "why": "Can you spot it in 3 seconds?"
+  },
+  {
+   "title": "Send a test form",
+   "why": "Did it reach a real inbox?"
+  },
+  {
+   "title": "Watch it load",
+   "why": "Does it load before you get bored?"
+  }
+ ],
+ "cta": "Fail one? Comment FIX.",
+ "cta2": "We'll take a free look at your site.",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "out": "daily/video/2026-11-20-website-check",
+ "note": "New look for the Nov 15 2026 video refresh (replaces the old navy reel template)"
+}
