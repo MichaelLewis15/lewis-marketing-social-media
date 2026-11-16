@@ -1,0 +1,11 @@
+{"id": "2026-11-20-update", "theme": "update", "eyebrow": "WHAT CHANGED", "tag": "GOOGLE SEARCH",
+ "date_line": "Announced Nov 10, 2026 by Google",
+ "head": [["GOOGLE RANKINGS", "ink"], ["SHIFTING?", "ink"], ["DON'T PANIC YET.", "blue"]],
+ "sub": "Google's November 2026 core update is rolling out to all sites and languages.",
+ "slides": [
+  {"title": "What changed", "body": "Google released its November 2026 core update on Nov 10.\nIt applies worldwide and may take up to 2 weeks to finish rolling out.", "tip": "Core updates are broad. They don't target any one site."},
+  {"title": "Who it affects", "body": "Any business that gets customers from Google Search.\nWhile it rolls out, rankings and traffic can move up and down from day to day."},
+  {"title": "What to do this week", "body": "Hold off on big website changes until the rollout is done.\nThen wait a full week and compare that week to the week before Nov 10 in Search Console.", "tip": "Small dips usually need no action. Big, lasting drops deserve a closer look."}
+ ],
+ "cta": {"head": "Questions about this change?", "sub": "We'll help you read your Search Console numbers.", "button": "lewismarketingoc.com"},
+ "sources": ["Google Search Status Dashboard: November 2026 core update", "Google Search Central: Google Search's core updates"]}
