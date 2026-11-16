@@ -1,0 +1,11 @@
+{"id": "2026-11-16-update", "theme": "update", "eyebrow": "WHAT CHANGED", "tag": "GOOGLE BUSINESS PROFILE",
+ "date_line": "Announced Nov 12, 2026 by Google",
+ "head": [["SUSPENDED ON", "ink"], ["GOOGLE? APPEALS", "ink"], ["JUST GOT EASIER.", "blue"]],
+ "sub": "Google streamlined how you appeal a suspended or restricted Business Profile.",
+ "slides": [
+  {"title": "What changed", "body": "The appeal is now one page with fewer clicks.\nYou can upload several documents at once and explain your situation before you submit.", "tip": "Documents are optional, but they help."},
+  {"title": "Who it affects", "body": "Any business whose Google profile was suspended, disabled or had content restricted.\nIf your profile shows a suspended, disabled or restricted notice, this is the process you'll use."},
+  {"title": "What to do this week", "body": "Gather proof before you appeal: business registration, license, tax certificate or a utility bill.\nMake sure the name and address match your profile exactly.", "tip": "You only get one appeal. Get it right the first time."}
+ ],
+ "cta": {"head": "Questions about this change?", "sub": "We help local businesses get suspended profiles back.", "button": "lewismarketingoc.com"},
+ "sources": ["Google Business Profile Help: Fix suspended or disabled profiles", "Google Business Profile on Facebook, Nov 12, 2026"]}
