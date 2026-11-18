@@ -78,7 +78,8 @@ def main():
                     for k in [k for k in b if k.endswith("PostDetails")]:
                         b[k] = {x: y for x, y in b[k].items() if y is not None and x != "shortenedLinks"} or None
                         if b[k] is None: del b[k]
-                    b["media"] = r["media"]; b["status"] = "scheduled"
+                    if r.get("media"): b["media"] = r["media"]
+                    b["status"] = "scheduled"
                     b["userId"] = cp.get("createdBy") or "0T5YzQFGjmXmN5py288b"; b.setdefault("createdBy", b["userId"])
                     if r.get("summary"): b["summary"] = r["summary"]
                     if r.get("thumbnail") and b["media"] and str(b["media"][0].get("type", "")).startswith("video"):

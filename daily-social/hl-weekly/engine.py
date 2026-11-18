@@ -12,6 +12,7 @@ FORMATS ("format" in the spec, default "list")
   podcast     episode{show, number, title, guest, quote}; optional "audio": clip.wav/mp3 (used as the soundtrack, drives the waveform)
   countdown   event{name, date "YYYY-MM-DD", time, place}; "postDate" (YYYY-MM-DD, the day it posts) sets the day count
 Shared keys: eyebrow, head1, head2, week (subtitle line), sub2, cta, cta2, button, gbpTitle, music 0-3.
+"pace" (e.g. 0.7) shortens every scene for retention; "button": "" drops the end-card button (share test, Nov 18, 2026).
 "itemWord" (list format): the word in the bold look's "UPDATE 1 OF 5" label, e.g. "TIP", "STEP", "IDEA" (default UPDATE).
 
 STYLES ("style"): navy | light | bold | cards (normal rotation) and seasonal holiday | shopsmall | yearend
@@ -182,6 +183,7 @@ def draw_outro(d, x, y, w, F, p, lt, c):
     y += F.head.size * 0.25
     for ln in wrap(d, sp.get("cta2", "We'll handle the setup."), F.title, w): d.text((x, y), ln, font=F.title, fill=p["cta2"]); y += F.title.size * 1.12
     y += F.title.size * 0.45
+    if sp.get("button", None) == "": return y - y0  # share-test videos: no button on the end card (Michael, Nov 18, 2026)
     _, h = pill(d, x, y, sp.get("button", "Book a call: lewismarketingoc.com"), S(600, F.small.size * 1.1), *p["btn"])
     return y + h - y0
 
@@ -390,12 +392,15 @@ def build_scenes(spec):
     else:
         raise SystemExit(f"unknown format {fmt}")
     sc.append(dict(kind="outro", draw=draw_outro, dur=4.2, body=False))
+    pace = float(spec.get("pace", 1.0))  # retention: <1 shortens every scene (voiceover still sets the minimum)
+    if pace != 1.0:
+        for s_ in sc: s_["dur"] = round(s_["dur"] * pace, 2)
     n = sum(1 for s in sc if s["body"]); i = 0
     for s in sc:
         if s["body"]: s["i"] = i; s["n"] = n; i += 1
     sc[0]["vo"] = vo.get("intro") or " ".join(t for t in (spec.get("head1", "What's new"), spec.get("head2", "in HighLevel")) if t).rstrip(".") + ". " + spec.get("sub2", "")
     btn = spec.get("button", "Book a call: lewismarketingoc.com").replace(":", " at")
-    sc[-1]["vo"] = vo.get("outro") or f"{spec.get('cta') or ''} {spec.get('cta2', '')} {btn}."
+    sc[-1]["vo"] = vo.get("outro") or (f"{spec.get('cta') or ''} {spec.get('cta2', '')} {btn}." if btn else f"{spec.get('cta') or ''} {spec.get('cta2', '')}".strip())
     return sc
 
 
@@ -855,7 +860,8 @@ def prepare(spec, tmp, outdir, suffix=""):
         res = voice.narrate([s.get("vo") for s in sc], tmp, spec.get("voiceName", "af_heart"), spec.get("voiceSpeed", 1.0))
         for s, r in zip(sc, res):
             if not r: continue
-            s["wav"] = r["wav"]; s["lead"] = 0.55; s["dur"] = max(s["dur"], s["lead"] + r["dur"] + 0.75); s["words"] = r["words"]
+            tight = float(spec.get("pace", 1.0)) < 1.0  # retention cut: less air before and after each line
+            s["wav"] = r["wav"]; s["lead"] = 0.3 if tight else 0.55; s["dur"] = max(s["dur"], s["lead"] + r["dur"] + (0.35 if tight else 0.75)); s["words"] = r["words"]
             if s["draw"] is draw_myth:  # reveal the fact as the narrator says "Fact"
                 ft = next((w[1] for w in r["words"] if w[0].lower().strip(".:,") == "fact"), None)
                 if ft is not None: s["reveal"] = s["lead"] + ft
