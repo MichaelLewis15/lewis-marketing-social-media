@@ -1,24 +1,24 @@
 [
  {
   "scene": 0,
-  "text": "AI search is coming 3 fixes for this week. ",
-  "spoken": "A.I. search is coming 3 fixes for this week.",
-  "heard": "AI, search is coming three fixes for this week.",
-  "match": 0.914,
+  "text": "Claim your spot in ChatGPT plus 2 more fixes this week. ",
+  "spoken": "Claim your spot in Chat G.P.T. plus 2 more fixes this week.",
+  "heard": "Claim your spot in chat GPT. Plus two more fixes this week.",
+  "match": 0.956,
   "ok": true,
   "diffs": [
-   "3 -> three"
+   "2 -> two"
   ]
  },
  {
   "scene": 1,
-  "text": "Get ready for AI search. ChatGPT is testing business profiles. Keep your Google profile complete.",
-  "spoken": "Get ready for A.I. search. Chat G.P.T. is testing business profiles. Keep your Google profile complete.",
-  "heard": "Get ready for a eye, search. Chat GPT is testing business profiles. Keep your Google profile complete.",
-  "match": 0.975,
+  "text": "Claim your business in ChatGPT. Business Hub is live in beta.",
+  "spoken": "Claim your business in Chat G.P.T. Business Hub is live in beta.",
+  "heard": "Claim your business in chatGPT. Business hub is live in beta.",
+  "match": 1.0,
   "ok": true,
   "diffs": [
-   "ai -> a eye"
+   "chat gpt -> chatgpt"
   ]
  },
  {

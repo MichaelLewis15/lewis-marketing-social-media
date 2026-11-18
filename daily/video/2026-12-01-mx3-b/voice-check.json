@@ -1,23 +1,23 @@
 [
  {
   "scene": 0,
-  "text": "ChatGPT is testing business profiles. Get ready now. ",
-  "spoken": "Chat G.P.T. is testing business profiles. Get ready now.",
-  "heard": "Chat GPT is testing business profiles. Get ready now.",
-  "match": 1.0,
+  "text": "ChatGPT business profiles are live. Do these 3 things. ",
+  "spoken": "Chat G.P.T. business profiles are live. Do these 3 things.",
+  "heard": "Chat GPT, business profiles are live, do these three things.",
+  "match": 0.935,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "3 -> three"
+  ]
  },
  {
   "scene": 1,
-  "text": "Get found in AI search. ChatGPT is testing business profiles. Keep your service pages current.",
-  "spoken": "Get found in A.I. search. Chat G.P.T. is testing business profiles. Keep your service pages current.",
-  "heard": "Get found in AI, search. Chat GPT is testing business profiles. Keep your service page as current.",
-  "match": 0.994,
+  "text": "Claim your ChatGPT business profile. It's live in beta. Keep your services accurate so ChatGPT describes you right.",
+  "spoken": "Claim your Chat G.P.T. business profile. It's live in beta. Keep your services accurate so Chat G.P.T. describes you right.",
+  "heard": "Claim your chat GPT business profile. It's live in beta. Keep your services accurate, so chat GPT describes you right.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "pages -> page as"
-  ]
+  "diffs": []
  },
  {
   "scene": 2,
