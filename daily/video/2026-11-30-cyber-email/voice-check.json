@@ -41,13 +41,11 @@
  },
  {
   "scene": 4,
-  "text": "Save this for next time. We run email for local businesses. Book a call at lewismarketingoc.com.",
-  "spoken": "Save this for next time. We run email for local businesses. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Save this for next time. We run email for local businesses. Book a call at LewisMarketingOC .com.",
-  "match": 0.981,
+  "text": "Send this to whoever writes your emails, before they hit send.",
+  "spoken": "Send this to whoever writes your emails, before they hit send.",
+  "heard": "Send this to whoever writes your emails before they hit send.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

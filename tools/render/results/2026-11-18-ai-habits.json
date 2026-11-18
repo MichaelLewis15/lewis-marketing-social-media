@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-11-18-ai-habits.json",
+ "out": "daily/video/2026-11-18-ai-habits",
+ "ok": true,
+ "at": "2026-11-18T13:14:52.425016Z",
+ "seconds": 32.5,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "b042cd2fae",
+  "cover916.jpg": "2dc7d361a3",
+  "gbp.png": "85091a273e",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "4330a084b2",
+  "v916.mp4": "0fe66902f6",
+  "voice-check.json": "3a2bdbdb55"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

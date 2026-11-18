@@ -48,13 +48,11 @@
  },
  {
   "scene": 5,
-  "text": "Comment your time. Under 10 seconds or over? Book a call at lewismarketingoc.com.",
-  "spoken": "Comment your time. Under 10 seconds or over? Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Comment your time under 10 seconds or over. Book a call at LewisMarketingOC .com.",
-  "match": 0.977,
+  "text": "Send this to a friend and see who finds their number faster.",
+  "spoken": "Send this to a friend and see who finds their number faster.",
+  "heard": "Send this to a friend and see who finds their number faster.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

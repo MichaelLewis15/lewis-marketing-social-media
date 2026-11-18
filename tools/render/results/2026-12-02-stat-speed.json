@@ -2,21 +2,21 @@
  "spec": "daily-social/video-specs/2026-12-02-stat-speed.json",
  "out": "daily/video/2026-12-02-stat-speed",
  "ok": true,
- "at": "2026-11-15T11:35:10.057296Z",
- "seconds": 34.1,
+ "at": "2026-11-18T13:46:52.800225Z",
+ "seconds": 29.4,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "2d41e98d5a",
-  "cover916.jpg": "52cce5650e",
+  "cover169.jpg": "e72b4dc12b",
+  "cover916.jpg": "6f293abd82",
   "gbp.png": "841598c78f",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "9e560e3c30",
-  "v916.mp4": "1bf3c62a36",
-  "voice-check.json": "9e4532f911"
+  "v169.mp4": "0894c9bcd4",
+  "v916.mp4": "5e87aac61c",
+  "voice-check.json": "f8ee482e21"
  },
  "voiceCheck": {
   "ok": true,

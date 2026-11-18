@@ -2,24 +2,47 @@
  "spec": "daily-social/video-specs/2026-11-19-who-answers.json",
  "out": "daily/video/2026-11-19-who-answers",
  "ok": true,
- "at": "2026-11-15T11:18:23.016935Z",
- "seconds": 28.8,
+ "at": "2026-11-18T13:20:07.213417Z",
+ "seconds": 23.4,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "3b7ba6977c",
-  "cover916.jpg": "d38423629f",
-  "gbp.png": "db72596dd9",
+  "cover169.jpg": "ce5f1feb88",
+  "cover916.jpg": "8fa7757875",
+  "gbp.png": "e58e3e07c2",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "c28f9be2e5",
-  "v916.mp4": "88cda0395a",
-  "voice-check.json": "f2dbf932d4"
+  "v169.mp4": "4cba1fe648",
+  "v916.mp4": "7cec98dbf1",
+  "voice-check.json": "da40f61485"
  },
  "voiceCheck": {
-  "ok": true,
-  "flagged": []
+  "ok": false,
+  "flagged": [
+   {
+    "scene": 0,
+    "text": "It's four fifty-five on Friday. Here's how you still get the job.",
+    "spoken": "It's four fifty-five on Friday. Here's how you still get the job.",
+    "heard": "It's 4 .55 on Friday. Here's how you still get the job.",
+    "match": 0.818,
+    "ok": false,
+    "diffs": [
+     "four fifty five -> 4 55"
+    ]
+   },
+   {
+    "scene": 4,
+    "text": "Send this to whoever answers your phones. Because at four fifty-five, they call the next business.",
+    "spoken": "Send this to whoever answers your phones. Because at four fifty-five, they call the next business.",
+    "heard": "Send this to whoever answers your phones. Because at 455, they call the next business.",
+    "match": 0.892,
+    "ok": false,
+    "diffs": [
+     "four fifty five -> 455"
+    ]
+   }
+  ]
  }
 }

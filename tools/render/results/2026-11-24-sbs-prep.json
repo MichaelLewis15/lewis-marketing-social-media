@@ -2,21 +2,21 @@
  "spec": "daily-social/video-specs/2026-11-24-sbs-prep.json",
  "out": "daily/video/2026-11-24-sbs-prep",
  "ok": true,
- "at": "2026-11-15T11:25:21.315472Z",
- "seconds": 38.3,
+ "at": "2026-11-18T13:30:38.505684Z",
+ "seconds": 30.2,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "4d1144e0a2",
-  "cover916.jpg": "dcb1474c70",
+  "cover169.jpg": "0ba53491d1",
+  "cover916.jpg": "1441f2e71a",
   "gbp.png": "93d512197e",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "0b85151335",
-  "v916.mp4": "7fcdfbbc07",
-  "voice-check.json": "03671d1ea6"
+  "v169.mp4": "82588b9a7e",
+  "v916.mp4": "34f4dcd6ca",
+  "voice-check.json": "87fa989395"
  },
  "voiceCheck": {
   "ok": true,

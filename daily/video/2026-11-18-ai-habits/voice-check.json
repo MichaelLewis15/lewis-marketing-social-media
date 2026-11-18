@@ -1,0 +1,73 @@
+[
+ {
+  "scene": 0,
+  "text": "5 AI habits that save hours every week. ",
+  "spoken": "5 A.I. habits that save hours every week.",
+  "heard": "5A -I, habits that save hours every week.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "5 ai -> 5a i"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "AI writes the first draft. You write the final one.",
+  "spoken": "A.I. writes the first draft. You write the final one.",
+  "heard": "AI writes the first draft. You write the final one.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Messy notes into action items. Paste the notes, ask for a to-do list.",
+  "spoken": "Messy notes into action items. Paste the notes, ask for a to-do list.",
+  "heard": "Messy notes into action items. Paste the notes, ask for it to do list.",
+  "match": 0.972,
+  "ok": true,
+  "diffs": [
+   "a -> it"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Summarize your reviews. Ask what customers love and what bugs them.",
+  "spoken": "Summarize your reviews. Ask what customers love and what bugs them.",
+  "heard": "Summarize your reviews. Ask what customers love and what bugs them.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Build FAQ answers once. Reuse them on your site, emails and posts.",
+  "spoken": "Build F.A.Q.s answers once. Reuse them on your site, emails and posts.",
+  "heard": "Build FA QS answers once. Reuse them on your site, emails, and posts.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "faqs -> fa qs"
+  ]
+ },
+ {
+  "scene": 5,
+  "text": "One Monday planning prompt. Ask it to plan your week from your calendar.",
+  "spoken": "One Monday planning prompt. Ask it to plan your week from your calendar.",
+  "heard": "One Monday planning prompt. Ask it to plan your week from your calendar.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Send this to the coworker who writes every email from scratch. Start with habit one.",
+  "spoken": "Send this to the coworker who writes every email from scratch. Start with habit one.",
+  "heard": "Send this to the co -worker who writes every email from scratch. Start with habit one.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "coworker -> co worker"
+  ]
+ }
+]

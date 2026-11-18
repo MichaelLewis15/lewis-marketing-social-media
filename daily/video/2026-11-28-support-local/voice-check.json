@@ -48,13 +48,11 @@
  },
  {
   "scene": 5,
-  "text": "Where are you shopping local today? Drop the name in the comments. Book a call at lewismarketingoc.com.",
-  "spoken": "Where are you shopping local today? Drop the name in the comments. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Where are you shopping local today? Drop the name in the comments. Book a call at LewisMarketingOC .com.",
-  "match": 0.982,
+  "text": "Share this to your story and tag a local business you love.",
+  "spoken": "Share this to your story and tag a local business you love.",
+  "heard": "Share this to your story and tag a local business you love.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

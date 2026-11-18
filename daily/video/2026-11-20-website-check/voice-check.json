@@ -50,13 +50,11 @@
  },
  {
   "scene": 5,
-  "text": "Fail one? Comment FIX. We'll take a free look at your site. Book a call at lewismarketingoc.com.",
-  "spoken": "Fail one? Comment FIX. We'll take a free look at your site. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Fail one comment fix. We'll take a free look at your site. Book a call at LewisMarketingOC .com.",
-  "match": 0.98,
+  "text": "Send this to whoever built your website. Then run the test again.",
+  "spoken": "Send this to whoever built your website. Then run the test again.",
+  "heard": "Send this to whoever built your website, then run the test again.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

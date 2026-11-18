@@ -30,13 +30,11 @@
  },
  {
   "scene": 3,
-  "text": "Speed is the whole game. We help you answer in minutes. Book a call at lewismarketingoc.com.",
-  "spoken": "Speed is the whole game. We help you answer in minutes. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Speed is the whole game. We help you answer in minutes. Book a call at LewisMarketingOc .com",
-  "match": 0.98,
+  "text": "Send this to whoever answers your web leads. The clock starts when they hit submit.",
+  "spoken": "Send this to whoever answers your web leads. The clock starts when they hit submit.",
+  "heard": "Send this to whoever answers your web leads. The clock starts when they hit submit.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

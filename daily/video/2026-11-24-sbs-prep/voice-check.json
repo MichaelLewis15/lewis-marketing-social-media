@@ -55,13 +55,11 @@
  },
  {
   "scene": 6,
-  "text": "Share this with a local shop owner. Let's make Saturday count. Book a call at lewismarketingoc.com.",
-  "spoken": "Share this with a local shop owner. Let's make Saturday count. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Share this with a local shop owner. Let's make Saturday count. Book a call at LewisMarketingOC .com.",
-  "match": 0.981,
+  "text": "Send this to a local shop owner. Saturday is closer than it looks.",
+  "spoken": "Send this to a local shop owner. Saturday is closer than it looks.",
+  "heard": "Send this to a local shop owner. Saturday is closer than it looks.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

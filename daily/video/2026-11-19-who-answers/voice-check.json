@@ -1,13 +1,13 @@
 [
  {
   "scene": 0,
-  "text": "It's 4:55 on Friday. Who answers?. ",
-  "spoken": "It's 4:55 on Friday. Who answers?.",
-  "heard": "It's four 55 on Friday, who answers.",
-  "match": 0.902,
-  "ok": true,
+  "text": "It's four fifty-five on Friday. Here's how you still get the job.",
+  "spoken": "It's four fifty-five on Friday. Here's how you still get the job.",
+  "heard": "It's 4 .55 on Friday. Here's how you still get the job.",
+  "match": 0.818,
+  "ok": false,
   "diffs": [
-   "4 -> four"
+   "four fifty five -> 4 55"
   ]
  },
  {
@@ -39,15 +39,13 @@
  },
  {
   "scene": 4,
-  "text": "We set this up for local businesses. Never miss the 4:55 call again. Book a call at lewismarketingoc.com.",
-  "spoken": "We set this up for local businesses. Never miss the 4:55 call again. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "We set this up for local businesses. Never missed the four 55 call again. Book a call at LewisMarketingOC .com.",
-  "match": 0.943,
-  "ok": true,
+  "text": "Send this to whoever answers your phones. Because at four fifty-five, they call the next business.",
+  "spoken": "Send this to whoever answers your phones. Because at four fifty-five, they call the next business.",
+  "heard": "Send this to whoever answers your phones. Because at 455, they call the next business.",
+  "match": 0.892,
+  "ok": false,
   "diffs": [
-   "miss -> missed",
-   "4 -> four",
-   "lewis marketing oc dot -> lewismarketingoc"
+   "four fifty five -> 455"
   ]
  }
 ]

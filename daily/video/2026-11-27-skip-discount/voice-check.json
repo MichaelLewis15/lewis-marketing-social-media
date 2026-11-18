@@ -37,13 +37,11 @@
  },
  {
   "scene": 4,
-  "text": "Protect your price. Which one fits your business? Book a call at lewismarketingoc.com.",
-  "spoken": "Protect your price. Which one fits your business? Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Protect your price, which one fits your business. Book a call at LewisMarketingOC .com.",
-  "match": 0.979,
+  "text": "Send this to a service business owner, before they cut their price.",
+  "spoken": "Send this to a service business owner, before they cut their price.",
+  "heard": "Send this to a service business owner before they cut their price.",
+  "match": 1.0,
   "ok": true,
-  "diffs": [
-   "lewis marketing oc dot -> lewismarketingoc"
-  ]
+  "diffs": []
  }
 ]

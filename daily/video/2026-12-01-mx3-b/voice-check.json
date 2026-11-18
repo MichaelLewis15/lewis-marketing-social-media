@@ -1,0 +1,52 @@
+[
+ {
+  "scene": 0,
+  "text": "ChatGPT is testing business profiles. Get ready now. ",
+  "spoken": "Chat G.P.T. is testing business profiles. Get ready now.",
+  "heard": "Chat GPT is testing business profiles. Get ready now.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Get found in AI search. ChatGPT is testing business profiles. Keep your service pages current.",
+  "spoken": "Get found in A.I. search. Chat G.P.T. is testing business profiles. Keep your service pages current.",
+  "heard": "Get found in AI, search. Chat GPT is testing business profiles. Keep your service page as current.",
+  "match": 0.994,
+  "ok": true,
+  "diffs": [
+   "pages -> page as"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "Start with one task. Not a whole AI plan. Pick the email you write most.",
+  "spoken": "Start with one task. Not a whole A.I. plan. Pick the email you write most.",
+  "heard": "Start with one task. Not a whole AI plan. Pick the email you write most.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Write 10 FAQs with AI. For your service, with short answers.",
+  "spoken": "Write 10 F.A.Q.s with A.I. For your service, with short answers.",
+  "heard": "Write 10F, a QS with a, I, for your service with short answers.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "10 faqs -> 10f a qs",
+   "ai -> a i"
+  ]
+ },
+ {
+  "scene": 4,
+  "text": "Send this to the owner who keeps saying they'll try AI next month. Start with one task.",
+  "spoken": "Send this to the owner who keeps saying they'll try A.I. next month. Start with one task.",
+  "heard": "Send this to the owner who keeps saying they'll try AI. Next month, start with one task.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ }
+]
