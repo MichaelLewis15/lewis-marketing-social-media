@@ -1,0 +1,85 @@
+{
+ "name": "share-test-video-swap-who-answers",
+ "requests": [
+  {
+   "op": "edit",
+   "key": "2026-11-19-who-answers",
+   "ch": "bluesky",
+   "postId": "6aefd583b5de0827da762335",
+   "when": "2026-11-19T17:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/v169.mp4?v=4cba1fe6",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-19-who-answers",
+   "ch": "instagram",
+   "postId": "6aefd57565bfb310a53c6bf9",
+   "when": "2026-11-19T17:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/v916.mp4?v=7cec98db",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/cover916.jpg?v=8fa77578"
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-19-who-answers",
+   "ch": "facebook",
+   "postId": "6aefd571a16da913ed0ac7b3",
+   "when": "2026-11-19T17:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/v916.mp4?v=7cec98db",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/cover916.jpg?v=8fa77578"
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-19-who-answers",
+   "ch": "linkedin",
+   "postId": "6aefd57a97f3fd6dc5c238da",
+   "when": "2026-11-19T17:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/v169.mp4?v=4cba1fe6",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-19-who-answers",
+   "ch": "youtube",
+   "postId": "6aefd58b13c74e9196269619",
+   "when": "2026-11-19T17:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/v916.mp4?v=7cec98db",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-19-who-answers",
+   "ch": "threads",
+   "postId": "6aefd57fc7cd4e7e4cce34c5",
+   "when": "2026-11-19T17:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-who-answers/v916.mp4?v=7cec98db",
+     "type": "video/mp4"
+    }
+   ]
+  }
+ ]
+}
