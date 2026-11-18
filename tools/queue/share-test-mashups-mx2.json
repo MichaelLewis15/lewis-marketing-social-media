@@ -1,0 +1,311 @@
+{
+ "name": "share-test-mashups-mx2",
+ "requests": [
+  {
+   "ch": "facebook",
+   "key": "2026-11-21-mx2-a",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Guess the brand: a fruit, plus a phone. The answer is at the end of the video.\n\nWhile you think, two quick wins:\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n\nSend this to the friend who always says the puzzles are too easy.\n\n#SmallBusiness #MarketingTips #AIForBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/v916.mp4?v=f7d2b0bb",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/cover916.jpg?v=987f5e74"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-22T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=facebook&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "2026-11-21-mx2-a",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Guess the brand: a fruit, plus a phone. The answer is at the end of the video.\n\nWhile you think, two quick wins:\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n\nSend this to the friend who always says the puzzles are too easy.\n\n#SmallBusiness #MarketingTips #AIForBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/v916.mp4?v=f7d2b0bb",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/cover916.jpg?v=987f5e74"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-22T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=instagram&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "2026-11-21-mx2-a",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Guess the brand: a fruit, plus a phone. The answer is at the end of the video.\n\nWhile you think, two quick wins:\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n\nSend this to the friend who always says the puzzles are too easy.\n\n#SmallBusiness #MarketingTips #AIForBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/v916.mp4?v=f7d2b0bb",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-22T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "2026-11-21-mx2-a",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Guess the brand: a fruit, plus a phone. The answer is at the end of the video.\n\nWhile you think, two quick wins:\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n\nSend this to the friend who always says the puzzles are too easy.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/v916.mp4?v=f7d2b0bb",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/cover916.jpg?v=987f5e74"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-22T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=threads&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "2026-11-21-mx2-a",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Guess the brand: a fruit, plus a phone. The answer is at the end of the video.\n\nWhile you think, two quick wins:\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n\nSend this to the friend who always says the puzzles are too easy.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/v169.mp4?v=fed3c64f",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-22T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=linkedin&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "2026-11-21-mx2-a",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Guess the brand: a fruit, plus a phone. Plus two quick wins: a skeptical-customer AI prompt and 3 fresh Google photos. Send this to the friend who says the puzzles are too easy.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-21-mx2-a/v169.mp4?v=fed3c64f",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-22T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b"
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "2026-11-29-mx2-b",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Two quick wins and a brand puzzle for your Sunday night.\n\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n- Guess the brand: a fruit, plus a phone. Answer at the end.\n\nSend this to the coworker who'll get the puzzle wrong.\n\n#SmallBusiness #MarketingTips #AIForBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=22c11af9",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/cover916.jpg?v=ad7fbc57"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=facebook&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "2026-11-29-mx2-b",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Two quick wins and a brand puzzle for your Sunday night.\n\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n- Guess the brand: a fruit, plus a phone. Answer at the end.\n\nSend this to the coworker who'll get the puzzle wrong.\n\n#SmallBusiness #MarketingTips #AIForBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=22c11af9",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/cover916.jpg?v=ad7fbc57"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=instagram&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "2026-11-29-mx2-b",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Two quick wins and a brand puzzle for your Sunday night.\n\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n- Guess the brand: a fruit, plus a phone. Answer at the end.\n\nSend this to the coworker who'll get the puzzle wrong.\n\n#SmallBusiness #MarketingTips #AIForBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=22c11af9",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "2026-11-29-mx2-b",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Two quick wins and a brand puzzle for your Sunday night.\n\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n- Guess the brand: a fruit, plus a phone. Answer at the end.\n\nSend this to the coworker who'll get the puzzle wrong.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=22c11af9",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/cover916.jpg?v=ad7fbc57"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=threads&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "2026-11-29-mx2-b",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Two quick wins and a brand puzzle for your Sunday night.\n\n- Try this AI prompt: \"Act as a skeptical customer. What would stop you from buying?\"\n- Post 3 fresh photos on your Google Business Profile so people know what they'll see when they walk in.\n- Guess the brand: a fruit, plus a phone. Answer at the end.\n\nSend this to the coworker who'll get the puzzle wrong.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v169.mp4?v=fe108859",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=linkedin&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "2026-11-29-mx2-b",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Two quick wins and a puzzle: a skeptical-customer AI prompt, 3 fresh Google photos, and guess the brand (fruit plus phone). Send this to the coworker who'll get the puzzle wrong.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v169.mp4?v=fe108859",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b"
+   }
+  }
+ ]
+}
