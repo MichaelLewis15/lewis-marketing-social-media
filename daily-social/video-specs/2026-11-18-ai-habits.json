@@ -1,0 +1,46 @@
+{
+ "pace": 0.72,
+ "button": "",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "format": "list",
+ "style": "light",
+ "music": 2,
+ "eyebrow": "AI FOR BUSINESS OWNERS",
+ "head1": "5 AI habits",
+ "head2": "that save hours every week",
+ "week": "Try one this week",
+ "itemWord": "HABIT",
+ "items": [
+  {
+   "title": "AI writes the first draft",
+   "why": "You write the final one."
+  },
+  {
+   "title": "Messy notes into action items",
+   "why": "Paste the notes, ask for a to-do list."
+  },
+  {
+   "title": "Summarize your reviews",
+   "why": "Ask what customers love and what bugs them."
+  },
+  {
+   "title": "Build FAQ answers once",
+   "why": "Reuse them on your site, emails and posts."
+  },
+  {
+   "title": "One Monday planning prompt",
+   "why": "Ask it to plan your week from your calendar."
+  }
+ ],
+ "cta": "Send this to the coworker who writes every email from scratch.",
+ "cta2": "Start with habit one.",
+ "vo": {
+  "outro": "Send this to the coworker who writes every email from scratch. Start with habit one."
+ },
+ "out": "daily/video/2026-11-18-ai-habits",
+ "note": "Share test: replaces the old c1 swipe reel"
+}

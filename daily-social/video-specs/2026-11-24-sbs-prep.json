@@ -28,13 +28,18 @@
    "why": "Real people, real moments."
   }
  ],
- "cta": "Share this with a local shop owner.",
- "cta2": "Let's make Saturday count.",
+ "cta": "Send this to a local shop owner.",
+ "cta2": "Saturday is closer than it looks.",
  "voice": true,
  "sizes": [
   "916",
   "169"
  ],
  "out": "daily/video/2026-11-24-sbs-prep",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout"
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
+ "pace": 0.72,
+ "button": "",
+ "vo": {
+  "outro": "Send this to a local shop owner. Saturday is closer than it looks."
+ }
 }

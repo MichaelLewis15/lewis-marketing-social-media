@@ -20,13 +20,18 @@
    "why": "That's where most people will read it."
   }
  ],
- "cta": "Save this for next time.",
- "cta2": "We run email for local businesses.",
+ "cta": "Send this to whoever writes your emails.",
+ "cta2": "Before they hit send.",
  "voice": true,
  "sizes": [
   "916",
   "169"
  ],
  "out": "daily/video/2026-11-30-cyber-email",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout"
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
+ "pace": 0.72,
+ "button": "",
+ "vo": {
+  "outro": "Send this to whoever writes your emails, before they hit send."
+ }
 }

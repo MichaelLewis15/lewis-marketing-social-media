@@ -25,8 +25,8 @@
    "why": "Over 10 seconds could be a lead lost every day."
   }
  ],
- "cta": "Comment your time.",
- "cta2": "Under 10 seconds or over?",
+ "cta": "Send this to a friend.",
+ "cta2": "See who finds their number faster.",
  "itemWord": "STEP",
  "voice": true,
  "sizes": [
@@ -34,5 +34,10 @@
   "169"
  ],
  "out": "daily/video/2026-11-21-phone-test",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout"
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
+ "pace": 0.72,
+ "button": "",
+ "vo": {
+  "outro": "Send this to a friend and see who finds their number faster."
+ }
 }

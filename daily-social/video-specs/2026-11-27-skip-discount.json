@@ -20,13 +20,18 @@
    "why": "More value without cutting your price."
   }
  ],
- "cta": "Protect your price.",
- "cta2": "Which one fits your business?",
+ "cta": "Send this to a service business owner.",
+ "cta2": "Before they cut their price.",
  "voice": true,
  "sizes": [
   "916",
   "169"
  ],
  "out": "daily/video/2026-11-27-skip-discount",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout"
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
+ "pace": 0.72,
+ "button": "",
+ "vo": {
+  "outro": "Send this to a service business owner, before they cut their price."
+ }
 }

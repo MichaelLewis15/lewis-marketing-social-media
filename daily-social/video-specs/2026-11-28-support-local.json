@@ -24,13 +24,18 @@
    "why": "If you can."
   }
  ],
- "cta": "Where are you shopping local today?",
- "cta2": "Drop the name in the comments.",
+ "cta": "Share this to your story.",
+ "cta2": "Tag a local business you love.",
  "voice": true,
  "sizes": [
   "916",
   "169"
  ],
  "out": "daily/video/2026-11-28-support-local",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout"
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
+ "pace": 0.72,
+ "button": "",
+ "vo": {
+  "outro": "Share this to your story and tag a local business you love."
+ }
 }

@@ -24,16 +24,19 @@
    "why": "Does it load before you get bored?"
   }
  ],
- "cta": "Fail one? Comment FIX.",
- "cta2": "We'll take a free look at your site.",
+ "cta": "Send this to whoever built your website.",
+ "cta2": "Then run the test again.",
  "voice": true,
  "sizes": [
   "916",
   "169"
  ],
  "out": "daily/video/2026-11-20-website-check",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout",
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
  "vo": {
-  "intro": "Friday fix. Here's a sixty second website test you can do right now."
- }
+  "intro": "Friday fix. Here's a sixty second website test you can do right now.",
+  "outro": "Send this to whoever built your website. Then run the test again."
+ },
+ "pace": 0.72,
+ "button": ""
 }

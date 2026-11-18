@@ -1,0 +1,48 @@
+{
+ "pace": 0.72,
+ "button": "",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "format": "list",
+ "style": "light",
+ "music": 1,
+ "eyebrow": "SEND THIS TO A BUSINESS OWNER",
+ "head1": "2 quick wins",
+ "head2": "and a brand puzzle",
+ "week": "Three quick ones",
+ "items": [
+  {
+   "title": "Try this AI prompt",
+   "why": "Act as a skeptical customer. What would stop you from buying?"
+  },
+  {
+   "title": "Post 3 fresh photos on Google",
+   "why": "Show what people will see when they walk in."
+  },
+  {
+   "title": "Guess the brand: fruit plus phone",
+   "why": "Answer at the end.",
+   "vo": "Guess the brand. A fruit, plus a phone. Answer at the end."
+  }
+ ],
+ "itemWord": "TIP",
+ "cta": "It's Apple. Send this to someone who got it wrong.",
+ "cta2": "Then try the prompt.",
+ "vo": {
+  "outro": "It's Apple. Send this to someone who got it wrong. Then try the prompt."
+ },
+ "out": "daily/video/2026-11-29-mx2-b",
+ "note": "Share test mashup mx2-b: beats from top performers (AI prompts reel, holiday Google profile reel, ChatGPT business profiles reel, guess-the-brand reel, AI starter reel), order B",
+ "mashup": {
+  "id": "mx2",
+  "order": "b",
+  "beats": [
+   "b2",
+   "c2",
+   "a2"
+  ]
+ }
+}

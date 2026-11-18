@@ -4,8 +4,8 @@
  "music": 3,
  "eyebrow": "4:55 ON FRIDAY",
  "head1": "It's 4:55 on Friday.",
- "head2": "Who answers?",
- "week": "They'll call the next business.",
+ "head2": "Fix the missed call.",
+ "week": "Three fixes that save the job",
  "items": [
   {
    "title": "Text back missed calls",
@@ -20,13 +20,19 @@
    "why": "The first business to answer usually wins."
   }
  ],
- "cta": "We set this up for local businesses.",
- "cta2": "Never miss the 4:55 call again.",
+ "cta": "Send this to whoever answers your phones.",
+ "cta2": "Because at 4:55, they call the next business.",
  "voice": true,
  "sizes": [
   "916",
   "169"
  ],
  "out": "daily/video/2026-11-19-who-answers",
- "note": "New look (Nov 15 video refresh), re-rendered with the fuller 9:16 layout"
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card",
+ "pace": 0.72,
+ "button": "",
+ "vo": {
+  "intro": "It's four fifty-five on Friday. Here's how you still get the job.",
+  "outro": "Send this to whoever answers your phones. Because at four fifty-five, they call the next business."
+ }
 }

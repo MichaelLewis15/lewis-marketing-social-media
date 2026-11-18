@@ -1,0 +1,47 @@
+{
+ "pace": 0.72,
+ "button": "",
+ "voice": true,
+ "sizes": [
+  "916",
+  "169"
+ ],
+ "format": "list",
+ "style": "light",
+ "music": 1,
+ "eyebrow": "SEND THIS TO A BUSINESS OWNER",
+ "head1": "3 marketing fixes",
+ "head2": "you can do in 10 minutes",
+ "week": "Three quick ones",
+ "items": [
+  {
+   "title": "Ask AI to summarize your reviews",
+   "why": "Find what customers love and what bugs them."
+  },
+  {
+   "title": "Add holiday hours on Google",
+   "why": "Shoppers check before they drive over."
+  },
+  {
+   "title": "Get ready for AI search",
+   "why": "ChatGPT is testing business profiles. Keep your Google profile complete."
+  }
+ ],
+ "itemWord": "TIP",
+ "cta": "Send this to a business owner who says they don't have time.",
+ "cta2": "Ten minutes. Three fixes.",
+ "vo": {
+  "outro": "Send this to a business owner who says they don't have time. Ten minutes. Three fixes."
+ },
+ "out": "daily/video/2026-11-19-mx1-a",
+ "note": "Share test mashup mx1-a: beats from top performers (AI prompts reel, holiday Google profile reel, ChatGPT business profiles reel, guess-the-brand reel, AI starter reel), order A",
+ "mashup": {
+  "id": "mx1",
+  "order": "a",
+  "beats": [
+   "a1",
+   "b1",
+   "c1"
+  ]
+ }
+}
