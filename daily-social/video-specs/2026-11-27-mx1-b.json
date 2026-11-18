@@ -10,13 +10,14 @@
  "style": "bold",
  "music": 3,
  "eyebrow": "SEND THIS TO A BUSINESS OWNER",
- "head1": "AI search is coming",
+ "head1": "Your business is in ChatGPT now",
  "head2": "3 fixes for this week",
  "week": "Three quick ones",
  "items": [
   {
-   "title": "Get ready for AI search",
-   "why": "ChatGPT is testing business profiles. Keep your Google profile complete."
+   "title": "Claim your business in ChatGPT",
+   "why": "ChatGPT Business Hub is live in beta at chatgpt.com/business-hub.",
+   "vo": "Claim your business in ChatGPT. Business Hub is live in beta."
   },
   {
    "title": "Add holiday hours on Google",
