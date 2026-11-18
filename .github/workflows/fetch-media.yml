@@ -1,0 +1,29 @@
+name: Fetch media
+# Downloads files listed in tools/fetch/*.txt (one "name url" per line, HighLevel media storage only) into media/fetched/.
+on:
+  push:
+    paths: ["tools/fetch/*.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p media/fetched
+          for f in tools/fetch/*.txt; do
+            while read -r name url; do
+              [ -z "$name" ] && continue
+              case "$url" in https://assets.cdn.filesafe.space/*|https://storage.googleapis.com/*) ;; *) echo "skip $url"; continue;; esac
+              curl -sfL -o "media/fetched/$name" "$url" && echo "ok $name" || echo "FAILED $name"
+            done < "$f"
+          done
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add media/fetched
+          git diff --cached --quiet || git commit -m "Fetch media"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
