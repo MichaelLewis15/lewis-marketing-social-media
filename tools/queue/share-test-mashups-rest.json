@@ -1,0 +1,617 @@
+{
+ "name": "share-test-mashups-rest",
+ "requests": [
+  {
+   "ch": "facebook",
+   "key": "2026-11-19-mx1-a",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Three marketing fixes you can finish in 10 minutes. No agency required.\n\n1. Ask AI to summarize your reviews. You'll see what customers love and what bugs them.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n\nSend this to a business owner who says they don't have time.\n\n#SmallBusiness #MarketingTips #LocalSEO",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/v916.mp4?v=3a0308cc",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/cover916.jpg?v=8cd52596"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-20T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=facebook&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "2026-11-19-mx1-a",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Three marketing fixes you can finish in 10 minutes. No agency required.\n\n1. Ask AI to summarize your reviews. You'll see what customers love and what bugs them.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n\nSend this to a business owner who says they don't have time.\n\n#SmallBusiness #MarketingTips #LocalSEO",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/v916.mp4?v=3a0308cc",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/cover916.jpg?v=8cd52596"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-20T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=instagram&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "2026-11-19-mx1-a",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Three marketing fixes you can finish in 10 minutes. No agency required.\n\n1. Ask AI to summarize your reviews. You'll see what customers love and what bugs them.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n\nSend this to a business owner who says they don't have time.\n\n#SmallBusiness #MarketingTips #LocalSEO",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/v916.mp4?v=3a0308cc",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-20T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "2026-11-19-mx1-a",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Three marketing fixes you can finish in 10 minutes. No agency required.\n\n1. Ask AI to summarize your reviews. You'll see what customers love and what bugs them.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n\nSend this to a business owner who says they don't have time.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/v916.mp4?v=3a0308cc",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/cover916.jpg?v=8cd52596"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-20T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=threads&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "2026-11-19-mx1-a",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Three marketing fixes you can finish in 10 minutes. No agency required.\n\n1. Ask AI to summarize your reviews. You'll see what customers love and what bugs them.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n\nSend this to a business owner who says they don't have time.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/v169.mp4?v=47425884",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-20T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=linkedin&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "2026-11-19-mx1-a",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Three marketing fixes in 10 minutes: summarize your reviews with AI, add holiday hours on Google, claim your business in ChatGPT. Send this to a business owner who says they don't have time.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-19-mx1-a/v169.mp4?v=47425884",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-20T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b"
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "2026-11-23-mx3-a",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Using AI in your business? Don't start with a plan. Start with one task.\n\n1. Pick the email you write most and let AI draft it.\n2. Have AI write 10 FAQs about your service, with short answers.\n3. Claim your ChatGPT business profile (live in beta) and keep your services accurate so ChatGPT describes you right.\n\nSend this to the owner who keeps saying they'll try AI next month.\n\n#AIForBusiness #SmallBusiness #ChatGPT",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/v916.mp4?v=232f4932",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/cover916.jpg?v=9cef19b8"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-24T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=facebook&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "2026-11-23-mx3-a",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Using AI in your business? Don't start with a plan. Start with one task.\n\n1. Pick the email you write most and let AI draft it.\n2. Have AI write 10 FAQs about your service, with short answers.\n3. Claim your ChatGPT business profile (live in beta) and keep your services accurate so ChatGPT describes you right.\n\nSend this to the owner who keeps saying they'll try AI next month.\n\n#AIForBusiness #SmallBusiness #ChatGPT",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/v916.mp4?v=232f4932",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/cover916.jpg?v=9cef19b8"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-24T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=instagram&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "2026-11-23-mx3-a",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Using AI in your business? Don't start with a plan. Start with one task.\n\n1. Pick the email you write most and let AI draft it.\n2. Have AI write 10 FAQs about your service, with short answers.\n3. Claim your ChatGPT business profile (live in beta) and keep your services accurate so ChatGPT describes you right.\n\nSend this to the owner who keeps saying they'll try AI next month.\n\n#AIForBusiness #SmallBusiness #ChatGPT",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/v916.mp4?v=232f4932",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-24T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "2026-11-23-mx3-a",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Using AI in your business? Don't start with a plan. Start with one task.\n\n1. Pick the email you write most and let AI draft it.\n2. Have AI write 10 FAQs about your service, with short answers.\n3. Claim your ChatGPT business profile (live in beta) and keep your services accurate so ChatGPT describes you right.\n\nSend this to the owner who keeps saying they'll try AI next month.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/v916.mp4?v=232f4932",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/cover916.jpg?v=9cef19b8"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-24T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=threads&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "2026-11-23-mx3-a",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Using AI in your business? Don't start with a plan. Start with one task.\n\n1. Pick the email you write most and let AI draft it.\n2. Have AI write 10 FAQs about your service, with short answers.\n3. Claim your ChatGPT business profile (live in beta) and keep your services accurate so ChatGPT describes you right.\n\nSend this to the owner who keeps saying they'll try AI next month.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/v169.mp4?v=b638513b",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-24T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=linkedin&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "2026-11-23-mx3-a",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Using AI in your business? Start with one task, not a plan. Then 10 FAQs, then claim your ChatGPT business profile. Send this to the owner who keeps saying they'll try AI next month.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-23-mx3-a/v169.mp4?v=b638513b",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-24T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b"
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "2026-11-27-mx1-b",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Claim your spot in ChatGPT before your competitors do. Then knock out two more fixes this weekend.\n\n1. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Ask AI to summarize your reviews and find what customers love and what bugs them.\n\nSend this to a business owner who's slammed this holiday weekend.\n\n#SmallBusinessSaturday #SmallBusiness #MarketingTips",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/v916.mp4?v=c7f1fdf7",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/cover916.jpg?v=e36e5b7c"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-28T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=facebook&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "2026-11-27-mx1-b",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Claim your spot in ChatGPT before your competitors do. Then knock out two more fixes this weekend.\n\n1. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Ask AI to summarize your reviews and find what customers love and what bugs them.\n\nSend this to a business owner who's slammed this holiday weekend.\n\n#SmallBusinessSaturday #SmallBusiness #MarketingTips",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/v916.mp4?v=c7f1fdf7",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/cover916.jpg?v=e36e5b7c"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-28T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=instagram&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "2026-11-27-mx1-b",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Claim your spot in ChatGPT before your competitors do. Then knock out two more fixes this weekend.\n\n1. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Ask AI to summarize your reviews and find what customers love and what bugs them.\n\nSend this to a business owner who's slammed this holiday weekend.\n\n#SmallBusinessSaturday #SmallBusiness #MarketingTips",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/v916.mp4?v=c7f1fdf7",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-28T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "2026-11-27-mx1-b",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Claim your spot in ChatGPT before your competitors do. Then knock out two more fixes this weekend.\n\n1. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Ask AI to summarize your reviews and find what customers love and what bugs them.\n\nSend this to a business owner who's slammed this holiday weekend.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/v916.mp4?v=c7f1fdf7",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/cover916.jpg?v=e36e5b7c"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-28T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=threads&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "2026-11-27-mx1-b",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Claim your spot in ChatGPT before your competitors do. Then knock out two more fixes this weekend.\n\n1. Claim your business in ChatGPT. Business Hub is live in beta at chatgpt.com/business-hub.\n2. Add your holiday hours on Google. Shoppers check before they drive over.\n3. Ask AI to summarize your reviews and find what customers love and what bugs them.\n\nSend this to a business owner who's slammed this holiday weekend.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/v169.mp4?v=27b6dd13",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-28T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=linkedin&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "2026-11-27-mx1-b",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Claim your spot in ChatGPT, add holiday hours on Google, have AI summarize your reviews. Three fixes, 10 minutes. Send this to a business owner who's slammed this holiday weekend.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-27-mx1-b/v169.mp4?v=27b6dd13",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-28T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b"
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "2026-12-01-mx3-b",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "ChatGPT business profiles are live in beta. Do these three things.\n\n1. Claim your ChatGPT business profile and keep your services accurate so ChatGPT describes you right.\n2. Start with one task, not a whole AI plan. Pick the email you write most.\n3. Have AI write 10 FAQs about your service, with short answers.\n\nSend this to the owner who keeps saying they'll try AI next month.\n\n#ChatGPT #AIForBusiness #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/v916.mp4?v=21b8e63d",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/cover916.jpg?v=6a610e48"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=facebook&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "2026-12-01-mx3-b",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "ChatGPT business profiles are live in beta. Do these three things.\n\n1. Claim your ChatGPT business profile and keep your services accurate so ChatGPT describes you right.\n2. Start with one task, not a whole AI plan. Pick the email you write most.\n3. Have AI write 10 FAQs about your service, with short answers.\n\nSend this to the owner who keeps saying they'll try AI next month.\n\n#ChatGPT #AIForBusiness #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/v916.mp4?v=21b8e63d",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/cover916.jpg?v=6a610e48"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T02:30:00.000Z",
+    "type": "reel",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=instagram&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "2026-12-01-mx3-b",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "ChatGPT business profiles are live in beta. Do these three things.\n\n1. Claim your ChatGPT business profile and keep your services accurate so ChatGPT describes you right.\n2. Start with one task, not a whole AI plan. Pick the email you write most.\n3. Have AI write 10 FAQs about your service, with short answers.\n\nSend this to the owner who keeps saying they'll try AI next month.\n\n#ChatGPT #AIForBusiness #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/v916.mp4?v=21b8e63d",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "2026-12-01-mx3-b",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "ChatGPT business profiles are live in beta. Do these three things.\n\n1. Claim your ChatGPT business profile and keep your services accurate so ChatGPT describes you right.\n2. Start with one task, not a whole AI plan. Pick the email you write most.\n3. Have AI write 10 FAQs about your service, with short answers.\n\nSend this to the owner who keeps saying they'll try AI next month.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/v916.mp4?v=21b8e63d",
+      "type": "video/mp4",
+      "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/cover916.jpg?v=6a610e48"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=threads&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "2026-12-01-mx3-b",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "ChatGPT business profiles are live in beta. Do these three things.\n\n1. Claim your ChatGPT business profile and keep your services accurate so ChatGPT describes you right.\n2. Start with one task, not a whole AI plan. Pick the email you write most.\n3. Have AI write 10 FAQs about your service, with short answers.\n\nSend this to the owner who keeps saying they'll try AI next month.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/v169.mp4?v=4c0306c8",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "followUpComment": "Want help putting these into practice? Book a free call: https://link.lewismarketingoc.com/widget/booking/6mhwc7Fuoajwky3SnVsn?utm_source=linkedin&utm_medium=comment&utm_campaign=share-test-mashup"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "2026-12-01-mx3-b",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "ChatGPT business profiles are live in beta. Claim yours, start AI with one task, then write 10 FAQs. Send this to the owner who keeps saying they'll try AI next month.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-12-01-mx3-b/v169.mp4?v=4c0306c8",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T02:30:00.000Z",
+    "type": "post",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b"
+   }
+  }
+ ]
+}
