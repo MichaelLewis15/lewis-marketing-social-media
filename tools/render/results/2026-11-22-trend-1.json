@@ -1,0 +1,25 @@
+{
+ "spec": "daily-social/video-specs/2026-11-22-trend-1.json",
+ "out": "daily/video/2026-11-22-trend-1",
+ "ok": true,
+ "at": "2026-11-19T19:33:14.077868Z",
+ "seconds": 31.4,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover169.jpg": "cdbdf7b4e4",
+  "cover916.jpg": "2c94c525f1",
+  "gbp.png": "32fbcfc6b0",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "b2fcd818ce",
+  "v916.mp4": "b605346f99",
+  "voice-check.json": "fff8808468"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

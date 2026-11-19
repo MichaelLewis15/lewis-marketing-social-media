@@ -1,0 +1,43 @@
+[
+ {
+  "scene": 0,
+  "text": "LinkedIn now reads your profile to help pick who sees your posts. ",
+  "spoken": "LinkedIn now reads your profile to help pick who sees your posts.",
+  "heard": "Linked in now, reads your profile to help pick who sees your posts.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "linkedin -> linked in"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Before. A profile that hides you. Headline: Owner at Smith Co.. About section left blank. Posts on a new topic every week.",
+  "spoken": "Before. A profile that hides you. Headline: Owner at Smith Co. About section left blank. Posts on a new topic every week.",
+  "heard": "Before a profile that hides you, headline owner at Smith Co. About section left blank, posts on a new topic every week.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "After. A profile that finds your people. Headline: who you help and where. About: your service, your towns, your proof. Posts that stay on two or three topics.",
+  "spoken": "After. A profile that finds your people. Headline: who you help and where. About: your service, your towns, your proof. Posts that stay on two or three topics.",
+  "heard": "After a profile that finds your people, headline who you help and wear, about your service, your towns, your proof, post that stay on two or three topics.",
+  "match": 0.984,
+  "ok": true,
+  "diffs": [
+   "where -> wear",
+   "posts -> post"
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "Send this to the person on your team who posts on LinkedIn. Fix the profile first, and LinkedIn knows who to show your posts to.",
+  "spoken": "Send this to the person on your team who posts on LinkedIn. Fix the profile first, and LinkedIn knows who to show your posts to.",
+  "heard": "Send this to the person on your team who posts on LinkedIn. Fix the profile first and LinkedIn knows who to show your posts to.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ }
+]

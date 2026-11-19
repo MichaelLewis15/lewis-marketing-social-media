@@ -1,0 +1,40 @@
+[
+ {
+  "scene": 0,
+  "text": "Two myths from this week's news. One is about your Google rankings. ",
+  "spoken": "Two myths from this week's news. One is about your Google rankings.",
+  "heard": "Two myths from this week's news. One is about your Google rankings.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Myth: Reposting a viral clip is free reach. Fact: Instagram now flags reposts, even AI-edited ones, and can credit the original creator.",
+  "spoken": "Myth: Reposting a viral clip is free reach. Fact: Instagram now flags reposts, even A.I.-edited ones, and can credit the original creator.",
+  "heard": "Myth reposting a viral clip is free reach. Fact, Instagram now flags reposts even A. I edited ones and can credit the original creator.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "ai -> a i"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "Myth: A Google core update means rewrite your site this week. Fact: Google says wait until the update finishes, then compare a full week of data.",
+  "spoken": "Myth: A Google core update means rewrite your site this week. Fact: Google says wait until the update finishes, then compare a full week of data.",
+  "heard": "Myth a Google Core update means rewrite your site this week. Fact, Google says wait until the update finishes, then compare a full week of data.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Send this to whoever runs your social. Two myths, two easy fixes: post your own work, and wait out the update.",
+  "spoken": "Send this to whoever runs your social. Two myths, two easy fixes: post your own work, and wait out the update.",
+  "heard": "Send this to whoever runs your social. Two myths, two easy fixes. Post your own work and wait out the update.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ }
+]
