@@ -1,0 +1,35 @@
+{
+ "format": "beforeafter",
+ "style": "light",
+ "howie": true,
+ "voice": true,
+ "pace": 0.72,
+ "button": "",
+ "music": 3,
+ "sizes": ["916", "169"],
+ "eyebrow": "LINKEDIN PROFILE CHECK",
+ "head1": "LinkedIn now reads your profile",
+ "head2": "to help pick who sees your posts.",
+ "before": {
+  "title": "A profile that hides you",
+  "points": [
+   "Headline: Owner at Smith Co.",
+   "About section left blank",
+   "Posts on a new topic every week"
+  ]
+ },
+ "after": {
+  "title": "A profile that finds your people",
+  "points": [
+   "Headline: who you help and where",
+   "About: your service, your towns, your proof",
+   "Posts that stay on two or three topics"
+  ]
+ },
+ "cta": "Send this to the person on your team who posts on LinkedIn.",
+ "cta2": "Fix the profile first.",
+ "vo": {"outro": "Send this to the person on your team who posts on LinkedIn. Fix the profile first, and LinkedIn knows who to show your posts to."},
+ "gbpTitle": "Fix your LinkedIn profile before you post",
+ "out": "daily/video/2026-11-24-trend-2",
+ "note": "Trend radar 2026-11-19, idea 5. Source: LinkedIn Engineering, Profile Relevance (LLM profile summaries used to recommend posts beyond connections), reported by Social Media Today Nov 9 2026."
+}

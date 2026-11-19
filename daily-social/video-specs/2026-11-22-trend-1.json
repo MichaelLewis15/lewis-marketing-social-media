@@ -1,0 +1,29 @@
+{
+ "format": "myth",
+ "style": "navy",
+ "howie": true,
+ "voice": true,
+ "pace": 0.72,
+ "button": "",
+ "music": 1,
+ "sizes": ["916", "169"],
+ "eyebrow": "SEND THIS TO WHOEVER RUNS YOUR SOCIAL",
+ "head1": "Two myths from this week's news.",
+ "head2": "One is about your Google rankings.",
+ "items": [
+  {
+   "myth": "Reposting a viral clip is free reach.",
+   "fact": "Instagram now flags reposts, even AI-edited ones, and can credit the original creator."
+  },
+  {
+   "myth": "A Google core update means rewrite your site this week.",
+   "fact": "Google says wait until the update finishes, then compare a full week of data."
+  }
+ ],
+ "cta": "Send this to whoever runs your social.",
+ "cta2": "Original posts. Patient fixes.",
+ "vo": {"outro": "Send this to whoever runs your social. Two myths, two easy fixes: post your own work, and wait out the update."},
+ "gbpTitle": "Two marketing myths from this week",
+ "out": "daily/video/2026-11-22-trend-1",
+ "note": "Trend radar 2026-11-19, idea 4. Sources: TechCrunch Nov 17 2026 (Instagram content protection), Google Search Central core updates guidance + Search Status Dashboard (November 2026 core update started Nov 10)."
+}
