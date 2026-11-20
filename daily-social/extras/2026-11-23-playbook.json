@@ -1,0 +1,57 @@
+{
+ "id": "2026-11-23-playbook",
+ "theme": "playbook",
+ "eyebrow": "INDUSTRY PLAYBOOK",
+ "tag": "CONTRACTORS AND HOME SERVICES",
+ "head": [
+  [
+   "THE NEXT JOB",
+   "ink"
+  ],
+  [
+   "STARTS WITH A",
+   "ink"
+  ],
+  [
+   "SEARCH",
+   "blue"
+  ]
+ ],
+ "sub": "Five moves that help contractors and home service pros get more calls from the right homeowners.",
+ "slides": [
+  {
+   "title": "Your Google profile is your showroom",
+   "body": "Homeowners search, compare and call from Google before they ever see your website.\nPick the right primary category, set your real service area, and add photos of finished jobs, your trucks and your crew.",
+   "tip": "Snap 3 photos at the end of every job and add one a week."
+  },
+  {
+   "title": "Keep fresh reviews coming",
+   "body": "74% of consumers look for reviews written in the last three months. Old reviews alone look like a slow business.\nAsk while the customer is happy, and reply to every review in your own words.",
+   "tip": "Source: BrightLocal Local Consumer Review Survey 2026."
+  },
+  {
+   "title": "Answer every call, or text back fast",
+   "body": "A missed call usually means the homeowner calls the next contractor on the list.\nSet up a missed-call text back so every caller gets a quick reply, even when you are on a roof or under a sink.",
+   "tip": "Check your missed calls for one week. The number tells you what to fix."
+  },
+  {
+   "title": "Look at Local Services Ads",
+   "body": "Google's Local Services Ads show your reviews and a Google Verified badge at the top of search, and you pay for leads, not clicks.\nCheck that your trade is eligible and have your license and business details ready.",
+   "tip": "Google says ads may rank lower if you often miss calls or messages."
+  },
+  {
+   "title": "Show the work, then track the leads",
+   "body": "Before-and-after photos and 20-second job clips on Facebook travel by word of mouth in small towns.\nThen track which calls and forms came from Google, Facebook or referrals, and put next month's effort there.",
+   "tip": "Ask every new customer: how did you hear about us?"
+  }
+ ],
+ "cta": {
+  "head": "Want more calls next season?",
+  "sub": "We help Northwest Iowa contractors get found, get reviewed and get the call.",
+  "button": "lewismarketingoc.com"
+ },
+ "sources": [
+  "BrightLocal Local Consumer Review Survey 2026",
+  "Google Local Services Ads Help"
+ ]
+}
