@@ -1,0 +1,38 @@
+{
+ "spec": "daily-social/hl-weekly/specs/2026-11-20.json",
+ "out": "daily/hl-weekly/2026-11-20",
+ "ok": true,
+ "at": "2026-11-20T18:23:52.537092Z",
+ "seconds": 61.3,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover11-b.jpg": "0343114b6c",
+  "cover11.jpg": "fe4b4bd0ef",
+  "cover169-b.jpg": "722c3cdc67",
+  "cover169.jpg": "cc1c46faed",
+  "cover45-b.jpg": "5f49a39098",
+  "cover45.jpg": "0d8512992b",
+  "cover916-b.jpg": "910f0cdc91",
+  "cover916.jpg": "f3987161b4",
+  "gbp.png": "119690cc8f",
+  "qc.json": "71ed98afbe",
+  "v11-b.mp4": "b56b754595",
+  "v11.mp4": "88fe99575e",
+  "v169-b.mp4": "d401adcbfc",
+  "v169.mp4": "7a85c119cc",
+  "v45-b.mp4": "9690983b5f",
+  "v45.mp4": "723600bbd9",
+  "v916-b.mp4": "2b3e2d7d9c",
+  "v916.mp4": "c8a289e993",
+  "voice-check-b.json": "871f14230e",
+  "voice-check.json": "a9789d57a6"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

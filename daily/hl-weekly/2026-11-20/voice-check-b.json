@@ -1,0 +1,70 @@
+[
+ {
+  "scene": 0,
+  "text": "Can you run ChatGPT ads from HighLevel? As of this week, you can. Here's what else shipped.",
+  "spoken": "Can you run Chat G.P.T. ads from High Level? As of this week, you can. Here's what else shipped.",
+  "heard": "Can you run chat GPT? Add from high level. As of this week you can, here's what else shipped.",
+  "match": 0.986,
+  "ok": true,
+  "diffs": [
+   "ads -> add"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Run ChatGPT ads from Ad Manager. OpenAI joins Meta, Google and LinkedIn in Ad Manager. You need a connected OpenAI Ads account.",
+  "spoken": "Run Chat G.P.T. ads from Ad Manager. Open A.I. joins Meta, Google and LinkedIn in Ad Manager. You need a connected Open A.I. Ads account.",
+  "heard": "Run chat GPT, ads from ad manager. Open AI, joins meta, Google, and linked in an ad manager. You need a connected Open AI, ads account.",
+  "match": 0.99,
+  "ok": true,
+  "diffs": [
+   "linkedin -> linked",
+   " -> an"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "Share meeting recordings safely. Share Meeting Room recordings by link, with passcodes, expiry dates and download controls.",
+  "spoken": "Share meeting recordings safely. Share Meeting Room recordings by link, with passcodes, expiry dates and download controls.",
+  "heard": "Share meeting recordings safely. Share meeting room recordings by link with passcodes, expiry dates, and download controls.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "AI agents that work on a schedule. Routines let Managed Agents run recurring tasks, as often as hourly, and pause for approval on sensitive steps.",
+  "spoken": "A.I. agents that work on a schedule. Routines let Managed Agents run recurring tasks, as often as hourly, and pause for approval on sensitive steps.",
+  "heard": "AI agents that work on a schedule. Routines let managed agents run recurring tasks as often as hourly and pause for approval on sensitive steps.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Rentals you can book in the Client Portal. Clients can book and cancel rentals in the new Client Portal, on accounts with Rentals turned on.",
+  "spoken": "Rentals you can book in the Client Portal. Clients can book and cancel rentals in the new Client Portal, on accounts with Rentals turned on.",
+  "heard": "Rentals you can book in the client portal. Clients can book and cancel rentals in the new client portal on accounts with rentals turned on.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Workflow logs now keep 60 days. Execution logs doubled from 30 days, with a CSV export for agency admins and users.",
+  "spoken": "Workflow logs now keep 60 days. Execution logs doubled from 30 days, with a CSV export for agency admins and users.",
+  "heard": "workflow logs now keep 60 days. Execution logs doubled from 30 days with a CSV export for agency admins and users.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Send this to whoever runs your HighLevel account. Nine updates, five worth your time.",
+  "spoken": "Send this to whoever runs your High Level account. Nine updates, five worth your time.",
+  "heard": "Send this to whoever runs your high -level account. Nine updates, five worth your time.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ }
+]
