@@ -1,0 +1,56 @@
+{
+ "week": "Nov 16-20, 2026",
+ "format": "list",
+ "style": "cards",
+ "music": 3,
+ "voice": true,
+ "pace": 0.72,
+ "button": "",
+ "out": "daily/hl-weekly/2026-11-20",
+ "head1": "HighLevel shipped 9 updates",
+ "head2": "Here are the 5 worth your time",
+ "items": [
+  {
+   "title": "Run ChatGPT ads from Ad Manager",
+   "why": "OpenAI joins Meta, Google and LinkedIn in Ad Manager. You need a connected OpenAI Ads account.",
+   "tag": "New"
+  },
+  {
+   "title": "Share meeting recordings safely",
+   "why": "Share Meeting Room recordings by link, with passcodes, expiry dates and download controls.",
+   "tag": "New"
+  },
+  {
+   "title": "AI agents that work on a schedule",
+   "why": "Routines let Managed Agents run recurring tasks, as often as hourly, and pause for approval on sensitive steps.",
+   "tag": "New"
+  },
+  {
+   "title": "Rentals you can book in the Client Portal",
+   "why": "Clients can book and cancel rentals in the new Client Portal, on accounts with Rentals turned on.",
+   "tag": "New"
+  },
+  {
+   "title": "Workflow logs now keep 60 days",
+   "why": "Execution logs doubled from 30 days, with a CSV export for agency admins and users.",
+   "tag": "Update"
+  }
+ ],
+ "cta": "Send this to whoever runs your HighLevel account.",
+ "cta2": "Want help setting these up? Link in the comments.",
+ "vo": {
+  "intro": "HighLevel shipped nine updates this week. Here are the five worth your time.",
+  "outro": "Send this to whoever runs your HighLevel account. Nine updates, five worth your time."
+ },
+ "variants": {
+  "b": {
+   "head1": "Can you run ChatGPT ads?",
+   "head2": "In HighLevel, now you can",
+   "vo": {
+    "intro": "Can you run ChatGPT ads from HighLevel? As of this week, you can. Here's what else shipped."
+   }
+  }
+ },
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card. Hook test A number vs B question.",
+ "gbpTitle": "What's new in HighLevel this week"
+}
