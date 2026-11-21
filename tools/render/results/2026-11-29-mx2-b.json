@@ -2,37 +2,24 @@
  "spec": "daily-social/video-specs/2026-11-29-mx2-b.json",
  "out": "daily/video/2026-11-29-mx2-b",
  "ok": true,
- "at": "2026-11-21T16:46:15.977891Z",
- "seconds": 23.5,
+ "at": "2026-11-21T17:25:42.360479Z",
+ "seconds": 24.5,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "a7122963e2",
-  "cover916.jpg": "25a145643f",
+  "cover169.jpg": "d5ea66bb36",
+  "cover916.jpg": "dfb3478481",
   "gbp.png": "467b9ac13d",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "2616254947",
-  "v916.mp4": "9ef24376f0",
-  "voice-check.json": "182a459bcb"
+  "v169.mp4": "365868a946",
+  "v916.mp4": "9b7f2bde77",
+  "voice-check.json": "8786ddc813"
  },
  "voiceCheck": {
-  "ok": false,
-  "flagged": [
-   {
-    "scene": 0,
-    "text": "2 quick wins and a brand puzzle. ",
-    "spoken": "2 quick wins and a brand puzzle.",
-    "heard": "two quick wins in a brand puzzle.",
-    "match": 0.863,
-    "ok": false,
-    "diffs": [
-     "2 -> two",
-     "and -> in"
-    ]
-   }
-  ]
+  "ok": true,
+  "flagged": []
  }
 }

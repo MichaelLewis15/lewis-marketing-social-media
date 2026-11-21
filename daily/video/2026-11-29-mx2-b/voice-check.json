@@ -1,15 +1,12 @@
 [
  {
   "scene": 0,
-  "text": "2 quick wins and a brand puzzle. ",
-  "spoken": "2 quick wins and a brand puzzle.",
-  "heard": "two quick wins in a brand puzzle.",
-  "match": 0.863,
-  "ok": false,
-  "diffs": [
-   "2 -> two",
-   "and -> in"
-  ]
+  "text": "Two quick wins. Plus a brand puzzle.",
+  "spoken": "Two quick wins. Plus a brand puzzle.",
+  "heard": "Two quick wins. Plus a brand puzzle.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
  },
  {
   "scene": 1,
