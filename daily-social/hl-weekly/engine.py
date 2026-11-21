@@ -18,7 +18,7 @@ Shared keys: eyebrow, head1, head2, week (subtitle line), sub2, cta, cta2, butto
 STYLES ("style"): navy | light | bold | cards (normal rotation) and seasonal holiday | shopsmall | yearend
 SIZES ("sizes", default all): 916 (1080x1920), 169 (1920x1080), 45 (1080x1350 feed), 11 (1080x1080 square)
 "howie": false leaves Howie out.  "voice": true adds a narrated voiceover (voice.py), "captions" (default = voice) burns in captions.
-"voiceName": Kokoro voice (default af_heart).  Scene narration defaults to the on-screen words; override with "vo" on an item
+"voiceName": Kokoro voice (default lm_male, the expressive male voice; see voice.py).  Scene narration defaults to the on-screen words; override with "vo" on an item
 or spec["vo"] = {"intro": "...", "outro": "..."}.
 Outputs: v916.mp4 v169.mp4 v45.mp4 v11.mp4 (as requested), cover<size>.jpg, gbp.png, voice-check.json when voiced.
 Hook tests: "variants": {"b": {"head1": "...", "head2": "...", "vo": {"intro": "..."}}} renders the same video again with a different
@@ -857,7 +857,8 @@ def prepare(spec, tmp, outdir, suffix=""):
     voiced = bool(spec.get("voice")); words = []
     if voiced:
         import voice
-        res = voice.narrate([s.get("vo") for s in sc], tmp, spec.get("voiceName", "af_heart"), spec.get("voiceSpeed", 1.0))
+        res = voice.narrate([s.get("vo") for s in sc], tmp, spec.get("voiceName", voice.DEFAULT_VOICE), spec.get("voiceSpeed", 1.0),
+                            spec.get("expressive", True))
         for s, r in zip(sc, res):
             if not r: continue
             tight = float(spec.get("pace", 1.0)) < 1.0  # retention cut: less air before and after each line

@@ -44,9 +44,11 @@ jobs:
         if: steps.specs.outputs.list != ''
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q pillow numpy kokoro-onnx soundfile faster-whisper requests "rembg[cpu]" "opencv-python-headless<5"
+          pip install -q pillow numpy kokoro-onnx soundfile faster-whisper praat-parselmouth requests "rembg[cpu]" "opencv-python-headless<5"
           npm i -g playwright@1.48.2 && npx -y playwright@1.48.2 install --with-deps chromium
           git clone -q --depth 1 -b models "https://github.com/${{ github.repository }}.git" daily-social/models
+          # full-precision Kokoro for the male voice (too big for git; Michael's rule Nov 21, 2026)
+          curl -sSfL -o daily-social/models/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx || echo "full model download failed, using int8"
       - name: Render
         if: steps.specs.outputs.list != ''
         run: python3 tools/render_specs.py ${{ steps.specs.outputs.list }}
@@ -57,4 +59,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A daily tools/render || true
           git commit -qm "Rendered videos: ${{ steps.specs.outputs.list }}" || exit 0
-          git pull -q --rebase origin main && git push -q
+          for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q && break; sleep 5; done

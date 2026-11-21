@@ -61,3 +61,6 @@ See `daily-social/clips/CLIPS.md` (uploads in HighLevel Media Storage > "Video r
 
 ## Look performance
 The weekly social sync compares videos by look, format, Howie and voice (engagement per post from HighLevel insights, joined with each daily doc's `asset.style/format/howie/voice`) and keeps the scoreboard in `dsconfig/settings.videoLooks` and the weekly `insights` doc. Treat it as directional until a look has at least 4 videos.
+
+## Voice (Michael's rule, Nov 21, 2026)
+Every Lewis Marketing voiceover uses the male voice `lm_male` (Kokoro am_fenrir 80% + am_puck 20%, full-precision model) read the expressive way: unit by unit, a wider pitch melody, questions rise, statements settle, and natural pauses of a beat or two (longest after a question, a setup ending in a colon, or a short punchy line; a breath before the closing line). Write "vo" lines the way a person talks and star the one or two words a person would stress (`"vo": "Nobody picks up. So what do they *do*?"`); stars never show on screen, and numbers get stress automatically. Do not set "voiceName" unless Michael asks for a different voice. Details: voice.py.
