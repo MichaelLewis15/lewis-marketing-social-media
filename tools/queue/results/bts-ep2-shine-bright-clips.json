@@ -1,0 +1,174 @@
+{
+ "name": "bts-ep2-shine-bright-clips",
+ "at": "2026-11-21T15:49:33.277245Z",
+ "results": [
+  {
+   "key": "c1-online-presence",
+   "ch": "facebook",
+   "postId": "6b01bd7d6b97feb6f10f0b12",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c1-online-presence",
+   "ch": "instagram",
+   "postId": "6b01bd7d6cb36771673ca3ff",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c1-online-presence",
+   "ch": "tiktok",
+   "postId": "6b01bd7ee2b15e0cd68b9cde",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c1-online-presence",
+   "ch": "threads",
+   "postId": "6b01bd7ebfad35ee6e7d109d",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c1-online-presence",
+   "ch": "linkedin",
+   "postId": "6b01bd7fe2b15e0cd68b9e2a",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c1-online-presence",
+   "ch": "bluesky",
+   "postId": "6b01bd8051057592f1f194fc",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c1-online-presence",
+   "ch": "youtube",
+   "postId": "6b01bd8022a5a77774446c50",
+   "when": "2026-11-22T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "facebook",
+   "postId": "6b01bd81882810f35cd0737e",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "instagram",
+   "postId": "6b01bd81e2b15e0cd68ba127",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "tiktok",
+   "postId": "6b01bd823e670191357b572f",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "threads",
+   "postId": "6b01bd820eacc49b1f63bd11",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "linkedin",
+   "postId": "6b01bd8384f81052d06418af",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "bluesky",
+   "postId": "6b01bd833e670191357b590c",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c2-found-us",
+   "ch": "youtube",
+   "postId": "6b01bd846cb36771673cad22",
+   "when": "2026-11-23T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "facebook",
+   "postId": "6b01bd8584f81052d0641afb",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "instagram",
+   "postId": "6b01bd8544d03ac4d566b4a4",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "tiktok",
+   "postId": "6b01bd86b3d9986983a91b8f",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "threads",
+   "postId": "6b01bd863e670191357b5f56",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "linkedin",
+   "postId": "6b01bd8751057592f1f1a5a4",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "bluesky",
+   "postId": "6b01bd87e07edb29c66e8e57",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c3-highlevel-crm",
+   "ch": "youtube",
+   "postId": "6b01bd88bfad35ee6e7d1b7b",
+   "when": "2026-11-24T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "facebook",
+   "postId": "6b01bd89882810f35cd07e8d",
+   "when": "2026-11-25T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "instagram",
+   "postId": "6b01bd8abfad35ee6e7d1c41",
+   "when": "2026-11-25T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "tiktok",
+   "postId": "6b01bd8ae2b15e0cd68bb056",
+   "when": "2026-11-25T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "threads",
+   "postId": "6b01bd8b3e670191357b68c0",
+   "when": "2026-11-25T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "linkedin",
+   "postId": "6b01bd8bb3d9986983a9249c",
+   "when": "2026-11-25T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "bluesky",
+   "postId": "6b01bd8c6cb36771673cb78d",
+   "when": "2026-11-25T17:30:00.000Z"
+  },
+  {
+   "key": "c4-why-try",
+   "ch": "youtube",
+   "postId": "6b01bd8c51057592f1f1b5c6",
+   "when": "2026-11-25T17:30:00.000Z"
+  }
+ ]
+}
