@@ -1,0 +1,85 @@
+{
+ "name": "voice-male-2026-11-21-mx2-b",
+ "requests": [
+  {
+   "op": "edit",
+   "key": "2026-11-29-mx2-b",
+   "ch": "bluesky",
+   "postId": "6afdb4fc0f3deb241a848579",
+   "when": "2026-11-30T02:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v169.mp4?v=365868a9",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-29-mx2-b",
+   "ch": "linkedin",
+   "postId": "6afdb4fbfa80b059fb76b4d0",
+   "when": "2026-11-30T02:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v169.mp4?v=365868a9",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-29-mx2-b",
+   "ch": "threads",
+   "postId": "6afdb4fb830c88e6630102a2",
+   "when": "2026-11-30T02:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=9b7f2bde",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-29-mx2-b",
+   "ch": "tiktok",
+   "postId": "6afdb4fa45697c4639d03ab0",
+   "when": "2026-11-30T02:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=9b7f2bde",
+     "type": "video/mp4"
+    }
+   ]
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-29-mx2-b",
+   "ch": "instagram",
+   "postId": "6afdb4f9c2b85b68a8227e5a",
+   "when": "2026-11-30T02:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=9b7f2bde",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/cover916.jpg?v=dfb34784"
+  },
+  {
+   "op": "edit",
+   "key": "2026-11-29-mx2-b",
+   "ch": "facebook",
+   "postId": "6afdb4f939d5e10a88aee753",
+   "when": "2026-11-30T02:30:00.000Z",
+   "media": [
+    {
+     "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/v916.mp4?v=9b7f2bde",
+     "type": "video/mp4"
+    }
+   ],
+   "thumbnail": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/video/2026-11-29-mx2-b/cover916.jpg?v=dfb34784"
+  }
+ ]
+}
