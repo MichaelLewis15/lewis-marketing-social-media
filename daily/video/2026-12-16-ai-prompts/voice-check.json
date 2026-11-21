@@ -14,7 +14,7 @@
   "scene": 1,
   "text": "Thank a loyal customer. Write a warm thank-you note. Under 100 words, no sales pitch.",
   "spoken": "Thank a loyal customer. Write a warm thank-you note. Under 100 words, no sales pitch.",
-  "heard": "Think a loyal customer. Write a warm thank you note, under 100 words no sales pitch.",
+  "heard": "Think a loyal customer. Write a warm thank you note. Under 100 words, no sales pitch.",
   "match": 0.985,
   "ok": true,
   "diffs": [
@@ -25,7 +25,7 @@
   "scene": 2,
   "text": "Announce holiday hours. For Google, Facebook and email.",
   "spoken": "Announce holiday hours. For Google, Facebook and email.",
-  "heard": "Announce Holiday Hours for Google, Facebook, and email.",
+  "heard": "Announce Holiday Hours for Google Facebook and email.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -34,16 +34,18 @@
   "scene": 3,
   "text": "Review your year. What worked, what didn't, what to do more of.",
   "spoken": "Review your year. What worked, what didn't, what to do more of.",
-  "heard": "Review your year, what worked, what didn't, what to do more of.",
-  "match": 1.0,
+  "heard": "Review your year, but worked what didn't what to do more of.",
+  "match": 0.946,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "what -> but"
+  ]
  },
  {
   "scene": 4,
   "text": "Plan January posts. 12 social post ideas for your business.",
   "spoken": "Plan January posts. 12 social post ideas for your business.",
-  "heard": "Plan January posts, 12 social post ideas for your business.",
+  "heard": "plan January posts, 12 social post ideas for your business.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -61,7 +63,7 @@
   "scene": 6,
   "text": "Save this for the slow week. Full prompts in the caption. Book a call at lewismarketingoc.com.",
   "spoken": "Save this for the slow week. Full prompts in the caption. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Save this for the slow week. Full prompts in the caption. Book a call at LewisMarketingOc .com",
+  "heard": "Save this for the slow week. Full prompts in the caption. Book a call at LewisMarketingOC .com.",
   "match": 0.98,
   "ok": true,
   "diffs": [

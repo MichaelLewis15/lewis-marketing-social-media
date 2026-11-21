@@ -3,7 +3,7 @@
   "scene": 0,
   "text": "4 ways to support local that don't cost a dime. ",
   "spoken": "4 ways to support local that don't cost a dime.",
-  "heard": "four ways to support local that don't cost a dime.",
+  "heard": "Four ways to support local that don't cost a dime.",
   "match": 0.933,
   "ok": true,
   "diffs": [
@@ -23,7 +23,7 @@
   "scene": 2,
   "text": "Share one of their posts. It takes two seconds.",
   "spoken": "Share one of their posts. It takes two seconds.",
-  "heard": "Share one of their posts, it takes two seconds.",
+  "heard": "Share one of their posts. It takes two seconds.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -41,7 +41,7 @@
   "scene": 4,
   "text": "Shop local this weekend. If you can.",
   "spoken": "Shop local this weekend. If you can.",
-  "heard": "shop local this weekend, if you can.",
+  "heard": "Shop local this weekend. If you can.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -50,7 +50,7 @@
   "scene": 5,
   "text": "Share this to your story and tag a local business you love.",
   "spoken": "Share this to your story and tag a local business you love.",
-  "heard": "Share this to your story and tag a local business you love.",
+  "heard": "Share this to your story, and tag a local business you love.",
   "match": 1.0,
   "ok": true,
   "diffs": []

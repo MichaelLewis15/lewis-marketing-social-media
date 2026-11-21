@@ -2,21 +2,21 @@
  "spec": "daily-social/video-specs/2026-11-23-mx3-a.json",
  "out": "daily/video/2026-11-23-mx3-a",
  "ok": true,
- "at": "2026-11-18T14:30:12.579306Z",
- "seconds": 28.8,
+ "at": "2026-11-21T16:30:34.221515Z",
+ "seconds": 29.8,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "12996cd47c",
-  "cover916.jpg": "9cef19b879",
+  "cover169.jpg": "dda2470de0",
+  "cover916.jpg": "308c4e6636",
   "gbp.png": "fa92b6eecd",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "b638513b72",
-  "v916.mp4": "232f493204",
-  "voice-check.json": "344fd04445"
+  "v169.mp4": "eedc26edf2",
+  "v916.mp4": "0901cae400",
+  "voice-check.json": "d95793897e"
  },
  "voiceCheck": {
   "ok": true,

@@ -3,11 +3,11 @@
   "scene": 0,
   "text": "4 things we'd tell every business owner. ",
   "spoken": "4 things we'd tell every business owner.",
-  "heard": "for things we tell every business owner.",
-  "match": 0.923,
+  "heard": "or things we tell every business owner.",
+  "match": 0.938,
   "ok": true,
   "diffs": [
-   "4 -> for",
+   "4 -> or",
    "d -> "
   ]
  },
@@ -15,7 +15,7 @@
   "scene": 1,
   "text": "Fix the foundation before you buy ads. Website, Google profile, follow-up.",
   "spoken": "Fix the foundation before you buy ads. Website, Google profile, follow-up.",
-  "heard": "Fix the foundation before you buy ads. Website Google Profile, follow up.",
+  "heard": "Fix the foundation before you buy ads. Website Google profile follow -up.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -33,7 +33,7 @@
   "scene": 3,
   "text": "Own your audience. Build that email list.",
   "spoken": "Own your audience. Build that email list.",
-  "heard": "own your audience, build that email list.",
+  "heard": "own your audience. Build that email list.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -42,10 +42,12 @@
   "scene": 4,
   "text": "Let AI write the first draft. Not the final say.",
   "spoken": "Let A.I. write the first draft. Not the final say.",
-  "heard": "Let AI write the first draft, not the final say.",
-  "match": 1.0,
+  "heard": "Let EI rate the first draft. Not the final say.",
+  "match": 0.904,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "ai write -> ei rate"
+  ]
  },
  {
   "scene": 5,

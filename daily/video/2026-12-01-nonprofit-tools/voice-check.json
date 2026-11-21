@@ -3,7 +3,7 @@
   "scene": 0,
   "text": "Free marketing tools for nonprofits. Eligibility rules apply. Check each program's official site.",
   "spoken": "Free marketing tools for nonprofits. Eligibility rules apply. Check each program's official site.",
-  "heard": "free marketing tools for non -profits, eligibility rules apply, check each program's official site.",
+  "heard": "free marketing tools for non -profits, eligibility rules apply. Check each program's official site.",
   "match": 1.0,
   "ok": true,
   "diffs": [
@@ -14,16 +14,18 @@
   "scene": 1,
   "text": "Google Ad Grants. Eligible nonprofits can get up to $10,000 a month in Google Search ads.",
   "spoken": "Google Ad Grants. Eligible nonprofits can get up to $10,000 a month in Google Search ads.",
-  "heard": "Google ad grants. Eligible nonprofits can get up to $10 ,000 a month in Google search ads.",
+  "heard": "Google AdGrants. Eligible nonprofits can get up to $10 ,000 a month in Google search ads.",
   "match": 1.0,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "ad grants -> adgrants"
+  ]
  },
  {
   "scene": 2,
   "text": "Canva for Nonprofits. Canva Pro features free for eligible teams.",
   "spoken": "Canva for Nonprofits. Canva Pro features free for eligible teams.",
-  "heard": "Canva for non -profits? Canva Pro features free for eligible teams.",
+  "heard": "Canva for non -profits. Canva Pro features free for eligible teams.",
   "match": 1.0,
   "ok": true,
   "diffs": [
@@ -34,7 +36,7 @@
   "scene": 3,
   "text": "A simple email list. Reach supporters with no algorithm in the way.",
   "spoken": "A simple email list. Reach supporters with no algorithm in the way.",
-  "heard": "A simple email list, reach supporters with no algorithm in the way.",
+  "heard": "A simple email list. Reach supporters with no algorithm in the way.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -43,7 +45,7 @@
   "scene": 4,
   "text": "A two-tap donate page. One clear button and as few fields as possible.",
   "spoken": "A two-tap donate page. One clear button and as few fields as possible.",
-  "heard": "A two -tap donate page, one clear button and as few fields as possible.",
+  "heard": "A two -tap donate page. One clear button and as few fields as possible.",
   "match": 1.0,
   "ok": true,
   "diffs": []

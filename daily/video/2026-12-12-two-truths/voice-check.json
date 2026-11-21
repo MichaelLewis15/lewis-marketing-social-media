@@ -3,11 +3,11 @@
   "scene": 0,
   "text": "Two truths and a lie Review edition. Source for the truths: BrightLocal Local Consumer Review Survey 2026",
   "spoken": "Two truths and a lie Review edition. Source for the truths: BrightLocal Local Consumer Review Survey 2026",
-  "heard": "Two truths and a lie review edition. Source for the truths. Bright local local consumer review survey, 2026.",
-  "match": 1.0,
+  "heard": "two truths and a lie review edition. Source for the truths. Right, local local consumer review survey, 2026.",
+  "match": 0.994,
   "ok": true,
   "diffs": [
-   "brightlocal -> bright local"
+   "brightlocal -> right local"
   ]
  },
  {
@@ -36,7 +36,7 @@
   "scene": 3,
   "text": "Most people never read reviews for local businesses. Truth or lie?",
   "spoken": "Most people never read reviews for local businesses. Truth or lie?",
-  "heard": "Most people never read reviews for local businesses, truth or lie.",
+  "heard": "Most people never read reviews for local businesses. Truth or lie.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -45,11 +45,10 @@
   "scene": 4,
   "text": "Comment A, B or C. We'll reveal it tomorrow. Book a call at lewismarketingoc.com.",
   "spoken": "Comment A, B or C. We'll reveal it tomorrow. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Comment A B or C will reveal it tomorrow. Book a call at LewisMarketingOC .com.",
-  "match": 0.961,
+  "heard": "Comment A .B. or C. We'll reveal it tomorrow. Book a call at LewisMarketingOC .com.",
+  "match": 0.976,
   "ok": true,
   "diffs": [
-   "we ll -> will",
    "lewis marketing oc dot -> lewismarketingoc"
   ]
  }

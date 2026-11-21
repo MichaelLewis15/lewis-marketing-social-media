@@ -12,7 +12,7 @@
   "scene": 1,
   "text": "Myth: Reposting a viral clip is free reach. Fact: Instagram now flags reposts, even AI-edited ones, and can credit the original creator.",
   "spoken": "Myth: Reposting a viral clip is free reach. Fact: Instagram now flags reposts, even A.I.-edited ones, and can credit the original creator.",
-  "heard": "Myth reposting a viral clip is free reach. Fact, Instagram now flags reposts even A. I edited ones and can credit the original creator.",
+  "heard": "Myth. Reposting a viral clip is free -reach. Fact. Instagram now flags reposts even a, I edited ones and can credit the original creator.",
   "match": 1.0,
   "ok": true,
   "diffs": [
@@ -23,18 +23,22 @@
   "scene": 2,
   "text": "Myth: A Google core update means rewrite your site this week. Fact: Google says wait until the update finishes, then compare a full week of data.",
   "spoken": "Myth: A Google core update means rewrite your site this week. Fact: Google says wait until the update finishes, then compare a full week of data.",
-  "heard": "Myth a Google Core update means rewrite your site this week. Fact, Google says wait until the update finishes, then compare a full week of data.",
-  "match": 1.0,
+  "heard": "Myth Google Core Update means rewrite your site this week. Fact Google says wait until the update finishes, then compare a full week of data.",
+  "match": 0.996,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "a -> "
+  ]
  },
  {
   "scene": 3,
   "text": "Send this to whoever runs your social. Two myths, two easy fixes: post your own work, and wait out the update.",
   "spoken": "Send this to whoever runs your social. Two myths, two easy fixes: post your own work, and wait out the update.",
-  "heard": "Send this to whoever runs your social. Two myths, two easy fixes. Post your own work and wait out the update.",
-  "match": 1.0,
+  "heard": "Send this to whoever runs your social, to a method to easy fixes. Post your own work and wait out the update.",
+  "match": 0.953,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "two myths two -> to a method to"
+  ]
  }
 ]

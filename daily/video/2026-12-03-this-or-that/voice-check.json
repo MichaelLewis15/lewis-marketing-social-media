@@ -30,16 +30,18 @@
   "scene": 3,
   "text": "Email, or text?",
   "spoken": "Email, or text?",
-  "heard": "Email or text?",
+  "heard": "e -mail or text.",
   "match": 1.0,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "email -> e mail"
+  ]
  },
  {
   "scene": 4,
   "text": "Reviews, or referrals?",
   "spoken": "Reviews, or referrals?",
-  "heard": "reviews or referrals.",
+  "heard": "Reviews or referrals.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -48,7 +50,7 @@
   "scene": 5,
   "text": "Video, or photos?",
   "spoken": "Video, or photos?",
-  "heard": "video or photos.",
+  "heard": "Video or photos.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -57,7 +59,7 @@
   "scene": 6,
   "text": "Comment your 5 letters. Like A B B A B. Our answers tomorrow. Book a call at lewismarketingoc.com.",
   "spoken": "Comment your 5 letters. Like A B B A B. Our answers tomorrow. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Comment your five letters, like a BBB, our answers tomorrow. Book a call at LewisMarketingOC .com.",
+  "heard": "Comment your five letters, like a BBB. Our answers tomorrow. Book a call at LewisMarketingOC .com.",
   "match": 0.943,
   "ok": true,
   "diffs": [

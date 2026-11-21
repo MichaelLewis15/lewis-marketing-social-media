@@ -3,7 +3,7 @@
   "scene": 0,
   "text": "Small Business Saturday is this week. Ready?. ",
   "spoken": "Small Business Saturday is this week. Ready?.",
-  "heard": "Small Business Saturday is this week. Ready.",
+  "heard": "Small Business Saturday is this week. Ready?",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -12,7 +12,7 @@
   "scene": 1,
   "text": "Post your Saturday hours everywhere. Google, Facebook and your website.",
   "spoken": "Post your Saturday hours everywhere. Google, Facebook and your website.",
-  "heard": "post your Saturday hours everywhere. Google, Facebook, and your website.",
+  "heard": "Post your Saturday hours everywhere. Google Facebook and your website.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -21,7 +21,7 @@
   "scene": 2,
   "text": "Pick one simple offer. One clear reason to stop in.",
   "spoken": "Pick one simple offer. One clear reason to stop in.",
-  "heard": "Pick one simple offer, one clear reason to stop in.",
+  "heard": "Pick one simple offer. One clear reason to stop in.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -39,10 +39,12 @@
   "scene": 4,
   "text": "Put a review QR code by the register. Happy shoppers can leave a review on the spot.",
   "spoken": "Put a review QR code by the register. Happy shoppers can leave a review on the spot.",
-  "heard": "Put a review QR code by the register. Happy shoppers can leave a review on the spot.",
-  "match": 1.0,
+  "heard": "but a review QR code by the register. Happy shoppers can leave a review on the spot.",
+  "match": 0.985,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "put -> but"
+  ]
  },
  {
   "scene": 5,

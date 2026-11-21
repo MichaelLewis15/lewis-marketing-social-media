@@ -3,10 +3,12 @@
   "scene": 0,
   "text": "Do you reply to your reviews?. ",
   "spoken": "Do you reply to your reviews?.",
-  "heard": "Do you reply to your reviews?",
-  "match": 1.0,
+  "heard": "You reply to your reviews.",
+  "match": 0.955,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "do -> "
+  ]
  },
  {
   "scene": 1,
@@ -24,11 +26,12 @@
   "scene": 2,
   "text": "A real thank-you goes a long way. Skip the copy-paste replies. Book a call at lewismarketingoc.com.",
   "spoken": "A real thank-you goes a long way. Skip the copy-paste replies. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "A real thank you goes a long way. Skip the COPPA paste replies. Book a call at LewisMarketingOC .com.",
-  "match": 0.963,
+  "heard": "Real thank you goes a long way. Skip the copper paste replies. Book a call at LewisMarketingOC .com.",
+  "match": 0.95,
   "ok": true,
   "diffs": [
-   "copy -> coppa",
+   "a -> ",
+   "copy -> copper",
    "lewis marketing oc dot -> lewismarketingoc"
   ]
  }

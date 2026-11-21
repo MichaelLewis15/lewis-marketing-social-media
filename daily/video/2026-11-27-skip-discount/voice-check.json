@@ -3,7 +3,7 @@
   "scene": 0,
   "text": "Service business? Skip the discount. ",
   "spoken": "Service business? Skip the discount.",
-  "heard": "Service business, skip the discount.",
+  "heard": "Service Business. Skip the discount.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -12,16 +12,19 @@
   "scene": 1,
   "text": "Gift cards with bonus value. They pay now and come back later.",
   "spoken": "Gift cards with bonus value. They pay now and come back later.",
-  "heard": "gift cards with bonus value. They pay now and come back later.",
-  "match": 1.0,
+  "heard": "Give cards with bonus value. Pay now and come back later.",
+  "match": 0.915,
   "ok": true,
-  "diffs": []
+  "diffs": [
+   "gift -> give",
+   "they -> "
+  ]
  },
  {
   "scene": 2,
   "text": "Priority booking for January. First pick of the calendar.",
   "spoken": "Priority booking for January. First pick of the calendar.",
-  "heard": "priority booking for January, first pick of the calendar.",
+  "heard": "priority booking for January. First pick of the calendar.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -30,7 +33,7 @@
   "scene": 3,
   "text": "A service plus maintenance bundle. More value without cutting your price.",
   "spoken": "A service plus maintenance bundle. More value without cutting your price.",
-  "heard": "A service plus maintenance bundle. More value without cutting your price.",
+  "heard": "a service plus maintenance bundle. More value without cutting your price.",
   "match": 1.0,
   "ok": true,
   "diffs": []

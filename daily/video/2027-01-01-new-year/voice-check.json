@@ -21,11 +21,11 @@
   "scene": 2,
   "text": "Thank you to our community. Northwest Iowa and Siouxland, you made this year.",
   "spoken": "Thank you to our community. Northwest Iowa and Siouxland, you made this year.",
-  "heard": "Thank you to our community. Northwest Iowa and Sewland, you made this year.",
-  "match": 0.951,
+  "heard": "Thank you to our community. Northwest Iowa and Sulin, you made this year.",
+  "match": 0.933,
   "ok": true,
   "diffs": [
-   "siouxland -> sewland"
+   "siouxland -> sulin"
   ]
  },
  {
@@ -41,7 +41,7 @@
   "scene": 4,
   "text": "Happy New Year! Michael and the Lewis Marketing team. Book a call at lewismarketingoc.com.",
   "spoken": "Happy New Year! Michael and the Lewis Marketing team. Book a call at Lewis Marketing O.C. dot com.",
-  "heard": "Happy New Year, Michael and the Lewis Marketing Team. Book a call at LewisMarketingOC .com",
+  "heard": "Happy New Year! Michael and the Lewis Marketing Team. Book a call at LewisMarketingOC .com",
   "match": 0.98,
   "ok": true,
   "diffs": [

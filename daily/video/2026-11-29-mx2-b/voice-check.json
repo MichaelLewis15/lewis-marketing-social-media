@@ -3,18 +3,19 @@
   "scene": 0,
   "text": "2 quick wins and a brand puzzle. ",
   "spoken": "2 quick wins and a brand puzzle.",
-  "heard": "two quick wins and a brand puzzle.",
-  "match": 0.923,
-  "ok": true,
+  "heard": "two quick wins in a brand puzzle.",
+  "match": 0.863,
+  "ok": false,
   "diffs": [
-   "2 -> two"
+   "2 -> two",
+   "and -> in"
   ]
  },
  {
   "scene": 1,
   "text": "Try this AI prompt. Act as a skeptical customer. What would stop you from buying?",
   "spoken": "Try this A.I. prompt. Act as a skeptical customer. What would stop you from buying?",
-  "heard": "Try this AI prompt, act as a skeptical customer. What would stop you from buying?",
+  "heard": "Try this AI prompt. Act as a skeptical customer. What would stop you from buying?",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -23,7 +24,7 @@
   "scene": 2,
   "text": "Post 3 fresh photos on Google. Show what people will see when they walk in.",
   "spoken": "Post 3 fresh photos on Google. Show what people will see when they walk in.",
-  "heard": "post three fresh photos on Google, show what people will see when they walk in.",
+  "heard": "Post three fresh photos on Google. Show what people will see when they walk in.",
   "match": 0.951,
   "ok": true,
   "diffs": [
@@ -34,7 +35,7 @@
   "scene": 3,
   "text": "Guess the brand. A fruit, plus a phone. Answer at the end.",
   "spoken": "Guess the brand. A fruit, plus a phone. Answer at the end.",
-  "heard": "Guess the brand, a fruit plus a phone, answer at the end.",
+  "heard": "Guess the brand. A fruit plus a phone. Answer at the end.",
   "match": 1.0,
   "ok": true,
   "diffs": []
@@ -43,7 +44,7 @@
   "scene": 4,
   "text": "It's Apple. Send this to someone who got it wrong. Then try the prompt.",
   "spoken": "It's Apple. Send this to someone who got it wrong. Then try the prompt.",
-  "heard": "It's Apple, send this to someone who got it wrong, then try the prompt.",
+  "heard": "It's Apple. Send this to someone who got it wrong. Then try the prompt.",
   "match": 1.0,
   "ok": true,
   "diffs": []

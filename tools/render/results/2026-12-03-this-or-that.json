@@ -2,21 +2,21 @@
  "spec": "daily-social/video-specs/2026-12-03-this-or-that.json",
  "out": "daily/video/2026-12-03-this-or-that",
  "ok": true,
- "at": "2026-11-15T11:37:35.698245Z",
- "seconds": 35.5,
+ "at": "2026-11-21T17:00:51.978768Z",
+ "seconds": 35.7,
  "qc": {
   "ok": true,
   "errors": [],
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "6070e2e55a",
-  "cover916.jpg": "87a9d602d0",
+  "cover169.jpg": "036c4754e9",
+  "cover916.jpg": "3e4c1c35c5",
   "gbp.png": "f23739e90e",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "df1c754310",
-  "v916.mp4": "b126863e50",
-  "voice-check.json": "20d5004cf0"
+  "v169.mp4": "9cd2be27aa",
+  "v916.mp4": "6f96302156",
+  "voice-check.json": "a5ae787b7d"
  },
  "voiceCheck": {
   "ok": true,

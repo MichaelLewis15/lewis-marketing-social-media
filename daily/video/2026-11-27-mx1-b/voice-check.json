@@ -3,7 +3,7 @@
   "scene": 0,
   "text": "Claim your spot in ChatGPT plus 2 more fixes this week. ",
   "spoken": "Claim your spot in Chat G.P.T. plus 2 more fixes this week.",
-  "heard": "Claim your spot in chat GPT. Plus two more fixes this week.",
+  "heard": "Claim your spot in chat GPT, plus two more fixes this week.",
   "match": 0.956,
   "ok": true,
   "diffs": [
@@ -14,22 +14,23 @@
   "scene": 1,
   "text": "Claim your business in ChatGPT. Business Hub is live in beta.",
   "spoken": "Claim your business in Chat G.P.T. Business Hub is live in beta.",
-  "heard": "Claim your business in chatGPT. Business hub is live in beta.",
-  "match": 1.0,
+  "heard": "Claim your business and chat GPT. Business Hub is live in beta.",
+  "match": 0.97,
   "ok": true,
   "diffs": [
-   "chat gpt -> chatgpt"
+   "in -> and"
   ]
  },
  {
   "scene": 2,
   "text": "Add holiday hours on Google. Shoppers check before they drive over.",
   "spoken": "Add holiday hours on Google. Shoppers check before they drive over.",
-  "heard": "At Holiday Hours on Google, shoppers check before they drive over.",
-  "match": 0.972,
+  "heard": "at Holiday Hours on Google. Choppers check before they drive over.",
+  "match": 0.954,
   "ok": true,
   "diffs": [
-   "add -> at"
+   "add -> at",
+   "shoppers -> choppers"
   ]
  },
  {
@@ -45,7 +46,7 @@
   "scene": 4,
   "text": "Send this to a business owner who says they don't have time. Ten minutes. Three fixes.",
   "spoken": "Send this to a business owner who says they don't have time. Ten minutes. Three fixes.",
-  "heard": "Send this to a business owner who says they don't have time. 10 minutes, three fixes.",
+  "heard": "Send this to a business owner who says they don't have time. 10 minutes. Three fixes.",
   "match": 0.962,
   "ok": true,
   "diffs": [
