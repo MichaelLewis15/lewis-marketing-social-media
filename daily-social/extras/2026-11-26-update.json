@@ -1,0 +1,11 @@
+{"id": "2026-11-26-update", "theme": "update", "eyebrow": "WHAT CHANGED", "tag": "WORDPRESS",
+ "date_line": "Announced Nov 18, 2026 by WordPress",
+ "head": [["WEBSITE ON", "ink"], ["WORDPRESS?", "ink"], ["CHECK FOR 7.1.5.", "blue"]],
+ "sub": "WordPress 7.1.5 is a security release, and WordPress recommends updating right away.",
+ "slides": [
+  {"title": "What changed", "body": "WordPress released version 7.1.5 on Nov 18 with fixes for multiple security issues.\nSecurity fixes were also backported to older versions that still get them.", "tip": "Sites with automatic background updates start updating on their own."},
+  {"title": "Who it affects", "body": "Any business or organization whose website runs on WordPress.\nThat includes sites built with Elementor, which runs on WordPress."},
+  {"title": "What to do this week", "body": "Log in to your WordPress dashboard and open Updates.\nConfirm the site shows 7.1.5, or back it up and update now.", "tip": "After updating, test your contact form and checkout."}
+ ],
+ "cta": {"head": "Questions about this change?", "sub": "Not sure who updates your website? Start there.", "button": "lewismarketingoc.com"},
+ "sources": ["WordPress.org News: WordPress 7.1.5 Release, Nov 18, 2026"]}
