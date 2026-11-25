@@ -108,7 +108,7 @@ CFG = {
     # 9:16 safe zone (Michael's rule, Nov 25, 2026; Meta's Reels guidance: keep the top 14%, bottom 35% and 6% each side clear):
     # everything that matters (text, captions, Howie, logo) sits between y 285 and 1240 and left of x 940, where the
     # like/comment/share buttons start. The bottom third is the "graveyard" (caption and username cover it).
-    "916": dict(x0=100, x1=910, top=400, bottom=1035, foot=300, fs=(124, 88, 48, 230, 36), hz=(18, 912, 0.55), disc=(128, 1150, 92), cap=(250, 1150, 920, 42), logo=46, site=26, prog=362),
+    "916": dict(x0=100, x1=900, top=400, bottom=1035, foot=300, fs=(124, 88, 48, 230, 36), hz=(18, 912, 0.55), disc=(128, 1150, 92), cap=(250, 1150, 920, 42), logo=46, site=26, prog=362),
     "169": dict(x0=470, x1=1810, top=120, bottom=900, foot=965, fs=(100, 72, 40, 180, 30), hz=(20, 430, 1.0), disc=(210, 850, 200), cap=(470, 845, 1810, 38), logo=54, site=28, prog=70),
     "45": dict(x0=80, x1=1000, top=110, bottom=1000, foot=1240, fs=(96, 70, 38, 170, 30), hz=(0, 798, 0.72), disc=(150, 1120, 150), cap=(270, 1105, 1000, 36), logo=56, site=28, prog=55),
     "11": dict(x0=70, x1=1010, top=80, bottom=770, foot=975, fs=(84, 60, 34, 140, 28), hz=(0, 600, 0.6), disc=(125, 870, 125), cap=(225, 790, 1010, 32), logo=50, site=26, prog=38),
