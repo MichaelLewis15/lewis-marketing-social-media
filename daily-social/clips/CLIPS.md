@@ -42,3 +42,7 @@ Each finished clip becomes a hub daily doc (status "review", series "Clips" or "
 
 ## Local use
 `python3 daily-social/clips/clip.py transcribe <file or URL> out.json` (container: falls back to the tiny model on the models branch), `python3 daily-social/clips/clip.py render spec.json OUTDIR`. Rendering a 60-second clip takes about a minute per size.
+
+## 9:16 safe zone (Michael's rule, Nov 25, 2026)
+Keep the speaker centered and every hook, caption, lower third, card, pop-up and logo inside the safe zone (Meta's Reels guidance: leave the top 14%, the bottom 35% and about 6% each side clear). The bottom third is the "graveyard" where the platform's caption and username sit, and the right corner from about y 700 down holds the like, comment and share buttons. Never put graphics over a face; graphics support the person, they don't replace them. clip.py's 9:16 layouts do this automatically (logo at the top of the safe zone, captions just above the graveyard, pop-ups clear of the buttons); qc.py flags anything that lands in those zones.
+

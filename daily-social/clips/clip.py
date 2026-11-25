@@ -32,8 +32,9 @@ SPEC keys (times in seconds of the SOURCE unless noted):
                a list [{"at": output s, "kind", "label"}] to place them by hand; false for none
   thumbnail    {"a": {"text", "highlight", "eyebrow"}, "b": {...}}: two YouTube thumbnails for Test & compare (thumb.py)
 Outputs: v<size>.mp4, cover<size>.jpg, captions.srt, thumb-a/b.jpg, clip-report.json (what was tightened, speaker switches, pop-ups).
-Safe zones (9:16): nothing important above y 220, below y 1540 (footer logo excepted) or right of x 960 between
-y 900 and 1540, where the app buttons sit. qc.py checks every render.
+Safe zones (9:16, Michael's rule, Nov 25, 2026, after Meta's Reels guidance): nothing important in the top 14%
+(y < 285), the bottom "graveyard" (y > 1240, the caption and username cover it) or the right corner where the
+like/comment/share buttons sit (x > 940 from y 700 down). Never put graphics over a face. qc.py checks every render.
 """
 import json, os, re, sys, subprocess, tempfile, math, hashlib, urllib.request
 import numpy as np
@@ -180,15 +181,18 @@ class Geo:
             self.pop = (W - 400, 150, 330)
         elif layout == "fit":
             vw = W; vh = int(round(vw * sh / sw / 2) * 2)
-            top = 560 if key == "916" else 330
+            top = 600 if key == "916" else 330
             self.vid = (0, top, vw, vh); self.cap_y = top + vh + 70; self.cap_w = 960; self.cap_f = 64 if key == "916" else 52
             self.lt = (50, top + vh - 190); self.card_y = top + 30; self.pop = (W - 330, top + 30, 270)
-            if key == "916": self.cap_w = 880; self.cap_cx = (W - 90) / 2  # keep clear of the app buttons on the right
+            if key == "916":  # safe zone: captions ride on the lower part of the video, above the graveyard; clear of the buttons
+                self.cap_w = 860; self.cap_cx = (W - 110) / 2; self.cap_f = 58
+                self.cap_y = min(top + vh + 30, 1240 - int(self.cap_f * 1.22 * 2)) if vh < 640 else 1240 - int(self.cap_f * 1.22 * 2)
+                self.lt = (50, min(top + vh - 330, self.cap_y - 170)); self.pop = (W - 410, top + 30, 260)
         else:  # full frame (portrait footage, or cropped); 9:16 keeps inside the safe zone
             self.vid = (0, 0, W, H); self.cap_f = 66 if key == "916" else 54
             if key == "916":
-                self.cap_y = 1110; self.cap_w = 860; self.cap_cx = (W - 110) / 2; self.lt = (50, 1385); self.card_y = 330
-                self.bug_y = 236; self.pop = (W - 400, 640, 300)
+                self.cap_y = 1070; self.cap_w = 860; self.cap_cx = (W - 110) / 2; self.lt = (50, 900); self.card_y = 330
+                self.bug_y = 290; self.pop = (W - 420, 560, 280)
             else:
                 self.cap_y = int(H * 0.66); self.cap_w = 960; self.lt = (50, int(H * 0.78)); self.card_y = int(H * 0.14)
                 self.pop = (W - 380, int(H * 0.3), 280)
@@ -201,7 +205,9 @@ def static_frame(g, spec, pal):
     y = np.linspace(0, 1, H)[:, None, None]
     arr = np.array(pal["bg1"], float) * (1 - y) + np.array(pal["bg2"], float) * y
     im = Image.fromarray(np.broadcast_to(arr, (H, W, 3)).astype(np.uint8)).convert("RGBA"); d = ImageDraw.Draw(im)
-    x0 = 70; top = g.vid[1]; yy = 110 if g.key == "916" else 50
+    x0 = 70; top = g.vid[1]; yy = 350 if g.key == "916" else 50
+    if g.key == "916":  # logo at the top of the safe zone, nothing in the bottom graveyard (Nov 25, 2026)
+        lg = logo(44, pal["logo"]); im.alpha_composite(lg, ((W - lg.width) // 2, 285))
     if spec.get("eyebrow"):
         f = S(600, 30); tw = d.textlength(spec["eyebrow"], font=f); h = 52
         d.rounded_rectangle((x0, yy, x0 + tw + 44, yy + h), radius=26, fill=pal["eyebrow"]); d.text((x0 + 22, yy + h / 2), spec["eyebrow"], font=f, fill=WHITE, anchor="lm")
@@ -212,10 +218,8 @@ def static_frame(g, spec, pal):
         while (len(lines) > 3 or yy + len(lines) * size * 1.08 > top - 30) and size > 44:
             size -= 4; f = O(800, size); lines = wrap(d, spec["title"], f, W - 2 * x0)
         for ln in lines: d.text((x0, yy), ln, font=f, fill=pal["ink"]); yy += size * 1.08
-    lg = logo(60 if g.key == "916" else 48, pal["logo"])
-    ly = H - 150 if g.key == "916" else H - 90
-    im.alpha_composite(lg, ((W - lg.width) // 2, ly))
-    if g.key == "916": d.text((W / 2, ly + 92), "lewismarketingoc.com", font=S(600, 28), fill=pal["ink2"], anchor="mm")
+    if g.key != "916":
+        lg = logo(48, pal["logo"]); im.alpha_composite(lg, ((W - lg.width) // 2, H - 90))
     return im
 
 
@@ -316,7 +320,7 @@ class Overlay:
                 L.putalpha(L.getchannel("A").point(lambda v: int(v * a))); im.alpha_composite(L)
         if g.layout == "full" or g.key == "169":  # small logo bug
             lg = self._bug if hasattr(self, "_bug") else logo(44 if W < 1500 else 40)
-            self._bug = lg; im.alpha_composite(lg, (W - lg.width - 40, g.bug_y))
+            self._bug = lg; im.alpha_composite(lg, (W - lg.width - (80 if g.key == "916" else 40), g.bug_y))
         b = im.tobytes(); self._cache[st] = b; return b
 
     def endcard(self, im, d, k):
