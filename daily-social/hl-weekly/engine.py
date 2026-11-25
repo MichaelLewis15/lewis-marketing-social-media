@@ -105,7 +105,10 @@ def shift(img, dx=0, dy=0):
 # ------------------------------------------------------------------ sizes
 SIZES = {"916": (1080, 1920), "169": (1920, 1080), "45": (1080, 1350), "11": (1080, 1080)}
 CFG = {
-    "916": dict(x0=90, x1=990, top=330, bottom=1250, foot=1735, fs=(124, 88, 48, 230, 36), hz=(0, 1000, 1.0), disc=(205, 1470, 205), cap=(360, 1565, 1010, 46), logo=64, site=30, prog=270),
+    # 9:16 safe zone (Michael's rule, Nov 25, 2026; Meta's Reels guidance: keep the top 14%, bottom 35% and 6% each side clear):
+    # everything that matters (text, captions, Howie, logo) sits between y 285 and 1240 and left of x 940, where the
+    # like/comment/share buttons start. The bottom third is the "graveyard" (caption and username cover it).
+    "916": dict(x0=100, x1=910, top=400, bottom=1035, foot=300, fs=(124, 88, 48, 230, 36), hz=(18, 912, 0.55), disc=(128, 1150, 92), cap=(250, 1150, 920, 42), logo=46, site=26, prog=362),
     "169": dict(x0=470, x1=1810, top=120, bottom=900, foot=965, fs=(100, 72, 40, 180, 30), hz=(20, 430, 1.0), disc=(210, 850, 200), cap=(470, 845, 1810, 38), logo=54, site=28, prog=70),
     "45": dict(x0=80, x1=1000, top=110, bottom=1000, foot=1240, fs=(96, 70, 38, 170, 30), hz=(0, 798, 0.72), disc=(150, 1120, 150), cap=(270, 1105, 1000, 36), logo=56, site=28, prog=55),
     "11": dict(x0=70, x1=1010, top=80, bottom=770, foot=975, fs=(84, 60, 34, 140, 28), hz=(0, 600, 0.6), disc=(125, 870, 125), cap=(225, 790, 1010, 32), logo=50, site=26, prog=38),
@@ -448,6 +451,8 @@ class Style:
 
     def footer(self, im, logo=None, site=None):
         L = self.L; d = ImageDraw.Draw(im); logo = logo or self.logo; site = site or self.site
+        if L.key == "916":  # logo at the top of the safe zone; nothing in the bottom graveyard (Nov 25, 2026)
+            paste_logo(im, L.W / 2, L.foot - L.logo / 2, L.logo, logo, "c"); return
         paste_logo(im, L.W / 2 if L.v else L.x0, L.foot - (10 if L.v else 30), L.logo, logo, "c" if L.v else "l")
         if L.v: d.text((L.W / 2, L.foot + L.logo + 14), "lewismarketingoc.com", font=S(600, L.site), fill=site, anchor="mm")
         else: d.text((L.W - 110, L.foot - 3), "lewismarketingoc.com", font=S(600, L.site), fill=site, anchor="rm")

@@ -14,8 +14,9 @@ Checks
   video  H.264 + yuv420p + AAC, 30 fps, the expected size for its name (v916 1080x1920, v169 1920x1080, v45 1080x1350,
          v11 1080x1080), length (9:16 at most 180 s so it stays a Reel/Short), file under 250 MB, loudness -18..-11 LUFS
          and true peak under -0.5 dB, no silence or black at the very start (the first second decides the scroll),
-         and the 9:16 safe zones: text-like detail above y 220, below y 1540 (the centred footer logo is fine) or right
-         of x 960 between y 900 and 1540 sits under the app's own buttons and captions. --footage relaxes the safe-zone
+         and the 9:16 safe zones (Michael's rule, Nov 25, 2026, after Meta's Reels guidance): text-like detail in the
+         top 14% (y < 270), the bottom "graveyard" (y > 1248, covered by the caption and username) or the right
+         corner where the like/comment/share buttons sit (x > 940, y 700-1248). --footage relaxes the safe-zone
          check for real camera footage, where detail in those zones is the picture, not text.
   image  size, not blank, text touching the edge.
   copy   no emojis; "Piper Financial Group" never shortened; the podcast is "The Marketing Lens" (never "Lewis
@@ -60,15 +61,14 @@ def text_density(g):
 def safe_zones(path, dur, footage):
     import numpy as np
     warn = []; thr = 0.06 if footage else 0.025
-    zones = {"top (under the app header)": (slice(0, 220), slice(0, 1080)),
-             "bottom (under the caption and buttons)": (slice(1540, 1920), slice(0, 1080)),
-             "right edge (under the like/comment buttons)": (slice(900, 1540), slice(960, 1080))}
+    zones = {"top (under the app header)": (slice(0, 270), slice(0, 1080)),
+             "bottom graveyard (under the caption and username)": (slice(1248, 1920), slice(0, 1080)),
+             "right corner (under the like/comment/share buttons)": (slice(700, 1248), slice(940, 1080))}
     times = [t for t in np.linspace(0.6, max(0.7, dur - 0.4), 10)]
     hits = {}
     for t, g in frames_gray(path, times, 1080, 1920):
         for name, (ys, xs) in zones.items():
             z = g[ys, xs].copy()
-            if name.startswith("bottom"): z[:, 300:780] = z[:, 300:780].mean()  # the centred footer logo is fine
             if text_density(z) > thr: hits.setdefault(name, []).append(round(float(t), 1))
     for name, ts in hits.items():
         if len(ts) >= 2: warn.append(f"safe zone: detail in the {name} at {ts[:5]} s; check nothing important sits there")
