@@ -1,0 +1,49 @@
+{
+ "format": "list",
+ "style": "bold",
+ "itemWord": "CHECK",
+ "howie": true,
+ "voice": true,
+ "pace": 0.8,
+ "button": "",
+ "music": 0,
+ "eyebrow": "GOOGLE LISTING CHECKUP",
+ "head1": "4 Google listing checks",
+ "head2": "before the holiday rush.",
+ "week": "Ten minutes, start to finish",
+ "items": [
+  {
+   "title": "Pick your Book buttons",
+   "why": "Google now lets you choose which booking links show on your listing.",
+   "tag": "NEW",
+   "vo": "Pick your *Book* buttons. Google now lets you choose which booking links show on your listing."
+  },
+  {
+   "title": "Set holiday hours",
+   "why": "Add special hours for every day you close early or open late.",
+   "tag": "HOURS",
+   "vo": "Set your *holiday* hours, for every day you close early or open late."
+  },
+  {
+   "title": "Search yourself",
+   "why": "Look up your business the way a customer would. Make sure your stars show.",
+   "tag": "REVIEWS",
+   "vo": "Search yourself, the way a customer would. Make sure your *stars* show up."
+  },
+  {
+   "title": "Add a fresh photo",
+   "why": "Post a current photo of your shop, your team or your work.",
+   "tag": "PHOTOS",
+   "vo": "Add one *fresh* photo of your shop, your team, or your work."
+  }
+ ],
+ "cta": "Send this to whoever manages your Google listing.",
+ "cta2": "Four checks. Ten minutes.",
+ "vo": {
+  "intro": "Four Google listing checks, before the holiday rush.",
+  "outro": "Send this to whoever manages your Google listing. Four checks, ten minutes, before the holiday rush."
+ },
+ "gbpTitle": "4 Google listing checks before the holidays",
+ "out": "daily/video/2026-12-04-trend-1",
+ "note": "Trend radar 2026-11-26, idea 4. Source: Search Engine Roundtable Nov 24 2026 (Google's Lisa Landsman: owners now control which appointment and reservation booking links appear)."
+}

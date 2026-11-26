@@ -1,0 +1,37 @@
+{
+ "format": "beforeafter",
+ "style": "holiday",
+ "howie": true,
+ "voice": true,
+ "pace": 0.8,
+ "button": "",
+ "music": 2,
+ "eyebrow": "YOUTUBE SHORTS",
+ "head1": "Your Shorts can have",
+ "head2": "a real thumbnail now.",
+ "before": {
+  "title": "YouTube picks the frame",
+  "points": [
+   "A random moment, often mid-blink",
+   "No words, so no one knows the topic",
+   "Every Short looks different"
+  ]
+ },
+ "after": {
+  "title": "You pick the thumbnail",
+  "points": [
+   "Your face and three big words",
+   "The topic people search for",
+   "One look, so they know it is you"
+  ]
+ },
+ "cta": "Send this to whoever posts your videos.",
+ "cta2": "Pick the frame. Own the click.",
+ "vo": {
+  "intro": "Your Shorts can have a *real* thumbnail now.",
+  "outro": "Send this to whoever posts your videos. You pick the frame, so people know what they are clicking."
+ },
+ "gbpTitle": "YouTube Shorts now take custom thumbnails",
+ "out": "daily/video/2026-12-06-trend-2",
+ "note": "Trend radar 2026-11-26, idea 5. Source: Tubefilter Nov 25 2026 and Social Media Today Nov 24 2026 (YouTube CEO Neal Mohan: custom Shorts thumbnails open to all creators, desktop and mobile)."
+}
