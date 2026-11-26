@@ -1,0 +1,29 @@
+{
+ "spec": "daily-social/video-specs/2026-12-04-trend-1.json",
+ "out": "daily/video/2026-12-04-trend-1",
+ "ok": true,
+ "at": "2026-11-26T19:33:41.455946Z",
+ "seconds": 27.5,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover11.jpg": "e79e8d99f0",
+  "cover169.jpg": "498bbe29ab",
+  "cover45.jpg": "c5df399280",
+  "cover916.jpg": "4f5bde6b84",
+  "gbp.png": "e38970009f",
+  "qc.json": "71ed98afbe",
+  "v11.mp4": "118241c85c",
+  "v169.mp4": "88473062cc",
+  "v45.mp4": "8ec1a68884",
+  "v916.mp4": "de861421da",
+  "voice-check.json": "09a1e3ae0e"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}

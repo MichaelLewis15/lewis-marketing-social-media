@@ -1,0 +1,60 @@
+[
+ {
+  "scene": 0,
+  "text": "Four Google listing checks, before the holiday rush.",
+  "spoken": "Four Google listing checks, before the holiday rush.",
+  "heard": "for Google listing checks before the holiday rush.",
+  "match": 0.988,
+  "ok": true,
+  "diffs": [
+   "four -> for"
+  ]
+ },
+ {
+  "scene": 1,
+  "text": "Pick your Book buttons. Google now lets you choose which booking links show on your listing.",
+  "spoken": "Pick your Book buttons. Google now lets you choose which booking links show on your listing.",
+  "heard": "Pick your book buttons. Google now lets you choose which booking links show on your listing.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "Set your holiday hours, for every day you close early or open late.",
+  "spoken": "Set your holiday hours, for every day you close early or open late.",
+  "heard": "Set your holiday hours for every day you close early or open late.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Search yourself, the way a customer would. Make sure your stars show up.",
+  "spoken": "Search yourself, the way a customer would. Make sure your stars show up.",
+  "heard": "Search yourself the way a customer would. Make sure your stars show up.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 4,
+  "text": "Add one fresh photo of your shop, your team, or your work.",
+  "spoken": "Add one fresh photo of your shop, your team, or your work.",
+  "heard": "Add one fresh photo of your shop, your team, or your work.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Send this to whoever manages your Google listing. Four checks, ten minutes, before the holiday rush.",
+  "spoken": "Send this to whoever manages your Google listing. Four checks, ten minutes, before the holiday rush.",
+  "heard": "Send this to whoever manages your Google listing. Or check 10 minutes before the holiday rush.",
+  "match": 0.949,
+  "ok": true,
+  "diffs": [
+   "four checks ten -> or check 10"
+  ]
+ }
+]

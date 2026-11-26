@@ -1,0 +1,38 @@
+[
+ {
+  "scene": 0,
+  "text": "Your Shorts can have a real thumbnail now.",
+  "spoken": "Your Shorts can have a real thumbnail now.",
+  "heard": "Your shorts can have a real thumbnail now.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Before. YouTube picks the frame. A random moment, often mid-blink. No words, so no one knows the topic. Every Short looks different.",
+  "spoken": "Before. YouTube picks the frame. A random moment, often mid-blink. No words, so no one knows the topic. Every Short looks different.",
+  "heard": "Before, YouTube picks the frame. A random moment, often mid -blink. No words, so no one knows the topic. Every short looks different.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 2,
+  "text": "After. You pick the thumbnail. Your face and three big words. The topic people search for. One look, so they know it is you.",
+  "spoken": "After. You pick the thumbnail. Your face and three big words. The topic people search for. One look, so they know it is you.",
+  "heard": "After, you pick the thumbnail, your face and three big words. The topic people search for. One look so they know it is you.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 3,
+  "text": "Send this to whoever posts your videos. You pick the frame, so people know what they are clicking.",
+  "spoken": "Send this to whoever posts your videos. You pick the frame, so people know what they are clicking.",
+  "heard": "Send this to whoever posts your videos. You pick the frame so people know what they are clicking.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ }
+]

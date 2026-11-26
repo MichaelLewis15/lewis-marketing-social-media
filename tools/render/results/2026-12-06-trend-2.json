@@ -1,0 +1,29 @@
+{
+ "spec": "daily-social/video-specs/2026-12-06-trend-2.json",
+ "out": "daily/video/2026-12-06-trend-2",
+ "ok": true,
+ "at": "2026-11-26T19:36:15.959413Z",
+ "seconds": 27.3,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover11.jpg": "578c0a5319",
+  "cover169.jpg": "e226d6fe36",
+  "cover45.jpg": "63d1582102",
+  "cover916.jpg": "754535ec43",
+  "gbp.png": "b1df4248f1",
+  "qc.json": "71ed98afbe",
+  "v11.mp4": "1c8dbcad65",
+  "v169.mp4": "75a81c2757",
+  "v45.mp4": "51756cbe62",
+  "v916.mp4": "61cb3c422c",
+  "voice-check.json": "6595999a70"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}
