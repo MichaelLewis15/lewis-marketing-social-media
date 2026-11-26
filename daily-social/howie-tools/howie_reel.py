@@ -38,7 +38,8 @@ def sfx(wav_in, wav_out, T):
     x = np.tanh(x * 1.02); x = x / max(1e-9, np.abs(x).max()) * 0.89
     with wave.open(wav_out, "wb") as w: w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr); w.writeframes((x * 32767).astype(np.int16).tobytes())
 
-def run(src, dst, page="reel-generic.html", **kw):
+def run(src, dst, page="reel-generic.html", hz=None, **kw):
+    """hz=(x, y, scale) places the Howie layer; default (0, 1000, 1). 9:16 safe zone uses (18, 912, 0.55)."""
     d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src]))
     T = timeline(d, **kw); tmp = tempfile.mkdtemp(dir="/tmp/claude-0")
     json.dump(T, open(f"{tmp}/tl.json", "w"))
@@ -49,7 +50,9 @@ def run(src, dst, page="reel-generic.html", **kw):
         sfx(f"{tmp}/a.wav", f"{tmp}/b.wav", T)
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-framerate", "30", "-i", f"{tmp}/fr/h%04d.png"]
     if has_audio: cmd += ["-i", f"{tmp}/b.wav"]
-    cmd += ["-filter_complex", "[0:v][1:v]overlay=0:1000:eof_action=pass[v]", "-map", "[v]"]
+    hx, hy, hs = hz or (0, 1000, 1.0)
+    hf = f"[1:v]scale=iw*{hs}:-1[h];[0:v][h]overlay={hx}:{hy}:eof_action=pass[v]" if hs != 1 else f"[0:v][1:v]overlay={hx}:{hy}:eof_action=pass[v]"
+    cmd += ["-filter_complex", hf, "-map", "[v]"]
     if has_audio: cmd += ["-map", "2:a", "-c:a", "aac", "-b:a", "192k"]
     cmd += ["-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-shortest", dst]
     subprocess.run(cmd, check=True)

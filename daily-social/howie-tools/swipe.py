@@ -8,7 +8,9 @@ from video import W, H, F, B, NAVY, NAVY2, BLUE, WHITE, GRAY, HERE
 import howie_reel
 
 HOLD, XF = 2.9, 0.45
-SC = 0.86; SW, SH = int(1080 * SC), int(1350 * SC); SX, SY = (W - SW) // 2, 120
+# 9:16 safe zone (Michael's rule, Nov 25, 2026): slide, dots and Howie stay between y 285 and 1240 and left of x 940;
+# nothing in the bottom "graveyard" the caption and username cover.
+SC = 0.64; SW, SH = int(1080 * SC), int(1350 * SC); SX, SY = (W - SW) // 2, 290
 
 def bg():
     im = Image.new("RGB", (W, H), NAVY2); d = ImageDraw.Draw(im)
@@ -21,12 +23,10 @@ def frame(slide, i, n):
     sh = Image.new("RGBA", (SW + 60, SH + 60), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle([30, 30, SW + 30, SH + 30], 28, fill=(0, 0, 0, 150))
     im.paste(sh.filter(ImageFilter.GaussianBlur(18)), (SX - 30, SY - 18), sh.filter(ImageFilter.GaussianBlur(18)))
     m = Image.new("L", (SW, SH), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, SW, SH], 26, fill=255); im.paste(s, (SX, SY), m)
-    d = ImageDraw.Draw(im); y = 1540; gap = 34; x0 = W - 82 - gap * (n - 1)
+    d = ImageDraw.Draw(im); y = SY + SH + 46; gap = 30; x0 = SX + SW - gap * (n - 1) - 10
     for k in range(n):
-        r = 11 if k == i else 7; d.ellipse([x0 + k * gap - r, y - r, x0 + k * gap + r, y + r], fill=BLUE if k == i else GRAY)
-    f = F(700, 54); t = "Save this for later" if i == n - 1 else f"{i + 1} / {n}  ·  keep watching"
-    d.text((W - 70, 1640), t, font=f, fill=WHITE, anchor="rm")
-    d.text((W - 70, 1830), "lewismarketingoc.com", font=B(600, 34), fill=GRAY, anchor="rm")
+        r = 10 if k == i else 6; d.ellipse([x0 + k * gap - r, y - r, x0 + k * gap + r, y + r], fill=BLUE if k == i else GRAY)
+    d.text((x0 - 34, y), f"{i + 1} / {n}", font=F(700, 30), fill=WHITE, anchor="rm")
     return im
 
 def run(out, music, slides):
@@ -45,7 +45,7 @@ def run(out, music, slides):
     subprocess.run([sys.executable, os.path.join(HERE, "music.py"), f"{d:.3f}", f"{tmp}/m.wav", str(music)], check=True)
     withm = f"{tmp}/sm.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", f"{tmp}/m.wav", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", withm], check=True)
-    howie_reel.run(withm, out)
+    howie_reel.run(withm, out, hz=(18, 912, 0.55))
     subprocess.run(["rm", "-rf", tmp]); return d
 
 if __name__ == "__main__":
