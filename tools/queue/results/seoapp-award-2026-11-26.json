@@ -1,0 +1,42 @@
+{
+ "name": "seoapp-award-2026-11-26",
+ "at": "2026-11-26T01:24:31.594107Z",
+ "results": [
+  {
+   "key": "seoapp-award-2026-11-26-facebook",
+   "ch": "facebook",
+   "postId": "6b078a4b2632161810911c16",
+   "when": "2026-11-27T01:00:00.000Z"
+  },
+  {
+   "key": "seoapp-award-2026-11-26-instagram",
+   "ch": "instagram",
+   "postId": "6b078a4cc8184cd2d5397e75",
+   "when": "2026-11-27T01:00:00.000Z"
+  },
+  {
+   "key": "seoapp-award-2026-11-26-threads",
+   "ch": "threads",
+   "postId": "6b078a4db58e3812b83f60fb",
+   "when": "2026-11-27T01:00:00.000Z"
+  },
+  {
+   "key": "seoapp-award-2026-11-26-linkedin",
+   "ch": "linkedin",
+   "postId": "6b078a4d70b7e36c02fab056",
+   "when": "2026-11-27T01:00:00.000Z"
+  },
+  {
+   "key": "seoapp-award-2026-11-26-bluesky",
+   "ch": "bluesky",
+   "postId": "6b078a4ef0990c9479c9cca7",
+   "when": "2026-11-27T01:00:00.000Z"
+  },
+  {
+   "key": "seoapp-award-2026-11-26-gbp",
+   "ch": "gbp",
+   "postId": "6b078a4f29188d2c9104530e",
+   "when": "2026-11-27T01:00:00.000Z"
+  }
+ ]
+}
