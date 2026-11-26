@@ -12,12 +12,12 @@
   "scene": 1,
   "text": "97% of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
   "spoken": "97 percent of consumers read reviews for local businesses. Source: BrightLocal Local Consumer Review Survey 2026.",
-  "heard": "97 % of consumers read reviews for local businesses. Source. Bright local local consumer review survey, 2026.",
-  "match": 0.962,
+  "heard": "97 % of consumers read reviews for local businesses. Bright local local consumer review survey, 2026.",
+  "match": 0.927,
   "ok": true,
   "diffs": [
    "percent -> ",
-   "brightlocal -> bright local"
+   "source brightlocal -> bright local"
   ]
  },
  {

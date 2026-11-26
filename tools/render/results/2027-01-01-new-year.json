@@ -2,23 +2,20 @@
  "spec": "daily-social/video-specs/2027-01-01-new-year.json",
  "out": "daily/video/2027-01-01-new-year",
  "ok": true,
- "at": "2026-11-21T17:19:41.793128Z",
+ "at": "2026-11-26T02:07:59.571640Z",
  "seconds": 29.2,
  "qc": {
   "ok": true,
   "errors": [],
-  "warnings": [
-   "v169.mp4: true peak 1.1 dB, may clip",
-   "v916.mp4: true peak 1.1 dB, may clip"
-  ]
+  "warnings": []
  },
  "files": {
-  "cover169.jpg": "f1284ab9d6",
-  "cover916.jpg": "23392b5a80",
+  "cover169.jpg": "d8bca936e6",
+  "cover916.jpg": "52c3b65879",
   "gbp.png": "3eae1ce367",
-  "qc.json": "f1e9ec3de8",
-  "v169.mp4": "b3cc3708a3",
-  "v916.mp4": "3ee9ce73c8",
+  "qc.json": "71ed98afbe",
+  "v169.mp4": "697411f794",
+  "v916.mp4": "0da277d724",
   "voice-check.json": "0a514efb75"
  },
  "voiceCheck": {

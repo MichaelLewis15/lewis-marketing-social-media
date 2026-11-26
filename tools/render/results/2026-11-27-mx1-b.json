@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-11-27-mx1-b.json",
  "out": "daily/video/2026-11-27-mx1-b",
  "ok": true,
- "at": "2026-11-21T16:38:25.099473Z",
+ "at": "2026-11-26T01:33:25.594893Z",
  "seconds": 25.4,
  "qc": {
   "ok": true,
@@ -10,12 +10,12 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "f1cc7627ac",
-  "cover916.jpg": "bbdef7b0f9",
+  "cover169.jpg": "3c33d85f4f",
+  "cover916.jpg": "ba86ee1e0b",
   "gbp.png": "23229be653",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "0923b1b009",
-  "v916.mp4": "02590e492e",
+  "v169.mp4": "6741894c9a",
+  "v916.mp4": "45472ff0b7",
   "voice-check.json": "c6dcc9d957"
  },
  "voiceCheck": {

@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-12-10-tips-2027.json",
  "out": "daily/video/2026-12-10-tips-2027",
  "ok": true,
- "at": "2026-11-21T17:06:23.515067Z",
+ "at": "2026-11-26T01:56:17.693078Z",
  "seconds": 30.5,
  "qc": {
   "ok": true,
@@ -10,12 +10,12 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "d23c70c87d",
-  "cover916.jpg": "b9d72e0252",
+  "cover169.jpg": "526bf5178f",
+  "cover916.jpg": "c9198d1e11",
   "gbp.png": "208a108ca3",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "2dd36def92",
-  "v916.mp4": "5e06634a5f",
+  "v169.mp4": "54beb93eb1",
+  "v916.mp4": "8b61ee3146",
   "voice-check.json": "6d1306813f"
  },
  "voiceCheck": {

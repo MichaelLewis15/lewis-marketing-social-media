@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-12-01-nonprofit-tools.json",
  "out": "daily/video/2026-12-01-nonprofit-tools",
  "ok": true,
- "at": "2026-11-21T16:56:40.198420Z",
+ "at": "2026-11-26T01:48:35.027866Z",
  "seconds": 35.7,
  "qc": {
   "ok": true,
@@ -10,12 +10,12 @@
   "warnings": []
  },
  "files": {
-  "cover169.jpg": "b7bf3211f6",
-  "cover916.jpg": "e77e1b8c2c",
+  "cover169.jpg": "233379cf33",
+  "cover916.jpg": "93d3f6f245",
   "gbp.png": "b6e85f5ae9",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "40d16b77c0",
-  "v916.mp4": "0447e2b201",
+  "v169.mp4": "0da070a236",
+  "v916.mp4": "2fe46e80e1",
   "voice-check.json": "fc97091fa8"
  },
  "voiceCheck": {

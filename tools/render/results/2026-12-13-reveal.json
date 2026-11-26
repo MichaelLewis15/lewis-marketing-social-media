@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-12-13-reveal.json",
  "out": "daily/video/2026-12-13-reveal",
  "ok": true,
- "at": "2026-11-21T17:12:54.066667Z",
+ "at": "2026-11-26T02:02:10.445925Z",
  "seconds": 44.0,
  "qc": {
   "ok": true,
@@ -13,13 +13,13 @@
   ]
  },
  "files": {
-  "cover169.jpg": "aaf1b8f7de",
-  "cover916.jpg": "c58320c400",
+  "cover169.jpg": "7156dc0f01",
+  "cover916.jpg": "4dc48654ff",
   "gbp.png": "b0029dc90c",
   "qc.json": "ccb69d1c6d",
-  "v169.mp4": "f8db75bfd3",
-  "v916.mp4": "458758fcbb",
-  "voice-check.json": "471fab6807"
+  "v169.mp4": "8e8454e84d",
+  "v916.mp4": "a140433b78",
+  "voice-check.json": "3c59e43966"
  },
  "voiceCheck": {
   "ok": true,

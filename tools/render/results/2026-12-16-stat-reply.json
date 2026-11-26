@@ -2,7 +2,7 @@
  "spec": "daily-social/video-specs/2026-12-16-stat-reply.json",
  "out": "daily/video/2026-12-16-stat-reply",
  "ok": true,
- "at": "2026-11-21T17:17:15.450362Z",
+ "at": "2026-11-26T02:05:51.610936Z",
  "seconds": 22.8,
  "qc": {
   "ok": true,
@@ -11,11 +11,11 @@
  },
  "files": {
   "cover169.jpg": "95c949be8b",
-  "cover916.jpg": "30ab237333",
+  "cover916.jpg": "fdea29dedd",
   "gbp.png": "52ece3b473",
   "qc.json": "71ed98afbe",
-  "v169.mp4": "7cb5d3a3e5",
-  "v916.mp4": "89eb84a70b",
+  "v169.mp4": "02357a6d4d",
+  "v916.mp4": "e7c797ba89",
   "voice-check.json": "7d2f024fe0"
  },
  "voiceCheck": {
