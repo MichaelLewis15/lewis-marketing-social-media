@@ -1,0 +1,72 @@
+[
+ {
+  "scene": 0,
+  "text": "Your HighLevel account got better this week. Here are the five updates worth your time.",
+  "spoken": "Your High Level account got better this week. Here are the five updates worth your time.",
+  "heard": "Your high -level account got better this week. Here are the five updates worth your time.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 1,
+  "text": "Your AI bot steps back when you reply. Answer from Meta Business Suite or another app and Conversation AI goes to sleep. Email replies are not covered yet.",
+  "spoken": "Your A.I. bot steps back when you reply. Answer from Meta Business Suite or another app and Conversation A.I. goes to sleep. Email replies are not covered yet.",
+  "heard": "your AI bot steps back when you reply. Answer from Metabusiness Suite or another app and conversation AI goes to sleep. Email replies are not covered yet.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": [
+   "meta business -> metabusiness"
+  ]
+ },
+ {
+  "scene": 2,
+  "text": "Meeting Rooms are now HIPAA compliant. HighLevel says health teams can meet with confidence. Recording now asks for a confirmation before it starts.",
+  "spoken": "Meeting Rooms are now Hippa compliant. High Level says health teams can meet with confidence. Recording now asks for a confirmation before it starts.",
+  "heard": "Meeting rooms are now HIPAA compliant. High level says health teams can meet with confidence. Recording now asks for confirmation before it starts.",
+  "match": 0.988,
+  "ok": true,
+  "diffs": [
+   "hippa -> hipaa",
+   "a -> "
+  ]
+ },
+ {
+  "scene": 3,
+  "text": "All your events on one website page. New Events elements list every event, with details and ticket checkout on your site. Turn on Events in Labs first.",
+  "spoken": "All your events on one website page. New Events elements list every event, with details and ticket checkout on your site. Turn on Events in Labs first.",
+  "heard": "all your events on one website page. New events elements list every event with details and ticket checkout on your site. Turn on events and labs first.",
+  "match": 0.988,
+  "ok": true,
+  "diffs": [
+   "in -> and"
+  ]
+ },
+ {
+  "scene": 4,
+  "text": "AI agents that know when a meeting starts. Managed Agents can now run before a meeting starts or after it ends, filtered by calendar and meeting type.",
+  "spoken": "A.I. agents that know when a meeting starts. Managed Agents can now run before a meeting starts or after it ends, filtered by calendar and meeting type.",
+  "heard": "AI agents that know when a meeting starts. Managed agents can now run before a meeting starts or after it ends, filtered by calendar and meeting type.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 5,
+  "text": "Smarter dates in your workflows. Fill date-time contact fields with dynamic values, so reminders and follow-ups land on the right day.",
+  "spoken": "Smarter dates in your workflows. Fill date-time contact fields with dynamic values, so reminders and follow-ups land on the right day.",
+  "heard": "Smarter dates in your workflows. Fill date time contact fields with dynamic values, so reminders and follow -ups land on the right day.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ },
+ {
+  "scene": 6,
+  "text": "Send this to whoever runs your HighLevel account. Five updates, all worth your time.",
+  "spoken": "Send this to whoever runs your High Level account. Five updates, all worth your time.",
+  "heard": "Send this to whoever runs your high -level account. Five updates all worth your time.",
+  "match": 1.0,
+  "ok": true,
+  "diffs": []
+ }
+]

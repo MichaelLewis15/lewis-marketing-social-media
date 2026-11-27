@@ -1,0 +1,29 @@
+{
+ "spec": "daily-social/hl-weekly/specs/2026-11-27.json",
+ "out": "daily/hl-weekly/2026-11-27",
+ "ok": true,
+ "at": "2026-11-27T18:03:30.180831Z",
+ "seconds": 58.2,
+ "qc": {
+  "ok": true,
+  "errors": [],
+  "warnings": []
+ },
+ "files": {
+  "cover11.jpg": "8a0058fb99",
+  "cover169.jpg": "4c651b89f5",
+  "cover45.jpg": "622a25c931",
+  "cover916.jpg": "35d028e202",
+  "gbp.png": "8399ad23a2",
+  "qc.json": "71ed98afbe",
+  "v11.mp4": "6cfa4a0780",
+  "v169.mp4": "ec63418bf1",
+  "v45.mp4": "19b234641d",
+  "v916.mp4": "1303f539ab",
+  "voice-check.json": "245f215bea"
+ },
+ "voiceCheck": {
+  "ok": true,
+  "flagged": []
+ }
+}
