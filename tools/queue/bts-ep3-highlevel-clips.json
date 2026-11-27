@@ -1,0 +1,1244 @@
+{
+ "name": "bts-ep3-highlevel-clips",
+ "requests": [
+  {
+   "ch": "facebook",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining what HighLevel does.\n\nWe asked Shaun Clark how he'd explain it to a stranger at Thanksgiving. His honest answer: when someone stops by a booth, he turns to the agency standing next to him and asks them to explain it, because the platform does so much.\n\nHis own version: a platform you can use to build a recurring revenue business that's really about helping other businesses grow.\n\nThat's the job of a good agency: take a platform that can do almost anything and turn it into the few things your business actually needs.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nTag the person at your Thanksgiving table who still asks what you do for work.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining what HighLevel does.\n\nWe asked Shaun Clark how he'd explain it to a stranger at Thanksgiving. His honest answer: when someone stops by a booth, he turns to the agency standing next to him and asks them to explain it, because the platform does so much.\n\nHis own version: a platform you can use to build a recurring revenue business that's really about helping other businesses grow.\n\nThat's the job of a good agency: take a platform that can do almost anything and turn it into the few things your business actually needs.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nTag the person at your Thanksgiving table who still asks what you do for work.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining what HighLevel does.\n\nWe asked Shaun Clark how he'd explain it to a stranger at Thanksgiving. His honest answer: when someone stops by a booth, he turns to the agency standing next to him and asks them to explain it, because the platform does so much.\n\nHis own version: a platform you can use to build a recurring revenue business that's really about helping other businesses grow.\n\nThat's the job of a good agency: take a platform that can do almost anything and turn it into the few things your business actually needs.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nTag the person at your Thanksgiving table who still asks what you do for work.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining HighLevel. His fix: he hands it to an agency. Shaun Clark on Behind the Storefront: https://youtu.be/-P4n7iQ4V9k\n\nTag the person at your Thanksgiving table who still asks what you do for work.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining what HighLevel does.\n\nWe asked Shaun Clark how he'd explain it to a stranger at Thanksgiving. His honest answer: when someone stops by a booth, he turns to the agency standing next to him and asks them to explain it, because the platform does so much.\n\nHis own version: a platform you can use to build a recurring revenue business that's really about helping other businesses grow.\n\nThat's the job of a good agency: take a platform that can do almost anything and turn it into the few things your business actually needs.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nTag the person at your Thanksgiving table who still asks what you do for work.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining HighLevel. His fix: he hands it to an agency. Shaun Clark on Behind the Storefront: https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c1-explain-highlevel",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "HighLevel's CEO says he's the worst at explaining what HighLevel does.\n\nWe asked Shaun Clark how he'd explain it to a stranger at Thanksgiving. His honest answer: when someone stops by a booth, he turns to the agency standing next to him and asks them to explain it, because the platform does so much.\n\nHis own version: a platform you can use to build a recurring revenue business that's really about helping other businesses grow.\n\nThat's the job of a good agency: take a platform that can do almost anything and turn it into the few things your business actually needs.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nTag the person at your Thanksgiving table who still asks what you do for work.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c1-explain-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-29T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "How HighLevel's CEO explains what HighLevel does",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "HighLevel wants to be a $10 billion business. $9 billion of that is meant to go to its customers.\n\nShaun Clark, co-founder and CEO of HighLevel, says they benchmark it internally: if customers aren't making 10x, 100x, 1,000x more than they pay, there's a problem.\n\nAnd his take on where agencies fit: no matter how cheap software gets, people don't want tools. They want outcomes. That's why agencies will always have a place.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner paying for five tools and still waiting on results.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "HighLevel wants to be a $10 billion business. $9 billion of that is meant to go to its customers.\n\nShaun Clark, co-founder and CEO of HighLevel, says they benchmark it internally: if customers aren't making 10x, 100x, 1,000x more than they pay, there's a problem.\n\nAnd his take on where agencies fit: no matter how cheap software gets, people don't want tools. They want outcomes. That's why agencies will always have a place.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nSend this to a business owner paying for five tools and still waiting on results.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "HighLevel wants to be a $10 billion business. $9 billion of that is meant to go to its customers.\n\nShaun Clark, co-founder and CEO of HighLevel, says they benchmark it internally: if customers aren't making 10x, 100x, 1,000x more than they pay, there's a problem.\n\nAnd his take on where agencies fit: no matter how cheap software gets, people don't want tools. They want outcomes. That's why agencies will always have a place.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nSend this to a business owner paying for five tools and still waiting on results.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "HighLevel's goal: a $10B business, with $9B going to its customers. CEO Shaun Clark: people don't want tools, they want outcomes. That's why agencies will always have a place. https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner paying for five tools and still waiting on results.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "HighLevel wants to be a $10 billion business. $9 billion of that is meant to go to its customers.\n\nShaun Clark, co-founder and CEO of HighLevel, says they benchmark it internally: if customers aren't making 10x, 100x, 1,000x more than they pay, there's a problem.\n\nAnd his take on where agencies fit: no matter how cheap software gets, people don't want tools. They want outcomes. That's why agencies will always have a place.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner paying for five tools and still waiting on results.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "HighLevel's goal: a $10B business, with $9B going to its customers. CEO Shaun Clark: people don't want tools, they want outcomes. That's why agencies will always have a place. https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c2-10b-mission",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "HighLevel wants to be a $10 billion business. $9 billion of that is meant to go to its customers.\n\nShaun Clark, co-founder and CEO of HighLevel, says they benchmark it internally: if customers aren't making 10x, 100x, 1,000x more than they pay, there's a problem.\n\nAnd his take on where agencies fit: no matter how cheap software gets, people don't want tools. They want outcomes. That's why agencies will always have a place.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner paying for five tools and still waiting on results.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c2-10b-mission.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-11-30T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "HighLevel's $10B goal: $9B for its customers",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "A ChatGPT subscription knows nothing about your business. That's the problem.\n\nHighLevel CEO Shaun Clark on why small business owners are adopting AI inside HighLevel first: the AI there already knows the business. It's a system of record and a system of action.\n\nYou can ask it questions about your business, and you can tell it to do things, like give your website a holiday theme. It does the work.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nSend this to the owner who signed up for an AI tool and never opened it again.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "A ChatGPT subscription knows nothing about your business. That's the problem.\n\nHighLevel CEO Shaun Clark on why small business owners are adopting AI inside HighLevel first: the AI there already knows the business. It's a system of record and a system of action.\n\nYou can ask it questions about your business, and you can tell it to do things, like give your website a holiday theme. It does the work.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nSend this to the owner who signed up for an AI tool and never opened it again.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "A ChatGPT subscription knows nothing about your business. That's the problem.\n\nHighLevel CEO Shaun Clark on why small business owners are adopting AI inside HighLevel first: the AI there already knows the business. It's a system of record and a system of action.\n\nYou can ask it questions about your business, and you can tell it to do things, like give your website a holiday theme. It does the work.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nSend this to the owner who signed up for an AI tool and never opened it again.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "HighLevel CEO Shaun Clark: a ChatGPT subscription knows nothing about your business. AI inside your CRM already does, and it can take action, like updating your website. https://youtu.be/-P4n7iQ4V9k\n\nSend this to the owner who signed up for an AI tool and never opened it again.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "A ChatGPT subscription knows nothing about your business. That's the problem.\n\nHighLevel CEO Shaun Clark on why small business owners are adopting AI inside HighLevel first: the AI there already knows the business. It's a system of record and a system of action.\n\nYou can ask it questions about your business, and you can tell it to do things, like give your website a holiday theme. It does the work.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to the owner who signed up for an AI tool and never opened it again.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "HighLevel CEO Shaun Clark: a ChatGPT subscription knows nothing about your business. AI inside your CRM already does, and it can take action, like updating your website. https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c3-ai-in-highlevel",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "A ChatGPT subscription knows nothing about your business. That's the problem.\n\nHighLevel CEO Shaun Clark on why small business owners are adopting AI inside HighLevel first: the AI there already knows the business. It's a system of record and a system of action.\n\nYou can ask it questions about your business, and you can tell it to do things, like give your website a holiday theme. It does the work.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to the owner who signed up for an AI tool and never opened it again.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c3-ai-in-highlevel.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-01T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "Why HighLevel's AI beats a ChatGPT subscription for small business",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Some new AI tools are game changers. Some you should stay a thousand miles away from.\n\nHighLevel CEO Shaun Clark on why agencies matter more now, not less: running, marketing and growing a business changes every single day. If you're not testing the new tools daily, you won't know which is which.\n\nThat's the value of a partner who does: stay away from that, go hard at that, and better yet, let me do it for you.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner trying to keep up with AI on their own.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Some new AI tools are game changers. Some you should stay a thousand miles away from.\n\nHighLevel CEO Shaun Clark on why agencies matter more now, not less: running, marketing and growing a business changes every single day. If you're not testing the new tools daily, you won't know which is which.\n\nThat's the value of a partner who does: stay away from that, go hard at that, and better yet, let me do it for you.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nSend this to a business owner trying to keep up with AI on their own.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Some new AI tools are game changers. Some you should stay a thousand miles away from.\n\nHighLevel CEO Shaun Clark on why agencies matter more now, not less: running, marketing and growing a business changes every single day. If you're not testing the new tools daily, you won't know which is which.\n\nThat's the value of a partner who does: stay away from that, go hard at that, and better yet, let me do it for you.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nSend this to a business owner trying to keep up with AI on their own.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "New AI tools show up every day. Some are game changers, some you should avoid. HighLevel CEO Shaun Clark on why that's exactly why agencies matter more now: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner trying to keep up with AI on their own.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Some new AI tools are game changers. Some you should stay a thousand miles away from.\n\nHighLevel CEO Shaun Clark on why agencies matter more now, not less: running, marketing and growing a business changes every single day. If you're not testing the new tools daily, you won't know which is which.\n\nThat's the value of a partner who does: stay away from that, go hard at that, and better yet, let me do it for you.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner trying to keep up with AI on their own.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "New AI tools show up every day. Some are game changers, some you should avoid. HighLevel CEO Shaun Clark on why that's exactly why agencies matter more now: https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c4-agencies-innovation",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "Some new AI tools are game changers. Some you should stay a thousand miles away from.\n\nHighLevel CEO Shaun Clark on why agencies matter more now, not less: running, marketing and growing a business changes every single day. If you're not testing the new tools daily, you won't know which is which.\n\nThat's the value of a partner who does: stay away from that, go hard at that, and better yet, let me do it for you.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to a business owner trying to keep up with AI on their own.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c4-agencies-innovation.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-02T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "Will AI replace marketing agencies? HighLevel's CEO answers",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months.\n\nShaun Clark says the new field services offering can go head to head with any major field services platform. It's the start of a bigger shift: industry-specific versions of HighLevel, so agencies can serve a business from the front door all the way to the back office.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nKnow a contractor or home service business juggling five different apps? Send them this.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months.\n\nShaun Clark says the new field services offering can go head to head with any major field services platform. It's the start of a bigger shift: industry-specific versions of HighLevel, so agencies can serve a business from the front door all the way to the back office.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nKnow a contractor or home service business juggling five different apps? Send them this.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months.\n\nShaun Clark says the new field services offering can go head to head with any major field services platform. It's the start of a bigger shift: industry-specific versions of HighLevel, so agencies can serve a business from the front door all the way to the back office.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nKnow a contractor or home service business juggling five different apps? Send them this.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months. Shaun Clark on Behind the Storefront: https://youtu.be/-P4n7iQ4V9k\n\nKnow a contractor or home service business juggling five different apps? Send them this.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months.\n\nShaun Clark says the new field services offering can go head to head with any major field services platform. It's the start of a bigger shift: industry-specific versions of HighLevel, so agencies can serve a business from the front door all the way to the back office.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nKnow a contractor or home service business juggling five different apps? Send them this.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months. Shaun Clark on Behind the Storefront: https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c5-field-services",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "HighLevel's CEO thought field services software would take 10 engineers and two years. With AI, it took three months.\n\nShaun Clark says the new field services offering can go head to head with any major field services platform. It's the start of a bigger shift: industry-specific versions of HighLevel, so agencies can serve a business from the front door all the way to the back office.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nKnow a contractor or home service business juggling five different apps? Send them this.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c5-field-services.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-03T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "HighLevel built field services software in 3 months with AI",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Will the HighLevel dashboard still be around in a few years?\n\nShaun Clark, CEO of HighLevel, says the plan is to meet people where they are: the dashboard, the mobile app, chat or voice. HighLevel has put millions into its open API so it plays nicely with the other tools businesses already love.\n\nHis mission now: every way you use AI outside of HighLevel should be available inside it too.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nSend this to the business owner who runs everything from their phone.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Will the HighLevel dashboard still be around in a few years?\n\nShaun Clark, CEO of HighLevel, says the plan is to meet people where they are: the dashboard, the mobile app, chat or voice. HighLevel has put millions into its open API so it plays nicely with the other tools businesses already love.\n\nHis mission now: every way you use AI outside of HighLevel should be available inside it too.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nSend this to the business owner who runs everything from their phone.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Will the HighLevel dashboard still be around in a few years?\n\nShaun Clark, CEO of HighLevel, says the plan is to meet people where they are: the dashboard, the mobile app, chat or voice. HighLevel has put millions into its open API so it plays nicely with the other tools businesses already love.\n\nHis mission now: every way you use AI outside of HighLevel should be available inside it too.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nSend this to the business owner who runs everything from their phone.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Is the HighLevel dashboard going away? CEO Shaun Clark: HighLevel will meet people where they are, whether that's the dashboard, the app, chat or voice. https://youtu.be/-P4n7iQ4V9k\n\nSend this to the business owner who runs everything from their phone.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Will the HighLevel dashboard still be around in a few years?\n\nShaun Clark, CEO of HighLevel, says the plan is to meet people where they are: the dashboard, the mobile app, chat or voice. HighLevel has put millions into its open API so it plays nicely with the other tools businesses already love.\n\nHis mission now: every way you use AI outside of HighLevel should be available inside it too.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to the business owner who runs everything from their phone.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Is the HighLevel dashboard going away? CEO Shaun Clark: HighLevel will meet people where they are, whether that's the dashboard, the app, chat or voice. https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c6-meet-users",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "Will the HighLevel dashboard still be around in a few years?\n\nShaun Clark, CEO of HighLevel, says the plan is to meet people where they are: the dashboard, the mobile app, chat or voice. HighLevel has put millions into its open API so it plays nicely with the other tools businesses already love.\n\nHis mission now: every way you use AI outside of HighLevel should be available inside it too.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nSend this to the business owner who runs everything from their phone.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c6-meet-users.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-04T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "Is the HighLevel dashboard going away? The CEO answers",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  },
+  {
+   "ch": "facebook",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "6675b1152123b76d2cb7ec8d_Auzaxxusb4MezZd78QIC_124357354103962_page"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly are going to be matched with an agency.\n\nHighLevel CEO Shaun Clark says AI now lets them recognize a small business at signup and connect it with an agency partner through HighLevel's new partner network.\n\nHis reason: you could learn dentistry from YouTube videos, but you'd hurt yourself. Small businesses deserve a partner who already knows the platform.\n\nWatch the full Behind the Storefront episode with Shaun Clark: https://youtu.be/-P4n7iQ4V9k\n\nThinking about running HighLevel on your own? Watch this first.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "facebookPostDetails": {
+     "type": "reel"
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "instagram",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "6675b1322123b7346cb7ecc4_Auzaxxusb4MezZd78QIC_17841464797997853",
+     "6974f71315e87de6131f1713_Auzaxxusb4MezZd78QIC_17841400063513065"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly are going to be matched with an agency.\n\nHighLevel CEO Shaun Clark says AI now lets them recognize a small business at signup and connect it with an agency partner through HighLevel's new partner network.\n\nHis reason: you could learn dentistry from YouTube videos, but you'd hurt yourself. Small businesses deserve a partner who already knows the platform.\n\nFull Behind the Storefront episode is on our YouTube channel. Link in the first comment.\n\nThinking about running HighLevel on your own? Watch this first.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "reel",
+    "instagramPostDetails": {
+     "type": "reel",
+     "showOnFeed": true
+    },
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "tiktok",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "67a286f2eaec938fc59d4a1f_Auzaxxusb4MezZd78QIC_000AlqRhqEhuK7uXTtFJEtx0AUKzfrGtGc_business",
+     "6aec9b753618c2977d914b21_Auzaxxusb4MezZd78QIC_000T0vo8yqq166O6aGY1qWWS5wHosmUap_business"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly are going to be matched with an agency.\n\nHighLevel CEO Shaun Clark says AI now lets them recognize a small business at signup and connect it with an agency partner through HighLevel's new partner network.\n\nHis reason: you could learn dentistry from YouTube videos, but you'd hurt yourself. Small businesses deserve a partner who already knows the platform.\n\nFull episode on the Lewis Marketing YouTube channel.\n\nThinking about running HighLevel on your own? Watch this first.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "tiktokPostDetails": {
+     "privacyLevel": "PUBLIC_TO_EVERYONE",
+     "promoteOtherBrand": false,
+     "enableComment": true,
+     "enableDuet": false,
+     "enableStitch": false,
+     "videoDisclosure": false,
+     "promoteYourBrand": false
+    }
+   }
+  },
+  {
+   "ch": "threads",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "68d68df020e681b7200fb3ae_Auzaxxusb4MezZd78QIC_24504201975874302_profile",
+     "68d684430fc868ea55121fdf_Auzaxxusb4MezZd78QIC_24650188417974800_profile"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly will be matched with an agency partner. HighLevel CEO Shaun Clark explains why: https://youtu.be/-P4n7iQ4V9k\n\nThinking about running HighLevel on your own? Watch this first.",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "linkedin",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_98983841_page",
+     "6675e2e22123b7a466b82e33_Auzaxxusb4MezZd78QIC_hn49b7zgrI_profile"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly are going to be matched with an agency.\n\nHighLevel CEO Shaun Clark says AI now lets them recognize a small business at signup and connect it with an agency partner through HighLevel's new partner network.\n\nHis reason: you could learn dentistry from YouTube videos, but you'd hurt yourself. Small businesses deserve a partner who already knows the platform.\n\nFull Behind the Storefront episode: https://youtu.be/-P4n7iQ4V9k\n\nThinking about running HighLevel on your own? Watch this first.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "followUpComment": "Watch the full Behind the Storefront episode with HighLevel CEO Shaun Clark: https://youtu.be/-P4n7iQ4V9k"
+   }
+  },
+  {
+   "ch": "bluesky",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "68dc3e3bdc1b7a12e2779aab_Auzaxxusb4MezZd78QIC_did:plc:i3zzvh6smkiehpyclum7joqx_profile"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly will be matched with an agency partner. HighLevel CEO Shaun Clark explains why: https://youtu.be/-P4n7iQ4V9k",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post"
+   }
+  },
+  {
+   "ch": "youtube",
+   "key": "c7-ai-small-business",
+   "body": {
+    "accountIds": [
+     "684183bc498afab8fb028089_Auzaxxusb4MezZd78QIC_UCCm2FqNIL0bCzJkjBhVFOYg_profile",
+     "6aec7ace67bad83a8dce3af3_Auzaxxusb4MezZd78QIC_UC5HHW7Um6dk_6M4sfDzdEFw_profile"
+    ],
+    "summary": "Small businesses that sign up for HighLevel directly are going to be matched with an agency.\n\nHighLevel CEO Shaun Clark says AI now lets them recognize a small business at signup and connect it with an agency partner through HighLevel's new partner network.\n\nHis reason: you could learn dentistry from YouTube videos, but you'd hurt yourself. Small businesses deserve a partner who already knows the platform.\n\nFull episode: https://youtu.be/-P4n7iQ4V9k\n\nThinking about running HighLevel on your own? Watch this first.\n\n#BehindTheStorefront #HighLevel #SmallBusiness",
+    "media": [
+     {
+      "url": "https://raw.githubusercontent.com/MichaelLewis15/lewis-marketing-social-media/main/daily/bts/2026-11-27-highlevel/c7-ai-small-business.mp4",
+      "type": "video/mp4"
+     }
+    ],
+    "status": "scheduled",
+    "scheduleDate": "2026-12-05T17:30:00.000Z",
+    "userId": "0T5YzQFGjmXmN5py288b",
+    "createdBy": "0T5YzQFGjmXmN5py288b",
+    "type": "post",
+    "youtubePostDetails": {
+     "title": "What happens when a small business signs up for HighLevel directly",
+     "privacyLevel": "public",
+     "type": "short"
+    }
+   }
+  }
+ ]
+}
