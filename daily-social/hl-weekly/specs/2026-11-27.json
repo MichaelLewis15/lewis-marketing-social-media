@@ -1,0 +1,28 @@
+{
+ "week": "Nov 23-27, 2026",
+ "format": "list",
+ "style": "shopsmall",
+ "music": 0,
+ "voice": true,
+ "pace": 0.72,
+ "button": "",
+ "out": "daily/hl-weekly/2026-11-27",
+ "eyebrow": "NEW IN HIGHLEVEL",
+ "head1": "Your HighLevel got better",
+ "head2": "5 updates worth your time",
+ "items": [
+  {"title": "Your AI bot steps back when you reply", "why": "Answer from Meta Business Suite or another app and Conversation AI goes to sleep. Email replies are not covered yet.", "tag": "Update"},
+  {"title": "Meeting Rooms are now HIPAA compliant", "why": "HighLevel says health teams can meet with confidence. Recording now asks for a confirmation before it starts.", "tag": "Update"},
+  {"title": "All your events on one website page", "why": "New Events elements list every event, with details and ticket checkout on your site. Turn on Events in Labs first.", "tag": "New"},
+  {"title": "AI agents that know when a meeting starts", "why": "Managed Agents can now run before a meeting starts or after it ends, filtered by calendar and meeting type.", "tag": "New"},
+  {"title": "Smarter dates in your workflows", "why": "Fill date-time contact fields with dynamic values, so reminders and follow-ups land on the right day.", "tag": "Update"}
+ ],
+ "cta": "Send this to whoever runs your HighLevel account.",
+ "cta2": "Want help setting these up? Link in the comments.",
+ "vo": {
+  "intro": "Your HighLevel account got *better* this week. Here are the five updates worth your time.",
+  "outro": "Send this to whoever runs your HighLevel account. Five updates, all worth your time."
+ },
+ "note": "Share test (Nov 18 to Dec 2): retention cut, share end card. Shop Small week look. No hook test this week (last test Nov 20).",
+ "gbpTitle": "What's new in HighLevel this week"
+}

@@ -40,7 +40,7 @@ LEXICON = [  # (regex, spoken form) applied in order, case-sensitive
     (r"\bAPI\b", "A.P.I."), (r"\bROI\b", "R.O.I."), (r"\bPPC\b", "P.P.C."), (r"\bDNS\b", "D.N.S."), (r"\bFAQs?\b", "F.A.Q.s"),
     (r"\bURL\b", "U.R.L."), (r"\bCTA\b", "call to action"), (r"\bB2B\b", "B to B"), (r"\bKPI(s?)\b", r"K.P.I.\1"),
     (r"\bU\.S\.", "U.S."), (r"\bNW\b", "Northwest"), (r"\bIA\b", "Iowa"), (r"\bOC\b", "O.C."),
-    (r"\bSioux\b", "Soo"), (r"\bLe Mars\b", "Luh Marz"), (r"\bDrip712\b", "Drip seven twelve"),
+    (r"\bHIPAA\b", "Hippa"), (r"\bSioux\b", "Soo"), (r"\bLe Mars\b", "Luh Marz"), (r"\bDrip712\b", "Drip seven twelve"),
     (r"\bvs\.?", "versus"), (r"&", " and "), (r"\be-commerce\b", "ecommerce"),
     (r"(\d)\s*-\s*(\d)", r"\1 to \2"),
     (r"(\d+(?:\.\d+)?)%", r"\1 percent"), (r"\$(\d[\d,]*(?:\.\d+)?)([KkMm])\b", lambda m: m.group(1) + (" thousand" if m.group(2) in "Kk" else " million") + " dollars"),
