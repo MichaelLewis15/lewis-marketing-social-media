@@ -1,0 +1,300 @@
+{
+ "name": "bts-ep3-highlevel-clips",
+ "at": "2026-11-27T13:39:53.675652Z",
+ "results": [
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "facebook",
+   "postId": "6b09880c70b7e36c024858e8",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "instagram",
+   "postId": "6b09880d980771cce0f45d68",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "tiktok",
+   "postId": "6b09880d1eaabb4277e4cce9",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "threads",
+   "postId": "6b09880e000c6e3cf3071010",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "linkedin",
+   "postId": "6b09880f4a68c226f175b1b3",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "bluesky",
+   "postId": "6b09880fd51ab853bafcaa75",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c1-explain-highlevel",
+   "ch": "youtube",
+   "postId": "6b09881089d5d09a31904f1f",
+   "when": "2026-11-29T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "facebook",
+   "postId": "6b0988104e3c773c4813b089",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "instagram",
+   "postId": "6b098811189fcd9e6a41bd4f",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "tiktok",
+   "postId": "6b09881289d5d09a31904fb1",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "threads",
+   "postId": "6b098812590a21a1b8368a0c",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "linkedin",
+   "postId": "6b09881303aee9cad4e11c58",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "bluesky",
+   "postId": "6b09881342a04d31fbc41589",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c2-10b-mission",
+   "ch": "youtube",
+   "postId": "6b098814189fcd9e6a41befd",
+   "when": "2026-11-30T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "facebook",
+   "postId": "6b0988156ca38eddd80e8481",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "instagram",
+   "postId": "6b0988157178ab08c176e694",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "tiktok",
+   "postId": "6b098816636e147dd346bc6c",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "threads",
+   "postId": "6b09881673300009656e1838",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "linkedin",
+   "postId": "6b098817d08ef427e3b9892d",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "bluesky",
+   "postId": "6b09881849a8c818ee33ab1c",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c3-ai-in-highlevel",
+   "ch": "youtube",
+   "postId": "6b09881870b7e36c02486544",
+   "when": "2026-12-01T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "facebook",
+   "postId": "6b09881903aee9cad4e120a7",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "instagram",
+   "postId": "6b09881920d3ff22560fcd8c",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "tiktok",
+   "postId": "6b09881a1eaabb4277e4dd94",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "threads",
+   "postId": "6b09881a1eaabb4277e4de82",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "linkedin",
+   "postId": "6b09881bf8f0854ff53ac8c8",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "bluesky",
+   "postId": "6b09881c03aee9cad4e12264",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c4-agencies-innovation",
+   "ch": "youtube",
+   "postId": "6b09881c590a21a1b83693ee",
+   "when": "2026-12-02T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "facebook",
+   "postId": "6b09881d452aebe7812f8a34",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "instagram",
+   "postId": "6b09881d4e3c773c4813b461",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "tiktok",
+   "postId": "6b09881e89abc9bfd20d5e2b",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "threads",
+   "postId": "6b09881fd08ef427e3b98c2f",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "linkedin",
+   "postId": "6b09881f7d4721552adfb2ec",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "bluesky",
+   "postId": "6b0988200666d2918120c74e",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c5-field-services",
+   "ch": "youtube",
+   "postId": "6b0988205a49add0e1241f6b",
+   "when": "2026-12-03T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "facebook",
+   "postId": "6b098821980771cce0f4703b",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "instagram",
+   "postId": "6b0988211cea0b05f51b9468",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "tiktok",
+   "postId": "6b098822452aebe7812f90da",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "threads",
+   "postId": "6b098823aefb7f28ae9fdbec",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "linkedin",
+   "postId": "6b0988230ca76ad69c1a9349",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "bluesky",
+   "postId": "6b0988240ca76ad69c1a93b5",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c6-meet-users",
+   "ch": "youtube",
+   "postId": "6b098825350e0858f9d42585",
+   "when": "2026-12-04T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "facebook",
+   "postId": "6b09882520d3ff22560fd11d",
+   "when": "2026-12-05T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "instagram",
+   "postId": "6b0988261eaabb4277e4f0bd",
+   "when": "2026-12-05T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "tiktok",
+   "postId": "6b098826701e92ce6a9e93c4",
+   "when": "2026-12-05T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "threads",
+   "postId": "6b098827dbc93e52d35900f5",
+   "when": "2026-12-05T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "linkedin",
+   "postId": "6b098828980771cce0f472f1",
+   "when": "2026-12-05T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "bluesky",
+   "postId": "6b09882889d5d09a31905fce",
+   "when": "2026-12-05T17:30:00.000Z"
+  },
+  {
+   "key": "c7-ai-small-business",
+   "ch": "youtube",
+   "postId": "6b098829740f44142c0878cf",
+   "when": "2026-12-05T17:30:00.000Z"
+  }
+ ]
+}
