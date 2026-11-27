@@ -1,0 +1,56 @@
+{
+ "id": "2026-11-30-playbook",
+ "theme": "playbook",
+ "eyebrow": "INDUSTRY PLAYBOOK",
+ "tag": "MED SPAS AND WELLNESS",
+ "head": [
+  [
+   "BOOKED",
+   "ink"
+  ],
+  [
+   "BEFORE THEY",
+   "ink"
+  ],
+  [
+   "WALK IN",
+   "blue"
+  ]
+ ],
+ "sub": "Five moves that help med spas and wellness clinics turn searches into booked consults and repeat visits.",
+ "slides": [
+  {
+   "title": "Win the Google search first",
+   "body": "New clients find you on Google, social media, AI search or word of mouth, then compare you with two or three others.\nList every treatment as a service, add your booking link, and post real photos of your space and your team.",
+   "tip": "Search your top treatment plus your town. Are you in the top three?"
+  },
+  {
+   "title": "Teach, don't just pitch",
+   "body": "Trust comes from credentials, real results and honest expectations.\nPost what a first visit looks like, who a treatment is right for, downtime, and who your providers are.",
+   "tip": "Turn your five most-asked consult questions into five posts."
+  },
+  {
+   "title": "Reply to reviews without confirming a patient",
+   "body": "Thank every reviewer, but never confirm someone is a patient or mention their visit. The AMA says even acknowledging a patient is a risk.\nSpeak about your general policies and take details offline.",
+   "tip": "Write one approved reply template your whole team uses."
+  },
+  {
+   "title": "Know Meta's ad rules before you boost",
+   "body": "Meta requires ads for cosmetic procedures and weight loss to target people 18 or older.\nAds also can't imply or try to create negative self-perception, so lead with the experience and the provider, not a flaw.",
+   "tip": "Check Meta's health and wellness ad standards before every campaign."
+  },
+  {
+   "title": "Follow up, rebook, then track it",
+   "body": "A lead with no follow-up goes cold, and repeat visits and referrals are where growth compounds.\nText or email every inquiry fast, send rebooking reminders, and track booked consults by source.",
+   "tip": "Track two numbers monthly: consults booked by source and rebook rate."
+  }
+ ],
+ "cta": {
+  "head": "Want a fuller book next month?",
+  "sub": "We help Northwest Iowa clinics get found, earn trust and fill the calendar.",
+  "button": "lewismarketingoc.com"
+ },
+ "sources": [
+  "Meta Ad Standards; AMA (patient reviews); AmSpa, Apr 2026"
+ ]
+}

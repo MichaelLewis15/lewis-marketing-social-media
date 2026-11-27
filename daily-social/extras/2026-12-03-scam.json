@@ -1,0 +1,49 @@
+{
+ "id": "2026-12-03-scam",
+ "theme": "alert",
+ "eyebrow": "SCAM ALERT",
+ "tag": "STAFF AND JOB SEEKERS",
+ "head": [
+  [
+   "PAID TO",
+   "ink"
+  ],
+  [
+   "RATE PRODUCTS?",
+   "ink"
+  ],
+  [
+   "IT'S A SCAM",
+   "blue"
+  ]
+ ],
+ "sub": "The BBB is seeing more task-based job scams that take money from people who thought they got a real job.",
+ "slides": [
+  {
+   "title": "What it looks like",
+   "body": "A text or direct message offers online work: rating products, reviewing businesses, clicking ads or other simple tasks.\nSmall early payouts build trust. Then you're asked to deposit money, often crypto, to unlock tasks or withdraw your earnings."
+  },
+  {
+   "title": "The red flags",
+   "body": "High pay for simple tasks like rating products or liking content.\nA recruiter contacts you out of the blue by text, WhatsApp or social media.\nAny request to deposit money or crypto to keep working or get paid.",
+   "tip": "The BBB's rule: never pay to get paid."
+  },
+  {
+   "title": "What to do",
+   "body": "Research the company and the job opening on your own before you accept an offer or do any tasks.\nIf you're asked for fees, taxes or verification charges before you can withdraw, that's part of the scam."
+  },
+  {
+   "title": "Report it",
+   "body": "Report it to BBB Scam Tracker at BBB.org/scamtracker. Your report helps warn others.",
+   "tip": "Send this to anyone on your team, or in your family, who's job hunting."
+  }
+ ],
+ "cta": {
+  "head": "Share this with someone job hunting",
+  "sub": "Scam alerts from Lewis Marketing, whenever one is hitting local businesses and their teams.",
+  "button": "lewismarketingoc.com"
+ },
+ "sources": [
+  "BBB Scam Alert, Nov 24, 2026: Task-based employment scams want your money (bbb.org)"
+ ]
+}
